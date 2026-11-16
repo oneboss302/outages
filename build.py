@@ -83,6 +83,19 @@ then up out off what who why how when where their they we you our more most us u
 outage outages down issues issue problems customers users thousands""".split())
 
 
+# Never show satire or fabricated-news outlets
+SATIRE = ["the onion", "theonion", "babylon bee", "babylonbee", "clickhole", "beaverton", "waterford whispers", "daily mash",
+          "thedailymash", "newsthump", "duffel blog", "duffelblog", "reductress", "the hard times", "thehardtimes",
+          "points in case", "national report", "world news daily report", "worldnewsdailyreport", "empire news",
+          "the shovel", "betoota", "der postillon", "borowitz", "huzlers", "react365", "newsbiscuit", "the spoof", "thespoof",
+          "weekly world news", "satire", "parody"]
+
+
+def is_satire(publisher, url):
+    blob = f"{publisher} {url}".lower()
+    return any(x in blob for x in SATIRE)
+
+
 # ---------------------------------------------------------------- fetching
 def get(url, timeout=25):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
@@ -298,6 +311,8 @@ def news_feed(src, url, gnews=False):
             title = re.sub(r"\s+-\s+[^-]{2,60}$", "", title)
         date = parse_date(child(el, "pubDate", "date", "published", "updated"))
         if date and NOW - date > NEWS_WINDOW:
+            continue
+        if is_satire(pub, link):
             continue
         out.append({"src": pub, "title": title, "link": link, "date": date,
                     "desc": "" if gnews else clean(child(el, "description", "summary"), 220)})
