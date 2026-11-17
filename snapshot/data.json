@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T13:15:20Z",
+ "updated": "2026-11-17T14:00:21Z",
  "counts": {
-  "internet": 6,
+  "internet": 7,
   "services": 5,
-  "hazards": 3,
-  "news": 19,
+  "hazards": 2,
+  "news": 18,
   "correlated": 3
  },
  "internet": [
@@ -16,7 +16,7 @@
     "Google traffic"
    ],
    "start": "2026-11-13T12:30:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "FI",
@@ -26,12 +26,12 @@
   {
    "loc": "country/GI",
    "name": "Gibraltar",
-   "score": 20519.567354965584,
+   "score": 20572.684365781708,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T11:25:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "GI",
@@ -41,12 +41,12 @@
   {
    "loc": "country/SC",
    "name": "Seychelles",
-   "score": 13949.722735674677,
+   "score": 14024.611829944548,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "SC",
@@ -56,12 +56,12 @@
   {
    "loc": "country/GQ",
    "name": "Equatorial Guinea",
-   "score": 13846.07046070461,
+   "score": 13919.26829268293,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "GQ",
@@ -71,12 +71,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 9918.407960199003,
+   "score": 9985.597014925374,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -84,14 +84,29 @@
    "news": []
   },
   {
+   "loc": "country/TJ",
+   "name": "Tajikistan",
+   "score": 8589.18918918919,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-11T20:50:00Z",
+   "end": "2026-11-17T14:00:21Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "TJ",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/TJ",
+   "news": []
+  },
+  {
    "loc": "country/RS",
    "name": "Serbia",
-   "score": 8056.795051605711,
+   "score": 8106.8189664472975,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "RS",
@@ -122,21 +137,6 @@
      "outage": true
     }
    ]
-  },
-  {
-   "loc": "country/TJ",
-   "name": "Tajikistan",
-   "score": 8589.18918918919,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-17T09:15:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "TJ",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/TJ",
-   "news": []
   },
   {
    "loc": "country/SA",
@@ -258,12 +258,12 @@
   {
    "loc": "region/2108",
    "name": "Ka\u00f4h Kong",
-   "score": 322633.3333333334,
+   "score": 323758.75,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2108",
@@ -278,7 +278,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-14T19:59:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4414",
@@ -287,12 +287,12 @@
   {
    "loc": "region/2129",
    "name": "Tak\u00eav",
-   "score": 133503.4482758621,
+   "score": 133969.1379310345,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2129",
@@ -301,12 +301,12 @@
   {
    "loc": "region/1729",
    "name": "Sulawesi Barat",
-   "score": 54978.10218978103,
+   "score": 56949.63503649635,
    "sources": [
     "Active probing"
    ],
    "start": "2026-11-16T16:20:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "1729",
@@ -315,12 +315,12 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 40549.20634920635,
+   "score": 40763.57142857143,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
@@ -329,12 +329,12 @@
   {
    "loc": "region/353",
    "name": "Barisal",
-   "score": 36716.339869281044,
+   "score": 36804.60784313725,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-04T13:10:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "353",
@@ -343,12 +343,12 @@
   {
    "loc": "region/4442",
    "name": "Indiana",
-   "score": 31353.16668291996,
+   "score": 31502.280824366935,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4442",
@@ -357,12 +357,12 @@
   {
    "loc": "region/2128",
    "name": "Svay Rieng",
-   "score": 30365.490196078434,
+   "score": 30471.411764705885,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2128",
@@ -371,12 +371,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 25603.92156862745,
+   "score": 25736.323529411762,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -385,12 +385,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 23806.940063091486,
+   "score": 23934.7476340694,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -399,12 +399,12 @@
   {
    "loc": "region/1607",
    "name": "Wong Tai Sin",
-   "score": 23717.11711711712,
+   "score": 23838.783783783783,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T11:00:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "1607",
@@ -413,12 +413,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 23388.17204301075,
+   "score": 23533.387096774193,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -427,12 +427,12 @@
   {
    "loc": "region/4847",
    "name": "Unknown Region in Gibraltar",
-   "score": 20519.567354965584,
+   "score": 20572.684365781708,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T11:25:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4847",
@@ -441,12 +441,12 @@
   {
    "loc": "region/356",
    "name": "Rajshahi",
-   "score": 18577.001455604077,
+   "score": 18655.633187772924,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "356",
@@ -455,12 +455,12 @@
   {
    "loc": "region/4858",
    "name": "Unknown Region in Czech Republic",
-   "score": 18292.252252252252,
+   "score": 18340.91891891892,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T19:15:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4858",
@@ -469,12 +469,12 @@
   {
    "loc": "region/3442",
    "name": "Volgograd",
-   "score": 18145.03760777839,
+   "score": 18221.8409466153,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3442",
@@ -483,12 +483,12 @@
   {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 16403.2173342088,
+   "score": 16500.758371634933,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -497,12 +497,12 @@
   {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 16185.701021355619,
+   "score": 16436.49025069638,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
@@ -511,12 +511,12 @@
   {
    "loc": "region/633",
    "name": "Fujian",
-   "score": 15951.80585296217,
+   "score": 16036.633832976446,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T16:10:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "633",
@@ -525,12 +525,12 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 14135.449735449736,
+   "score": 14206.904761904761,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
@@ -539,12 +539,12 @@
   {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 13756.862745098038,
+   "score": 13832.521008403362,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -553,54 +553,54 @@
   {
    "loc": "region/1757",
    "name": "Dadra and Nagar Haveli",
-   "score": 10410.636277302945,
+   "score": 10461.937321937323,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T05:00:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "1757",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/1757"
   },
   {
-   "loc": "region/714",
-   "name": "Rarotonga",
-   "score": 10068.686868686867,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-17T13:15:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "714",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/714"
-  },
-  {
    "loc": "region/2602",
    "name": "\u0160tip",
-   "score": 10016.306954436452,
+   "score": 10275.395683453238,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-16T08:15:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2602",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/2602"
   },
   {
+   "loc": "region/714",
+   "name": "Rarotonga",
+   "score": 10136.89393939394,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-12T22:30:00Z",
+   "end": "2026-11-17T14:00:21Z",
+   "ongoing": true,
+   "kind": "region",
+   "code": "714",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/714"
+  },
+  {
    "loc": "region/3638",
    "name": "Grad Beograd",
-   "score": 9824.774774774774,
+   "score": 9885.608108108108,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:05:00Z",
-   "end": "2026-11-17T13:15:20Z",
+   "end": "2026-11-17T14:00:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3638",
@@ -644,6 +644,15 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
+     "title": "SMS Delivery Delays from Twilio to Sky United Kingdom",
+     "impact": "minor",
+     "status": "monitoring",
+     "start": "2026-11-17T09:32:25Z",
+     "updated": "2026-11-17T13:17:03Z",
+     "detail": "We have observed a recovery in SMS delivery from Twilio to Sky network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.",
+     "url": "https://stspg.io/m3pfs1bgrnlp"
+    },
+    {
      "title": "SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil",
      "impact": "minor",
      "status": "monitoring",
@@ -660,15 +669,6 @@
      "updated": "2026-11-17T12:50:33Z",
      "detail": "Twilio customers may be experiencing voice call audio quality degradation between Twilio Phone Numbers and network subscribers on multiple networks in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide\u2026",
      "url": "https://stspg.io/l70mmb64y4m5"
-    },
-    {
-     "title": "SMS Delivery Delays from Twilio to Sky United Kingdom",
-     "impact": "minor",
-     "status": "identified",
-     "start": "2026-11-17T09:32:25Z",
-     "updated": "2026-11-17T12:36:51Z",
-     "detail": "Twilio customers may be experiencing SMS delivery delays from Twilio to Sky network subscribers in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more\u2026",
-     "url": "https://stspg.io/m3pfs1bgrnlp"
     },
     {
      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico",
@@ -715,7 +715,7 @@
     "Voice, Latin America",
     "Voice, APAC"
    ],
-   "n_components": 13,
+   "n_components": 12,
    "news": []
   },
   {
@@ -724,6 +724,15 @@
    "indicator": "minor",
    "desc": "Partially Degraded Service",
    "incidents": [
+    {
+     "title": "Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized",
+     "impact": "minor",
+     "status": "identified",
+     "start": "2026-11-17T13:54:19Z",
+     "updated": "2026-11-17T13:54:34Z",
+     "detail": "We are investigating reports of connection drops and TCP resets affecting requests routed through Cloudflare WARP and Gateway that aims for Cloudflare Regional Services hostnames and domains. Engineering has identified the root cause and is preparing a fix\u2026",
+     "url": "https://www.cloudflarestatus.com/incidents/tawn3zx7wh0z"
+    },
     {
      "title": "Turnstile verification failures",
      "impact": "minor",
@@ -746,12 +755,12 @@
    "components": [
     "Albuquerque, United States - (ABQ)",
     "Arica, Chile - (ARI)",
-    "Almaty, Kazakhstan - (ALA)",
     "Anchorage, United States - (ANC)",
     "Ashburn, United States - (IAD)",
-    "Annaba, Algeria - (AAE)"
+    "Annaba, Algeria - (AAE)",
+    "Baku, Azerbaijan - (GYD)"
    ],
-   "n_components": 68,
+   "n_components": 69,
    "news": []
   },
   {
@@ -1020,16 +1029,6 @@
    "news": []
   },
   {
-   "kind": "Hurricane Force Wind Warning",
-   "title": "Hurricane Force Wind Warning: Adak to Kiska Bering Side",
-   "when": "2026-11-17T01:01:00Z",
-   "level": "red",
-   "url": "https://alerts.weather.gov/",
-   "place": "United States",
-   "detail": "Hurricane Force Wind Warning issued November 16 at 4:01PM AKST until November 17 at 5:00AM AKST by NWS Anchorage AK",
-   "news": []
-  },
-  {
    "kind": "Tropical cyclone",
    "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (11.162 million in Tropical Storm).",
    "when": "2026-11-16T20:06:39Z",
@@ -1072,15 +1071,15 @@
  ],
  "news_reported": [
   {
-   "pubs": 33,
+   "pubs": 36,
    "cat": "service",
    "headlines": [
     {
-     "src": "FOX 4 News Dallas-Fort Worth",
-     "title": "United Airlines operations return to normal following system outage - FOX 4 News Dallas-Fort Worth",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ0VnZVFMeVVyTFJVa0hCVjUzMVp0blIxN09yRjA1ZUN4emhCLTdyT2lrdkg0OUVZNk5oOEx2OEhaLVdwb0RhVmVTYW1kVHpJcjVFajM0UzJ0bm9YWUV1MkJVYTFQT1hXQzI1YkZkc3ZjOTRJWVJJMlRhZXdicDdlbVppdHVWeWNrOGx1blU3Z01iNDhzR2dJV3Fn?oc=5",
-     "date": "2026-11-17T12:20:35Z",
-     "desc": "",
+     "src": "CBS News",
+     "title": "Are major tech issues the new normal?",
+     "link": "https://www.cbsnews.com/video/are-major-tech-issues-the-new-normal/",
+     "date": "2026-11-17T13:42:36Z",
+     "desc": "Major U.S. banks experienced service issues just days after air travel was halted. Mashable tech editor Tim Werth and Harvard Kennedy School professor Jeffrey Frankel have more on this.",
      "cat": "service",
      "outage": true
     },
@@ -1103,28 +1102,28 @@
      "outage": true
     },
     {
-     "src": "WCVB",
-     "title": "Banking outage sparks concerns amid recent service disruptions",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUElWcUdPNWV5ZFVBRV83NFlpZlBkSkdoQ2FqUEU0cml1U09lbG5CMl9rOHVyaWhzUW5EMkJ2ZzAwN1dKbktKOGdtVHgzUmdXMXRaN0pyaTlFMmtIdFVQYVNNdm5QbFc0MkVza0NQSHluNlQwdm82OURqSnd0SG5vX0dsdjExQ1o5WHZ6ektjbVFTQTdVSHE1MWIyX1ZGNDRkY2c?oc=5",
-     "date": "2026-11-17T10:28:00Z",
+     "src": "ABC11 News",
+     "title": "Major tech outages with Microsoft, FAA, and banking systems expose digital vulnerabilities",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQzJHS2QzU0hpbnd5aFRXNzdacDZFWUxjSjhxSzMtY2xBeDVQeGNCZzdEeEd3UkNlNnNTaFFPUG1wcmw0LWo5ODg5cUVxQ3d6Y0xuZ2k5dVV0eVh0NFVMMmdxS3BmN1Z6eFJNQ2ZMRE1sMzQ0VzlFZFVISDN5S2NpTmdzYVltN08tODBXanpKZS01cXNzMjJtbTZ1b3RjcEVhcUJaenlzVl9OV3BuejZKdVhR0gG3AUFVX3lxTE5EaHZRSWRvLUNfMmwyYUx5OGtYOUYyV0JNVkJJY00xMFFhelliX2V5ejd5Q3QwY19fRTh3UVZlRGdlTWQyMEp4WURvanI1OEtLNkV3dHA0MndNMW5JYjVUWWFMWEt6TEtMcmVyM3c4VFdMRmpIQkpUWTcwN01ETzNVZkFmN0lNUVBST0ZuZWZUakxCSlF6T3NXVTdMbFNEYmtmMHJDZUNkV0wySWlzdzQzUkltYk05QQ?oc=5",
+     "date": "2026-11-17T04:30:18Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "ThinkAdvisor",
-     "title": "Customers at Chase, Other Banks Report Site Outages, Delays",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNejJlbGhob3B3OVJYX0xkZjhxT0Vub1dPckk0ai1VN3JyYkJmZ1ZvRXFNVDl1cmZ4bzZRd1plcFlfUGl1eUl6cUllbXVMLWN3Q2VVUXYwdnRMekxLMmlyT21oM29KdThLVjVUQmlNSzZHTHdfWHhBdE1mVjNUQTBKdUI0bVVIY292NzZLRFdFTlIyZTBHWTVqY2RlUlFtUm8?oc=5",
-     "date": "2026-11-17T06:06:47Z",
+     "src": "KVUE",
+     "title": "'Sitting on a tarmac with no money': Banking disruptions add to string of major U.S. tech outages",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZV9Uazg0OTEwak9LZTFvdFIwalhySWlxdnBrR1NQYi1wNkFYR2ZTT29wMW5raDdWSXZLY25TX1FRN0F6NDRNMWIteGlBMXdxTy01NDNtN3I3MjJKd3pvelR2S0hJRFRLSHN1N3hYTlI5bWtXZ0pwa19CS0NkRi1PUFFsNTZaOURUenRpZE9QOTNNb2dhMS1XamU5TEVLZ3dpenpWWVc5SDJLU2x4Q1pCTWdOVDhscVFNTVFHRjBoZXVpWFI3bFNwUmJhYjZrV2NHS0tuUjVnMA?oc=5",
+     "date": "2026-11-17T02:45:47Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Click2Houston",
-     "title": "Thousands report banking outages Monday; Chase cites software bug, other banks report transaction delays",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUHZwaDdKT251S3hwNjFPYmhLd2JCMVFZQm9aZXkzNEhPbFZVeHRYcUFHOEdQb045WDkwd1ZtSlVMdmFYUE1jN3VzaUs1VVR6aTZuYTZMQ0JmM18wLVg4dy1IeC10MDRpZlZuZ09zaE9FYmstOTd6WUNidXhiR0JzWDh5Z3NnS1J5Mms4SzZlWC1HMTdSQ216eDl2RXZudy0xcFZteWp3bjI1UjdQLWlJYlowckVnUVo2QU5OeHNxbmVwZjIwRERMV1FkQnFPN0I4Z2lvLV9PX1JFSlZEWnFKR01DRG5pZjJzYUo4?oc=5",
-     "date": "2026-11-17T01:50:36Z",
+     "src": "WREG.com",
+     "title": "Major banks report tech outages across U.S.",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtbThsdmtNTk1ZWFZ3dDFKdlBZRHBrMS0wVHNiM1hUemNjbTRoNk8tQW9xM3JvSE9BVGhpWGlpNkdvMnNyNzYyTG10TUt4a1Bsdk1JNDFNRzBwenhneWU0eW94bFBwNjRTbUpKWUJxd2x0azjSAXhBVV95cUxPbHEzdThmaG9wSmtleVE1NzRob0dqOU1vek5xbUNvdW55WGlqZHlrTTlRaXZLRjh4TzZ2Ykp4eXBFbXFTUi00ZVNuZXJONkkwaWJ2a0tBNEJaYXZqZGlndmJQWW1EVjRwQlhGYVpJeVZ4eU5DXzAzMnU?oc=5",
+     "date": "2026-11-17T01:06:44Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1132,9 +1131,45 @@
    ]
   },
   {
-   "pubs": 19,
+   "pubs": 16,
    "cat": "service",
    "headlines": [
+    {
+     "src": "CBS News",
+     "title": "Airlines rush to recover after outages",
+     "link": "https://www.cbsnews.com/video/airlines-rush-to-recover-after-outages/",
+     "date": "2026-11-17T13:24:28Z",
+     "desc": "United Airlines suffered a brief outage Monday on the heels of a nationwide FAA ground stop as airlines rush to recover ahead of Thanksgiving holiday travel. Kris Van Cleave reports.",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "knoxradio",
+     "title": "Major Banks, United Airlines Report Outages Monday",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Ib1dwY2QtSHBfeXhHU0c0WnIyODZmdEFQNkRub3dyRXgxVXJWYnJLNEJrRjdtM2t1YmpHcmdRYWFoaExzeUlRU0pLd2Ffcm5SU25j?oc=5",
+     "date": "2026-11-17T13:22:57Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Semafor",
+     "title": "United Airlines, major US banks report system outages",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdFF3Q0VlX0ozUHl4ZzkyWDg0bFdJeDItdGVjNktwdW9fRXpUdnAyWGtkd1drNlNnSjY3UGI3RVFFSnc3T3pOdnVZY3I1ZTUzUDVjZG5VOVNIaENHbTlZNVM4SnVENkE0a3RJcGFvc2ZxOUVUeGZ0YVpoMmxGdWVwVUdadHQxRGhGSlY2U2JKdHVWdjJINUlmUUJaRQ?oc=5",
+     "date": "2026-11-17T00:16:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "FOX Weather",
+     "title": "United Airlines experiences major widespread system outage days after nationwide ground stop",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVFFXaEZIbUpjOHdnVnBhb0VtWUVqSXU2dUJBei1nZ2I5YW84SHZld1h0Y0tWT09ocWRZTXNZOFB4UU9BelNSWmY5NTlpeHZFSDVoWEJZUU9JWllCNmJnUnRCVXdlcDJaSWVNdktMZFVDejd5ejlXd2hzdVo2emNpbFhkVTN2c3hYa3Etcklxa9IBlAFBVV95cUxPdmM4bGl3a04yTnduWVFWZ0JBcDRaYnY4dW0xZzVhdkprbjVVRmQxTm92Z2JOMW55Um9UemhRRnJOZ243dFdiN29sWHFXd3FnNTAtMnd6cGplY3h2Vi0zcDMxZGt4LWc5aFpFeXdEbVVScWZWVDZDYUt2cDd1bzdhdTNUYUFKX0FYZ3R2WGRydVoxTEpG?oc=5",
+     "date": "2026-11-16T22:36:43Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
     {
      "src": "DW.com",
      "title": "United Airlines resolves tech outage that delayed flights",
@@ -1152,39 +1187,63 @@
      "desc": "",
      "cat": "service",
      "outage": true
-    },
+    }
+   ]
+  },
+  {
+   "pubs": 8,
+   "cat": "service",
+   "headlines": [
     {
-     "src": "Axios",
-     "title": "United Airlines resolves \"widespread system outage\" that delayed flights",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLTEp2UUc2aWdfcVVWVFU4VXNpRTlDUVllRnIzcGtjWHBHZ181aHhoclQ5cFBYLUtnenVxMW9ZOHgtbnRmTXNOSzk2Um9PXzNNcEdEcXByZ1R0QmpBTUFYOHl4SHNhajlXbnc4?oc=5",
-     "date": "2026-11-17T10:31:06Z",
+     "src": "CPA Practice Advisor",
+     "title": "Microsoft Bug Undetected Since July Triggered Worldwide Outage",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQlo0SmxYdDlCWEgzNFNtZnVEbzBwZ0lnN0lYTjdMejFtNFNoQ2JtN3pCQWk3OFdTN1pkUUR4eWZyVEgwY2hYNlI4VWQ5bG5VYVFWbThqZUt0aUFHczBVZUxERElfbk81NnRMMU9OQlNpUURVTER5elpNZEdFd0lBSHlrX1RqaEc5VXhrdkhRS3YySzBfZ3ZfT0RMdVJvX0ktMnBmOUpxb3U5ZklYa0VtUHQ4MFFLZDQ?oc=5",
+     "date": "2026-11-17T13:45:42Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Mashable",
-     "title": "United Airlines experiencing widespread system outage just days after FAA grounds planes",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUXNEQmJHUEJFalBDTktBdjhmV3c3TDNWeVBIZVM3WUJNWTdDb19nUTlLSE50REgtY1dkRjJiYWNQcUpQenkyVjYzQ1otV2pobFV6MDRmR283NGJzeEFtcVE3RXl5SjRBTDVaaFRTZEtIZl9FQnNMWXhBRG53bGx3VnhzcFg?oc=5",
-     "date": "2026-11-17T10:03:13Z",
+     "src": "Quartz",
+     "title": "Microsoft traced its global outage to a software bug lurking since July",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdFhfTFFQeGRnemJ4eFNsQzR2NlU2QVk1OWRYQ3pzeXM2UTRSMGxiUjNMVk9qS2tSSFJ0eHlEd0xWSU4tTTJNVjJaVk5PeVVYV3ZqU05wV1JJQWVkZ2tHXzNrWEZ2Z1RBRWc4M0NmSjFwVEluNU5tZ2dXSEdMSnhTNjl2TQ?oc=5",
+     "date": "2026-11-17T13:21:02Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "AP News",
-     "title": "1.5-hour-long system outage forces United Airlines to delay departing flights",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc2xoSnd5Sm9rYTl5eFVRVzc2MFlNSk5qNUJRckg2X0tVazZEZG4wNTVVYW9JeWNyY1J6TWlKS0VURXd1c1JzUUdYU01WQzhQNWhkOEVCOXo4TTlLSnFNanUzVW9BYkZMOVBSb3ZfRnFMWXZFSGp1ZE5vSF9MTEd3VmxSTGI0YlR1VlE?oc=5",
-     "date": "2026-11-17T09:19:00Z",
+     "src": "Engadget",
+     "title": "Microsoft Reveals That An Old Bug Caused The Massive Outage That Took Its Services Offline",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYjZFeXhQZE1PRXltNFBLQlNtenhzWWRQM1JELTlNbUhJX3ktbnYweTRSajhIY3N5amo4OFJ2WDNsWC1kZHBwMjdtc0w1YXg3UzVlaEZHN296d21QT2ZfYnE0UXZFRkt6anhORTRJM0NnNlYzZnVUS3YtMFhqY2ZLUjVYci1yQVljamZiN2RQVWp6RlZNUDdVb2FCdmx3SlpxYkYwNzdtUENSMU54RTVIM3JWYTUyeUgxUWZiZkVBTktFUQ?oc=5",
+     "date": "2026-11-17T12:57:51Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Daily Sabah",
-     "title": "United Airlines says outage that delayed departures resolved | Daily Sabah",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM2VTTUVabk9NV0F3WnZxNWNCSjBlRVpsTDNxdndUV2ZMeGZxR1ZmQW1vRU9wYjl2LXdXdHZVLUtfRjM4eWU1TTZqMTdjOWV0WTZQWkwzSUJoX2VYdnVnVk1NLTV6ZjRCcVlqa241M1ZJTko0eFBESjJYMTlUUDFzUTdYLW5PYzBpVVlvLVpTR0tMQjExR29NRzRRZlFoMGtSTUJ6SUtmMDhHbXI1eFVJedIBtgFBVV95cUxNQzQxR3FnYXFrQnZGWmNhU0xUZjlMUEl4cEV1LTc5SW1vTGFEY3dvdmVXNzhWcTAyNE9ETDZNaFl6UUR6cDF2WmVoamFOQlNxY25IQjZ0eFRHTGh1eE9CTEtSVFFjcS1EMTNLMjcyeVRGVEVtb1NCeGs2X1NFUWgydXVMdnp6cWlBTDRXaTlOanl4LWpscHluanhZYjQxbGp0YWJXaGtjRC1JYVhHcjRYdENmLXhXZw?oc=5",
-     "date": "2026-11-17T07:13:00Z",
+     "src": "BleepingComputer",
+     "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+     "date": "2026-11-16T16:43:24Z",
+     "desc": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Register",
+     "title": "Up to 99% of UK civil servants rely on Microsoft for comms, minister admits",
+     "link": "https://www.theregister.com/software/2026/11/17/up-to-99-of-uk-civil-servants-rely-on-microsoft-for-comms-minister-admits/5310385",
+     "date": "2026-11-17T11:09:31Z",
+     "desc": "Whitehall talks up supplier diversification after Redmond's 18-hour outage",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "SDxCentral",
+     "title": "Microsoft\u2019s 365 outage traced to undetected software bug, gateway failover, and traffic surges",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUHVUZXJCbXUwdnEwM3loMVR3S1BRdlMwc0FzUks4ZEd4aThEcnpJbnRaOFFvVzZfYWdEODM4c0puYjV1cjVqM3E3SGY4WEU4UTBxWERvWXM5eWdfOWZkc2lPUktSREhqTGdHZHNpTWRFcktNczhKMmZ6T2JHdTZka1ByNllHWHJWR1U5azI1UmhUMklQZ29sX2FvS2M1MHpPZWRmQjhmeEszS0tIWjZQaEdJYndRSUw1eHNHZm9sX3NMZw?oc=5",
+     "date": "2026-11-17T11:07:38Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1252,72 +1311,12 @@
    ]
   },
   {
-   "pubs": 5,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "The Register",
-     "title": "Up to 99% of UK civil servants rely on Microsoft for comms, minister admits",
-     "link": "https://www.theregister.com/software/2026/11/17/up-to-99-of-uk-civil-servants-rely-on-microsoft-for-comms-minister-admits/5310385",
-     "date": "2026-11-17T11:09:31Z",
-     "desc": "Whitehall talks up supplier diversification after Redmond's 18-hour outage",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "SDxCentral",
-     "title": "Microsoft\u2019s 365 outage traced to undetected software bug, gateway failover, and traffic surges",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUHVUZXJCbXUwdnEwM3loMVR3S1BRdlMwc0FzUks4ZEd4aThEcnpJbnRaOFFvVzZfYWdEODM4c0puYjV1cjVqM3E3SGY4WEU4UTBxWERvWXM5eWdfOWZkc2lPUktSREhqTGdHZHNpTWRFcktNczhKMmZ6T2JHdTZka1ByNllHWHJWR1U5azI1UmhUMklQZ29sX2FvS2M1MHpPZWRmQjhmeEszS0tIWjZQaEdJYndRSUw1eHNHZm9sX3NMZw?oc=5",
-     "date": "2026-11-17T11:07:38Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Mashable",
-     "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
-     "date": "2026-11-17T10:35:11Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "ZDNET",
-     "title": "Microsoft blames major outage on a July update defect \u2013 and two other factors",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTzc5YUtNLVZqb0g4dFZXUXIzbkZMMWlfQmlYNGFjT0dMSmVSVmdIV1VWd0FybmpyQzZ5UXVOZVNxVHlBdGNUTWRwZWM3czJ3UlRVNjhpaGRxazg0aVcteXN2UkhjRWtWODRkdU5ZaU0wOFJ5Y2pENGZn?oc=5",
-     "date": "2026-11-16T16:57:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The Register",
-     "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-     "link": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-     "date": "2026-11-16T11:15:07Z",
-     "desc": "Summer code change caused a Fall fail \u2013 frantic engineers had to patch the patch instead of rolling back",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "BleepingComputer",
-     "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-     "date": "2026-11-16T16:43:24Z",
-     "desc": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
    "pubs": 4,
    "cat": "power",
    "headlines": [
     {
-     "src": "www.the-sun.com",
-     "title": "Will there be a blackout in the US this week? Rumors behind 90-day outage explained - www.the-sun.com",
+     "src": "The Sun",
+     "title": "Will there be a blackout in the US this week? Rumors behind 90-day outage explained",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFdFWi11a1FvOEhXN3NQZ3ZBNW1BRHlWSFhqTjB1bUVMbzZINkg4d1puU3NXMnhNOEtDM1dUT0NZZjA0SldPa0EteF95UDlhRHR0cGdsbm9lb3JuZzdqVENacndrUmRLM1NlWlpqT3c1bnVTcXJ0aDdlWTAwbDhoRV9RRWlfZUk1?oc=5",
      "date": "2026-11-17T13:08:05Z",
      "desc": "",
@@ -1325,10 +1324,19 @@
      "outage": true
     },
     {
-     "src": "Kursiv Media",
+     "src": "Kursiv Media \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d: \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0430 \u0438 \u043c\u0438\u0440\u0430",
      "title": "US addresses rumors of a Nov. 17 blackout",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeVVlOHFJel96dEtVRHlTYnV4XzNqT1I2a09hMWdNdy1FcGtJZS1vUlY1NUx3ME13U0NydS0yejdyZG04eHdOR1JROUVaWlpEaHN3MHJ1Z1otYlVHdE0ydWZLeWdzR3J6UmktMUhRSWlQSEdvRGhmTzFlQkEweU1Vc2JvcUlGMEtvdkJYQTF0c1A0S2s?oc=5",
      "date": "2026-11-17T06:16:44Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "The Providence Journal",
+     "title": "A blackout is not expected on Nov. 17 but there will be an alert test",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMEdsM040ODd5RVFwS1I3X3BOdXFacUM1MHFBd1h5Mi1jZ2RXODVhaFl6dEJsY3RiYWlUSmdtbEtRM3NtbWwxNVJPR2ZaNWMtY2NLR1A5SHNJRDRpSFd1dEpveURMamRZTDlBM3Y1cXJLeUxKa1d6bXY2NmM1QjNuQmExaXoxM0NfeFBiNGthY19Bb3YzWllRdG01YnNDMld1bllXbXZ5ZDdUVWRRZ3hCUUxTTlFqTG1xS3dmd3RwUWp5SzQtbnNmd091aw?oc=5",
+     "date": "2026-11-17T13:04:38Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -1338,15 +1346,6 @@
      "title": "Is 90-day blackout beginning Nov. 17? Why unfounded rumor is spreading",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DVHFGenpOSDNyQlZWckxTSk5EMkw1MzdNMC0yWE0xVXFWemFsNHhDSnd4UG5MUUpDWFp0WVExMWk1SF8wMlduSW5JUjJZVFBJS0FSVW9CY0YwUHNrSWh4WG9INE03TjVmd0g0a1NCa2dGb042?oc=5",
      "date": "2026-11-17T01:03:31Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "PhillyBurbs",
-     "title": "Is power going out Nov. 17? What is behind rumor of US 90-day blackout?",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSzA1Z0ZPZEFUNi1hVTd5cUFFaHk5UEJ1SWhqVk5ycGVOSEZvaUhGV0RkNkpqWE56ODFHZFVWMGxzU0d0OGVnSTFsUVc4VkdEOWptN3VYR2EtSDhQTmNWZ2hNc1FTYUxncTNZb3pxdm9TckNINERBZktlc0liaHhESl9Nd0Q5bzMwSndpMGVXOHlsR1YxZ0s0VE40aWNPU2pxekQtUFgyVWhmcjkxMUFFV1hkRHhaajN1NHNzQVZwSWlvS284eG05OVJ4VjU?oc=5",
-     "date": "2026-11-16T19:40:39Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -1443,7 +1442,7 @@
     },
     {
      "src": "BBC",
-     "title": "Hundreds of properties hit by power cuts after cable incident",
+     "title": "Hundreds of properties hit by power cuts after cable incidents",
      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zSHJjZGRaMXFud282UXhXWnpfV2o2XzZYOWxaR2g3RHY5Tlp0ajJJbzM5a0xNaHIzSzJINktERmpaZ0VrMk1kZ2Q4b3QzazB3emR6M3lfalJyTk5WU1E?oc=5",
      "date": "2026-11-17T08:46:54Z",
      "desc": "",
@@ -1462,34 +1461,49 @@
    ]
   },
   {
-   "pubs": 3,
-   "cat": "cyber",
+   "pubs": 2,
+   "cat": "power",
    "headlines": [
     {
-     "src": "NDTV",
-     "title": "California Sues OpenAI For Cyberattack On AI Platform Hugging Face",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjN0N3pzbXZGOEluRFJ5cVN6ZXpfZ2QzdmtvZllLaDJ4WVJNYk5YZk8xSEhoQVZWOFVvMjgtempwQnU5eVNLREFtM3ZMQmNVTG5WSFFuSVVaQ0pXaDh5b2FzbVk1YTlaWTlfNHZPSTNmdmg0Ym9oOU9STDhaVVpZYWg3ZmxpSU04M2ZvNXE0S041bVhWZTMtdXdnQkItdk9BYlVlbTEwNlFwOFXSAbMBQVVfeXFMTTd4OHR1amkwRHZ0NUtzUTlfVU1rTEVpeGQ0ZHRNQ1d3QWJTMDZMZ25JZHJrZ0xwQ055WkloTjhROHJkOF95ajRsbVhTRDNIXy1JVVJoeGdqV29VVnFjN1Zta2pIcF9LU0VpajJyS1dMcHlzbFpHM1N3d0VqMFhFcjBpZFdFVkpKczlxdm5pRnAzLWRwNGpXZkRuUE1uUGJGX3FjZ3FHMVlUTjZrZ0s0M2xDdWM?oc=5",
-     "date": "2026-11-17T04:41:54Z",
+     "src": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+     "title": "Franklin County High School Closed Tuesday Due To Outage",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaTFLazdlelVlUVJ3R1NfNmFqc1VqZlVqMmI1S0pxR055Q2pyLTE1ZFVQeDJnNHRldFRfN1pqeXVWTllQZ1U3TXhmMzZqTlpBRjVMcldzbFc2ZXFRUGM5VlJzamFibWt2THhCSENpNHk3ZFZ2Q2k2VV9ES0JWVFRtR085LU1yU2Ziblc2MXVKTGp0czVnVkVKbGYtVQ?oc=5",
+     "date": "2026-11-17T13:39:00Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "NewsCord",
-     "title": "California Attorney General Rob Bonta Sues OpenAI Over Hugging Face Cyberattack: 17 outlets compared",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTV9LWkNmVVZsN1g0QnFmS2h6Q0N5bEVjQ1lZVmMwRTZpQTM5YTYxQ0tYZW5nalJmS0gwZVhuckJ0eGRkNllYX2FWMWR5U1ZaTHRaUUZGQkE5NjlhNXVlbWtXR1AwdzVMa0E2SmpFOXBjZkR0UWdISmJfaUEwY3Z3dUY4dHJldEpOWnZsOXU0c1pITnA4QmNtNHFmbktlQ2VpVG1leGZFNHZyME5MTzNYNENfOEhHRG4tQ0VGRkhqOVFpUjJNOVRGbkw5d2J6YndObkNWTWVwTXp2LW4tcDVpOFV2TUxhV19M?oc=5",
-     "date": "2026-11-16T23:19:24Z",
+     "src": "WSLS",
+     "title": "Franklin County High School closed Tuesday due to power outage",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdzlQX3NGWWJqa1l5aVlTdGp2ZkpUREdGa3dFSG8xUmpZelhhSHcwVnIzT3ZWcXpkMEVZZXdPaHRoT0ljS1I2MmRiQm01TjVxcEFGY2ljbURWY01iNzhhYkZlLVVEa0loY3hhUjNGS1lQWTZJTFR5SVVtbU5pMFdTUGhWWXpnbVBvSk9QZU5CQVZxOE9XUVp5cS11M2tqRk1LZUlfTTNkQkdZdw?oc=5",
+     "date": "2026-11-17T13:09:00Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "Latest news from Azerbaijan",
+     "title": "What caused the internet outage in Russia?",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DTHNFUjhzUUN0VmpCSVdJQ0hGcFlPakFPZjdxMWw0bGlCbUNYaVlOZDZsQjcxaEtFY2ZJWF9aOE0xSEZ3bFJld3pyTXFDd3lsbmtJUlhBV29fUWtWSTh1WURValJYS1AzZmtJZm90VQ?oc=5",
+     "date": "2026-11-17T13:20:50Z",
+     "desc": "",
+     "cat": "internet",
      "outage": true
     },
     {
-     "src": "The Verge",
-     "title": "California sues OpenAI over rogue AI hacking incidents",
-     "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-     "date": "2026-11-16T23:04:02Z",
-     "desc": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating\u2026",
-     "cat": "cyber",
+     "src": "UA.NEWS",
+     "title": "Video: Russia Caused Power Outages in Eight Regions of Ukraine",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTJCdXQ2X3NsSFNGQVEzcVNXQ28yRGp0ZGRrVTRTY1VxU3RFSk16WWZHTk1lMmtpUnZxQ2pTZW9VWmVaRDR3bWlyZU5fU0c0QWR4ejBaV0tRako5YlpuWGdyaDltUlZwRDMyU0pvUXByaWh6MndvbGZwOEliMnJCd2oweDFjYkFxMHB5VjRXN2JVN3JXWW9QNmtLWjVzQQ?oc=5",
+     "date": "2026-11-17T09:35:03Z",
+     "desc": "",
+     "cat": "power",
      "outage": true
     }
    ]
@@ -1573,7 +1587,7 @@
     {
      "src": "English Bombay Samachar",
      "title": "Fact Check: No Global Blackout on November 17, 2026; Viral Claims About 'The Simpsons' Prediction",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YN1NEOUIydjJncGhHcGJweHUzejFOZnNHbG5uSjk5WENTZi1hQ3pZb0JicWtOd0RBaGVRanFkUmhMQ01TXzFZeWlpLXlzUTlHeTUyMDAtNi1QYmViUnA0cVNFLTZjWHVLRllJMEk1c0lFWm1xa0hYXzFWZ0hTYU0?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMGNXMl9QbEt5UHMwc0w2SU9vdm9rekN1ZjVCei1HbEJWVHNYa3F0Sk9ObWpSQ0NTaFZEYVIweWNZdzhReWk1UGNobGFwa2RTamVRLXBuc1VxUVNCODFCRlFNelBwbGJRUEZhRHVHNlJMRWtiRzYtdjA1aXgzYTRQR2V0VG5QX00?oc=5",
      "date": "2026-11-17T06:17:42Z",
      "desc": "",
      "cat": "power",
@@ -1592,24 +1606,24 @@
   },
   {
    "pubs": 2,
-   "cat": "service",
+   "cat": "cyber",
    "headlines": [
     {
-     "src": "The Independent",
-     "title": "How worried should you be over Microsoft, FAA and Chase outages?",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb1piVFFicUx2OFdWa1N6aVJpUF9VY1hRalRWY3hmOUIwRjhfUkhPdmtIYkpnZmhTUzR5aEJrUU51MG1hY1NybVBWbTVJellaQ2ZKWVZQcjhSc005a2dZdGt3dHpxeWZMQnhnZTFlYWFyTnhOeFF4c2FFLW1rNzNvQ0x3MVZzNXloQzY2QTRsTmxzbjZRMUxBbUcxQQ?oc=5",
-     "date": "2026-11-17T01:18:00Z",
+     "src": "NDTV",
+     "title": "California Sues OpenAI For Cyberattack On AI Platform Hugging Face",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjN0N3pzbXZGOEluRFJ5cVN6ZXpfZ2QzdmtvZllLaDJ4WVJNYk5YZk8xSEhoQVZWOFVvMjgtempwQnU5eVNLREFtM3ZMQmNVTG5WSFFuSVVaQ0pXaDh5b2FzbVk1YTlaWTlfNHZPSTNmdmg0Ym9oOU9STDhaVVpZYWg3ZmxpSU04M2ZvNXE0S041bVhWZTMtdXdnQkItdk9BYlVlbTEwNlFwOFXSAbMBQVVfeXFMTTd4OHR1amkwRHZ0NUtzUTlfVU1rTEVpeGQ0ZHRNQ1d3QWJTMDZMZ25JZHJrZ0xwQ055WkloTjhROHJkOF95ajRsbVhTRDNIXy1JVVJoeGdqV29VVnFjN1Zta2pIcF9LU0VpajJyS1dMcHlzbFpHM1N3d0VqMFhFcjBpZFdFVkpKczlxdm5pRnAzLWRwNGpXZkRuUE1uUGJGX3FjZ3FHMVlUTjZrZ0s0M2xDdWM?oc=5",
+     "date": "2026-11-17T04:41:54Z",
      "desc": "",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     },
     {
-     "src": "CBS News",
-     "title": "Officials received years of warnings before FAA ground stop",
-     "link": "https://www.cbsnews.com/news/faa-ground-stop-warnings-records/",
-     "date": "2026-11-16T11:00:00Z",
-     "desc": "For years, audits flagged billions of dollars thrown at non-competitive contracts beset with delays, amid repeated technology breakdowns.",
-     "cat": "service",
+     "src": "The Verge",
+     "title": "California sues OpenAI over rogue AI hacking incidents",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+     "date": "2026-11-16T23:04:02Z",
+     "desc": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating\u2026",
+     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1633,54 +1647,6 @@
      "link": "https://abcnews.com/video/138191402/",
      "date": "2026-11-16T22:56:23Z",
      "desc": "Nationwide FAA ground stop resulted from equipment failure, says administrator; Anthropic to price its IPO this week; NOAA reports strong El Ni\u00f1o expected to peak in the New Year",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Microsoft Outlook outage impacts governments, courts, hospitals and universities - ABC News",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSk9KQ3dqNXpnb3pSWl92bU9QUkFGeTFwQzRzV19mY3c4TzJ6Y25XSHJVc040SDNkcGNJMURzRFUxSnhzcW1SV3AtNm8xXzBiMnZEQnhmcEg1endZY1hvMmNnUlhTYUw4bmFabXpDb2pDODJqYXBNSGdsdVppcXVuUjl2RWNHNDc2bGFLUE5SUkl2RG5RZV84dUFUamN1ZkdVRFdlUVBEd19SbHpiMERwWk4tR0Z4eTJ2ZXpWcUdn0gHDAUFVX3lxTFA5Q1pQWV9nZU9CcmhNTFNhaGhNQ2oyVFBybTcxZlhLSnlUeVMyckMxUlJuNW5lb3oxZDhfal9NVVJKS3VWZ0k5aC1rSG5PdGpHc0Y3N21pSGhtRnVOeDd6STlvWGZPRDVVUElNT05jczVpMFlaaGJrNDQ5RWhjbnlta1g5UllPYmdzU0tYYXFUazZuUm5KYWJKdnhuTXF0SmJTdzk0V0J0ZE5GUzlqLVljbXZZUnk0V2I0cFNaS1JrOUx2SQ?oc=5",
-     "date": "2026-11-17T00:41:39Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The Register",
-     "title": "Microsoft Outlook outage blamed after 15 injured in hotel pool chlorine incident",
-     "link": "https://www.theregister.com/saas/2026/11/16/microsoft-outlook-outage-blamed-after-15-injured-in-hotel-pool-chlorine-incident/5310087",
-     "date": "2026-11-16T14:42:00Z",
-     "desc": "A safety warning went missing, chemical levels soared, and five guests ended up in hospital",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Time Magazine",
-     "title": "What to Know About the Banking Service Outages Impacting Thousands of Customers",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOczJTeERfNy16QlNEekJpWEFxWDU0aWdGdjZuSmdrc0xkNTFnRUQtZVREdWZXQWp6THZVUmdJcnFWeXJaOXdrOWI3WlZXWmF6bVRic21lNEMxY0RPb0VrN0ZNWlVyVFpVUTRwT0YyRU4tXzJpQlJ0YmZUV0ZxZng0OFVCem81RFI5OUY0RA?oc=5",
-     "date": "2026-11-16T23:11:15Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The News International",
-     "title": "Global Microsoft outage: Everything you need to know about major service disruption",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN1k4Z21tNXJDZUxWMkxGMV9pWTg2NjF3MTduVDctTUJIMVVsejFfNElwd1p3OTdjUlY5ekNKcEtkVkVvNTZNWlJvX3phMGVpWXBoYk9JaEFKUkdZeFpCaDBfQ1BMSEpzWnFSaXZqLVJ6YThHOVpFZEhHU2R3TEdBVURxUDgxdDNaMmRod1VDNEMtYWk5TUhkVEtYSXpxZTlaSGh6cUp2OTdDYTEyZXhzaVZocWswYXc4b2NZNmQ2NmFvUdIBvgFBVV95cUxNaFk0bHJFVnVmVUpJM0s4bEdCdUgwaTQxWlZTOERPSV9heTJfT01zYzBzOElLRlI2S0tVdThGaEI4QWxaYWtWT1FoLXk0dWVXU1A5TXFXeEkybU1HWEZQdzFBNjd4aE1hbkgxTkhPTlJxZEdnaEg1RUtURU83TjFPbmltSXFCRmdNeTZTQ0Vja3pGV0Qya2l2S09Pd2pIeW96N216V0VXTTd2QVRZUjRZS2JCUWd6LUxkY0tReHZ3?oc=5",
-     "date": "2026-11-16T17:26:00Z",
-     "desc": "",
      "cat": "service",
      "outage": true
     }
@@ -1736,15 +1702,90 @@
   },
   {
    "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Modern Ghana",
+     "title": "United reports 'widespread system outages' hours after outages reported at US banks",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1oWEh2WVhFbGNDaWx6ZUU2Z3VJNlFnNHZuaHpxaE1GbGZPTE56X1RFUWl6Z3V4NThhYlVkRnoyck5BdVpNblF3bTRpdXhfT1dfRjRCLXF6eTVJSVI3Z0JF0gFcQVVfeXFMT0hjcElnSE5QM1lTUHhLVFUwWUkzTXBkUWxYQkFsaFBMSVNKTFVJMlpZRFRxcXlGcnpCQnlFdGdtTGExbnJuU2w3b29QVFZCa1R5UzVxOWVhQkIxYzY?oc=5",
+     "date": "2026-11-17T13:50:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Help Net Security",
+     "title": "Suspected ransomware affiliate extradited to US over $500 million in extortion demands",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkw0NDVlYkZ0MXVmYlhSaHFiX1BWMHpEZVYzS0ZoR3BGaENJZUhLS3RCLXlwQW1rN3l5Q3JCNXkyZkpEalBrUU1rNVh2Zklna3hUWnVEcTg5NTVqTmlSQmZ4WlZtMGNkc3dEa1huTW5XdC05WENjQjNfTF9GS0dzVWNMZmNjcmFSckdvWWROOGdCRkNnV1c0NGFGVE4?oc=5",
+     "date": "2026-11-17T13:42:04Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "WBIR",
+     "title": "Kazakh national accused of being part of ransomware group who extorted schools, hospitals in 6 states, including Tennessee",
+     "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQanM2d1JRbFhhbldsTkl6WnlhM0hPeUp1R0h2ZXZVMEs3RDBPSGtXS3M4LWpIcWRXUlVyVmVtNFR3MEdDSTQxLUxuUEJQQk94eG5DbmxhRkg0NGZZSXN5UmcyUS1yV1djX1R1NG9jTk1FbENqVWE0T3BNSHJkaHp0X1YzcFZRa0tmTnFRMmQtOGZYd0RLS0FPdFJDdzFYWEpSX1dmbGQ1R1o2akNKQ0NUY0xLeWlpeVNfV1doUkNtdHo2MEtLcG9Db0hRYW0xWXBTeFFGYjN6UXJIVHBKa1l6QlI0RzRneGN3b3oyS1hzazAybTh4dE9qQWVObW15bEdSaWZuY3ZYanB3bjQ0ZU55anN1REF0VWx5U2dR?oc=5",
+     "date": "2026-11-17T13:38:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
    "cat": "power",
    "headlines": [
     {
-     "src": "WSLS",
-     "title": "Franklin County High School closed Tuesday due to power outage",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdzlQX3NGWWJqa1l5aVlTdGp2ZkpUREdGa3dFSG8xUmpZelhhSHcwVnIzT3ZWcXpkMEVZZXdPaHRoT0ljS1I2MmRiQm01TjVxcEFGY2ljbURWY01iNzhhYkZlLVVEa0loY3hhUjNGS1lQWTZJTFR5SVVtbU5pMFdTUGhWWXpnbVBvSk9QZU5CQVZxOE9XUVp5cS11M2tqRk1LZUlfTTNkQkdZdw?oc=5",
-     "date": "2026-11-17T13:09:00Z",
+     "src": "ADS Advance",
+     "title": "UK power blackout: How businesses can prepare for 72 hours dark",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV3FxcDVlT0RuLTZVTTloTHJQTWIzWXN2c1N4aEd2cUVXbzcxYkJVTEJiNGV1eGpsUGtGYUx5NXNLclFsOEdDSHFXX1o0bFdMbWt3WGpTUnpEZktGZWkxczhpdm5NSE80d2JkUVBibTdlZ3ZyR1NyMDlxM2FCV3BRVUxB?oc=5",
+     "date": "2026-11-17T13:36:00Z",
      "desc": "",
      "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "Luxembourg Times",
+     "title": "No global blackout expected, Luxembourg grid operator says",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMFB3aldoUkFNbDZUTmZrekRrX0M5bFEzMXMtS1ZIUlJGWDdGcTdrdFNoSWtvR2VWcDdMX0VBcHR4TVZZcjF1V01ucFV3cnFpdXRmZHhpQW8wanhwNGU4Q2V2ZTVqMlg1R3Z0YzdiUGJ1bV9uU2xFaVFiWkQ5ZExKckQ0alZqaXNqbV9kS29BMkx2NDZ1SzQwUHdUV2xxMzZhSXJuVUJoaUlMU1E?oc=5",
+     "date": "2026-11-17T13:35:23Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "CBS News",
+     "title": "Eye Opener: More outages impact banks and travel",
+     "link": "https://www.cbsnews.com/video/eye-opener-more-outages-impact-banks-and-travel/",
+     "date": "2026-11-17T13:17:13Z",
+     "desc": "Outages are impacting banking and travel across the U.S. All that and all that matters in today's Eye Opener.",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -1760,6 +1801,21 @@
      "date": "2026-11-17T13:07:08Z",
      "desc": "",
      "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "The Times of India",
+     "title": "No November 17 blackout, this is only a test: FEMA to send emergency alert tones on radio, TV at 2.20 PM",
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNQXVrOHhzRXl3VHhPeS10bHlEbkFMZjJDdVpjUnZ3X3AwSVZSVlowUFZIRVRsb3RUT2Q3SzVWcnlCbVNMWUNiVWlXYTZNbFRRZGJMRFZyZnVVaElGNUctXzlFZnJ5NTB5Mkgyak9DSUNseWVpRE5oX2wxc1hLUGNNal9uNV9XZTdoV0xYOXZPX1MyX3VlSzRycVVCMUF0dll6S2EzQ3Z1OEI0Vk5zcmlUb0plS0I4WnliTU50d2FlQ2dna1huUkRreXpkeXVVMzdxVVN5SUY3Sk83d1FkcVR1a1Blbm9scWZPcHRpU0lTM1FUQkhrMERiR3B1aUR0SThqR2JTS2pjOTNGb3NQcjN6Yjlka01ONlBDbXp3MFJ1RdIBpAJBVV95cUxOWk9zbS02ZERQbDNKV0NhcVIxY25QY0t5QmloVm8wMENXNUNjZUlHalVFWV93SXBBdWRkVy1zZGl2OVctVXJTRVI1MVZIekd5SkhqVVA5bmEzYTMzOThLWGQ2dmNMTk5mTEZNbWhESTdzVjVlTThTcGFCY2cyQ29MSjRqUV92NW9YQy1ObEFhc3M3SngzYnBpX0s1LTZGb1FGeEFHMWhGbEpzVjFqQWxBa0dDUzFldW5CUGxhc0dRbWJIMzhUMFh6TlF6OVIzbHd1SEU2VDVUUTFkWlhvRzFvRkF3VGVRY1ZxeS0wOWZaYmJVYk1SNHRLS3U3dnNualhhcWprQjZLZjVxaE5URTd5YnBhNGN1bjB2OFQwQi1zUUhSVHlM?oc=5",
+     "date": "2026-11-17T13:07:00Z",
+     "desc": "",
+     "cat": "power",
      "outage": true
     }
    ]
@@ -1802,7 +1858,7 @@
      "src": "Data Center Dynamics",
      "title": "NTT Docomo hit by third 5G Standalone outage in just over a week in Japan",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmFRMG44UTNyc0c0WUFnRWprREo5MVNwWU8zMmNJS0lKYXFVU25RWHM2Yk9ZN2lDYnZfYUxXLXlmTnhUTlI0TGpXUVZ2STQ1N3ZVa1FWMnptRXZnSmp0cmQzZ0MxQUM3YmRpTTdfS2hWUzVYal9jNW9FYUF1c3JmTzBJUUQxcW4wOFdRWjRxV3BzWGQ0azQ3ejUtMUhHU2FNeHFENk8yUDRWbDRvTmJPck00dzVLNGRs?oc=5",
-     "date": "2026-11-17T12:40:07Z",
+     "date": "2026-11-17T12:39:10Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1820,81 +1876,6 @@
      "date": "2026-11-17T12:32:25Z",
      "desc": "",
      "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Video United reports 'widespread system outages' hours after outages reported at US banks - ABC News",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE52NHRXT1I2N2hRcEl2RTV6SVR1UDVNeldaU1RYa0p4M1RkS01TYkdXY2xJWVY2SllyeWR5Z1hOQld2VXZndzlMX3pmazg?oc=5",
-     "date": "2026-11-17T12:23:19Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "Euro Weekly News",
-     "title": "Entire Mallorca town plunged into darkness as mystery blackout cuts electricity, phones and internet",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPakRaNjBNYkEwLUd1WnU3aUJxYzFidTJIZWl4c2dfcVdHbmNYYlZOS2x5cXpBVjJTMmxOU1V3YU9VckZ6bVNPRGplUjBYc3l0Skl0cUZ5SE1UVjdnS092U1lzTjJZR3FRRUVQZXlzVUpsVmlXWmtTd0hDY3k1MnUxVzM5eTdJdlJyMFluTzFxV25ycHFWR3YxRVZFTGllQWEtLTRUbERISHU1c0lnX1IyeHM3c3RiazNSQlpfOVhCaDJ6U2w1a3BTWmFKeGhhbGo2bFlwbw?oc=5",
-     "date": "2026-11-17T12:22:36Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "FOX Carolina News",
-     "title": "Quad Cities International Airport not impacted by United outage at this time",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNEpTV3dkUWRhcHlvN0JMRjNHMzRvMGdKa2NGX01vY1dSTUppRV9wQjV5T0pra1hWNUJ2ZjBhenpscEk4SFFnMHV1LWtvT21BN05feVFTWWdZZ2pBa1FXTTVZRGRuV1owQVhUbW1QLWxzTm5VaEFkOUxDemFUaFVJSkFHVm1teHc4OFZPV1FRR1M5R0FFS1RfVjRUc3dVS3JaVF9WVHQ3UGY2bmFIUEpmSUNndDhLeGZOQWI0?oc=5",
-     "date": "2026-11-17T12:22:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "WPLG Local 10",
-     "title": "Flight delays ease in South Florida after United Airlines outage adds to week of travel disruptions",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTFRqc1o1bkdfR1VROWNLQWZ3TTd4blV5eVJKMnEzcXotTEdIVko1X05kbmgwbm1PQ2xxMVNCNHBMel9hMWJtZEpjYlJ2S09GVEFXUkRQLVNwcnA0YUh4TGNncXg3aGY4Wl9CVmx1TzU2YmN6Zm1zMl9EQXZ4bFk3M29YVjNqczB4ck1ybzNxZjY2UHZ3UldQSS16RTg4ejlTZmQyT0ZYN0JoQnFuLWgwMDVIT3E0alhjNy1XWEw1elNBWHVGMG9qRnhNUFZYWUxGSEpmN2c3OV81RnMyQ2Zr?oc=5",
-     "date": "2026-11-17T12:20:13Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Tippah News",
-     "title": "The 5 Best Emergency Lanterns and Rechargeable Flashlights for Tippah County Outages",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTnE1Y0ZaTWRZT2U3UDQ5TEh4V2ZuVVZTYVRzNjIyeFpNcE1Lb0xtN1d6OG5OMW1OcWJjVUk4T2t2WDZSU0tuVEpGQnltaElPekVzcl9TMENKQVY0di1XTFFadGxIcnRmQ1U3dy1tX3FLX09KdDBHTjFVeGlIckp0dC1KV1dTaEtET2lPNVFDaHlLV0gwNjdBc19CVzdrc29GX2k0MHRqZDhlQ2dyOWZkQjQ3S2pWSTRwbmswa3ZSUUdRbWM?oc=5",
-     "date": "2026-11-17T12:14:29Z",
-     "desc": "",
-     "cat": "service",
      "outage": true
     }
    ]
