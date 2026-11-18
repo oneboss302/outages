@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-18T17:30:21Z",
+ "updated": "2026-11-18T17:45:23Z",
  "counts": {
-  "internet": 11,
+  "internet": 10,
   "services": 5,
   "hazards": 2,
-  "news": 25,
+  "news": 26,
   "correlated": 3
  },
  "internet": [
   {
    "loc": "country/GI",
    "name": "Gibraltar",
-   "score": 22519.587020648967,
+   "score": 22537.32546705998,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T11:25:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "GI",
@@ -26,12 +26,12 @@
   {
    "loc": "country/YT",
    "name": "Mayotte",
-   "score": 17653.456160153466,
+   "score": 18757.638772764134,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-18T13:30:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "YT",
@@ -41,12 +41,12 @@
   {
    "loc": "country/SC",
    "name": "Seychelles",
-   "score": 16769.52865064695,
+   "score": 16794.537892791126,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "SC",
@@ -56,12 +56,12 @@
   {
    "loc": "country/GQ",
    "name": "Equatorial Guinea",
-   "score": 16602.195121951223,
+   "score": 16626.639566395665,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "GQ",
@@ -71,12 +71,12 @@
   {
    "loc": "country/TD",
    "name": "Chad",
-   "score": 16083.522727272726,
+   "score": 16254.356060606062,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T17:55:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "TD",
@@ -91,7 +91,7 @@
     "Google traffic"
    ],
    "start": "2026-11-17T09:00:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "FI",
@@ -101,12 +101,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 12448.283582089553,
+   "score": 12470.721393034824,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -116,12 +116,12 @@
   {
    "loc": "country/RS",
    "name": "Serbia",
-   "score": 9940.350091703529,
+   "score": 9957.055597511418,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "RS",
@@ -131,12 +131,12 @@
   {
    "loc": "country/TJ",
    "name": "Tajikistan",
-   "score": 1822,
+   "score": 1838.2522522522524,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "TJ",
@@ -144,29 +144,14 @@
    "news": []
   },
   {
-   "loc": "country/NG",
-   "name": "Nigeria",
-   "score": 546.6363176530097,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-17T18:00:00Z",
-   "end": "2026-11-18T17:00:00Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "NG",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
-   "news": []
-  },
-  {
    "loc": "country/CD",
    "name": "Democratic Republic Of The Congo",
-   "score": 145.85129310344828,
+   "score": 162.05100574712645,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-18T00:30:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "CD",
@@ -411,6 +396,21 @@
    "news": []
   },
   {
+   "loc": "country/NG",
+   "name": "Nigeria",
+   "score": 546.6363176530097,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-17T18:00:00Z",
+   "end": "2026-11-18T17:00:00Z",
+   "ongoing": false,
+   "kind": "country",
+   "code": "NG",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
+   "news": []
+  },
+  {
    "loc": "country/TO",
    "name": "Tonga",
    "score": 518.5185185185185,
@@ -625,12 +625,12 @@
   {
    "loc": "region/2108",
    "name": "Ka\u00f4h Kong",
-   "score": 365008.75,
+   "score": 365384.5833333333,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2108",
@@ -639,12 +639,12 @@
   {
    "loc": "region/2129",
    "name": "Tak\u00eav",
-   "score": 151038.10344827586,
+   "score": 151193.6206896552,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2129",
@@ -653,12 +653,12 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 48620.71428571429,
+   "score": 48692.30158730158,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
@@ -667,12 +667,12 @@
   {
    "loc": "region/4442",
    "name": "Indiana",
-   "score": 36967.77508695511,
+   "score": 37017.571812458686,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "4442",
@@ -681,12 +681,12 @@
   {
    "loc": "region/2128",
    "name": "Svay Rieng",
-   "score": 34353.76470588236,
+   "score": 34389.137254901965,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2128",
@@ -695,12 +695,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 30589.264705882353,
+   "score": 30633.48039215686,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -709,12 +709,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 28855.967741935485,
+   "score": 28904.462365591397,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -723,12 +723,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 28619.290220820192,
+   "score": 28661.97160883281,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -742,7 +742,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-11T11:00:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "1607",
@@ -751,12 +751,12 @@
   {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 25628.690807799445,
+   "score": 25712.441968430827,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
@@ -765,12 +765,12 @@
   {
    "loc": "region/4847",
    "name": "Unknown Region in Gibraltar",
-   "score": 22519.587020648967,
+   "score": 22537.32546705998,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T11:25:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "4847",
@@ -779,12 +779,12 @@
   {
    "loc": "region/356",
    "name": "Rajshahi",
-   "score": 21537.72925764192,
+   "score": 21563.988355167392,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "356",
@@ -793,12 +793,12 @@
   {
    "loc": "region/3442",
    "name": "Volgograd",
-   "score": 21036.92074848652,
+   "score": 21062.56925334801,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3442",
@@ -807,12 +807,12 @@
   {
    "loc": "region/4858",
    "name": "Unknown Region in Czech Republic",
-   "score": 20124.702702702703,
+   "score": 20140.95495495496,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T19:15:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "4858",
@@ -821,12 +821,12 @@
   {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 20075.938936309918,
+   "score": 20108.512803676957,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -835,12 +835,12 @@
   {
    "loc": "region/2602",
    "name": "\u0160tip",
-   "score": 19771.79856115108,
+   "score": 19858.32134292566,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-16T08:15:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2602",
@@ -849,12 +849,12 @@
   {
    "loc": "region/633",
    "name": "Fujian",
-   "score": 19145.84154175589,
+   "score": 19174.1698786581,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T16:10:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "633",
@@ -863,12 +863,12 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 16825.95238095238,
+   "score": 16849.814814814814,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
@@ -877,12 +877,12 @@
   {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 16605.63025210084,
+   "score": 16630.896358543418,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -891,12 +891,12 @@
   {
    "loc": "region/3945",
    "name": "Ville de N'Djamena",
-   "score": 16083.522727272726,
+   "score": 16254.356060606062,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T17:55:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3945",
@@ -905,12 +905,12 @@
   {
    "loc": "region/714",
    "name": "Rarotonga",
-   "score": 12636.89393939394,
+   "score": 12659.671717171717,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "714",
@@ -919,12 +919,12 @@
   {
    "loc": "region/596",
    "name": "Glarus",
-   "score": 12552.327586206897,
+   "score": 12578.247126436781,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T16:10:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "596",
@@ -933,12 +933,12 @@
   {
    "loc": "region/1757",
    "name": "Dadra and Nagar Haveli",
-   "score": 12342.279202279204,
+   "score": 12359.411206077873,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T05:00:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "1757",
@@ -947,12 +947,12 @@
   {
    "loc": "region/2501",
    "name": "Str\u0103\u015feni",
-   "score": 12318.015873015873,
+   "score": 12341.878306878307,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T08:10:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2501",
@@ -961,12 +961,12 @@
   {
    "loc": "region/3638",
    "name": "Grad Beograd",
-   "score": 12115.337837837838,
+   "score": 12135.653153153153,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:05:00Z",
-   "end": "2026-11-18T17:30:21Z",
+   "end": "2026-11-18T17:45:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3638",
@@ -1010,6 +1010,15 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
+     "title": "Text to Speech Timeouts",
+     "impact": "minor",
+     "status": "investigating",
+     "start": "2026-11-18T16:17:26Z",
+     "updated": "2026-11-18T17:37:34Z",
+     "detail": "We are continuing to investigate an issue with Text to Speech and ConversationRelay. ElevenLabs users may experience timeouts when generating speech from text. Customers experiencing issues should use an alternative TTS provider as a workaround. We will\u2026",
+     "url": "https://stspg.io/d1r9gpwlrh7f"
+    },
+    {
      "title": "Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers",
      "impact": "minor",
      "status": "identified",
@@ -1026,15 +1035,6 @@
      "updated": "2026-11-18T17:25:30Z",
      "detail": "Twilio customers may be experiencing SMS delivery failures from a subset of Twilio Phone Numbers to Zong network subscribers in Pakistan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as\u2026",
      "url": "https://stspg.io/ds65pdrjsl9s"
-    },
-    {
-     "title": "Text to Speech Timeouts",
-     "impact": "minor",
-     "status": "investigating",
-     "start": "2026-11-18T16:17:26Z",
-     "updated": "2026-11-18T17:21:11Z",
-     "detail": "We are continuing to investigate an issue with Text to Speech and ConversationRelay. ElevenLabs users may experience timeouts when generating speech from text. We will provide another update in 2 hours or as soon as more information becomes available.",
-     "url": "https://stspg.io/d1r9gpwlrh7f"
     },
     {
      "title": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
@@ -1131,7 +1131,7 @@
     "Annaba, Algeria - (AAE)",
     "Atlanta, United States - (ATL)"
    ],
-   "n_components": 72,
+   "n_components": 71,
    "news": []
   },
   {
@@ -1380,6 +1380,16 @@
   },
   {
    "kind": "Earthquake",
+   "title": "M5.3 earthquake, 4 km NNW of Tsunagi, Japan",
+   "when": "2026-11-18T17:22:23Z",
+   "level": "green",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
+   "place": "Japan",
+   "detail": "",
+   "news": []
+  },
+  {
+   "kind": "Earthquake",
    "title": "M5.3 earthquake, 149 km SSW of Merizo Village, Guam",
    "when": "2026-11-18T16:06:51Z",
    "level": "green",
@@ -1481,7 +1491,7 @@
  ],
  "news_reported": [
   {
-   "pubs": 27,
+   "pubs": 26,
    "cat": "service",
    "headlines": [
     {
@@ -1839,6 +1849,30 @@
   },
   {
    "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "UA.NEWS",
+     "title": "Russia attacked energy facilities in the Odesa region; power outages have been reported",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQemxOYmJVLUhMNzNGTllMYnZ2dWlMTHlkZE1MSFJWbFBTT2lhVWNWUmg5Z2VzZHJTdmxrRnFKN1Iza2tMak5ZU05scDhNQlhBWV96dHhxVG94allsOGtHNzAtN2tsU25zNzJUNlg1ZW9aXzZzUU5CWVpCeU9WQnVBT0xPY2kwZFhIaUxYeFU3aWFkX2kyOTA0RTMzQ2hjRUtQVWN4c3JlQ2w?oc=5",
+     "date": "2026-11-18T17:32:43Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "Mezha.net",
+     "title": "Enemy attacks energy facilities in southern Odesa region - power outages in parts of 2 districts",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLW1hSC1jUElVR0xvTXUtaVRVMU1TSWpCamVHQzh1UWZKQ0lzd25mZnBYZzRkb1B1YUtJR2ZoZDBydEdXU00xWXlONmU1MmUzeDRzb3hTMFJvMEY0MVFibXluU081c0cyUlFvUDZpM2YtU2xDYWp2ZUllWmFmdjZyS3FnX3gwZw?oc=5",
+     "date": "2026-11-18T16:47:17Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "cyber",
    "headlines": [
     {
@@ -1887,30 +1921,6 @@
   },
   {
    "pubs": 2,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-     "title": "The enemy attacked energy facilities in the Odesa region; several districts are experiencing power outages",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFJrMmZodTlQNE5MRXJ3VjF1aThWMHZsd28wMjdwYUEzM3lJOVRwZm90VlpxVEViV3RpcTFiQ1VPZ3E2Z0VOYXpmSm10cFdHQ0ZXbW16aFNZOFN0c1d1TTRja3hSd29TVUpDeXJuNDdKU292YzJ0NmkwbWstdEZ4VlRzY3kxYy1zckxVU01NWDRST05rMDFZQURxcnlqajlzbEI4UGNYWExtTWZXOVo4dUNqR0NRckVQMWlNUjVNQW5tdlk3U1hn0gHGAUFVX3lxTE1zZkVEQlJ4ckxnQ3dZOUlNSlJsYk1uVDBRdTREZG5Ta0pVa3hGVlo2MVpoVlFWbTh2cDZzbzFUcTVxN3doblotTHRIYU80d0ZXaG9DYXRvYjR0OVNkYk5CYkt0dGVCb0NXSm1BYWc0QTFubmJYUHBOX1FFaDRlSzU3XzB3b2w5Ry14ZHNzSWptTmFMUmlUTVU3NUxvUGRFY0RhTVZ5SC1aTWtrTkpteDdwM3FtcGVzeGZ4Ylk0d0d6dUc5VjVGUQ?oc=5",
-     "date": "2026-11-18T17:00:12Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "Mezha.net",
-     "title": "Enemy attacks energy facilities in southern Odesa region - power outages in parts of 2 districts",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLW1hSC1jUElVR0xvTXUtaVRVMU1TSWpCamVHQzh1UWZKQ0lzd25mZnBYZzRkb1B1YUtJR2ZoZDBydEdXU00xWXlONmU1MmUzeDRzb3hTMFJvMEY0MVFibXluU081c0cyUlFvUDZpM2YtU2xDYWp2ZUllWmFmdjZyS3FnX3gwZw?oc=5",
-     "date": "2026-11-18T16:47:17Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "cyber",
    "headlines": [
     {
@@ -1926,7 +1936,7 @@
      "src": "The Record from Recorded Future News",
      "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBNUE4eGkwZTV6ei1CRlZYaG5pcmQwb1hEVmV5SjBPOUpzc2VxMFpXbFRmX19RTm15VjhLSUE1Rm5pcHJDWFJaWC1SaHFmWTlCaC1CbUhzQWJMUmJoOG10Wm9maDhtZHhY?oc=5",
-     "date": "2026-11-18T13:36:25Z",
+     "date": "2026-11-18T13:36:26Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -2232,6 +2242,30 @@
   },
   {
    "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "NBC News",
+     "title": "Classified NSA network went down, but no indication it was an attack, sources say",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVUZZMWx4elhMTUhLNG82TldaUUUzY2dqWG1EMlhDRWVYTmRUVmIwZ2ZLZW15Uy0tVV80bXBFZTdNdE0xY2Jubll3Q0w0VENPaGpxT0RPdWMwcGhMRmQyNWlyTDZwWEx0RTVSbTVNZW1sRWhWcWhKS0hlMG1lYW1wejB4dkRGdHQxN01oTHhOR3l2WGpuSnAxbVRLVUo3OERWUnY4NHB0NkxQbTBpekNlY0RFTUlSSFVjOVNNS05YeFhsa3NS?oc=5",
+     "date": "2026-11-17T22:39:44Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "New York Post",
+     "title": "Classified US communication network back up after outage hit system",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY2pLM2tRU2VEaElMS1hhbXNvLUNjR1RDdks2NnlhT2FVWU9ObTlfZ3JsbDc0bE5fN3hYVHNEQUx6UmN6Z0psZVJCakZldUtvemFwX0l1QURxVzJtRHZPRWRQT284eDdoZkNOTllTYVlWaHhMblN2MG1SNlZUSHFLZVFMYmV1eHhyWWJ1VDNqR1BLbkNKblN0WnZVOThHNkRjazQzSW9TRm5aMjc1Sk1QdDJJeTdCWkNTX09qNWlKRFFHUVJuSTloV1Nn?oc=5",
+     "date": "2026-11-17T19:50:33Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "cyber",
    "headlines": [
     {
@@ -2280,6 +2314,21 @@
   },
   {
    "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "CNBC",
+     "title": "Investigators make progress in hunt for cause of FAA ground stop",
+     "link": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
+     "date": "2026-11-18T17:29:31Z",
+     "desc": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
    "cat": "cyber",
    "headlines": [
     {
@@ -2298,9 +2347,9 @@
    "cat": "cyber",
    "headlines": [
     {
-     "src": "wtsp.com",
+     "src": "WZZM13.com",
      "title": "Expedia investigates cyberattack after hackers claim theft of nearly 1 billion customer records",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaGJ5ZzFjX3dSc2hkeXJQXzFDUHBFOFZ4RVJpVmE1a2lwTU5ETnplX0pabU9iZHFiQlhKbk1hR3ZXOU1Za0h5UTlRbnZHM1NNNGZRMjN1TkJuVGYtR1g1Rk5wc2phUHM0MzdFZGtEeEw0Nl9ZcThwX293bVRnZlNCQWszUGhlMXVxQTdaVWdlQ0FqLWNMdzN6alFuZDdNWmtaaXM2M2lnWl9kOWM?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbkRQT0RlMWlOckEyci0zeXh4bjZsS1Q4SnpjeHVxYnVVUVpiX3pQTlVXdXJySHdZcVB4bjVxM0k3R0RFNlpGcWg4VGM3dUMyakhfYzNsc3h6LWlRdHI0dTd3NThuTlc3RDFEakhWdTl6eUxSaDFFVzB1V3U5VjFpa3hCaFI1TVBGTFdUYU44aXVZM1JHSUdEc1FlS2pMZzU3T21McTNnZVYxdE5PNUE?oc=5",
      "date": "2026-11-18T17:22:00Z",
      "desc": "",
      "cat": "cyber",
@@ -2317,36 +2366,6 @@
      "title": "Florida DMV experiences service outage affecting driver\u2019s licenses, record system",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeU1tY2Y4NFJKM2F3eHdLQWNQb1NZaUxVUVVidDBnblZ3SGs0Wkc0c0prdjJJZjJZOWI1TWZYTGQ4ZEZ3a2t4QU9mQW1Ud1pfT0dXU0RCR2puS2JhdGh6MXk0S3VQdnh1SGVpTGJHOE15b1NUelNqZTVfZEFUckhlWkVGdHNSX0F4UG42elFYYm5IWXQtTU00elZ4eHNGMHl6V19UWlkyaEVfMGhWcHNmd084SDdrY05iOW9teGtDMnlfSDhLcUE?oc=5",
      "date": "2026-11-18T17:19:35Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "internet",
-   "headlines": [
-    {
-     "src": "The Washington Post",
-     "title": "Opinion | I said the internet would stop working. Then came the outages.",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSWp1TFMtZ3d1bUFJeDNIRU42SkVKc2lUTGlfZmRfVkNaNHp1R1pQc21xdVZLZFczZERJelF3WTNfdVN3UVB5azJYbWpwa3EyS0pQRU5WRzY0NzlVbHdRZWxRRUpiTlRDemFVcmVIeC00QlhXbDY5S21RY3I1V1BGZVc2RTJVak1WN0hBeUZiUTU3bWxJdXUwc1NuVHE1c09TTmRSc0NRbzQ?oc=5",
-     "date": "2026-11-18T17:18:15Z",
-     "desc": "",
-     "cat": "internet",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Reuters",
-     "title": "Patching in the AI age may underlie some of the major tech outages, experts say",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbG5MRktqdzhYemc3QU9Yd0xudG9uN1lSbkd4YTd3dG44VUlfcTRzcW5WQ19qb2JTX0o0QVV6VHNuV0oxRFNzYUZSX2wySm9WRmk1S2swN2djcWNJc3I0S0FqbzBrV09oZlAzbVFGQUI5bWktb2ZYU3ExYWdCd2hNOHZIei16QU9UZXJDQ0FNRkk0S0FjRG85UUlXX09KTmFtYzQ4SVZQOXBXcHY1VVlzcV9wdGxTR1Mw?oc=5",
-     "date": "2026-11-18T17:12:09Z",
      "desc": "",
      "cat": "service",
      "outage": true
