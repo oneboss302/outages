@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-19T12:15:20Z",
+ "updated": "2026-11-19T12:30:23Z",
  "counts": {
-  "internet": 7,
+  "internet": 6,
   "services": 3,
   "hazards": 1,
-  "news": 27,
+  "news": 26,
   "correlated": 1
  },
  "internet": [
   {
    "loc": "country/SC",
    "name": "Seychelles",
-   "score": 18641.035120147873,
+   "score": 18666.072088724584,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "SC",
@@ -26,12 +26,12 @@
   {
    "loc": "country/GQ",
    "name": "Equatorial Guinea",
-   "score": 18431.436314363145,
+   "score": 18455.907859078594,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "GQ",
@@ -41,12 +41,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 14127.363184079602,
+   "score": 14149.825870646764,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -56,12 +56,12 @@
   {
    "loc": "country/RS",
    "name": "Serbia",
-   "score": 11190.46642931636,
+   "score": 11207.190455640666,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "RS",
@@ -71,12 +71,12 @@
   {
    "loc": "country/TJ",
    "name": "Tajikistan",
-   "score": 3038.1981981981985,
+   "score": 3054.4684684684685,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "TJ",
@@ -84,30 +84,14 @@
    "news": []
   },
   {
-   "loc": "country/TM",
-   "name": "Turkmenistan",
-   "score": 2307.692307692308,
-   "sources": [
-    "Active probing",
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-18T13:00:00Z",
-   "end": "2026-11-19T11:45:00Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "TM",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/TM",
-   "news": []
-  },
-  {
    "loc": "country/SY",
    "name": "Syrian Arab Republic",
-   "score": 338.33333333333337,
+   "score": 375.9583333333333,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-19T10:00:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "country",
    "code": "SY",
@@ -355,6 +339,22 @@
    "kind": "country",
    "code": "GT",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/GT",
+   "news": []
+  },
+  {
+   "loc": "country/TM",
+   "name": "Turkmenistan",
+   "score": 2307.692307692308,
+   "sources": [
+    "Active probing",
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-18T13:00:00Z",
+   "end": "2026-11-19T11:45:00Z",
+   "ongoing": false,
+   "kind": "country",
+   "code": "TM",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/TM",
    "news": []
   },
   {
@@ -617,12 +617,12 @@
   {
    "loc": "region/2108",
    "name": "Ka\u00f4h Kong",
-   "score": 393133.3333333334,
+   "score": 393509.5833333333,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2108",
@@ -631,12 +631,12 @@
   {
    "loc": "region/2129",
    "name": "Tak\u00eav",
-   "score": 162675.86206896554,
+   "score": 162831.55172413794,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2129",
@@ -645,12 +645,12 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 53977.77777777778,
+   "score": 54049.444444444445,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
@@ -659,12 +659,12 @@
   {
    "loc": "region/4442",
    "name": "Indiana",
-   "score": 40694.19324079793,
+   "score": 40744.04517331426,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "4442",
@@ -673,12 +673,12 @@
   {
    "loc": "region/2128",
    "name": "Svay Rieng",
-   "score": 37000.78431372549,
+   "score": 37036.19607843137,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2128",
@@ -687,12 +687,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 33898.03921568627,
+   "score": 33942.30392156862,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -701,12 +701,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 32484.94623655914,
+   "score": 32533.49462365591,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -715,12 +715,12 @@
   {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 31896.007428040855,
+   "score": 31979.851439182916,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
@@ -729,12 +729,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 31813.24921135647,
+   "score": 31855.977917981072,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -748,7 +748,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-11T11:00:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "1607",
@@ -757,12 +757,12 @@
   {
    "loc": "region/2602",
    "name": "\u0160tip",
-   "score": 26246.52278177458,
+   "score": 26333.141486810553,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-16T08:15:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2602",
@@ -771,12 +771,12 @@
   {
    "loc": "region/356",
    "name": "Rajshahi",
-   "score": 23502.765647743814,
+   "score": 23529.0538573508,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "356",
@@ -785,12 +785,12 @@
   {
    "loc": "region/3442",
    "name": "Volgograd",
-   "score": 22956.264905521923,
+   "score": 22981.94184553293,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3442",
@@ -799,12 +799,12 @@
   {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 22513.52593565332,
+   "score": 22546.135915955354,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -813,12 +813,12 @@
   {
    "loc": "region/4858",
    "name": "Unknown Region in Czech Republic",
-   "score": 21340.900900900902,
+   "score": 21357.171171171176,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T19:15:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "4858",
@@ -827,12 +827,12 @@
   {
    "loc": "region/633",
    "name": "Fujian",
-   "score": 21265.72448251249,
+   "score": 21294.084225553175,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T16:10:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "633",
@@ -841,12 +841,12 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 18611.640211640213,
+   "score": 18635.5291005291,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
@@ -855,12 +855,12 @@
   {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 18496.35854341737,
+   "score": 18521.652661064425,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -869,12 +869,12 @@
   {
    "loc": "region/596",
    "name": "Glarus",
-   "score": 14491.954022988506,
+   "score": 14517.902298850573,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T16:10:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "596",
@@ -883,12 +883,12 @@
   {
    "loc": "region/714",
    "name": "Rarotonga",
-   "score": 14341.414141414141,
+   "score": 14364.217171717171,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "714",
@@ -897,12 +897,12 @@
   {
    "loc": "region/2501",
    "name": "Str\u0103\u015feni",
-   "score": 14103.703703703704,
+   "score": 14127.592592592591,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T08:10:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "2501",
@@ -911,12 +911,12 @@
   {
    "loc": "region/3638",
    "name": "Grad Beograd",
-   "score": 13635.585585585586,
+   "score": 13655.923423423423,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:05:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "3638",
@@ -925,12 +925,12 @@
   {
    "loc": "region/1757",
    "name": "Dadra and Nagar Haveli",
-   "score": 13624.311490978158,
+   "score": 13641.462488129155,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T05:00:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "1757",
@@ -939,30 +939,30 @@
   {
    "loc": "region/1016",
    "name": "Burgos",
-   "score": 11106.36922082121,
+   "score": 11135.564177174265,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
    "code": "1016",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/1016"
   },
   {
-   "loc": "region/2051",
-   "name": "Shiga",
-   "score": 10105.662061836294,
+   "loc": "region/4414",
+   "name": "Washington",
+   "score": 10707.266666666666,
    "sources": [
-    "Routing (BGP)"
+    "Network telescope"
    ],
-   "start": "2026-11-13T01:05:00Z",
-   "end": "2026-11-19T12:15:20Z",
+   "start": "2026-11-19T10:34:00Z",
+   "end": "2026-11-19T12:30:23Z",
    "ongoing": true,
    "kind": "region",
-   "code": "2051",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/2051"
+   "code": "4414",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/4414"
   }
  ],
  "services": [
@@ -1060,10 +1060,11 @@
    "components": [
     "Voice, Latin America",
     "Voice, APAC",
+    "SMS, APAC",
     "MMS, APAC",
     "Lookup Line Type Intelligence [Legacy API]"
    ],
-   "n_components": 4,
+   "n_components": 5,
    "news": []
   },
   {
@@ -1090,7 +1091,7 @@
     "Atlanta, United States - (ATL)",
     "Baku, Azerbaijan - (GYD)"
    ],
-   "n_components": 77,
+   "n_components": 78,
    "news": []
   },
   {
@@ -1418,14 +1419,14 @@
  ],
  "news_reported": [
   {
-   "pubs": 14,
+   "pubs": 16,
    "cat": "cyber",
    "headlines": [
     {
-     "src": "Hungarian Conservative",
-     "title": "Cyberattack Disrupts European Commission Systems and Staff Services",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSVQtemxVSTRMc243MEhIcmEwUlY0ZlllclNoazctQXpnRkNQYzAyMGhkVXRyODA4OEFERTkxN2lnX1hsUHhUN0hMOGo2dG1fZHV3YVhMUGplXzlHaEdmUDc1b3BtV1ZqWU1XT0N0VzhSR0JxaW5BWGRjQ3R4ZlpXeWlGWUFhWENfTzJ0MVlIdUpHMmdtdmtyLW52OTM5TnFxV3djLWtRcHkwQQ?oc=5",
-     "date": "2026-11-19T12:00:00Z",
+     "src": "Yahoo",
+     "title": "EU Commission hit by AI-driven cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV2FoWEN1Z2NCNXBjajE4ZWF5dWNiZzVPaGR4SkFmNjBWUlRJX2l6R1VfOUdib2JUMVJKVnJYUXpEU1JYQmQ0b3E1MGRqeVNla1FXTlBtVnBjY2ppVDNLQjZQaVl3ZlBRVzF2UHBvS3BoN3V5dDJUMlRFdm8wakVPS1hEc3BhbF81Q2RQSQ?oc=5",
+     "date": "2026-11-19T12:18:40Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -1449,6 +1450,15 @@
      "outage": true
     },
     {
+     "src": "Euronews.com",
+     "title": "EU Commission hit by large-scale cyberattack with data leakage unknown",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTnc3TnFUdzNhcHR4Qnh4YkZRbGl1UWdLVE5sYXNXZV9LeTZrY2I3eUhoRi1DUFl2cHFmOG1zOXdBVWRFUnpwdHgycU5tVlNMUktURWVZS1dwc3k0THBRYVJhZ2cyNGp0YV9SX245MVZLY3dsUjI0WWhWWFRUcElLQy1LMk5SRDNrUmhqaWdVVlpBRGI0NlJEaHFLdzFCaEF4YndTUGNCVk5Wdw?oc=5",
+     "date": "2026-11-19T11:48:42Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
      "src": "Techzine Global",
      "title": "Cyberattack shuts down European Commission\u2019s HR systems",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeGhJQXM2Q0ZmRHM3N2d2bVZyS0l3UzUwUDZsZURFQXJqOVJVRl9uSHo0Ny1GRE16Vl9TcEI0bzY4ZFk5T1ZpU1VnRTFVLUtzZVB3SEJFTTViOHRYYkNieDl2bHR1SVYtMXRTLWVnX2RTMmlFMU9UNjRGZi1hN1dYaHhOSVNoaENpSWpxODc0eHBhcEN6dmFxNWRtb0tDUzJNZFE?oc=5",
@@ -1462,15 +1472,6 @@
      "title": "LIVE: European Commission battles major cyberattack",
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mN2NRazhpS3ZiZUVzckpBbnJuNXg4Zk9CTG1PVWtPT3ZxTk54eFhNcjlQaEdMUHVEMWR3TmRWQVk5bzRJdGpoc1dQWDNlN0diX2IyYkg2Y0tsVGIwS2p3NlBtM1lsbDI2ZlJ4d2VkX0tjbVdMZGJsMFRR?oc=5",
      "date": "2026-11-19T11:10:49Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "TRT World",
-     "title": "EU Commission hit by cyberattack, personal data possibly compromised: report",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BRG1YN1lBMXhNb01TSUdqVTBhRlkwNE5TUlFJM19PdGJRMUFuU0xIYjkxY24yX2VYNFlGclBFeW9zZklLRmVFYjFzSlFHN1F4ZkFhOWo0dko?oc=5",
-     "date": "2026-11-19T10:49:06Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -1531,6 +1532,66 @@
      "title": "PlayStation Network outage hits players hours before GTA VI unlocks, and Sony's status page now shows it resolved",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX1UtTFNQRTNJX1k4eEEycWJuTl9JRlA0NnJXWWl1WXBfVkpITmRSNlNwYWNFck1NSV92WHY1RzZxbXhhX0cyUm0zRjV0RktXTlVOR0JCTHgyQzRvTFVSaVRIZlV0Tm9aQVpUcWtONVNaNkpxVkg0Ykl3R2R1U1ljb2R1U0w3OHpEN2wxQUY0amNUcUljTWpRRGlOTG5NN21BRUhxbE9GT2tidjI5cTF6ay1KNURIdl85U2VlZDFjM0JzUnB1OHNaZ3RaclY?oc=5",
      "date": "2026-11-18T22:08:51Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 7,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Ynetnews",
+     "title": "Report: NSA outage disrupts key Middle East intelligence hub amid US war with Iran",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsbU4wc2ZKSnFFMXZtRkR1MHpjVmlneVpSbUVhekVzQjdaVFQ5UUNzVjNwaE9ZZzNZR0lRd28tNWFmOEUzVDFLVHA4LTFRSGZzVUpXVXBB?oc=5",
+     "date": "2026-11-19T11:05:38Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Jerusalem Post",
+     "title": "NSA outage disrupted classified US intelligence communications with Mideast amid Iran war - report",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BaDJURjU0X29VVHpZZnl1a3FvSk5xQnRpcDJSR0NDM3FJcWZ5SF9JeGc3YjFqLUxvZ3ZSMDFaWmtnZEdmSXFJMlJabVMtN0FUamRzM1JYYUNOczZKblVz?oc=5",
+     "date": "2026-11-19T04:36:10Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "CNN",
+     "title": "Sources: NSA outage disrupts key hub that supports Middle East intel and operations",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTJnb05uY0hBejZ5OHNKOTBoQ1ZyYVZHOEpHYXhzX1dnYmtXbjJteVZfakJjdTNyVnkzOUhxbGRHX3JWQm5hU1FWSmUtOXVrVFFPbmZ4ZGN2TEhZVF8xRmd3ZllMWXg1RUp0cFNfYm5DLUhCWUI0RmRIWHlDcndfLVk1RGZUNG1Cdmlad3NB?oc=5",
+     "date": "2026-11-18T23:13:35Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "CNN",
+     "title": "NSA outage hits key facility for Middle East intel operations as agency resorts to workarounds, sources say",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQk0wUERwNVA3anJGSW1DbHhpNkFTTUZxR20yeUFCNWphcFluNjhuMFlEWldobkRDNTE0RFRFaDlRSmFGYW0ySGJEZU1UV2FCVWZfeHhLQ0FQYi14T2J2RTAxajZYMUhxSlM1aG5RNUNuYzUycXBhOEpNdXBNcnRNWFdmQXVSYWtKcnctenJUMnVHRkNNajFLdGxDeldtMzF0V1lWTQ?oc=5",
+     "date": "2026-11-18T23:00:53Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Record",
+     "title": "NSA continues response to interruptions in classified internal network",
+     "link": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+     "date": "2026-11-18T16:19:00Z",
+     "desc": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "CubaHeadlines",
+     "title": "Technological Glitches Disrupt Major US Services: Apple, Gmail, Marriott, and NSA Experience Outages",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tcEtzYm1GRTBlRFBfSWlJZ0Mtc0s5T3BUclR5QVhrR1JOcTRMWVhibW80NF9kLS1hUDFncUowbTZRcFNmNWY4WC1URl9NVHZPcDFQckp2Ujc?oc=5",
+     "date": "2026-11-18T14:02:16Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1653,108 +1714,6 @@
      "date": "2026-11-18T20:32:04Z",
      "desc": "",
      "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 5,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "NBC News",
-     "title": "Apple tech issues appear resolved after outage",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLV9fNlpuYUZyZWw3cDluVnZFb29Zelp1R2hYYlY3dVB1cm14RC1qb3F0ZzdpcGdsangxTnpqdEFKMFBnRlp1cHZLRGxNd0JqVVVWYWlYS0JjWVNHODVtVUs2VElmbUJqXzNZWG9udmtZbHNkOUZod0xSVlJBZnl5TEFSOUhaNkZFMEJKaF94cjNpbEVJdmZfak9zak0?oc=5",
-     "date": "2026-11-19T09:48:59Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Yahoo Tech",
-     "title": "Apple outage affecting iCloud, Apple Pay and other services appears to be resolved",
-     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTXlSYms4U0dyYmVKNnlYSTFHVmFCWWt2XzZ0Zkp5TmV2N1lta3VRN3hJN3I4ZHd2dS1VdzBMMGZyUDFFcXBCbzdvZ1c2NFRRd2tMQTJ2dlVzdXVZRklhTGNFZ1E2bkVjUzVrVjIzTWZzTkc4Tk9kTE9OTF9wLXRpTWF0MzIyRi1oZktobTEwOVdTSHRBdWVqLWgyUlFxTUI0SWJoM2NWTkJMQ0hxTEE3TG5VZFlsNXF0bmVzRmM0RC00UFQ0Y3RYRmJUeDUxcWgtMUNDaDVZTHJlRW9rN012NGZWMzk3NnZTNVZJNzFXS2FuM01ZeWc?oc=5",
-     "date": "2026-11-18T15:36:30Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "CubaHeadlines",
-     "title": "Technological Glitches Disrupt Major US Services: Apple, Gmail, Marriott, and NSA Experience Outages",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tcEtzYm1GRTBlRFBfSWlJZ0Mtc0s5T3BUclR5QVhrR1JOcTRMWVhibW80NF9kLS1hUDFncUowbTZRcFNmNWY4WC1URl9NVHZPcDFQckp2Ujc?oc=5",
-     "date": "2026-11-18T14:02:16Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "SC Media",
-     "title": "Apple and NSA services face outages as Equinor reports cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb25xMWxXYXpRU212MjdBYTF0YkJPUnlMNDFVM015ZmRqYXFXM0FKQ01rdGdHb2dyVDUwNHpiWVNEalBMYm9RblZUNHVPTHNDZ09IaExTZDBHamVIb20zUjlsMk8tLWJ0ZzQ2REF1S0pXb3I0ci1kUExoMzRZUFdidE1CTzd4R3Bjam1MSnNZcUpxcnFqd01pckdaU3Y?oc=5",
-     "date": "2026-11-18T13:39:49Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "CBS News",
-     "title": "More major tech outages reported, including NSA and Apple",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNREJQazhfdDZudWJ1SGtqTEFoWkd0VVc3UFQ0ZWZMOUxZYXVsejc4OWFQTldKekZvN01sTnhKMjVkUVJiMjk1LUxsY1NYZlVFSno2S2hGQWd3V3RPbFB3cGMzaXFqOWhVdGtHQkRkQ25SU1dzVVV3MGRXSkpSaXJrOVpyTXAzQjIwa0psb2gxWW1ZTzlhUjhibA?oc=5",
-     "date": "2026-11-18T12:50:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 4,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Ynetnews",
-     "title": "Report: NSA outage disrupts key Middle East intelligence hub amid US war with Iran",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsbU4wc2ZKSnFFMXZtRkR1MHpjVmlneVpSbUVhekVzQjdaVFQ5UUNzVjNwaE9ZZzNZR0lRd28tNWFmOEUzVDFLVHA4LTFRSGZzVUpXVXBB?oc=5",
-     "date": "2026-11-19T11:05:38Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The Jerusalem Post",
-     "title": "NSA outage disrupted classified US intelligence communications with Mideast amid Iran war - report",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BaDJURjU0X29VVHpZZnl1a3FvSk5xQnRpcDJSR0NDM3FJcWZ5SF9JeGc3YjFqLUxvZ3ZSMDFaWmtnZEdmSXFJMlJabVMtN0FUamRzM1JYYUNOczZKblVz?oc=5",
-     "date": "2026-11-19T04:36:10Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "CNN",
-     "title": "Sources: NSA outage disrupts key hub that supports Middle East intel and operations",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTJnb05uY0hBejZ5OHNKOTBoQ1ZyYVZHOEpHYXhzX1dnYmtXbjJteVZfakJjdTNyVnkzOUhxbGRHX3JWQm5hU1FWSmUtOXVrVFFPbmZ4ZGN2TEhZVF8xRmd3ZllMWXg1RUp0cFNfYm5DLUhCWUI0RmRIWHlDcndfLVk1RGZUNG1Cdmlad3NB?oc=5",
-     "date": "2026-11-18T23:13:35Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "CNN",
-     "title": "NSA outage hits key facility for Middle East intel operations as agency resorts to workarounds, sources say",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQk0wUERwNVA3anJGSW1DbHhpNkFTTUZxR20yeUFCNWphcFluNjhuMFlEWldobkRDNTE0RFRFaDlRSmFGYW0ySGJEZU1UV2FCVWZfeHhLQ0FQYi14T2J2RTAxajZYMUhxSlM1aG5RNUNuYzUycXBhOEpNdXBNcnRNWFdmQXVSYWtKcnctenJUMnVHRkNNajFLdGxDeldtMzF0V1lWTQ?oc=5",
-     "date": "2026-11-18T23:00:53Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The Record",
-     "title": "NSA continues response to interruptions in classified internal network",
-     "link": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
-     "date": "2026-11-18T16:19:00Z",
-     "desc": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
-     "cat": "service",
      "outage": true
     }
    ]
@@ -1938,6 +1897,30 @@
   },
   {
    "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "93.3 The Drive",
+     "title": "Equinor says cyberattack still ongoing but output unaffected",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlpnVTBPemVfZmdTT1J4ejVfc2JMZ0VwZWdNUTBiUTFIUWFYbFZERHhoVFlNU0NTclNjbWlQTXZwSEFqeG45cXZhVk1GekJwcTBnOHZNczhWWUZWZWdFUkN6Y1NMWEM3MnE0VHN4djVVS3lGX0hUSEJadmZuTnJfbFkxcEI0X1E5TnVoVjN5ZWtnQ0JhdlJKLXhIVGg2TWNpd0E?oc=5",
+     "date": "2026-11-19T12:28:21Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "marketscreener.com",
+     "title": "Equinor Says Cyberattack Still Ongoing",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHVzRlJBajVpOFJpZ180T1VDeUxmYVB5dERFaEVHaTVLSm5RcnduS3hJVTlGQlRac3JWNjlwRktOY0UwOG9QcG1FQ0Y4bWRjaVFYNkgzTElQczFQOGlZR1BCNlBOb1d2Y2ozMXpNWnpaN0pNY2xkMExGc2VkdXBpamZrN2dvM1BvcTItR0h4V29jb3VGbGc?oc=5",
+     "date": "2026-11-19T11:39:12Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "service",
    "headlines": [
     {
@@ -2010,30 +1993,6 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "StreetInsider",
-     "title": "Equinor says cyberattack still ongoing but output unaffected",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2dVNTZjMzJnVF9CaXlLR3NFc0ZlTzRlaXdfU2J6blpZUnFLVDZ2UWUtdkRKLWp4X1FRUUc4ZWhGWnJqM3k5YTJyN0kzeWJVQmdvQ2dSOWhzMWpPWGdjOWNKNTRJd3AtLXk0RktsTW00RzZVczNEUVc2YndFRkFYUk1FUTRSQnR2ZzcxbzNxYllpWHFvbGZVMHJlQnJzVkRncTViQVVQMXNrdVpleHc2NDZR?oc=5",
-     "date": "2026-11-19T11:44:40Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "marketscreener.com",
-     "title": "Equinor Says Cyberattack Still Ongoing",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHVzRlJBajVpOFJpZ180T1VDeUxmYVB5dERFaEVHaTVLSm5RcnduS3hJVTlGQlRac3JWNjlwRktOY0UwOG9QcG1FQ0Y4bWRjaVFYNkgzTElQczFQOGlZR1BCNlBOb1d2Y2ozMXpNWnpaN0pNY2xkMExGc2VkdXBpamZrN2dvM1BvcTItR0h4V29jb3VGbGc?oc=5",
-     "date": "2026-11-19T11:39:12Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "internet",
    "headlines": [
     {
@@ -2076,6 +2035,30 @@
      "date": "2026-11-19T08:37:00Z",
      "desc": "",
      "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "NBC News",
+     "title": "Apple tech issues appear resolved after outage",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLV9fNlpuYUZyZWw3cDluVnZFb29Zelp1R2hYYlY3dVB1cm14RC1qb3F0ZzdpcGdsangxTnpqdEFKMFBnRlp1cHZLRGxNd0JqVVVWYWlYS0JjWVNHODVtVUs2VElmbUJqXzNZWG9udmtZbHNkOUZod0xSVlJBZnl5TEFSOUhaNkZFMEJKaF94cjNpbEVJdmZfak9zak0?oc=5",
+     "date": "2026-11-19T09:48:59Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Yahoo Tech",
+     "title": "Apple outage affecting iCloud, Apple Pay and other services appears to be resolved",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTXlSYms4U0dyYmVKNnlYSTFHVmFCWWt2XzZ0Zkp5TmV2N1lta3VRN3hJN3I4ZHd2dS1VdzBMMGZyUDFFcXBCbzdvZ1c2NFRRd2tMQTJ2dlVzdXVZRklhTGNFZ1E2bkVjUzVrVjIzTWZzTkc4Tk9kTE9OTF9wLXRpTWF0MzIyRi1oZktobTEwOVdTSHRBdWVqLWgyUlFxTUI0SWJoM2NWTkJMQ0hxTEE3TG5VZFlsNXF0bmVzRmM0RC00UFQ0Y3RYRmJUeDUxcWgtMUNDaDVZTHJlRW9rN012NGZWMzk3NnZTNVZJNzFXS2FuM01ZeWc?oc=5",
+     "date": "2026-11-18T15:36:30Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -2268,30 +2251,6 @@
   },
   {
    "pubs": 2,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "KSBW",
-     "title": "Outages leave over 12,500 customers in Monterey County and Santa Cruz County without power",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMklVeU1KU1ZDbkxIbDhIVWNEMy0ybGI0TUdpclFtNXBBWGZaN2tNV2M1WkxRWWVJMlNBNHBjZEtEdWVCVFZLMGY1cG92YzlSN3drczhCTGFNYUV1ZGRiQ1NsbDhiM2JIRUY0Y1VwX2JhazM5SU1mRXZENVJPa2tQZFlwd3N1cmc?oc=5",
-     "date": "2026-11-18T22:35:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "Electric Choice",
-     "title": "Harris County Power Outages \u2014 2,059 Without Power",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81cTB6eWxuSmhWX3JtSG93c3Y4V3prUWgzbnNqMTZLLTVGaklEQ2RnSWh1dmdkOGpaUVI4Qk5jUkM5YmM5dEZqbF9LQmlNc1dOMkVOZUVKdnJ2WXljUlBOcHI1N0s1WUtjN3U0?oc=5",
-     "date": "2026-11-18T19:37:34Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "service",
    "headlines": [
     {
@@ -2358,6 +2317,21 @@
      "date": "2026-11-18T13:36:26Z",
      "desc": "",
      "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "WMTV 15 NEWS",
+     "title": "Gov. Tony Evers calls for transparency after nationwide outages",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWZWQkFvbUw1NVo4Q1R1dUdZQ2hUVU5BamxjaHZ6Y3RXa1VVRmlzdll1dFQxTnlvWEtHX1FjUnpITVpIak5iWm5YanFscU1vYWpxX0tkQ0sxMEk5Ynp3WVFyWVltczlIRXVoVm0za1FzQmctRjFmOFh0SmVZSUM5NEUzYVYwWnRid25Rb0RpTXJma2didjVwMmZTV0xaUQ?oc=5",
+     "date": "2026-11-19T12:22:00Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     }
    ]
