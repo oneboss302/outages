@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-19T01:15:21Z",
+ "updated": "2026-11-19T02:15:20Z",
  "counts": {
-  "internet": 11,
+  "internet": 12,
   "services": 5,
   "hazards": 1,
-  "news": 26,
+  "news": 28,
   "correlated": 3
  },
  "internet": [
   {
    "loc": "country/GI",
    "name": "Gibraltar",
-   "score": 23068.259587020646,
+   "score": 23139.036381514255,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T11:25:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "GI",
@@ -26,12 +26,12 @@
   {
    "loc": "country/TD",
    "name": "Chad",
-   "score": 21367.613636363636,
+   "score": 22049.242424242424,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T17:55:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "TD",
@@ -41,12 +41,12 @@
   {
    "loc": "country/SC",
    "name": "Seychelles",
-   "score": 17543.096118299447,
+   "score": 17642.883548983365,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "SC",
@@ -56,12 +56,12 @@
   {
    "loc": "country/GQ",
    "name": "Equatorial Guinea",
-   "score": 17358.292682926833,
+   "score": 17455.826558265584,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "GQ",
@@ -71,12 +71,12 @@
   {
    "loc": "country/FI",
    "name": "Finland",
-   "score": 15205.521893045636,
+   "score": 16170.326344537521,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-17T09:00:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "FI",
@@ -86,12 +86,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 13142.313432835821,
+   "score": 13231.8407960199,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -99,46 +99,15 @@
    "news": []
   },
   {
-   "loc": "country/RS",
-   "name": "Serbia",
-   "score": 10457.072499730284,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-19T01:15:21Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "RS",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/RS",
-   "news": []
-  },
-  {
-   "loc": "country/HT",
-   "name": "Haiti",
-   "score": 9034.709275830572,
-   "sources": [
-    "Google traffic",
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-18T04:00:00Z",
-   "end": "2026-11-19T01:15:21Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "HT",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/HT",
-   "news": []
-  },
-  {
    "loc": "country/CD",
    "name": "Democratic Republic Of The Congo",
-   "score": 8957.577144933362,
+   "score": 10661.415216103762,
    "sources": [
     "Google traffic",
     "Routing (BGP)"
    ],
    "start": "2026-11-18T04:00:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "CD",
@@ -146,14 +115,45 @@
    "news": []
   },
   {
+   "loc": "country/HT",
+   "name": "Haiti",
+   "score": 10603.934635789754,
+   "sources": [
+    "Google traffic",
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-18T04:00:00Z",
+   "end": "2026-11-19T02:15:20Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "HT",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/HT",
+   "news": []
+  },
+  {
+   "loc": "country/RS",
+   "name": "Serbia",
+   "score": 10523.727838314095,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-12T12:25:00Z",
+   "end": "2026-11-19T02:15:20Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "RS",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/RS",
+   "news": []
+  },
+  {
    "loc": "country/SV",
    "name": "El Salvador",
-   "score": 6352.927387964322,
+   "score": 7688.374246750817,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-18T20:30:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "SV",
@@ -163,16 +163,31 @@
   {
    "loc": "country/TJ",
    "name": "Tajikistan",
-   "score": 2324.702702702703,
+   "score": 2389.5495495495497,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "country",
    "code": "TJ",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/TJ",
+   "news": []
+  },
+  {
+   "loc": "country/NL",
+   "name": "Netherlands",
+   "score": 1435.2238805970148,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-18T02:28:00Z",
+   "end": "2026-11-19T01:47:00Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "NL",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/NL",
    "news": []
   },
   {
@@ -190,10 +205,19 @@
    "url": "https://ioda.inetintel.cc.gatech.edu/country/CN",
    "news": [
     {
-     "src": "WPDE",
+     "src": "Guardian",
+     "title": "Trump downplays US outages and Nvidia security concerns in remarks before China summit \u2013 live",
+     "link": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates",
+     "date": "2026-11-19T01:43:27Z",
+     "desc": "Asked by Fox News about China\u2019s alleged spying operation, president says: \u2018We spy on them too. I think we spy better than they do.\u2019 Sign up for US breaking News email Linked to that, the White House held a briefing call\u2026",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "NBC Montana",
      "title": "Trump arrives in China ahead of high-stakes talks with Xi, Putin amid US technical outages",
-     "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPY2tsSkFMTXJqWXJZU0VZSmJzRDl4M2xkQjJPNUZKQ1NBWFVKS2MwNDBJTXlYSlNyN2szUDE1YzBoZk9mYWZXSkZaYm40M0JDX2dYcDA1eEVWM3hlNkNTLWswdFktWHdJTkdOQ0ItTU1xcU5XTVFrMDlKTWpMdnJNNlB6S0t3eFRJY1hKV3UyQUxJWjVERk40U081MndUZmNxb1FsMTZvdk1mMHpvblpySTlMQTVmbUkwak9SOWVoeDFmV2daNHNPR0N6S0FLSUxhbVBGSVBFZ1VmcFF0YmJQV1Rhay1va0lwMDZvMnkyRmhkYWU1SU4wbGNHdWVBRVIyeEc3aEl5bmM4V0xmU3pTR1pwb2xYYzNYUjBqbUZTMkVnbDFjVVRMdklFR2tVTUUtR2xCZ0oxT0NjSVJWakF4cElMYlRZbzVtbE8zbm5WQ1ZoRjNKRHZVZlhoaXpsRjdGU0dZbHAzY0o1LWtwVm5NY1hzalpRQQ?oc=5",
-     "date": "2026-11-18T12:25:59Z",
+     "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOaXdpSElhZWpCSmpOa1FpbkVOUFhxYkRVNUJVT3lMVjhXRTVvaVJiRFZlc1F1QTFGWHllUy1lUjZSYzdCRmN6VEt3NTN4aVNGbGN2MHhFbkxXOTkxOXNpeHRFTFBCcGpJdTVUVmtha3dhWk5UWkkxV2xRb3hFVUxzQmZtc1FOMkRIMi10LWVXYm1saUVZN3NFX0dnNFl1clF4SnM1ZExrX2xHQ0NpVUtlMVl6dU1vWjJVa1RORWpfa284Y2MtbEliS1RUU3h1cFd0R1EzVS1sU09iWFMzbHZkYnJpTGhGbnVHbUROX29fVjdCZ0JHOUpENlAwYTRWTGVBS1lfbGpKcWY3UmF6b29DcncyWDFrZlA1dkM5RjdIdlROblc3Nl9ES3FiY0VxVURnS3pFYjdXZHZ0YTlibGdhVmdzOHJxcVdoTlp1X1hjQ1lZQ0t5dGJFZmN1QnpxQ3paRFQ5RVBTLXJlXzh6bzVjQVREUjNkYXgyQlRPVU9B?oc=5",
+     "date": "2026-11-19T00:35:05Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -289,21 +313,6 @@
    "kind": "country",
    "code": "VI",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/VI",
-   "news": []
-  },
-  {
-   "loc": "country/NL",
-   "name": "Netherlands",
-   "score": 1435.2238805970148,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-18T02:28:00Z",
-   "end": "2026-11-18T18:30:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "NL",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NL",
    "news": []
   },
   {
@@ -442,21 +451,6 @@
    "news": []
   },
   {
-   "loc": "country/FM",
-   "name": "Federated States Of Micronesia",
-   "score": 506.0240963855422,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-18T04:00:00Z",
-   "end": "2026-11-18T23:00:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "FM",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/FM",
-   "news": []
-  },
-  {
    "loc": "country/TV",
    "name": "Tuvalu",
    "score": 506.0240963855422,
@@ -469,6 +463,21 @@
    "kind": "country",
    "code": "TV",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/TV",
+   "news": []
+  },
+  {
+   "loc": "country/FM",
+   "name": "Federated States Of Micronesia",
+   "score": 506.0240963855422,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-18T04:00:00Z",
+   "end": "2026-11-18T23:00:00Z",
+   "ongoing": false,
+   "kind": "country",
+   "code": "FM",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/FM",
    "news": []
   },
   {
@@ -626,12 +635,12 @@
   {
    "loc": "region/2108",
    "name": "Ka\u00f4h Kong",
-   "score": 376633.75,
+   "score": 378133.3333333334,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2108",
@@ -640,12 +649,12 @@
   {
    "loc": "region/2129",
    "name": "Tak\u00eav",
-   "score": 155848.4482758621,
+   "score": 156468.9655172414,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2129",
@@ -654,12 +663,12 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 50835,
+   "score": 51120.634920634926,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
@@ -668,26 +677,40 @@
   {
    "loc": "region/2951",
    "name": "Plateau",
-   "score": 39401.25,
+   "score": 43900,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T16:45:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2951",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/2951"
   },
   {
+   "loc": "region/353",
+   "name": "Barisal",
+   "score": 39529.41176470588,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-04T13:10:00Z",
+   "end": "2026-11-19T02:15:20Z",
+   "ongoing": true,
+   "kind": "region",
+   "code": "353",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/353"
+  },
+  {
    "loc": "region/4442",
    "name": "Indiana",
-   "score": 38508.05074277541,
+   "score": 38706.740781674955,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "4442",
@@ -696,12 +719,12 @@
   {
    "loc": "region/2128",
    "name": "Svay Rieng",
-   "score": 35447.88235294118,
+   "score": 35589.01960784314,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2128",
@@ -710,12 +733,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 31956.91176470588,
+   "score": 32133.333333333332,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -724,12 +747,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 30355.967741935485,
+   "score": 30549.462365591397,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -738,12 +761,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 29939.47949526814,
+   "score": 30109.77917981073,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -752,12 +775,12 @@
   {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 28219.22005571031,
+   "score": 28553.38904363974,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
@@ -771,7 +794,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-11T11:00:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "1607",
@@ -780,12 +803,12 @@
   {
    "loc": "region/4847",
    "name": "Unknown Region in Gibraltar",
-   "score": 23068.259587020646,
+   "score": 23139.036381514255,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T11:25:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "4847",
@@ -794,12 +817,12 @@
   {
    "loc": "region/2602",
    "name": "\u0160tip",
-   "score": 22448.057553956838,
+   "score": 22793.28537170264,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-16T08:15:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2602",
@@ -808,54 +831,54 @@
   {
    "loc": "region/356",
    "name": "Rajshahi",
-   "score": 22349.95633187773,
+   "score": 22454.730713245997,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "356",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/356"
   },
   {
-   "loc": "region/3442",
-   "name": "Volgograd",
-   "score": 21830.26141992295,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-19T01:15:21Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3442",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3442"
-  },
-  {
    "loc": "region/3945",
    "name": "Ville de N'Djamena",
-   "score": 21367.613636363636,
+   "score": 22049.242424242424,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T17:55:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "3945",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/3945"
   },
   {
+   "loc": "region/3442",
+   "name": "Volgograd",
+   "score": 21932.5995230233,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-10T04:00:00Z",
+   "end": "2026-11-19T02:15:20Z",
+   "ongoing": true,
+   "kind": "region",
+   "code": "3442",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/3442"
+  },
+  {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 21083.489822718322,
+   "score": 21213.460275771507,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -864,12 +887,12 @@
   {
    "loc": "region/4858",
    "name": "Unknown Region in Czech Republic",
-   "score": 20627.405405405407,
+   "score": 20692.252252252252,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-05T19:15:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "4858",
@@ -878,12 +901,12 @@
   {
    "loc": "region/633",
    "name": "Fujian",
-   "score": 20022.07280513919,
+   "score": 20135.103497501786,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T16:10:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "633",
@@ -892,12 +915,12 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 17564.04761904762,
+   "score": 17659.25925925926,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
@@ -906,12 +929,12 @@
   {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 17387.14285714286,
+   "score": 17487.95518207283,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -920,12 +943,12 @@
   {
    "loc": "region/596",
    "name": "Glarus",
-   "score": 13354.051724137931,
+   "score": 13457.471264367814,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T16:10:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "596",
@@ -934,12 +957,12 @@
   {
    "loc": "region/714",
    "name": "Rarotonga",
-   "score": 13341.439393939394,
+   "score": 13432.323232323233,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "714",
@@ -948,30 +971,16 @@
   {
    "loc": "region/2501",
    "name": "Str\u0103\u015feni",
-   "score": 13056.111111111111,
+   "score": 13151.322751322752,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T08:10:00Z",
-   "end": "2026-11-19T01:15:21Z",
+   "end": "2026-11-19T02:15:20Z",
    "ongoing": true,
    "kind": "region",
    "code": "2501",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/2501"
-  },
-  {
-   "loc": "region/1757",
-   "name": "Dadra and Nagar Haveli",
-   "score": 12872.193732193733,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T05:00:00Z",
-   "end": "2026-11-19T01:15:21Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "1757",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/1757"
   }
  ],
  "services": [
@@ -1097,10 +1106,10 @@
     "Ahmedabad, India - (AMD)",
     "Albuquerque, United States - (ABQ)",
     "Arica, Chile - (ARI)",
-    "Baghdad, Iraq - (BGW)",
-    "Cache Reserve"
+    "Cache Reserve",
+    "Annaba, Algeria - (AAE)"
    ],
-   "n_components": 88,
+   "n_components": 91,
    "news": []
   },
   {
@@ -1361,6 +1370,16 @@
   },
   {
    "kind": "Earthquake",
+   "title": "M5.2 earthquake, 141 km W of Teluk Dalam, Indonesia",
+   "when": "2026-11-19T01:34:52Z",
+   "level": "green",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubxb",
+   "place": "Indonesia",
+   "detail": "",
+   "news": []
+  },
+  {
+   "kind": "Earthquake",
    "title": "M5.2 earthquake, 169 km S of Attu Station, Alaska",
    "when": "2026-11-18T21:28:47Z",
    "level": "green",
@@ -1489,7 +1508,7 @@
      "src": "WRAL",
      "title": "Reports: Outage hits PlayStation Network on eve of 'Grand Theft Auto VI' release",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZm1FbzlacGNWWTEtZ0FBaFVfbnJXdnU2RWNBTGtpc2tEaUpzRFpZY2tweHVVMzRuajZITThhSEpQMDJQZzRpM2RHTmJxclA4WDAwcnhoYUxlLU9wUHB1TzFGUUR2SFN6TWw1YTVtbS03MTRxd2ptM3dndzZmTDNWc3FMX2hwamdDNzk2YXdVNU9xNHVTTkJ0bWtWSzRqS3BrMlpEcTM1OC1hVjZnY2MwMFp4aw?oc=5",
-     "date": "2026-11-18T22:33:14Z",
+     "date": "2026-11-18T23:54:57Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1542,33 +1561,15 @@
    ]
   },
   {
-   "pubs": 9,
+   "pubs": 5,
    "cat": "service",
    "headlines": [
     {
-     "src": "Yahoo Tech",
-     "title": "Apple outage affecting iCloud, Apple Pay and other services appears to be resolved",
-     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTXlSYms4U0dyYmVKNnlYSTFHVmFCWWt2XzZ0Zkp5TmV2N1lta3VRN3hJN3I4ZHd2dS1VdzBMMGZyUDFFcXBCbzdvZ1c2NFRRd2tMQTJ2dlVzdXVZRklhTGNFZ1E2bkVjUzVrVjIzTWZzTkc4Tk9kTE9OTF9wLXRpTWF0MzIyRi1oZktobTEwOVdTSHRBdWVqLWgyUlFxTUI0SWJoM2NWTkJMQ0hxTEE3TG5VZFlsNXF0bmVzRmM0RC00UFQ0Y3RYRmJUeDUxcWgtMUNDaDVZTHJlRW9rN012NGZWMzk3NnZTNVZJNzFXS2FuM01ZeWc?oc=5",
-     "date": "2026-11-18T15:36:30Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "PCMag Middle East",
-     "title": "iCloud Down? Users Report Outages Across Apple Services",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMC1aVGVGa2ZJaVRhZXZWRHNvVjZKRm1IRW1GemZqWFhXVG5IQzdWaEZvSE90TUNpSU1WVTc3OHJSbWZKNzRuVXJ3OFpOS2VUU0t4SWIyMXlDMkJCbGpJMzI2Q1pUbmdRYUpLd1NDRDQtWEdQUThyUHhieTVMOGliSEZjQkxTYTZkbUU2T2xQLXo5amVhVjhlMWRoODJ2UGwwMDhyUjVUR2pKTGNRLW1FSnh3?oc=5",
-     "date": "2026-11-18T04:28:09Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "BleepingComputer",
-     "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-     "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-     "date": "2026-11-17T19:24:07Z",
-     "desc": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+     "src": "The Record",
+     "title": "NSA continues response to interruptions in classified internal network",
+     "link": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+     "date": "2026-11-18T16:19:00Z",
+     "desc": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
      "cat": "service",
      "outage": true
     },
@@ -1595,6 +1596,57 @@
      "title": "More major tech outages reported, including NSA and Apple",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNREJQazhfdDZudWJ1SGtqTEFoWkd0VVc3UFQ0ZWZMOUxZYXVsejc4OWFQTldKekZvN01sTnhKMjVkUVJiMjk1LUxsY1NYZlVFSno2S2hGQWd3V3RPbFB3cGMzaXFqOWhVdGtHQkRkQ25SU1dzVVV3MGRXSkpSaXJrOVpyTXAzQjIwa0psb2gxWW1ZTzlhUjhibA?oc=5",
      "date": "2026-11-18T12:50:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "WDSU",
+     "title": "NSA network and Apple services hit by outages amid recent tech disruptions",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLY2dabzlmVmtQT2FmODRlejctTnlGRGZYRV9ZaTBlMnl6bGV5Um8xMDZyOEsxRUlBZno1T3M1SUhoSWpIamdKdnZPYmxtbl80X1E1TzBZWDFvUnlsUmFfWFpyZ1pzMnFfRzZfaXJuSTlycGpp?oc=5",
+     "date": "2026-11-18T04:16:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 4,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "CBS News",
+     "title": "Some Americans stocking up on supplies after wave of major tech outages",
+     "link": "https://www.cbsnews.com/video/some-americans-stocking-up-on-supplies-after-wave-of-major-tech-outages/",
+     "date": "2026-11-19T01:07:32Z",
+     "desc": "Some Americans are stocking up on food and supplies after the recent wave of tech outages that hit several American companies and the federal government. Officials have said there is no evidence that the outages are\u2026",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Foreign Policy",
+     "title": "The U.S. Tech Outage Wave, Explained",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnVhWEE5dnJ5bnhvemZFdXB3blZ2SjZSU0pFZlJ2UWpMTXZEY3ZESDJ1eTNkYXY5dzRrNVpLOERfczhHdDFEY2preF9vZTF1Zk9KbF9DN3RnRDhVVnB0M3p0N1JYcy1oLUkxdFZXNF9IbzgwalNJUjgzazYtazdRNElpbi1YOTFWTUhnTEYtZVVQQ0hDQnlMMlB1N0NrR1E?oc=5",
+     "date": "2026-11-18T21:56:18Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "CBC",
+     "title": "Flights, banks, emails: What we know about a U.S. wave of tech outages",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWmlMX3ROUXc4Nk9INzFZaFdiSW1XREp5N3FFWFd1aEN4MGZRYkhMTXRKVlBGM3lVX19mVkRXX2lra0lHb1VvenJtSkxNVjhLdmVEdFZkbmdyOW5fX3Vpa1dzTVdQdURERFZaRldNWGNWcEJFaGVjTE96VFQyclhRa2F2NjBSMXUyQ2FIOTJ3Rjg3WEE?oc=5",
+     "date": "2026-11-18T19:32:09Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Newsweek",
+     "title": "MAGA Questions Trump Administration After Wave of Tech Outages",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00NlV6ZUc2Q2x5cTFzWko1R2NkU24wNkNoMWlRNnQ4SFFfM3JEVk5LZDU2bkh0VExRTDlqQVN1UGxIdTlZZ2ZOWUd6enlrT2tQcUllOGRCOTE4YzYyY0o0c0ZlSzhvUmly?oc=5",
+     "date": "2026-11-18T14:45:00Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1663,115 +1715,40 @@
   },
   {
    "pubs": 4,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Trump administration continues to insist tech outages not cyberattacks - ABC News",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2xuYmRKREUxeWp5ZnJYcXYzemJTU0xWcFluSW9lRDRLc2FGbWtKMDkyNjhiUTd3dFdQZWgzTzRRd3RPX2d4em9jWXJoQlB5VGlEX19sc3ZHTEV4RS0wVkR5Njd1a3RjVzBCRDlIZlpOVTJ3Ymw3bUVHYkZqM0RyNWtrLTJwSEZwLWJ5bVliS20wRkIzcmhmcEppaUxyRjdvVHVSRmJxRFQzeFHSAbABQVVfeXFMUHdIejhTQmUxTG9acUlscG9jdjhOVVNScGRtMUZRWERRdnFURW90QU9zSmVTd3ZDSjU2bUk2MHppeHU2bTNqaGRrYzFQVHRTblpUbW5iZjZGUVV1Z3BmT012YmI0UUhycDlycW1ZQ0p4eTBWWHprTk5iTFNGb3NGYXhTVjNXSXEzLUNjQ3pseWxmbGZUdWhnUi1NZTJMbFE5SG81LVExNXhoNUtDZjA4QzQ?oc=5",
-     "date": "2026-11-19T00:21:26Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "ABC News",
-     "title": "Trump administration continues to insist tech outages not cyberattacks",
-     "link": "https://abcnews.com/US/national-intelligence-director-signs-cyberattack-amid-tech-outage/story?id=138229967",
-     "date": "2026-11-18T21:39:37Z",
-     "desc": "Sec. of State Rubio also sought to assuage fears over recent outages.",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Quartz",
-     "title": "Trump administration says tech outages are not a cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0ZnVTUTZhYmZIcVI3cDdWUGhLWXJZQzV0WGVnRkRXc1NYRm44cGE2aFcwRTlHN2stZlFVTm9iX05OWWVnS3g4d2hPV1hXeTVxUEFVcHo3bGhIYjJqaVJCQVk3YU9CMGtQbkJIbjlpbFRjUUZJbENRVERRVQ?oc=5",
-     "date": "2026-11-18T18:24:20Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Newsweek",
-     "title": "MAGA Questions Trump Administration After Wave of Tech Outages",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00NlV6ZUc2Q2x5cTFzWko1R2NkU24wNkNoMWlRNnQ4SFFfM3JEVk5LZDU2bkh0VExRTDlqQVN1UGxIdTlZZ2ZOWUd6enlrT2tQcUllOGRCOTE4YzYyY0o0c0ZlSzhvUmly?oc=5",
-     "date": "2026-11-18T14:45:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 4,
    "cat": "service",
    "headlines": [
     {
-     "src": "The New York Times",
-     "title": "What to Do Before the Next Big Tech Outage?",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNkd4b3ZjR2NqRUpnV2g3ZURhWDUxeVhGTkFyekFrTzk1NVI1SkhSTW5QTDJNU19EbXpGWV84SFFsRWZJYVNtWWxyNG9vb3pKSnVBMTBrclYtdTRUazlSdzJPclZ0enl3R3FzNFRFQzBNU2YzT0F3bjFIaE9SU2M0cmJJUXQ?oc=5",
-     "date": "2026-11-19T00:16:04Z",
+     "src": "Yahoo Tech",
+     "title": "Apple outage affecting iCloud, Apple Pay and other services appears to be resolved",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTXlSYms4U0dyYmVKNnlYSTFHVmFCWWt2XzZ0Zkp5TmV2N1lta3VRN3hJN3I4ZHd2dS1VdzBMMGZyUDFFcXBCbzdvZ1c2NFRRd2tMQTJ2dlVzdXVZRklhTGNFZ1E2bkVjUzVrVjIzTWZzTkc4Tk9kTE9OTF9wLXRpTWF0MzIyRi1oZktobTEwOVdTSHRBdWVqLWgyUlFxTUI0SWJoM2NWTkJMQ0hxTEE3TG5VZFlsNXF0bmVzRmM0RC00UFQ0Y3RYRmJUeDUxcWgtMUNDaDVZTHJlRW9rN012NGZWMzk3NnZTNVZJNzFXS2FuM01ZeWc?oc=5",
+     "date": "2026-11-18T15:36:30Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "NBC News",
-     "title": "A simple reason could be behind recent big tech outages",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX3BXdnlyTE5KU0syclFCMlZhWkxQOWE0bmlDT2V0QXJOd05lc3ZSZ3BrREdoT2tpdmlFTHhjdFlvQlhiVFJ4cUZWVnkyWFp6M2lTQ2FkVFp1Tm5yVHFySFo4ZWRQckhxREpYSnhDTTluWlBRLWdpVWxVUEh3b3gwUDZfTERIc2RvSm9wckFIMHE0dzdzc2RxU1l4TUhWelBlOTZsQXM2RFA?oc=5",
-     "date": "2026-11-18T22:42:47Z",
+     "src": "PCMag Middle East",
+     "title": "iCloud Down? Users Report Outages Across Apple Services",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMC1aVGVGa2ZJaVRhZXZWRHNvVjZKRm1IRW1GemZqWFhXVG5IQzdWaEZvSE90TUNpSU1WVTc3OHJSbWZKNzRuVXJ3OFpOS2VUU0t4SWIyMXlDMkJCbGpJMzI2Q1pUbmdRYUpLd1NDRDQtWEdQUThyUHhieTVMOGliSEZjQkxTYTZkbUU2T2xQLXo5amVhVjhlMWRoODJ2UGwwMDhyUjVUR2pKTGNRLW1FSnh3?oc=5",
+     "date": "2026-11-18T04:28:09Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Electronic Frontier Foundation",
-     "title": "Outage Chaos: When Tech is too Big to Fail",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mRXpmWnJjU3FyUjZFMl9TQVQ3V2VlbjRHR0dGYzFLYzczbWY1SW5qb21hbnNyc1FSS29MN1F4UHpFTDREQTE0OTl0OWJtRFE2NFR1cXRCSmhWcHhUd1lvN29lai1yZnc2Z0JCT2JuTUFpbktXMlhzSGVtRGxPUQ?oc=5",
-     "date": "2026-11-18T19:52:17Z",
-     "desc": "",
+     "src": "BleepingComputer",
+     "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+     "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+     "date": "2026-11-17T19:24:07Z",
+     "desc": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "AOL.com",
-     "title": "Experts Say Exactly What You Should Do NOW To Prepare For The Next Big Internet Outage",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVzNieG5KSTg3bUs2WENydnNmb1Znekswd05NZzhKQjliczdMTlhidU9rT3NRdmFkcFVoU09xOEE3M3pwcm16VVJWdGVBZUFhVWtZNnZGZWNTN0I1c3Nkb1l0VE9PS3JGYzdLZDFDYXV6TXU1ZFZydDZwN184MUJTaDl3?oc=5",
-     "date": "2026-11-18T02:07:00Z",
-     "desc": "",
-     "cat": "internet",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "CBS News",
-     "title": "Some Americans stocking up on supplies after wave of major tech outages",
-     "link": "https://www.cbsnews.com/video/some-americans-stocking-up-on-supplies-after-wave-of-major-tech-outages/",
-     "date": "2026-11-19T01:07:32Z",
-     "desc": "Some Americans are stocking up on food and supplies after the recent wave of tech outages that hit several American companies and the federal government. Officials have said there is no evidence that the outages are\u2026",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Foreign Policy",
-     "title": "The U.S. Tech Outage Wave, Explained",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnVhWEE5dnJ5bnhvemZFdXB3blZ2SjZSU0pFZlJ2UWpMTXZEY3ZESDJ1eTNkYXY5dzRrNVpLOERfczhHdDFEY2preF9vZTF1Zk9KbF9DN3RnRDhVVnB0M3p0N1JYcy1oLUkxdFZXNF9IbzgwalNJUjgzazYtazdRNElpbi1YOTFWTUhnTEYtZVVQQ0hDQnlMMlB1N0NrR1E?oc=5",
-     "date": "2026-11-18T21:56:18Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "CBC",
-     "title": "Flights, banks, emails: What we know about a U.S. wave of tech outages",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWmlMX3ROUXc4Nk9INzFZaFdiSW1XREp5N3FFWFd1aEN4MGZRYkhMTXRKVlBGM3lVX19mVkRXX2lra0lHb1VvenJtSkxNVjhLdmVEdFZkbmdyOW5fX3Vpa1dzTVdQdURERFZaRldNWGNWcEJFaGVjTE96VFQyclhRa2F2NjBSMXUyQ2FIOTJ3Rjg3WEE?oc=5",
-     "date": "2026-11-18T19:32:09Z",
+     "src": "Scripps News",
+     "title": "Apple becomes latest major company hit by service outages",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRzFodllTUEJBMUFBR0xnenBYSEFWdmZvQURGVW5zUnBlaWptSmMtbDlDZUw4ODlTVlhUQ2RlS1hCaTY4ajhzN3NYbVBFTlJXUmlJS3VvN2xvVFBES01GN1pFaE9CYl94U19kejFUbnRHbkV0MWg5clMxSmEyS2ZQWEJPOG9QTEppTV8zVDQyOGxDTFVzZFdocVYyTWZoMzVaZTMzVg?oc=5",
+     "date": "2026-11-18T11:19:44Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1788,15 +1765,6 @@
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNENuckNXMUlsODdxZnZnTFZicTR0bmk0aDY2ZzBEUEd3ZHJRaFNjVDNpWmxzTk1jNnBpVHlvdmE3ekhka3YxVmIzVUZKQUotM0x0Zk9SV2h5UkZMSVdpb2VEVUpXNms3aHV4N2w5eEFybGNWVE9jRmJkUzZTTU9uNVFvZzJNdlJkeXRCZkhUcnN2V190WnBJ?oc=5",
      "date": "2026-11-18T22:28:00Z",
      "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "CBS News",
-     "title": "NSA network outage linked to software vulnerability",
-     "link": "https://www.cbsnews.com/news/national-security-agency-network-outage-software-vulnerability/",
-     "date": "2026-11-18T22:28:00Z",
-     "desc": "The director of national intelligence and multiple sources said the National Security Agency's network outage stemmed from the patching of vulnerabilities in the programming language, PHP.",
      "cat": "service",
      "outage": true
     },
@@ -1822,39 +1790,6 @@
   },
   {
    "pubs": 3,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "Newsradio WGAN |",
-     "title": "South Portland officials say some services will remain offline amid investigation into potential cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOUtkTXdWTVEyM0QyZXJQOTc5N0tzdFlORFNnTEdhZHNnVGwxT05JUlZwZFFWajE4aFRJbjZtbVJ5MEwxMlEzeVRJYnlZaGVvQmMyTUNSdUVvY05QZ2dYUkM3Nm8yZTRyeU9rVFBuNy1hVGdpQnpnZ3U1R29oRFM3RDlINTNkVmNWT0VvbGhwbjJBbDlVNG0wTHNlemVaTjV3ck1tS2tKbF90MGpwTjhJbHZwbTlQUUlpUnB4TzZ2Y3lVYjY5VmNPUW9SajcyOFVoY0JnaA?oc=5",
-     "date": "2026-11-18T21:45:09Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "The Portland Press Herald",
-     "title": "South Portland city services remain closed after cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNUdjUWZEOVE4QWZmT2NWQm9ocDNDR0p2NWo2UEdUdlRvOW1XV1BqR0l1RF8tMzB0M25JdE1YRGcxWXY0QWw1MkwyN28zc2JBSXp3dzdoSjRtQjl6eEJhUGprQlZOVm90eWt2djhlQldiSVlWVGFyQjdtd2tWYXNqLWo3NmVTQk5TVEJMYkNEdC1Ha1JkQnVaTTlXRmxlN1dWTkE?oc=5",
-     "date": "2026-11-18T19:35:20Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "WMTW",
-     "title": "Most city data safe after cyberattack; still unclear when South Portland offices will open",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRk5fODN2ZU9fS2ZlNHNuZXgtUEZxSWpVZUxBSWxQaVZmNFpwb0taMURQQmlZUndNMDlxZ3B3NEJUOTJzU28yRG1KbFN5NDlNdVYxbGpuazVSUllfbm9iZGpXRmhpYUgzaDl2SUJVTnhkRkRJRmZ4dW9wX3gwQnJjVmFMYWg2RllKa21yTHJQOVNvUEtzOXRtYk1wX0tDallMVjR4NUVuaUE?oc=5",
-     "date": "2026-11-18T19:08:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
    "cat": "service",
    "headlines": [
     {
@@ -1870,7 +1805,7 @@
      "src": "Axios",
      "title": "PlayStation suffers major outage hours before \"GTA VI\" launch",
      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zb2xPNUJXUVhsZ3VnZk9zcDBUaXN2QlRIWHY5bldCMkJidjBRVDAwenRIekhkX1o5dHcxYmVnZ2RFVFU4clVMNXhoZFVBTzdtTE1rbFRGYnJ5cHZNeFgwUzJpclpwQjl3TGZ0c3lxWQ?oc=5",
-     "date": "2026-11-18T20:25:12Z",
+     "date": "2026-11-18T19:59:38Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1894,7 +1829,7 @@
      "src": "Bergen Record",
      "title": "Why are so many outages happening? Are they connected to a cyberattack?",
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeDdzMjFMMjk2ZHcwcGFRaXpySGg0cDhDU3JsbklEWktQNGw4ek84cnVjNkM3dks3RGpPVnN3QUpyWTlhcC1yTTlFRDF0OGpUREcxbWR3VnZNNlZuS3FkVjFLd1ZnSkZpdEFteXlqeHFPamZmZVlYbks0amtVNFhLMnpvSHdCZUo0T28tTEY2MHFrcElleEV5RVViQ0xJRU5JYnc4UHE2YTlhcDZMNmhDYXlaT3cxc2JTcWxhVEJNdndBaFRPQndJX3JScTZZYklVS3dURWxsU3o?oc=5",
-     "date": "2026-11-18T19:30:00Z",
+     "date": "2026-11-18T20:05:00Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -1987,24 +1922,24 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
+   "cat": "service",
    "headlines": [
     {
-     "src": "Guardian",
-     "title": "Trump\u2019s transportation secretary blames contractor for nationwide FAA ground stop \u2013 live",
-     "link": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates",
-     "date": "2026-11-19T00:50:01Z",
-     "desc": "US transportation secretary Sean Duffy blames contractor L3Harris for national ground stoppage and says \u2018this was not identified quick enough\u2019 Sign up for US breaking News email Linked to that, the White House held a\u2026",
+     "src": "Facebook",
+     "title": "What would happen if you couldn\u2019t access your bank tomorrow? Following recent technology outages that affected banks, airlines and major companies, experts recommend keeping cash at home for emergencies. Would your family be prepared if ATMs and b",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNGdyQ3p3bXBsdnRhTE1CWnJNSmdXaEItcTRGM2dxcWZlMWtpc0R2aXY4eXN2eDZ6RnpleE0tNldPMzZHOGRveW5MR0c1TlMyNEpaTElFUTlvQ0JMd2FUYk96MHQ2MXNhLUJlazdhMkRSTERYRmdwa1VpR1dSU2VEUkx2VXd6RFUyY1lLVmtOZ3JmSGFBdzVSMnNwWkpOanprbzN4S09ELVBTelNsckNGZEZsbkJoYmtLelhCMU1EalJiZGtqbk9oeTZQMUllUEJOdG9jdmdXVHZrSFF6cFA4SA?oc=5",
+     "date": "2026-11-19T01:30:48Z",
+     "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Facebook",
-     "title": "Washington Post. . U.S. intelligence officials say recent service disruptions were unrelated and not malicious. Transportation Secretary Sean Duffy said no evidence of a cyberattack was found in the Nov. 13 nationwide flight ground stop. Cause remains under i",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUzZrMWFoTUozQ2g2aUFWQW5CRE5WMjV1cDh6Z1VvNGFQaW1oRHZJNmhhNlFVbGVnZWUyYl9TOUF6QTdoNkEwTjIxWFJ4WGoyRV9OVjhVc3JOOEtqdlJFbXZKMnRfVURTUWNVMUt1aVVjd3pIUVZUYy14cU9hRFJHQ19HN1ZRVjFyalhIR2FqLWRPVmFSRjlDZVRJa3kxa3VjdC1tOVgwU1dBcldxQXZ0QXRVVE1paEgzU0xsVEU2QTIzVFRlZkFCNmxIak9QcHRFc1haQ3oxMmtEek42eWc?oc=5",
-     "date": "2026-11-18T19:45:03Z",
+     "src": "chinadailyhk",
+     "title": "Apple, other major companies report technology outages in US",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Db21BV2wwT1NmaWRSVzk1cFhQX1ZSbTJyU3ltd0tQcExuQlFIMTlqR1pjcTRDNFJOSENXYlFMMF9SdXltYzFNQWZYeHNMR0dxNFgyZjRDWV8?oc=5",
+     "date": "2026-11-18T07:33:31Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -2029,6 +1964,78 @@
      "date": "2026-11-18T18:20:11Z",
      "desc": "",
      "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "ABC News - Breaking News, Latest News and Videos",
+     "title": "Trump administration continues to insist tech outages not cyberattacks - ABC News",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2xuYmRKREUxeWp5ZnJYcXYzemJTU0xWcFluSW9lRDRLc2FGbWtKMDkyNjhiUTd3dFdQZWgzTzRRd3RPX2d4em9jWXJoQlB5VGlEX19sc3ZHTEV4RS0wVkR5Njd1a3RjVzBCRDlIZlpOVTJ3Ymw3bUVHYkZqM0RyNWtrLTJwSEZwLWJ5bVliS20wRkIzcmhmcEppaUxyRjdvVHVSRmJxRFQzeFHSAbABQVVfeXFMUHdIejhTQmUxTG9acUlscG9jdjhOVVNScGRtMUZRWERRdnFURW90QU9zSmVTd3ZDSjU2bUk2MHppeHU2bTNqaGRrYzFQVHRTblpUbW5iZjZGUVV1Z3BmT012YmI0UUhycDlycW1ZQ0p4eTBWWHprTk5iTFNGb3NGYXhTVjNXSXEzLUNjQ3pseWxmbGZUdWhnUi1NZTJMbFE5SG81LVExNXhoNUtDZjA4QzQ?oc=5",
+     "date": "2026-11-19T00:21:26Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "ABC News",
+     "title": "Trump administration continues to insist tech outages not cyberattacks",
+     "link": "https://abcnews.com/US/national-intelligence-director-signs-cyberattack-amid-tech-outage/story?id=138229967",
+     "date": "2026-11-18T21:39:37Z",
+     "desc": "Sec. of State Rubio also sought to assuage fears over recent outages.",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "The New York Times",
+     "title": "What to Do Before the Next Big Tech Outage?",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNkd4b3ZjR2NqRUpnV2g3ZURhWDUxeVhGTkFyekFrTzk1NVI1SkhSTW5QTDJNU19EbXpGWV84SFFsRWZJYVNtWWxyNG9vb3pKSnVBMTBrclYtdTRUazlSdzJPclZ0enl3R3FzNFRFQzBNU2YzT0F3bjFIaE9SU2M0cmJJUXQ?oc=5",
+     "date": "2026-11-19T00:16:04Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Electronic Frontier Foundation",
+     "title": "Outage Chaos: When Tech is too Big to Fail",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mRXpmWnJjU3FyUjZFMl9TQVQ3V2VlbjRHR0dGYzFLYzczbWY1SW5qb21hbnNyc1FSS29MN1F4UHpFTDREQTE0OTl0OWJtRFE2NFR1cXRCSmhWcHhUd1lvN29lai1yZnc2Z0JCT2JuTUFpbktXMlhzSGVtRGxPUQ?oc=5",
+     "date": "2026-11-18T19:52:17Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "WYFF",
+     "title": "Several Spartanburg County schools, colleges announce eLearning amid water outage",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM2NpQ0FHZ1RaSE14YXdza0J1Ny1kaWRLRGFXdzVGZ2dDTHpRUWRhc1hlM2dLMDRjeWNDU3NwZkdPZ1VrTl84UWxrdEVodWE1V2lraTRkc2FmNXdKeDZhV0k4M21teVlNQk9pRFUzM1NoZHhuNzFoYVRnOWtRMFVEN09RZTl5ZDZmbWc?oc=5",
+     "date": "2026-11-19T00:08:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "FOX Carolina News",
+     "title": "Officials: Spartanburg Co. School districts, colleges announce eLearning days amid water outage",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQXFpc1JPSzloY19VMnhSVFFFbjNPUGRDTkZyLWMxbC04WF9IQi1ncUVNMk0waXdSQW9DbTFNUmdKdnl4eU1IZlJvOWZ0aFI0NHJYSllpY3cxQ2IzSmxZSVVRbjRvSUVXdXNJOW82bHlqOEJRaHRaeklEckNReGp5Rk9uVnBUdS14ZnZCcDNaazNGX0NVdjVzY1AwelRyWlpsYThaUTM0U0hLNTR2X0JFeHFuYXFxVVJfRGpWSnBR?oc=5",
+     "date": "2026-11-18T21:12:00Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -2140,30 +2147,6 @@
   },
   {
    "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "WEAU",
-     "title": "DHS pressed for answers amid outage wave",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaUhVMWRkRGt3UFI5YzZPWXlqU2dEQUlKV0pLX2J3R3pFTE0yNE56QXA4cktfcnBjR2tnY2ZPaDdNR2RMTncwLWZoSU90U29sMmpLSFd5cTFwRDF6enQzN21vZDRhUUdXUGFwWHZuYmNHamhZZkxRQ01hdGlaemNVbg?oc=5",
-     "date": "2026-11-18T22:50:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "NBC News",
-     "title": "DHS secretary \u201898% confident\u2019 tech outages not caused by US adversaries",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSWM3MmdzT0FXWTNuaEVWRi1xRkFPN2tDVnVHT0VWNzRSYm9ZNWdBSU52R2duOEZmOUMtSXBUcFhaemxhMGZQMzJYVnNvNXFxMnl3eEhaRGxOUGV0STdUTzc2U2YzbTlydGFGZ3ZTWmJOVDdMNFVBWXFwNzZURzNRWnNEb1hKblBPWkhsU1NLbnpUNGwyY3hPbTBhNm84blVOb2RmZkFzT01XX3I4Z0lEN3ZkNWh5bzdjcWxZXzM2ak1uWUdT?oc=5",
-     "date": "2026-11-18T21:33:43Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -2180,6 +2163,30 @@
      "title": "Thousands without power as heavy rain, snow and wind pass through California",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTlXU3BRZHJLMmZjNmtMNDR1RG9sTmJteUNfbVAySHlSaXpJRDdhNjlzdnlhcXZOVUdqMXdMNE1mWElaMGV4YkowQnpzb2xEdnNMRTRYNmVWQW5nQl9rTExxSjY0NkYyN3o4RzZ2REU0bHNselBxQ1ZNXzlEVW9fbzJMTDh2UXpSRHF5OHY3R1FaUQ?oc=5",
      "date": "2026-11-18T21:11:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "KSBW",
+     "title": "Outages leave over 12,500 customers in Monterey County and Santa Cruz County without power",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMklVeU1KU1ZDbkxIbDhIVWNEMy0ybGI0TUdpclFtNXBBWGZaN2tNV2M1WkxRWWVJMlNBNHBjZEtEdWVCVFZLMGY1cG92YzlSN3drczhCTGFNYUV1ZGRiQ1NsbDhiM2JIRUY0Y1VwX2JhazM5SU1mRXZENVJPa2tQZFlwd3N1cmc?oc=5",
+     "date": "2026-11-18T22:35:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "Electric Choice",
+     "title": "Harris County Power Outages \u2014 2,059 Without Power",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81cTB6eWxuSmhWX3JtSG93c3Y4V3prUWgzbnNqMTZLLTVGaklEQ2RnSWh1dmdkOGpaUVI4Qk5jUkM5YmM5dEZqbF9LQmlNc1dOMkVOZUVKdnJ2WXljUlBOcHI1N0s1WUtjN3U0?oc=5",
+     "date": "2026-11-18T19:37:34Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -2236,6 +2243,54 @@
   },
   {
    "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Facebook",
+     "title": "Washington Post. . U.S. intelligence officials say recent service disruptions were unrelated and not malicious. Transportation Secretary Sean Duffy said no evidence of a cyberattack was found in the Nov. 13 nationwide flight ground stop. Cause remains under i",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUzZrMWFoTUozQ2g2aUFWQW5CRE5WMjV1cDh6Z1VvNGFQaW1oRHZJNmhhNlFVbGVnZWUyYl9TOUF6QTdoNkEwTjIxWFJ4WGoyRV9OVjhVc3JOOEtqdlJFbXZKMnRfVURTUWNVMUt1aVVjd3pIUVZUYy14cU9hRFJHQ19HN1ZRVjFyalhIR2FqLWRPVmFSRjlDZVRJa3kxa3VjdC1tOVgwU1dBcldxQXZ0QXRVVE1paEgzU0xsVEU2QTIzVFRlZkFCNmxIak9QcHRFc1haQ3oxMmtEek42eWc?oc=5",
+     "date": "2026-11-18T19:45:03Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Dallas News",
+     "title": "Intelligence director: Service disruptions are not part of a coordinated cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR3A4dkRHZW5Wd2wzZlRKUzNzdXZKMXVxTjV1NXBHWmlCOFVGOENnUDBvZng1YjhjdHBHRzI2dmRZd0U1LU13T0pmclpmV3R5ZWduMi16a3hTd2JwMGNTVDNwbDJGR0hiSm9LTWN1Z19WejhVQ01YbmZWRlYxZVJ5eGtCZVFES0cyLVhWTHVBM3VPUmZ6c3d5aVNFaG51UG9LX0c3M1YxbUZkVzQ?oc=5",
+     "date": "2026-11-18T17:21:09Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "The Portland Press Herald",
+     "title": "South Portland city services remain closed after cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNUdjUWZEOVE4QWZmT2NWQm9ocDNDR0p2NWo2UEdUdlRvOW1XV1BqR0l1RF8tMzB0M25JdE1YRGcxWXY0QWw1MkwyN28zc2JBSXp3dzdoSjRtQjl6eEJhUGprQlZOVm90eWt2djhlQldiSVlWVGFyQjdtd2tWYXNqLWo3NmVTQk5TVEJMYkNEdC1Ha1JkQnVaTTlXRmxlN1dWTkE?oc=5",
+     "date": "2026-11-18T19:35:20Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "WMTW",
+     "title": "Most city data safe after cyberattack; still unclear when South Portland offices will open",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRk5fODN2ZU9fS2ZlNHNuZXgtUEZxSWpVZUxBSWxQaVZmNFpwb0taMURQQmlZUndNMDlxZ3B3NEJUOTJzU28yRG1KbFN5NDlNdVYxbGpuazVSUllfbm9iZGpXRmhpYUgzaDl2SUJVTnhkRkRJRmZ4dW9wX3gwQnJjVmFMYWg2RllKa21yTHJQOVNvUEtzOXRtYk1wX0tDallMVjR4NUVuaUE?oc=5",
+     "date": "2026-11-18T19:08:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -2254,30 +2309,6 @@
      "date": "2026-11-18T11:13:47Z",
      "desc": "",
      "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "SC Media",
-     "title": "Google addresses false reports of gmail service outage",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNXFIQ0hVbUVvdGs4bnl1Mm5SSjRRb1ZudC1Cb04tNl9iWDNvSGZfRVdxR3BEd0Y5aDUxOFpxZkcyMXVYM3BWTGo2V1JOaDhiVmpmMmw3cWZZWDZDSl9BVDlWOTY0U3poYnJlM1FDSEhDTWltN2Rwc29HekVnVlZ6VlN3NmxxdVctQ3NxMg?oc=5",
-     "date": "2026-11-18T16:47:03Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Ammon News",
-     "title": "Google joins the tech outage trend by announcing it\u2019s not having one",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE16cnQ3T01Xakw2b2w1QXNvQWNMUlNhWS05Q1VYWXUwRGxoMG81Q3VrU0NEc1BjZ1REcFh6Z29lQmZQeU4xQ29mMnl2Ny1SQQ?oc=5",
-     "date": "2026-11-18T10:43:57Z",
-     "desc": "",
-     "cat": "service",
      "outage": true
     }
    ]
@@ -2332,45 +2363,15 @@
   },
   {
    "pubs": 1,
-   "cat": "cyber",
+   "cat": "internet",
    "headlines": [
     {
-     "src": "CBS News",
-     "title": "Intel officials grilled by lawmakers on recent tech outages",
-     "link": "https://www.cbsnews.com/video/intel-officials-grilled-by-lawmakers-on-recent-tech-outages/",
-     "date": "2026-11-19T01:01:55Z",
-     "desc": "During a House hearing Wednesday, DHS Secretary Markwayne Mullin pushed back on the idea that recent tech outages were related or the result of cyberattacks. CBS News' Taurean Small has more.",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "CBS News",
-     "title": "Tim Ryan, Rep. Dan Crenshaw on whether Americans should be worried about widespread tech outages",
-     "link": "https://www.cbsnews.com/video/politicians-discuss-whether-americans-should-be-worried-amid-widespread-tech-outages/",
-     "date": "2026-11-19T00:49:21Z",
-     "desc": "Former Democratic Congressman Tim Ryan of Ohio and Republican Rep. Dan Crenshaw of Texas join \"The Takeout\" to discuss the recent wave of tech outages and more.",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "cbs8.com",
-     "title": "Strong storm causes power outages and flooding across Northern California",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY3Q1dHhKbjdrTGxjMjJVVFF6WFZaajRyVDA2OGwzellZUkU5MXUzbHJ0YVBrMm02SWFrVDN5eHQ5VmhFY083T3hhbGtWSmRtUEVxZjNYRG56c00yTVc1dk1KQTd4SldmWGU5Y3R4RU9xZC0ydGltSlVpaFhBdXNfLVBFMU5DX3NBaFExMngwMHROWjU4cVdJc1Y0WktpWVVRQ3RrNTAyeks2Xzg2eFZEeXo0WWQwZ3R5Z1Azc01kTDVZWHcwQmtNZWR0MDg3Q21KaDhHUEZyZFRKYVVpdXg4?oc=5",
-     "date": "2026-11-19T00:44:00Z",
+     "src": "10News.com",
+     "title": "Fact or Fiction: Trump warns of food, banking and internet disruptions?",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTFRuNFpOZS1mVUFTeEVVTjluYmhUUTFmUkdQZm42TktQcnhSY0NVZkJBSkpQQnFXcE9zZUFKbXpNWWdfend0a3NCRklDalB2Wm9TUDRVNWpsclBEclhMa0poTTdacWFScDRyQ0hRMEk3Z29aVko4MjBqUUZCaFplZ2ZkVm1pS1RvVzhpazJBeWRPTDJILUZlRllmRmtDTUxCZlZXWkJNNHh0ellJOFN4a0V3?oc=5",
+     "date": "2026-11-19T02:03:00Z",
      "desc": "",
-     "cat": "power",
+     "cat": "internet",
      "outage": true
     }
    ]
@@ -2380,10 +2381,10 @@
    "cat": "service",
    "headlines": [
     {
-     "src": "Action News Jax",
-     "title": "DMV experiencing internal service outage",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDlubDFxNEF4V2Q5NVpYOWRuQUE4ZnQySzU5MzBFc2l3ejhKOEJnVlhjcmNRb2Z6Vk5hOVhfQnprR0l5eVFFWGRRQkthSFFrbGtZMlJyZ3J3LVZDUVlXMDdsTGd4R3lrUHZQbEVEd3k5Q3BaRUw2S0lzNlFBaHUyNlQ2ODVXZXRPbHNJU2xnSjVMUDF6dF8xVHdERm5YYmwxcHRuakEydExoaXczUGJXRHZ3a0JobEpremZR?oc=5",
-     "date": "2026-11-19T00:38:09Z",
+     "src": "FOX Carolina News",
+     "title": "What questions FOX Carolina Investigates is asking about Spartanburg Water outage",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYU1NYVptc25SbHd2RkFmVGtfRlVud0JSdDAyclByaENWYmtHTHNNSjdjVUtYRUs5UHI2S0UyWGtDbmk0eFJNblF5MHBNLW9rSEN1WG9PZmNxSTF4ZDA5Z1VqRnNNM2ZWVVRHazBSQnFXdGprLUY1Qkcyc05fb0tGcWg4bTVmT2hMaDNFWHJTcmNiZm1FZjFOZ3pBZEdwcGJxQWI3UzZKSmNCNm9XZFlKYXBIUWNtVENPTHExdG5PUXZMYnhVQVE?oc=5",
+     "date": "2026-11-19T01:41:00Z",
      "desc": "",
      "cat": "service",
      "outage": true
