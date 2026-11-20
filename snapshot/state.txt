@@ -1,13 +1,14 @@
 net country/CK
 net country/FI
 net country/GQ
+net country/NG
 net country/RS
 net country/SC
 net country/SY
 net country/TJ
 net country/VI
 svc AWS major 2
-svc Box minor 1
 svc Cloudflare minor 2
+svc Dropbox major 1
 svc Twilio minor 3
 svc Zoom maintenance 0
