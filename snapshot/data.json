@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-20T20:15:22Z",
+ "updated": "2026-11-20T20:45:26Z",
  "counts": {
-  "internet": 9,
+  "internet": 8,
   "services": 4,
   "hazards": 0,
-  "news": 23,
+  "news": 21,
   "correlated": 1
  },
  "internet": [
   {
    "loc": "country/FI",
    "name": "Finland",
-   "score": 56676.276050161345,
+   "score": 57448.96692540878,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-19T07:30:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "FI",
@@ -26,12 +26,12 @@
   {
    "loc": "country/SC",
    "name": "Seychelles",
-   "score": 21835.17560073937,
+   "score": 21885.194085027724,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "SC",
@@ -41,12 +41,12 @@
   {
    "loc": "country/GQ",
    "name": "Equatorial Guinea",
-   "score": 21553.441734417345,
+   "score": 21602.330623306236,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "GQ",
@@ -56,12 +56,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 16993.084577114427,
+   "score": 17037.960199004974,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -71,12 +71,12 @@
   {
    "loc": "country/RS",
    "name": "Serbia",
-   "score": 13324.066961556442,
+   "score": 13357.477973172223,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "RS",
@@ -92,7 +92,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-19T19:25:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "VI",
@@ -102,12 +102,12 @@
   {
    "loc": "country/SY",
    "name": "Syrian Arab Republic",
-   "score": 5138.416666666667,
+   "score": 5213.583333333334,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-19T10:00:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "SY",
@@ -117,12 +117,12 @@
   {
    "loc": "country/TJ",
    "name": "Tajikistan",
-   "score": 5113.90990990991,
+   "score": 5146.414414414415,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "country",
    "code": "TJ",
@@ -138,21 +138,6 @@
      "outage": true
     }
    ]
-  },
-  {
-   "loc": "country/NG",
-   "name": "Nigeria",
-   "score": 468.74999999999994,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-20T01:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "NG",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
-   "news": []
   },
   {
    "loc": "country/NF",
@@ -197,6 +182,21 @@
    "kind": "country",
    "code": "BF",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/BF",
+   "news": []
+  },
+  {
+   "loc": "country/NG",
+   "name": "Nigeria",
+   "score": 468.74999999999994,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-20T01:10:00Z",
+   "end": "2026-11-20T20:00:00Z",
+   "ongoing": false,
+   "kind": "country",
+   "code": "NG",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
    "news": []
   },
   {
@@ -264,12 +264,12 @@
   {
    "loc": "region/2108",
    "name": "Ka\u00f4h Kong",
-   "score": 441134.1666666666,
+   "score": 441885.8333333334,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2108",
@@ -278,12 +278,12 @@
   {
    "loc": "region/2129",
    "name": "Tak\u00eav",
-   "score": 182538.27586206896,
+   "score": 182849.3103448276,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2129",
@@ -297,7 +297,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-19T17:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2951",
@@ -306,12 +306,12 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 63120.793650793654,
+   "score": 63263.96825396825,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
@@ -320,12 +320,12 @@
   {
    "loc": "region/4442",
    "name": "Indiana",
-   "score": 47054.15152401695,
+   "score": 47153.74497502411,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "4442",
@@ -334,12 +334,12 @@
   {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 42592.571959145775,
+   "score": 42760.074280408546,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
@@ -348,12 +348,12 @@
   {
    "loc": "region/2128",
    "name": "Svay Rieng",
-   "score": 41518.509803921566,
+   "score": 41589.25490196079,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2128",
@@ -362,12 +362,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 39545.19607843137,
+   "score": 39633.627450980384,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -376,12 +376,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 38678.602150537634,
+   "score": 38775.59139784946,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -390,12 +390,12 @@
   {
    "loc": "region/2602",
    "name": "\u0160tip",
-   "score": 37297.074340527586,
+   "score": 37470.119904076746,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-16T08:15:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2602",
@@ -404,12 +404,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 37264.44794952682,
+   "score": 37349.81072555205,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -418,12 +418,12 @@
   {
    "loc": "region/356",
    "name": "Rajshahi",
-   "score": 26856.53566229985,
+   "score": 26909.0538573508,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "356",
@@ -432,12 +432,12 @@
   {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 26673.80827314511,
+   "score": 26738.956007879187,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -451,7 +451,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "3442",
@@ -466,7 +466,7 @@
     "Routing (BGP)"
    ],
    "start": "2026-11-19T19:25:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "4508",
@@ -475,12 +475,12 @@
   {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 21723.305322128854,
+   "score": 21773.837535014005,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -489,12 +489,12 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 21659.31216931217,
+   "score": 21707.037037037033,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
@@ -503,12 +503,12 @@
   {
    "loc": "region/596",
    "name": "Glarus",
-   "score": 17802.35632183908,
+   "score": 17854.195402298847,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T16:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "596",
@@ -517,12 +517,12 @@
   {
    "loc": "region/714",
    "name": "Rarotonga",
-   "score": 17250.555555555555,
+   "score": 17296.11111111111,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "714",
@@ -531,12 +531,12 @@
   {
    "loc": "region/2581",
    "name": "Chiapas",
-   "score": 16510.677444187837,
+   "score": 16628.7220939184,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2581",
@@ -545,12 +545,12 @@
   {
    "loc": "region/3638",
    "name": "Grad Beograd",
-   "score": 16230.225225225226,
+   "score": 16270.855855855854,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:05:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "3638",
@@ -559,12 +559,12 @@
   {
    "loc": "region/1757",
    "name": "Dadra and Nagar Haveli",
-   "score": 15812.383665717,
+   "score": 15846.647673314339,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T05:00:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "1757",
@@ -573,12 +573,12 @@
   {
    "loc": "region/1016",
    "name": "Burgos",
-   "score": 14830.973165211772,
+   "score": 14889.298415777565,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "1016",
@@ -587,12 +587,12 @@
   {
    "loc": "region/2571",
    "name": "Tabasco",
-   "score": 14575.41856060606,
+   "score": 14679.626893939394,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2571",
@@ -601,12 +601,12 @@
   {
    "loc": "region/2576",
    "name": "Hidalgo",
-   "score": 14085.772128060265,
+   "score": 14186.479687920368,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-20T20:15:22Z",
+   "end": "2026-11-20T20:45:26Z",
    "ongoing": true,
    "kind": "region",
    "code": "2576",
@@ -694,6 +694,15 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
+     "title": "Network Performance Issues in Washington, DC datacenter (IAD)",
+     "impact": "minor",
+     "status": "monitoring",
+     "start": "2026-11-20T20:35:16Z",
+     "updated": "2026-11-20T20:37:07Z",
+     "detail": "A fix has been implemented and we are monitoring the results.",
+     "url": "https://www.cloudflarestatus.com/incidents/oz6to8yacrxe"
+    },
+    {
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "status": "identified",
@@ -711,7 +720,7 @@
     "Annaba, Algeria - (AAE)",
     "Canberra, Australia - (CBR)"
    ],
-   "n_components": 72,
+   "n_components": 71,
    "news": []
   },
   {
@@ -719,7 +728,17 @@
    "url": "https://status.zoom.us",
    "indicator": "maintenance",
    "desc": "Service Under Maintenance",
-   "incidents": [],
+   "incidents": [
+    {
+     "title": "Service Degradation for a subset of users affecting outbound Zoom Phone calls in Australia.",
+     "impact": "none",
+     "status": "monitoring",
+     "start": "2026-11-20T20:30:33Z",
+     "updated": "2026-11-20T20:30:33Z",
+     "detail": "On 11/20/2026, Between 18:26 UTC to 19:22 UTC, a subset of users may have experienced issues with outbound Zoom Phone calls in Australia. This incident has been resolved and the affected services have been restored.",
+     "url": "https://stspg.io/mjlsmmz5zyqx"
+    }
+   ],
    "components": [
     "Zoom Phone"
    ],
@@ -1064,66 +1083,6 @@
    "cat": "cyber",
    "headlines": [
     {
-     "src": "El Cronista",
-     "title": "JPMorgan, Visa and Mastercard alert customers after cyberattack exposes personal data",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONmh1b1VrNEUtSndHTkJjaW9Xemg4bWUtQlVhenZUTTNrZjA4U2ZlcWNXTzk2WEF6OVBNQTEzTTJtbEZiZFEySTFtRnBuTFA4VWswMjk3UWx6V3c2RDdSdjRKYWdQd2JzTFVfU3RNMUd0VHllYnBMbHR0eVBuR05OS3dVOWtQRWhlUWNpN1NtNTAyLWpNVV9sYkt2V2R6cUlLM2s4SkpaYWRCUEZYeGpDTTRiWU8tZw?oc=5",
-     "date": "2026-11-20T17:38:32Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "BleepingComputer",
-     "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-     "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-     "date": "2026-11-20T15:58:06Z",
-     "desc": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Mashable",
-     "title": "Ransomware group reportedly leaks Chase, Visa, and Mastercard customer data, but not credit card numbers",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQVBkbEFXVEVTaEdreU93UTVjVmhkQUVyUFJHMDJjX29hSjR5dFRkRXZoM05zRXVPZGpJMVdDWVdSYU9pemVYYWxzZWZNSU5RaC1fWHhVeDIxVzI4ZUQxaW9YVy1RVmpMdkRicU9KZE41bjNQQ01nWW1BcTBaQ0pDMS1RWGFoamYwV0oxSHltem96UQ?oc=5",
-     "date": "2026-11-20T13:09:53Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "WSYR",
-     "title": "JPMorgan Chase customer data exposed in cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFd4R0JRWnFXTEQ2eWM2U3lPR1p6ZjJKRjlmSmp0ejM1cGF0bU55SjJHX2ZLOC1VcmdIbEZFemdnQ1RHRS1VRUg0ZTFtS1M2VHY5MkZOMmdHQzlvWlVkQXpPZm55SFRlc3g0OTVxUml3WEFoekNpaHBvTjBhUjdkd2RJc2E4emRkOUhzeFUydGFVSnRlREHSAZsBQVVfeXFMTlRUeGh5WFp2TTdteHRLaExzbkpRVF9Bay1hckdZazdja1JrME5KaU1qZU9DOE93bXhXTEhYUHZfWGRkNnZuUzZUVURpVWMtR0RuamhSVXIzMU5XTUhLWDhoSG9oRTVLN21GSFRvS0haYjFNZEEzOVFJelZNWk1SSVVaaGQ4Ny00QkpwWDNncGtUcDhTM19BYklja1U?oc=5",
-     "date": "2026-11-20T12:00:16Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Newser",
-     "title": "Cyberattack Exposes Chase, Mastercard Customer Data",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMDJneHpoQkhTeU5sVTdHcVFZQ2haSkN2eUpUOW5aQ3BfVTRlMnF3X0xqekVNRVZwX0kxZjF0Y3Y1UEZ3RWxENU9LeFA0eDVwZkNRbVhvWjdrV1pIdXZFd2Vsd0JuQjBFWTV0aWwyNEg4allEOGxJMjQzd2VESVc0VWlfeGh3RkthRk5EWG1ndlVhWUM3Tnc?oc=5",
-     "date": "2026-11-20T07:30:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "The Washington Post",
-     "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWw5Ml9NYmZNeTNiSlV4QUhBc0JuTzY1ZEVBX295eW5xYVlIeGpGY3J5Ulc0UEhvSW9iQnFtVVZNQ2p0UFdoLUJPTHh2OVNvTFlhRVlVV0ZMdU5rcE5pdzZtV0pYVnlDUENlNWlSMUhUbzBueWxIcHpEdWtJUmlXbjVhN1ZKOXFIa09HMGNsdTZtS01TbXJDdFBfTlVocDAxXzhsNkRiVzVQVWRRS3NZQmc0aFI?oc=5",
-     "date": "2026-11-20T03:08:47Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 7,
-   "cat": "cyber",
-   "headlines": [
-    {
      "src": "Latin Times",
      "title": "European Commission Confirms AI-Linked Cyberattack After Nearly Four-Week Disclosure Delay",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY20tdE5ZYVdjZU1MTWNwZ25pR2MtWWVtdnVnb2xNMGZMd2pyYlEtOGZfaWVmSG1qWnFkWm1UOXhvV1FYajBVYUJDMmVFSU5JY1JXQWNOYXdqWGo4UEswRXZ3R254UnUtdXhuM1VCRE5NSzNmZWhzcjRNZW55aTlGNTQ2WFlPam9SVjhqUQ?oc=5",
@@ -1202,10 +1161,10 @@
      "outage": true
     },
     {
-     "src": "NBC Montana",
+     "src": "fox23maine.com",
      "title": "NSA internal network outage resolved after 3 days, sources say",
-     "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxPQmU4bTBRMkZVb21acHhTVy1Oa0VHdUNqR2dSQ29MMTduc3ZzR3ZBNmxnV0dRTkFqVGg0a3hrVHlqbjlDX0xsRjRCeW9PVUI1Y0JUcjBUdGhqUmZReXhMVmhneFJPS005OHVMQkxJNGZLZkJYYUs5VUJqa2k1NzJqNzZHRzRKcnNhMWUtaGplOWJvbW11RWhmXzBrZGF2RS1xbmNMdkx1eEJWemRHSTRYb3ZJbEFYSW0wMmxobDhxZVFQQUdQNEVNNEJNaG9VRGFPdjFEUnA3aTdPckx6aUJBX1VQWUxZdE5qX2RtX1d2VDJGYldqUUtVYTJSVHNTR00wOUdJVXFMc2s2M3RJcmwyeGY4VnVZSnpNdHV4aERMZV92OVlPWVQ0bmRVWlZadzZNcVljc2ttU1BkdElOZ294TFhteU82cU80TmdQYl9hcWV5VUZ6LXpvdnhUN2YyR3hxdEpabkNqM2JOcHRjU1dpc2xGS0xVT2xEWFEtcFdWcTFCQQ?oc=5",
-     "date": "2026-11-20T14:34:55Z",
+     "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNMkdRVEdLSFE4dnZPRHZGUzEwekdVQmxjRjAxRnVpRkZDY0h5UjFoRjVjNHoyV2M1VXBsTUR3VjdaVUdkY25UYVJpNjJZWElXdkhUbUpicENLeVRJN1lRNDZLeDI4eHl2Mk8wa2JudDFONDhfVTBRN1ZZQlBYTzR3dmZGT3ktdlQxZHJtRzJJcEU2X1BDN2NkRjdKRnY2aDBzNWs1Y05IV1VVZHhRd0VvSm5UQ2lVUjUtUmtkdC1qYTFWdUdVczVoRkJUWC1wcWt0ZWFncmdBSmFXTGxFSDVHRy13OGlQdUJpTUw0WnZwOW40SGZlazZrdzFIZ0JnRnZjRjBHR0JhS1g3NGJFcEtmTWNBVjdpdVdlM1RuR3pFWWR6MUladllzZDFGeHhSS0dXT2RXM2tHOWhSTGdfdkIxalRZSTV0OGwySmt0Y3VBVUs0NnZKTHNYMy1WWS1GYjZsdl9VMHRjS01hanB0MUNpYWpGcWFaWmpYUXl0WnBHUnlWQQ?oc=5",
+     "date": "2026-11-20T14:49:26Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1235,6 +1194,66 @@
      "date": "2026-11-20T13:19:04Z",
      "desc": "",
      "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 6,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "BleepingComputer",
+     "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+     "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+     "date": "2026-11-20T15:58:06Z",
+     "desc": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Mashable",
+     "title": "Ransomware group reportedly leaks Chase, Visa, and Mastercard customer data, but not credit card numbers",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQVBkbEFXVEVTaEdreU93UTVjVmhkQUVyUFJHMDJjX29hSjR5dFRkRXZoM05zRXVPZGpJMVdDWVdSYU9pemVYYWxzZWZNSU5RaC1fWHhVeDIxVzI4ZUQxaW9YVy1RVmpMdkRicU9KZE41bjNQQ01nWW1BcTBaQ0pDMS1RWGFoamYwV0oxSHltem96UQ?oc=5",
+     "date": "2026-11-20T13:09:53Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "WSYR",
+     "title": "JPMorgan Chase customer data exposed in cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFd4R0JRWnFXTEQ2eWM2U3lPR1p6ZjJKRjlmSmp0ejM1cGF0bU55SjJHX2ZLOC1VcmdIbEZFemdnQ1RHRS1VRUg0ZTFtS1M2VHY5MkZOMmdHQzlvWlVkQXpPZm55SFRlc3g0OTVxUml3WEFoekNpaHBvTjBhUjdkd2RJc2E4emRkOUhzeFUydGFVSnRlREHSAZsBQVVfeXFMTlRUeGh5WFp2TTdteHRLaExzbkpRVF9Bay1hckdZazdja1JrME5KaU1qZU9DOE93bXhXTEhYUHZfWGRkNnZuUzZUVURpVWMtR0RuamhSVXIzMU5XTUhLWDhoSG9oRTVLN21GSFRvS0haYjFNZEEzOVFJelZNWk1SSVVaaGQ4Ny00QkpwWDNncGtUcDhTM19BYklja1U?oc=5",
+     "date": "2026-11-20T12:00:16Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Newser",
+     "title": "Cyberattack Exposes Chase, Mastercard Customer Data",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMDJneHpoQkhTeU5sVTdHcVFZQ2haSkN2eUpUOW5aQ3BfVTRlMnF3X0xqekVNRVZwX0kxZjF0Y3Y1UEZ3RWxENU9LeFA0eDVwZkNRbVhvWjdrV1pIdXZFd2Vsd0JuQjBFWTV0aWwyNEg4allEOGxJMjQzd2VESVc0VWlfeGh3RkthRk5EWG1ndlVhWUM3Tnc?oc=5",
+     "date": "2026-11-20T07:30:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "The Washington Post",
+     "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWw5Ml9NYmZNeTNiSlV4QUhBc0JuTzY1ZEVBX295eW5xYVlIeGpGY3J5Ulc0UEhvSW9iQnFtVVZNQ2p0UFdoLUJPTHh2OVNvTFlhRVlVV0ZMdU5rcE5pdzZtV0pYVnlDUENlNWlSMUhUbzBueWxIcHpEdWtJUmlXbjVhN1ZKOXFIa09HMGNsdTZtS01TbXJDdFBfTlVocDAxXzhsNkRiVzVQVWRRS3NZQmc0aFI?oc=5",
+     "date": "2026-11-20T03:08:47Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "The Register",
+     "title": "Cyberattack on service provider exposes payee data at 40 Irish credit unions",
+     "link": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979",
+     "date": "2026-11-19T11:45:00Z",
+     "desc": "Minister calls notification delay 'not acceptable' after October attack on Irish banking player Wellington IT came to light in November",
+     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1317,39 +1336,6 @@
      "title": "Trump's National Cyber Director Sean Cairncross steps down amid repeated tech outages: Report",
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUmxPUzl0N1JQbG8yTDJ1V1FCOXVxdnh0anlGeUptZUJ0RjNCekZreG0zd3RiU2VrN3FHTVVyMXliZzduWExnVkhpTU1ZWUdIOUZ2LW1zMGcyVGRYOTZwb2VGLXgyNFgxckdPVkdFMzI1UEp3alNXMUpQSV9UVUk1NW5DY3MyaHJyeFg0SE5MTElwTDVpaG5LOVRlQUdTSXZNR1YtbXdpdVZDTEhSU1NZbHUzS0RsV19RVDBNLTVaUldYQ0hBWGoxS2dsQ3ZKb1dRNFE?oc=5",
      "date": "2026-11-20T00:58:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "The American Bazaar",
-     "title": "FAA to reveal cause of five-hour nationwide FAA outage that disrupted thousands of flights",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWlvaTVWTDRBZVVtdWRqeDZqTFhibmpyY2stWXZKWndJTmw5VDZIaHhlenh0VVJMbm9UWFVLa25IWjR6eFg2d2NMYzYzQXB5XzFzTVV1cS1iY2JZTlZPM19vamktZjYwMDF3b1Z4OTR0Ynp6dC12VzBlNGk0c1c1dHRrRUM5LWFHNWFaMFg1ekJMaF84X29yMzh5ZmxIS3Z5TG4zWjFxNXlRUQ?oc=5",
-     "date": "2026-11-20T17:26:32Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Ars Technica",
-     "title": "US will soon announce root cause behind FAA nationwide ground stop",
-     "link": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
-     "date": "2026-11-20T14:52:51Z",
-     "desc": "Former FAA insider on reducing the risks of upgrading a decades-old network.",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "FOX 5 Atlanta",
-     "title": "FAA to announce root cause of outage that led ground stoppage",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUEY2RlgzVW8yVFpGczNKYmU3LXFxYndNaTBqT0hhYzZKVG52ejVmVU9rN2dwbnRjaWJveWZNc0FyWWdLQ0l0X2RsT0UyV0p6aXRSczJxcnAwREsxc0JuekhYVTgyTTQ4blpfWkdzSXctalBjMW9aSENPUEQ5RmlNLW9EQkFuN1poV3dR?oc=5",
-     "date": "2026-11-20T12:14:34Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1499,6 +1485,39 @@
   },
   {
    "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "The Sunday Guardian",
+     "title": "Chase Outage Today: Is Chase Bank Down in the US? Users Report Online Banking, Mobile App Login, Account Access, Payment and Money Transfer Issues | Check Latest Downdetector Status",
+     "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQc3RXNVdtTngxQXpJaDVnREZkLUlZV1g4d014bFdnWEdEd1BVRkFnSjJSM3F1RjlPSG5Qa25PTkR6a0l3c1pWZ2VPVl9XMWdmTW92WHBkTXoyNVN4MFJXQjU4Qko0REVwME5xWmctNEdWcVh6TUtsclhFZUxMamM2YXE0amJ2OGtFVUV2WERxTnJONVBVU2x4OXJHb2xSRFdRRnpZbDB5VnY5ZU0zNWFYdGdycVY2UFB4N2Rmb2VpeTVJMzI2QnZNY0RCR0RhZHdJTGUySWt2MklmcDNrWTJrd19BbllHSk1ISHZ4MWVSR0tCZU5OendMYkpmaW9oSFVtVmxMbjRQZGFUcGRiaVB4M1Frc21lRzk1aTl3dVh4TFZHRnVUcWVCdUhWbUMyY0xxeG5uUHhHaEhncjJOTjN5ek5aRzfSAcoCQVVfeXFMTy01cVFsYUNwWXRIZEUtRm9UdVZVeXNyZ05UbTM1U0JtVGJCRkFRenZyemxscURON0lVY2lRTjhNckQ3NmN3Z3F6QWNjdjhQQmdHdHhVOGNjQ2RNc0M0S2JDNUMtX3B2NjRpZU9IUndpMXltUTRMZjdoY2NMSDNETllsYUp6dHNySXBqa1NPNWhIVUJvN3RNVTIwVmRiR3BKTng5YThjWmZEQmNDZmstbXhkZDBEclJ4eXR2N0t1N3NGdXphZDNXWmxfYzNwYXZnbUx0WjNfZlFvRTlRU3I0dnRSV2lQMU92VWh2Vk94WnVoLU80aGxiczFXMGVnOU03Z1dkNXktNGkzSjVNWk81SjYtb0pWbmp1eExFZDV5S1pzN2xRYkVsLXcycXc3TXBZOFhDUjJlUXptR2FIWDQ0MnRHbFpnYVhkbVpR?oc=5",
+     "date": "2026-11-20T20:18:06Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Sunday Guardian",
+     "title": "Starbucks Outage Today: Is Starbucks Down in the US? Users Report Mobile App, Online Ordering, Payment, Login and Starbucks Rewards Issues | Check Latest Downdetector Status",
+     "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPN240Z01oTC1wOTVyX0t5Q3JQU0dlaDJ3WVlvOUlXSXBDQ3ZTbFNvVjYwRklNUmwwZFY5VlN6VHZFS3c5LUczdkpjbEVyMm10cmlnTzNHWkNpTzNYY3lScFRnVVRnUkdyUzV2VlV3My1IOFZ0endTYW4zWl9oYmtSYWRveG03amU2VUtKX1BzdE1XVzRNUzFQWGRJMFlXV0hqOUtLbXJlM2t6SFZBZ0dVUXRoRXRZN21zRnZ5cHJCbG1EdkwzUHdlbHMycERhbTg0XzZKcm5SNTdTMWtKMnE5eDlGcldJdEJQOG5QYjNPV1JiRnVnSV9GT2g3bE1TS1k4S0M4ZGEya2RybzctU3hkX0Q5aTJkbkNTa05MdmgzVmluWGZKTXlCVWYwQ1VMYWZ5R21hYVFJVTRwd9IBvwJBVV95cUxNV3U1aTd1MTJzdmRZNmpYMmsxaWR5V3h1V3p2MDJJa2dyZFJSNHdzaDVUM3RsM1hkZHlpVTZWaTlNdVFlVGRuTTRGZE5rV1R6SHhvV2lfNHV0NDZLellwS0pUbGRSM1RESVZGSGJUNkdSWkVQTmxlTDFaYzRFNkZDYUNiSWRRWThlSVFYdlZpTkFPUXNBeHhFWGJzZ2lYdVU1YzhtQ3VVcy1YNlgzMVYzMHo5TENhU2lZSjFRckhaNnN3WVJjZVhSb1hnb1ZsVXp3aC04T29memk3QTFKdF9sdnBTOUhKalN0cngzYnpCMk0xV0JtbExyTEtXdWxMV21UZC01ZUhleE1JN19wX090aHNKRm9IVncxR216X3BYS3Itd29Zbl9WY3B3YzZDNWliNTZ6NFNFanhqN0pISGxr?oc=5",
+     "date": "2026-11-20T16:52:54Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Daily Star",
+     "title": "US banking app users report outages from software bugs",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQREF3akZVS2ZtU2NULXZTbTN2TXB0MmtDeVFuTC1nZFZSX1pLazNMaUFWSDNLeHdvZWl1WGZ4Q2czUmduYkV3anFXWXlWMGo0RldlQ252SkRQbFhNX2tXNHhCQm45ODZkZWhlZWp4bENwcHppcWFTUFE5MnVlazFkaGpuNDFySlQ4ckhhSGFKamc2S2ZXb3U1WGg5eDlvc3dnaEdPQw?oc=5",
+     "date": "2026-11-20T10:40:25Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "cyber",
    "headlines": [
     {
@@ -1547,6 +1566,39 @@
   },
   {
    "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "ABC News - Breaking News, Latest News and Videos",
+     "title": "Video New concerns on potential cyberattack over US food supply - ABC News",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE50STdjMEhqZ2o4dGd2UlVyY2ZudXZkQ3FJMUhDdFlqNDB6aGl0cFZMZDJJRmNwSF9NT2p4ZUQtbm1LREhpM0JwTW8yY2Q?oc=5",
+     "date": "2026-11-20T18:10:10Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "ABC News - Breaking News, Latest News and Videos",
+     "title": "New government report sparks concern over potential cyberattack on US food supply - ABC News",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaDZ0N0pwRFpFQndGOUxfSzAtNzk1MjhBcUluQjZRNWRtUWMyY2wweEhjUFZrNm1XMWlka3ZMSTg5Um1PbmE4UWJ4b2loTVpyd0FRcEc0eFExS2ZSZTJMckczUzNBdVp6ZExuUkZLdVZoX09BbnhDVXVmZ2hFR24ta0h2SlA0dDl4Um5hYmIxTVhWQ1BnN25ER1VTZTNMZW93anEtU0FjeWU5QjQxT0E?oc=5",
+     "date": "2026-11-20T16:58:59Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "ABC News",
+     "title": "New government report sparks concern over potential cyberattack on US food supply",
+     "link": "https://abcnews.com/GMA/Food/new-government-report-sparks-concern-potential-cyberattack-us/story?id=138316014",
+     "date": "2026-11-20T16:51:52Z",
+     "desc": "A new government report is warning that the federal government is susceptible to threats to the nation's food supply.",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "service",
    "headlines": [
     {
@@ -1571,81 +1623,24 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "ABC News - Breaking News, Latest News and Videos",
-     "title": "New government report sparks concern over potential cyberattack on US food supply - ABC News",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaDZ0N0pwRFpFQndGOUxfSzAtNzk1MjhBcUluQjZRNWRtUWMyY2wweEhjUFZrNm1XMWlka3ZMSTg5Um1PbmE4UWJ4b2loTVpyd0FRcEc0eFExS2ZSZTJMckczUzNBdVp6ZExuUkZLdVZoX09BbnhDVXVmZ2hFR24ta0h2SlA0dDl4Um5hYmIxTVhWQ1BnN25ER1VTZTNMZW93anEtU0FjeWU5QjQxT0E?oc=5",
-     "date": "2026-11-20T16:58:59Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "ABC News",
-     "title": "New government report sparks concern over potential cyberattack on US food supply",
-     "link": "https://abcnews.com/GMA/Food/new-government-report-sparks-concern-potential-cyberattack-us/story?id=138316014",
-     "date": "2026-11-20T16:51:52Z",
-     "desc": "A new government report is warning that the federal government is susceptible to threats to the nation's food supply.",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Video New concerns on potential cyberattack over US food supply - ABC News",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE50STdjMEhqZ2o4dGd2UlVyY2ZudXZkQ3FJMUhDdFlqNDB6aGl0cFZMZDJJRmNwSF9NT2p4ZUQtbm1LREhpM0JwTW8yY2Q?oc=5",
-     "date": "2026-11-20T12:43:48Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "service",
    "headlines": [
     {
-     "src": "Banking Dive",
-     "title": "Banks race to patch vulnerabilities amid amplified tech outage risk",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdGtTVERnNDZDcVloVmxJNS1tb0U0SWZqUk8weWlqTFUxTW4yYjZFdkQwNFZhNFc3WlFscVQwSHNCVnZsSU5aYnhEMWo3RVJUc0gxWVZvYzE5UUJhc2d1aTRvWmk4UTBId3hQN0hmcGFyMHhLUm1na1NZTUJsd3ItRFhhY2tWTTI4SDBUdXJCeFRqWmdKcmkwRXh2QVdSbTZhV09DTUpIMkE?oc=5",
-     "date": "2026-11-20T16:31:59Z",
+     "src": "The American Bazaar",
+     "title": "FAA to reveal cause of five-hour nationwide FAA outage that disrupted thousands of flights",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWlvaTVWTDRBZVVtdWRqeDZqTFhibmpyY2stWXZKWndJTmw5VDZIaHhlenh0VVJMbm9UWFVLa25IWjR6eFg2d2NMYzYzQXB5XzFzTVV1cS1iY2JZTlZPM19vamktZjYwMDF3b1Z4OTR0Ynp6dC12VzBlNGk0c1c1dHRrRUM5LWFHNWFaMFg1ekJMaF84X29yMzh5ZmxIS3Z5TG4zWjFxNXlRUQ?oc=5",
+     "date": "2026-11-20T17:26:32Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "The Daily Star",
-     "title": "US banking app users report outages from software bugs",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQREF3akZVS2ZtU2NULXZTbTN2TXB0MmtDeVFuTC1nZFZSX1pLazNMaUFWSDNLeHdvZWl1WGZ4Q2czUmduYkV3anFXWXlWMGo0RldlQ252SkRQbFhNX2tXNHhCQm45ODZkZWhlZWp4bENwcHppcWFTUFE5MnVlazFkaGpuNDFySlQ4ckhhSGFKamc2S2ZXb3U1WGg5eDlvc3dnaEdPQw?oc=5",
-     "date": "2026-11-20T10:40:25Z",
-     "desc": "",
+     "src": "Ars Technica",
+     "title": "US will soon announce root cause behind FAA nationwide ground stop",
+     "link": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
+     "date": "2026-11-20T14:52:51Z",
+     "desc": "Former FAA insider on reducing the risks of upgrading a decades-old network.",
      "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "Industrial Cyber",
-     "title": "Equinor thwarts cyberattack as separate intrusion at Skagerak Energi raises concerns across Norway\u2019s energy sector",
-     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNzdUeVRqcGN5bWo5T2QtTjY1Mk9HV3Y5eWpLUDJXWklRNjdVQlVFLW9PdDdEeVdhWWY2NUtpcVQxRm5rSHhqVVZ1eXlLaU9idWpYNEhCMDBUSmxYbmZpMzZaUm54Z21mRFBrSTlNOGtUb2hGWFdZY09TaTZYRHp6RGxfR3lJckpnT0c0em1BWDdtV0N3d0VPQ0RiZ2FKOFBUajk0VkFDcjQ2SDhKWmwxT3VnTXBaY3lGQVJRaWdLVTZEbm0telZkcmlVcXBJYlM3YW40aENnYWZvZ1lSaEFQbmhzNXVoV3daM3J5VE9mZGtVdXhwM1dTVHZxRk1tY0NFS19ZdEZHQQ?oc=5",
-     "date": "2026-11-20T12:58:27Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "EnergyWatch",
-     "title": "Skagerak Energi back to normal operations after cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJRl9HMk5VelhCeDR6aVpWcW4xOThNTnFzbTBXaHFFRE5kMFA5Zm0tUl9aQTdpUFg1WkJHMTBrQUdYRV84QVA3TFhIaU52MV9lYjdvV2ZnZjJMdnBKVU5SMVBaNW54VGdCVDdTMFZqVFQwQms?oc=5",
-     "date": "2026-11-20T12:34:34Z",
-     "desc": "",
-     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1727,30 +1722,6 @@
    "cat": "cyber",
    "headlines": [
     {
-     "src": "SecurityWeek",
-     "title": "N-able Blames Service Disruption on Cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU3M5a2FaT1ZkOGJHZXBzUzRDVjRha25qbWNMZ3RnZ1AyZkJUM3hud0VleEZlWnZ3ZE01TFFhMVJnMXgxQ2JXbmN2TjlEV2pvNlFZaS01N1VHcFotaEJqMV93WEJ3MUhiUVlBUmEtcC0wZjNTLWdGVXZwRXV3ajJpRm1fYw?oc=5",
-     "date": "2026-11-20T09:08:35Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "LAmag",
-     "title": "JPMorgan Chase Reports Third-Party Cyberattack Days After Service Disruption",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPczFVdFVWQm13amxGeWdHZEZkN2V3VUNSZmN0T1VJRV9DaXMycEh1TWJwTlEtNW02THJUZTJkR1ZTRTBxeGZjUnV2dnM5VGpMcnZ1MmN2dWMtMnJodmROSndzaWZBSXMzaGdWM3pCRHY1c1Q5TXN0am5BUEV5M3hsSkQxNzRCNVE4MHdEUTd1MHo2WnJZVzZmOWJHajV3UmZ1TThkcDRkbko?oc=5",
-     "date": "2026-11-20T01:19:21Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
      "src": "KOLD",
      "title": "Chase Bank says cyberattack compromised some customer information",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmhjTWNfZlpPSk9PR2ZkdktZYVBoS2N5ZUctV1cwd2ZiWTFJdTFUUWNTUHY3c2daaG1PWkYwTlpfMjkzUGdQNUhjZ2ZTWWM1cmVZX1NibmF2eUs3Tzg3YjB0YlphbUEwWHNibjFFZzhFei1LeE5ZRWVUUjdQSXQ2OG91U1I2T2trSnlfbzdZc240WUVNMWpFRXB0eXhDeUXSAbMBQVVfeXFMTjl6TnBFUlJLeGQzVkFBbm5ZeGgtUWU3TWlJdnBPMVVWR3Z0MjQxalJ6dFZzMVFvM0pnS3k1NmVrR1dFSTI0TS10SkNaMENnMHhmVlY2SkRjNWtqYjJVS19FaENKejhJVU1RdzhfNHhrSjRWMGZ5TFNkNXdOVzkwZENKVHR6VGVwWlIzZDlvQjNEMWYwaXlsQ2JHcWF4d25DakN0dmJxWW5vMEFNWEJvd0xyWFk?oc=5",
@@ -1800,6 +1771,105 @@
    "headlines": [
     {
      "src": "CBS News",
+     "title": "Trump says he and Xi agreed to \"joint guardrails\" on AI, comments on tech outages",
+     "link": "https://www.cbsnews.com/video/trump-says-he-and-xi-will-do-joint-guardrails-on-ai/",
+     "date": "2026-11-20T20:31:22Z",
+     "desc": "President Trump told reporters Friday that he and Chinese President Xi Jinping had agreed to \"joint guardrails\" on AI during their summit this week. CBS News' Natalie Brand and Samantha Vinograd have more.",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Springfield Business Journal",
+     "title": "Opinion: Was it a software glitch or cyberattack? Inside recent major tech and travel outages.",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa0JBb0RwaC1xVEdaZzNLNUI0c0lWd3lvUFdEWmI5UXhYbUNmallxZE16M2hGbEJpSENreFJvQjB4UmZueDNfMzQ2dFpnQUN2bExEc2kteGdiQ0E0S1pKc1ozZGd4WUZ5WUJxc0VhNTFDa3ZGdl8tbkZMWkxKN2w2Z2RBTFJ0YjA0aVpnQU1sdlVZVWh0ajZ4ZXBLellHcEE3eXhfdmJFZU0zbEFZT2ZRNGllOV9SdUNadTRXdVF3?oc=5",
+     "date": "2026-11-20T20:28:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Breitbart News",
+     "title": "Walmart Reports Jump in Sales of Soup, Water, and Food as Tech Outages Trigger Panic Buying",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOejdRS2Q1WFZWdkI2amU0NHBJaXZ3MnFWSlBPYUtfa25NaHpTMXBaTGkyeEhVbXQzQ1BoNTZ6eDNKaWEzMEJsWElqZDlzOXBNeExHRXhMdzZuR2x4Q2UwRUdRcFZMZDZBYTJVNW42RlVESzFKd19QUURIZnRpRkxLVENWUnYyTktHaXdvcjlKREZKN2c0Vm5qLXA0X2VaVm0zU01HdUZ4RjFXRUJ6MmRxQmFzWjJrb2VuTG5JSmFvZ2RqOGtlLUpncUhKdFg?oc=5",
+     "date": "2026-11-20T20:24:20Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "KTEN",
+     "title": "Chase now blames cyberattack for Monday banking outage",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSHRPc184TmxfcDdWbkJIODdSQVcxSWVOZlRlNzhkNVpybTJ3eHYtSkxfNVZmMzFFcWlJZWQ0RTVNelg1NEJuTk5jd3JoR0Uwc0VkUTZLWTFiamZ4QWx5eVA1YUkzR2tDamRzeDdUX3dIb2VlM2JNQ2NkWEFpZUZiTXpfS1kwaTBFWmp3Rkk1d3VWbDgtTEdTd3Y0cVd4aDVad0hKdkZtQVZvVzNNRF9hQmZSRmNiNWllT3ZSdUtoVHI4MkxKM3dWd2RB?oc=5",
+     "date": "2026-11-20T20:15:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Security Boulevard",
+     "title": "Podcast: Gootloader Used SEO to Put a Ransomware Lure at the Top of Your Legal Team\u2019s Search",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ0dfU0tjOW1xMnVaS1dTbkZOeXJ3alVwc0xWbVB5RU1CeHBGV0xuOHhreTBrZDNobkN3SmI3LW1HcExPVzN6MUtpX2h2SkI1Y2F5d2lnNm9pMHd6MS1uQjE5UkhSZ0xIU2Nxc1VOVC1LT2RlcFlQSWR4ZnBGUmNiNTFNZkhINnZVUVI1TnZYMHRQamxhTDJ4STByOFZ2UFZ0eWtUd2RiUWpOa2pLU1BYNno1a2MwSUFqaGpuejc3SHNWeFFqRnI2NQ?oc=5",
+     "date": "2026-11-20T20:01:43Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "The Sunday Guardian",
+     "title": "Dropbox Outage Today: Is Dropbox Down in the US? Users Report File Syncing, Website Loading, Login, Upload and Cloud Storage Issues | Check Latest Downdetector Status",
+     "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNZnVRTmMxaG5IUEJSTkJPek5ZTEMwRmZ3SU9PVVFfTjNaU0xrMzJoQl9hNzlGR1BDc1ZuNDNDZkJDeGV6a2J3VGQtN3RNQ0lhTHl5UTRMMmY2dFBkb1dPd3NnaFJFTjQ3SFJJOW5WZTdOYWtBaC1LU3NfOS1Qdlo3azBnX0RxOGhMRWxiRGhjRWhCVTdfSjhKQ2M3c1VMZTFieFR4aXUxVHZRSHQ0ZkFQelRqNkFBaEZ1djVwVDNoUHkxQzZnT3lGZ0NJVjkwckFhVU9zNFVQSmE0WGhvS3VVTEdWRm82bzBOMkRwbGFZMlZWcEJRUk56Nl9SOE9LbW5DSGhLTDFucnRGZXNfREpVOHhxaHZnY0dXS0cwN3c3elpHa2xzWEpTbEpZUEhveUw20gG2AkFVX3lxTE1QemhlZlVOcGRPSTdLWDhWVW5WdUJ3ejVTNGc4VDNxOVNqOExGRnR4T2c1UUVCdENRcmo4T2x5SmYxN2NPVHBCMkZPbUpubkxKWTlBWEtWX2RSeUJVMm5xOERwQXl5Ry00ZGRjTE00Vmp3c21jV0NIMVJ3ZTk5MkxXNk5JcFRrNVc3OURUbzFoZUFQVkg4WEtWRFNXR0I1TE1Ya3VNSkJTd0M4TlhPclYtMEpKcWlXWTdBTGd2UlZNZE1FaWVkdjAwVFhzalF5RUtjN2RNXy1yYjBrZmt4MEhPR2VJaTU1XzlXak5tdjBxbE53VDhDRl8yMmJzTko5dEtoaVl3a2gwdUw3VjViQmNYUlI2by13QV9hVXNudmQtY0xLbVlnRDVPbExwVUF3ZDA5VTFXeGc?oc=5",
+     "date": "2026-11-20T19:58:01Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Sunday Guardian",
+     "title": "CharacterAI Outage Today: Is CharacterAI Down or Not Working? Users Report App, Website and Login Issues; Check Affected Services & Downdetector Update",
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQbXpKVmNGNy1WbExXclU3bWRxOFN6SU0zR3g1dDRCOGtzWFZXQmNjbzB0WGJuNjNnalhvQWl6ZnpfTTF5bkdFSzRKYnZaeU1GVkhISXdHU3hqOEFuc3NpYm9tQzlZUF90VGhRRW9RbE16NVZHSXFMTWJQSElTR2gzWXBueThwWUZKZXk5LXNGdW1VN3k0anpsZ1ZCNUtVUUtLcFFwYUZsTEJQSXN6MER3ZHloeDd3N0ZyX3N1aWZjNU9BclJ3bkpZcm9hMzdkeTlkY05ybHotLWdCQVZhUEdCQmRlV3BSUEtPWEhqVndZTUp4TWc0ZFQtS2E1TTZaeXEzM1NSdjRFTFBvbEJ0SGZsOGZWRnhwbGxvT0VzVTdXMNIBnwJBVV95cUxQbXpKVmNGNy1WbExXclU3bWRxOFN6SU0zR3g1dDRCOGtzWFZXQmNjbzB0WGJuNjNnalhvQWl6ZnpfTTF5bkdFSzRKYnZaeU1GVkhISXdHU3hqOEFuc3NpYm9tQzlZUF90VGhRRW9RbE16NVZHSXFMTWJQSElTR2gzWXBueThwWUZKZXk5LXNGdW1VN3k0anpsZ1ZCNUtVUUtLcFFwYUZsTEJQSXN6MER3ZHloeDd3N0ZyX3N1aWZjNU9BclJ3bkpZcm9hMzdkeTlkY05ybHotLWdCQVZhUEdCQmRlV3BSUEtPWEhqVndZTUp4TWc0ZFQtS2E1TTZaeXEzM1NSdjRFTFBvbEJ0SGZsOGZWRnhwbGxvT0VzVTdXMA?oc=5",
+     "date": "2026-11-20T01:57:24Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "CBS News",
      "title": "Trump addresses tech outages, Iran, touts meeting with Xi and Putin in first remarks since summit",
      "link": "https://www.cbsnews.com/video/trump-addresses-tech-outages-touts-meeting-with-xi-and-putin-in-first-remarks-since-summit/",
      "date": "2026-11-20T19:45:24Z",
@@ -1833,66 +1903,6 @@
      "title": "Everything is down: What a week of outages exposed",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQW9TN1hBSjdVeTlMUHRoUTliNmZIUDdaWVVTOGdLV2JRaV9jX21GeXpSVVdPZW1WUnNMbkpKSEVHY3BxN01pVFRPVzFUVXN1RDlCc1BmU1JzRGt1RDJmX3pvVk1WUDBkNjFzSklVMDNwb3lxVE1tRzJaOHpoZFJQTEVDYW9BZ0RIX0J3NHU2TlltNmc?oc=5",
      "date": "2026-11-20T19:43:39Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "GilaValleyCentral",
-     "title": "Graham Co-op planning short power outage Tuesday",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOUZXNG1fNGNyeldIc25Kbks4QjZ6amFOUU1XZG9qRllfWnZUSmY3OENyQ0UtRkxta1RGSVdBV1hzaXFFaXdlZ21lazVZNXZBZEJFVnlsRG9LaHRGTkFsOXVmNTJHSG9rS2xFb3BkTWo0SWptZGo0d05rRjFya3VYS0FGTFU4UQ?oc=5",
-     "date": "2026-11-20T19:39:39Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "The Record from Recorded Future News",
-     "title": "Container Store restores systems after cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCOVB2TG1uc0RnTlpQRlJUbkx6TDdXUnVQbElkTDU3ZXBaaXAxcGktcU9YM0Nob3d5SDVWTDJ6bUlzUTdBUzlvU0JWWEliSkFsSzJFRnE5dUctd0RBM1RrX2lDYUk2LUdTb3BMNTBOR3BXeV83MFNr?oc=5",
-     "date": "2026-11-20T19:38:16Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "KUOW",
-     "title": "Is Seattle prepared for a cyberattack?",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWGRkbVVULW5tQzlSWWxtOXlVM0RyQTJrRW9tcEY0UTNySEhJd1FUWHRkMEJUQ0h2UkFrSUFfQnQ5a1V6RzNIVmpyYW1ndTU4ZF9vdUVSNjk1bFNadWppM2ZiV2xDdS1nNnZ3YzBuLUdHWHVPRkVZbHFsUTZwbmI5NXNKeW8wYjVsS2UxNEJGRQ?oc=5",
-     "date": "2026-11-20T19:36:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Tech.co",
-     "title": "We're Losing More Than Productivity To Mass Outages",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbmNFSlh6bHNGZHpzTk9JZXF2TFRMS1E0VEdIRGsxQ0hIUXNIVVJHNWZ6dXVFenlaazgtY3dKWEhqb2dfQ240SHJkZUdacW50NndSMUQ4cG12OWhBdUxZX01keUZ0dlBRbkFjM2JxWEJRVUNEUGY4V25zd0Z6N2NVdk9n?oc=5",
-     "date": "2026-11-20T19:35:59Z",
      "desc": "",
      "cat": "service",
      "outage": true
