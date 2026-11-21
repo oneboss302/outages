@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-21T05:45:19Z",
+ "updated": "2026-11-21T06:00:19Z",
  "counts": {
-  "internet": 9,
+  "internet": 10,
   "services": 4,
   "hazards": 0,
-  "news": 15,
-  "correlated": 1
+  "news": 19,
+  "correlated": 0
  },
  "internet": [
   {
    "loc": "country/FI",
    "name": "Finland",
-   "score": 71323.5653300042,
+   "score": 71709.05412585936,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-19T07:30:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "FI",
@@ -26,13 +26,13 @@
   {
    "loc": "country/GF",
    "name": "French Guiana",
-   "score": 28203.510560989806,
+   "score": 29428.62564882661,
    "sources": [
     "Google traffic",
     "Routing (BGP)"
    ],
    "start": "2026-11-21T00:00:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "GF",
@@ -42,12 +42,12 @@
   {
    "loc": "country/SC",
    "name": "Seychelles",
-   "score": 22783.33641404806,
+   "score": 22808.29020332717,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "SC",
@@ -57,12 +57,12 @@
   {
    "loc": "country/GQ",
    "name": "Equatorial Guinea",
-   "score": 22480.189701897023,
+   "score": 22504.57994579946,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "GQ",
@@ -72,12 +72,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 17843.756218905473,
+   "score": 17866.144278606964,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -87,12 +87,12 @@
   {
    "loc": "country/RS",
    "name": "Serbia",
-   "score": 13957.413061459345,
+   "score": 13974.081526234402,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "RS",
@@ -102,12 +102,12 @@
   {
    "loc": "country/SY",
    "name": "Syrian Arab Republic",
-   "score": 6563.291666666666,
+   "score": 6600.791666666666,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-19T10:00:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "SY",
@@ -117,37 +117,27 @@
   {
    "loc": "country/TJ",
    "name": "Tajikistan",
-   "score": 5730.072072072072,
+   "score": 5746.288288288289,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "TJ",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/TJ",
-   "news": [
-    {
-     "src": "\u0410\u0437\u0438\u044f-\u041f\u043b\u044e\u0441",
-     "title": "Uzbekistan-used high-voltage power line tower collapses in Tajikistan, causing outages in Uzbekistan - \u0410\u0437\u0438\u044f-\u041f\u043b\u044e\u0441",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRG0yaUo0a3hDdHJ0aDJnRXFRUE43cXA5cXZvU1lFYUE4YXZ3dHBoWWVzaU83Y1NhenBLbk02MzJxYmJSVExnVEF1aTdyTVBYZWxxenVKczlMSC1iY0hrZXR0UThvdGpMeWlydDk1dzNpSFZUeEF0dUNiT2ZmSzEzYlZHTktHakVoakRsZ0VQbmdLQ3h5QW1RUkFxeWZJeXNEekZZbklnMVZCazNRdktDSlVjaGk?oc=5",
-     "date": "2026-11-20T06:35:17Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
+   "news": []
   },
   {
    "loc": "country/LA",
    "name": "Lao Peoples Democratic Republic",
-   "score": 455.3615520282187,
+   "score": 471.2345679012345,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-20T22:35:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "LA",
@@ -155,18 +145,18 @@
    "news": []
   },
   {
-   "loc": "country/MP",
-   "name": "Northern Mariana Islands",
-   "score": 20459.61396335031,
+   "loc": "country/NG",
+   "name": "Nigeria",
+   "score": 468.74999999999994,
    "sources": [
-    "Google traffic"
+    "Routing (BGP)"
    ],
-   "start": "2026-11-19T22:00:00Z",
-   "end": "2026-11-20T06:00:00Z",
-   "ongoing": false,
+   "start": "2026-11-20T01:10:00Z",
+   "end": "2026-11-21T06:00:19Z",
+   "ongoing": true,
    "kind": "country",
-   "code": "MP",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/MP",
+   "code": "NG",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
    "news": []
   },
   {
@@ -197,21 +187,6 @@
    "kind": "country",
    "code": "BF",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/BF",
-   "news": []
-  },
-  {
-   "loc": "country/NG",
-   "name": "Nigeria",
-   "score": 468.74999999999994,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-20T01:10:00Z",
-   "end": "2026-11-21T04:50:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "NG",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
    "news": []
   },
   {
@@ -279,12 +254,12 @@
   {
    "loc": "region/2108",
    "name": "Ka\u00f4h Kong",
-   "score": 455382.9166666666,
+   "score": 455757.9166666666,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2108",
@@ -293,12 +268,12 @@
   {
    "loc": "region/2129",
    "name": "Tak\u00eav",
-   "score": 188434.3103448276,
+   "score": 188589.4827586207,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2129",
@@ -307,12 +282,12 @@
   {
    "loc": "region/2951",
    "name": "Plateau",
-   "score": 69822.08333333334,
+   "score": 71083.44696969698,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-19T17:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2951",
@@ -321,12 +296,12 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 65834.84126984127,
+   "score": 65906.26984126985,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
@@ -335,12 +310,12 @@
   {
    "loc": "region/4442",
    "name": "Indiana",
-   "score": 48942.06573914551,
+   "score": 48991.75205062359,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "4442",
@@ -349,12 +324,12 @@
   {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 45767.78087279481,
+   "score": 45851.346332404835,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
@@ -363,12 +338,12 @@
   {
    "loc": "region/2128",
    "name": "Svay Rieng",
-   "score": 42859.56862745098,
+   "score": 42894.862745098035,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2128",
@@ -377,12 +352,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 41221.51960784314,
+   "score": 41265.63725490196,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -391,12 +366,12 @@
   {
    "loc": "region/2602",
    "name": "\u0160tip",
-   "score": 40577.362110311755,
+   "score": 40663.69304556355,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-16T08:15:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2602",
@@ -405,12 +380,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 40517.15053763441,
+   "score": 40565.5376344086,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -419,12 +394,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 38882.60252365931,
+   "score": 38925.189274447956,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -433,12 +408,12 @@
   {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 27908.762311227845,
+   "score": 27941.26395272489,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -447,26 +422,40 @@
   {
    "loc": "region/356",
    "name": "Rajshahi",
-   "score": 27852.081513828238,
+   "score": 27878.282387190684,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "356",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/356"
   },
   {
+   "loc": "region/2956",
+   "name": "Sokoto",
+   "score": 23285.824561403508,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-20T01:10:00Z",
+   "end": "2026-11-21T06:00:19Z",
+   "ongoing": true,
+   "kind": "region",
+   "code": "2956",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/2956"
+  },
+  {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 22681.20448179272,
+   "score": 22706.414565826333,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -475,40 +464,26 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 22563.99470899471,
+   "score": 22587.804232804232,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/3116"
   },
   {
-   "loc": "region/2956",
-   "name": "Sokoto",
-   "score": 22212.140350877195,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-20T01:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "2956",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/2956"
-  },
-  {
    "loc": "region/596",
    "name": "Glarus",
-   "score": 18785.028735632186,
+   "score": 18810.8908045977,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T16:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "596",
@@ -517,12 +492,12 @@
   {
    "loc": "region/2581",
    "name": "Chiapas",
-   "score": 18748.356428021554,
+   "score": 18807.247882986914,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2581",
@@ -531,12 +506,12 @@
   {
    "loc": "region/714",
    "name": "Rarotonga",
-   "score": 18114.116161616163,
+   "score": 18136.843434343435,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "714",
@@ -545,12 +520,12 @@
   {
    "loc": "region/3638",
    "name": "Grad Beograd",
-   "score": 17000.42792792793,
+   "score": 17020.6981981982,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:05:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3638",
@@ -559,12 +534,12 @@
   {
    "loc": "region/2571",
    "name": "Tabasco",
-   "score": 16550.813446969696,
+   "score": 16602.802083333332,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2571",
@@ -573,12 +548,12 @@
   {
    "loc": "region/1757",
    "name": "Dadra and Nagar Haveli",
-   "score": 16461.89933523267,
+   "score": 16478.99335232669,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T05:00:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "1757",
@@ -587,12 +562,12 @@
   {
    "loc": "region/2576",
    "name": "Hidalgo",
-   "score": 15994.8056228141,
+   "score": 16045.047753564704,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2576",
@@ -601,30 +576,30 @@
   {
    "loc": "region/1016",
    "name": "Burgos",
-   "score": 15936.598771419338,
+   "score": 15965.696734561918,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "1016",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/1016"
   },
   {
-   "loc": "region/2568",
-   "name": "Campeche",
-   "score": 14045.049019607843,
+   "loc": "region/2954",
+   "name": "Kano",
+   "score": 14297.872340425532,
    "sources": [
     "Routing (BGP)"
    ],
-   "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-21T05:45:19Z",
+   "start": "2026-11-20T03:25:00Z",
+   "end": "2026-11-21T06:00:19Z",
    "ongoing": true,
    "kind": "region",
-   "code": "2568",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/2568"
+   "code": "2954",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/2954"
   }
  ],
  "services": [
@@ -1024,6 +999,66 @@
  ],
  "news_reported": [
   {
+   "pubs": 8,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Gizmodo",
+     "title": "Illinois Officials Investigating Cyberattack at Algonquin Dam",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc3BsamtER1ltQzdCUmYzYVVxNmFlR0kwMDJieWpTZGsyMUMzaTlOekxLU0dpYkVFQXNhTzM1U2RYa2lZUmtvOGRsN3gwczc2UDVzMG9hTlVqcERSM216cEs3S3BDTFF0a0R2SW5CdkxwMWZBMDJRVk1ORVF0NXdwZUpJa25JTXFMUTJCQ1F3VGVPcUp1RHJN?oc=5",
+     "date": "2026-11-21T05:15:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "CBS News",
+     "title": "Cyberattack attempt under investigation at Algonquin Dam",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMVg2bE5qc2lDRWpLSExiSV9hVlpxdFN3RklySXJLNzVCMWdGRHpIVDdMZlZITlRleTk2SzNFS0ZQY0dOTkMzSUVuMEN6LURNZlJ0cHZBY05ieW1DZDk3bzFnQWdWUTluTkN6ZlF5cUI3ZHNjUExfWDZZTkdRMlZnOHU5VUh2bE1MSlF2RUtERmdfaVdmYUdMdlVVNA?oc=5",
+     "date": "2026-11-21T04:34:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Yahoo",
+     "title": "IDNR investigating apparent cyberattack attempt at Algonquin Dam",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnItOE1ybURJRVplQTN0dkw0Q3ZvUzAwaUJNckljVHpJd01kNlMwNF80TUxtMDNLeDdkRlZuWlFRb2Y3ZmxtajJNWGhHMVpjZldMY3hGTjVWblFKTGEzbTRxeEJQZklsT3FzLW9VbjJBTnNvWUhXOGVqQmp5Rms0cjdVbUpwYWhNUWtaSlVvbi1VNDdlY2lVajlJT3U?oc=5",
+     "date": "2026-11-21T04:12:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "WGN-TV",
+     "title": "IDNR investigating apparent cyberattack on Algonquin Dam - WGN-TV",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPajNZdnVSaEdzb2l1MHdyYnBOVjFObUNzaGs2WjRNUlJxendJWjFDa1ZBQVB6NnVYQ05Qa1dnYWQ5eEZ3TjAzcm1VaVU0RFZSOTBkV0pySFZjU1dOckpYblo3c3JxcHVVUTRMRmhNUFNRYXk5by1vbGY2YlVOdmtKY1A5NHd6dGNmZkRmVWV0UjgyNW9pVDF6cFpaVV9ET1XSAaQBQVVfeXFMTjFOcmdfVXJvNlVCNVVhQUJSOWhiOWFjMExycGxnN2hSR1RfZjgteWZpZ1FpVG1sYWVFNElmZUoyYnpTSHFfVkxUeDdZZmRHSm5MbmdVcmlVTzRZYXdIengwcWNKaGZVWHNnRmp3WVNwWnJRaUl5amRtdlBDNlBOMk04Zlp1bkVfWFEwaG5MWDNhSXlrWUFkZGFiMDllcGJiM0tHN2Q?oc=5",
+     "date": "2026-11-21T03:36:34Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Shaw Local",
+     "title": "IDNR investigates \u2018apparent cyberattack\u2019 at Algonquin Dam on Fox River",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2xOVGxxaWE0dnEzSUF6eENnOHAzdWkzQWZoS1lxZ2pfR2pSVWdFam52WlJNeEZUbVdid0hrQXZHa2JEYmJ5RGFjNUJoUGJiYmFMbnNhYjBLcHJDaVpybmxhbjYwZ2t3SGlndjBhazZfRF82czUwSlFicjR1SnNBUy1hYi1vWGZTUjV1RXZEaXUyTzNNMWtBNk1HVzJ5UHpQVnYyWnJlX3ZtbHdDWVNYTEw5b2dGYmFvU012NmVDQ2Y?oc=5",
+     "date": "2026-11-21T03:31:30Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Ticker News",
+     "title": "State officials investigate cyberattack attempt at Algonquin Dam",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNlNwVi12RE0zMDA1TWU0NzJYeE1BaU5ueUNKM0QxbjAtZnd0V1MzNUV5QWZ0QlBlM000LW9wM0JIZWl5OE1iYnVSSjFreXlQTDQ2VUl5b0tzeXNKb1FfMExFeFNxSVpFWTZhaUlsVTZsTmlYSE9UTWRSWWhrME95b0xlMA?oc=5",
+     "date": "2026-11-21T02:18:15Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
    "pubs": 7,
    "cat": "service",
    "headlines": [
@@ -1079,66 +1114,6 @@
      "date": "2026-11-20T16:02:00Z",
      "desc": "",
      "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 7,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "Gizmodo",
-     "title": "Illinois Officials Investigating Cyberattack at Algonquin Dam",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc3BsamtER1ltQzdCUmYzYVVxNmFlR0kwMDJieWpTZGsyMUMzaTlOekxLU0dpYkVFQXNhTzM1U2RYa2lZUmtvOGRsN3gwczc2UDVzMG9hTlVqcERSM216cEs3S3BDTFF0a0R2SW5CdkxwMWZBMDJRVk1ORVF0NXdwZUpJa25JTXFMUTJCQ1F3VGVPcUp1RHJN?oc=5",
-     "date": "2026-11-21T05:15:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "CBS News",
-     "title": "Cyberattack attempt under investigation at Algonquin Dam",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMVg2bE5qc2lDRWpLSExiSV9hVlpxdFN3RklySXJLNzVCMWdGRHpIVDdMZlZITlRleTk2SzNFS0ZQY0dOTkMzSUVuMEN6LURNZlJ0cHZBY05ieW1DZDk3bzFnQWdWUTluTkN6ZlF5cUI3ZHNjUExfWDZZTkdRMlZnOHU5VUh2bE1MSlF2RUtERmdfaVdmYUdMdlVVNA?oc=5",
-     "date": "2026-11-21T04:34:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "WGN-TV",
-     "title": "IDNR investigating apparent cyberattack on Algonquin Dam - WGN-TV",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPajNZdnVSaEdzb2l1MHdyYnBOVjFObUNzaGs2WjRNUlJxendJWjFDa1ZBQVB6NnVYQ05Qa1dnYWQ5eEZ3TjAzcm1VaVU0RFZSOTBkV0pySFZjU1dOckpYblo3c3JxcHVVUTRMRmhNUFNRYXk5by1vbGY2YlVOdmtKY1A5NHd6dGNmZkRmVWV0UjgyNW9pVDF6cFpaVV9ET1XSAaQBQVVfeXFMTjFOcmdfVXJvNlVCNVVhQUJSOWhiOWFjMExycGxnN2hSR1RfZjgteWZpZ1FpVG1sYWVFNElmZUoyYnpTSHFfVkxUeDdZZmRHSm5MbmdVcmlVTzRZYXdIengwcWNKaGZVWHNnRmp3WVNwWnJRaUl5amRtdlBDNlBOMk04Zlp1bkVfWFEwaG5MWDNhSXlrWUFkZGFiMDllcGJiM0tHN2Q?oc=5",
-     "date": "2026-11-21T03:36:34Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Shaw Local",
-     "title": "IDNR investigates \u2018apparent cyberattack\u2019 at Algonquin Dam on Fox River",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2xOVGxxaWE0dnEzSUF6eENnOHAzdWkzQWZoS1lxZ2pfR2pSVWdFam52WlJNeEZUbVdid0hrQXZHa2JEYmJ5RGFjNUJoUGJiYmFMbnNhYjBLcHJDaVpybmxhbjYwZ2t3SGlndjBhazZfRF82czUwSlFicjR1SnNBUy1hYi1vWGZTUjV1RXZEaXUyTzNNMWtBNk1HVzJ5UHpQVnYyWnJlX3ZtbHdDWVNYTEw5b2dGYmFvU012NmVDQ2Y?oc=5",
-     "date": "2026-11-21T03:31:30Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Ticker News",
-     "title": "State officials investigate cyberattack attempt at Algonquin Dam",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNlNwVi12RE0zMDA1TWU0NzJYeE1BaU5ueUNKM0QxbjAtZnd0V1MzNUV5QWZ0QlBlM000LW9wM0JIZWl5OE1iYnVSSjFreXlQTDQ2VUl5b0tzeXNKb1FfMExFeFNxSVpFWTZhaUlsVTZsTmlYSE9UTWRSWWhrME95b0xlMA?oc=5",
-     "date": "2026-11-21T02:18:15Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "ABC7 Chicago",
-     "title": "Illinois Department of Natural Resources investigating apparent cyberattack attempt at Algonquin Dam on Fox River",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVnc0VWlpdDBFTm02RHI4S2d5WWJ5QXRJclJxRzdVSDRkUE1yRVZWek10OWlIWk1MRzRYd3NybXg5Z0J6cHB4WjE0UHI0OUVjVlNJeFFRM3RpWXk4ODNlWHFHelFrUlBpUXRRaTZ6eTk4M3l1R2pCakw5ejlmTGxEc3RuOXNiak83bnRPYUJBcklTS1NtZEVFVWZjOVF2VnBvMk5yY2toUmdOaEszbjdIdTIxZmpzQ2Z3empTSjN4ZHkxQzdvaGxWWVFLSnE0WUJxblVDNkRzOFNIcWvSAeABQVVfeXFMTUlCRWg3QkFIcGV3dVYxcWdnUno1Q2RhQlRsdjNMSklxTWUwdkVneDZXaGVvNjBpZWszUERIOHFnMDJBOS0zVUNud3ZYQmo5U3phcUtnc0JKVl9YRGxOVlNwWWozaW5SRFZwRDN5d3BTeC1fNG9LbzBXbDNfeC1ROHNCOWNLaXZlUFA0NnRpWWxjZkRtejRzckpfN3lCb2lCQ19YMGR2OC15MVhORmdMTnpRZ1JTZ3BwS3RQSW9PZVgxeXN0elYxU293aFhKUHpEdlNiMkVMUUV4dVJHUE1wTHI?oc=5",
-     "date": "2026-11-21T02:15:28Z",
-     "desc": "",
-     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1367,19 +1342,19 @@
    "cat": "cyber",
    "headlines": [
     {
-     "src": "Yahoo",
-     "title": "Carnegie Endowment Cyberattack Exposes Donor Data",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRTdXdzB0LU1adS1lYmJ1VHVUWjJkT1RYXzZvMDlUeHdGLVNFd2o3eDQ1MzRPSUNJTTgwNEtBUXlrM21WbzNoWFJXV3hJRmo3VDFSblVlZUFvRXl6b3k1MEktRE8wTjc0dmhWLV9LUFh0X0hSdWR2UFJ0NU11OV9ON2pWclpESGUtQ1NuUnN0c0x6Mk00ZlE3S1EyR3pjUmM?oc=5",
-     "date": "2026-11-21T03:01:00Z",
+     "src": "The New Indian Express",
+     "title": "FBI probes suspected cyberattack on National Criminal Information Database: Report",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTmlpWUNzSWxvY3REa2pseDBydVdhSnNuUm9WVXdLRU9MYTMyTlZfNV9ZWVJ6Y0hSaWRMbEhMeUFicEtxYl9Cd2Y3UXNqREhLR3BDek5JVldBck0xNG81OFA2VHBaejJ0TTU1SlBQdVYtc2pMUW9jVEk3c2JzUmxEelRWWmVZd2x6OTBzSHhEbVlQRkJHdXhxYV9jdnZCdmtMMVFKWTNhb2dWY2x3bi03b0JSd0x3MDZ2RkVQd1ZZUUp6MUd5LVJKWDhqLS3SAdoBQVVfeXFMUHNTeUFUMVllWXNfRWlQcmRWaDZ4U1RXMDBQb0p3RHk1VHljZTFTMGlBOWFEMXhVN253ald0WlRoNHRsa3VhLXhzM21qYl9fT1FhWGtlYkdCNjcwNk56SjBMT1JwWnE0Umx1S3hMS255TFMybWlSclpBUzh5Y1QzZk5jamV5bDVINm1qdkhrT1NWbTN1ZlVTU0otbGFGdjBSV043dmFnUVNTNUptWDRLR0MtbFVhSUNhZEVwZ0RJOUMzX1RJZWFYbTRkRndVeHZqWHdnMFhnQUZKcFE?oc=5",
+     "date": "2026-11-21T05:31:02Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
     },
     {
-     "src": "Politico",
-     "title": "Carnegie Endowment hit by third-party cyberattack that exposed donor info",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVR3dE9LTWNPMlBTUm1mNjRybmtJQU5HaFJodDRMSFRRMWxDMDBFMnJEOGJtdzBtM2xPYmdiVEE1RmZtMmo1cVpDSmlFSkVqZlhFUnZuVFVXYlg2NTZkWkQxSDMtOUFjTGJYOHJOOFRJQ1ZGY0dIUlMwRnZ3TEx2MlRlSy03VDA?oc=5",
-     "date": "2026-11-20T19:20:00Z",
+     "src": "WFAA",
+     "title": "Report: FBI criminal information database breached in cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMVBjM2hlNXdZaFgzcExkOEUzRTFsMUl0dWpoeHh4bE9mU1BkNjlyb29FTEtUYURlNGhycE9rN3hRU1lraEVJZ2FjenJkam94Z3pzcklyTDdrU1lMT1d0VmVjaVBJM1JCZGtwTVJ2aXJiSURKRzU0cVNuTmU5dUM5YU5CWC1YNUJNTWtFNGhYTlAweXFqVUxhWk9seC0xVWFwSVRMWC1oZUtTU1dGaFVCVVJiOGU5REZPelFCZ0R4WUZpajBCc2tySThWMGRCVnIwX3gxUk9ubm9tdm84UEpoUHRzQQ?oc=5",
+     "date": "2026-11-21T03:37:11Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -1438,6 +1413,30 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX2dDUEVYemdzajRrZTloZ00zajlCR3AyNG1qUzNrcUt3cFgtVzVGWldTczdkdXNHVWpRcVVrS3hlUWRSLXNxcW9qTFZqT1VHQ0xTdmt2b2lfMGRROE5DTVFJREEteFk2eFloWHNMZVVqbmxFSUZLeV8yMzNpb0NENlRUa01pS2xyUUdmaXd6X3RCSWxGOEhsN0dEUlliOVRpcXdqVEM2ZVFONkVGZVR0dkRR?oc=5",
      "date": "2026-11-20T21:13:21Z",
      "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "WDBJ7",
+     "title": "Virginia Tech Experts on Outage Concerns",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLVFXVVZSSkxKQWR1dlhoYm1HdlRTSW80TExMajh5b2xoQndVTEFNM2NnOUNBSmZXNFIzMTRwRFlMSjVyODVDdi1hZjZ5RmJaSUl0cUVLMVZIdE92Xy1fYk5Wd1hKQjlXQ1B0YXJpbUQtOFJaYzg0bVVpakQ3a2Z1eGtkcw?oc=5",
+     "date": "2026-11-20T22:21:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Record",
+     "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+     "link": "https://therecord.media/west-virginia-legislature-cyberattack",
+     "date": "2026-11-20T21:34:36Z",
+     "desc": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
      "cat": "service",
      "outage": true
     }
@@ -1509,6 +1508,87 @@
      "title": "Mexican cell carriers facing widespread outages, users report",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbE5rUS1IR2hwZzFGSDB1SVBzTDlMTFNkd3FGQ1RNZUJlRVp1Tmh0V0RaT0FuSVp5a3g2Z3NTcmZMZjJvRjNMQjNheVlWMjB6NjVOTXAxVmptdzVkUW5NLVBKQ0piSHYxcnJoSXlSYVgwcmpUeHNUdmY4ZzhTMHNCWkNOdEtjV2pPd0pNTHdNWHFMT1FIVVpEOEtYLUR2bGZId1pPMVFSWXYyNWVwZkQtRVpkT1hGQVF6Y1pF?oc=5",
      "date": "2026-11-20T20:57:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "The Sunday Guardian",
+     "title": "Chase Outage Today: Is Chase Bank Down in the US? Users Report Online Banking, Mobile App Login, Account Access, Payment and Money Transfer Issues | Check Latest Downdetector Status",
+     "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQc3RXNVdtTngxQXpJaDVnREZkLUlZV1g4d014bFdnWEdEd1BVRkFnSjJSM3F1RjlPSG5Qa25PTkR6a0l3c1pWZ2VPVl9XMWdmTW92WHBkTXoyNVN4MFJXQjU4Qko0REVwME5xWmctNEdWcVh6TUtsclhFZUxMamM2YXE0amJ2OGtFVUV2WERxTnJONVBVU2x4OXJHb2xSRFdRRnpZbDB5VnY5ZU0zNWFYdGdycVY2UFB4N2Rmb2VpeTVJMzI2QnZNY0RCR0RhZHdJTGUySWt2MklmcDNrWTJrd19BbllHSk1ISHZ4MWVSR0tCZU5OendMYkpmaW9oSFVtVmxMbjRQZGFUcGRiaVB4M1Frc21lRzk1aTl3dVh4TFZHRnVUcWVCdUhWbUMyY0xxeG5uUHhHaEhncjJOTjN5ek5aRzfSAcoCQVVfeXFMTy01cVFsYUNwWXRIZEUtRm9UdVZVeXNyZ05UbTM1U0JtVGJCRkFRenZyemxscURON0lVY2lRTjhNckQ3NmN3Z3F6QWNjdjhQQmdHdHhVOGNjQ2RNc0M0S2JDNUMtX3B2NjRpZU9IUndpMXltUTRMZjdoY2NMSDNETllsYUp6dHNySXBqa1NPNWhIVUJvN3RNVTIwVmRiR3BKTng5YThjWmZEQmNDZmstbXhkZDBEclJ4eXR2N0t1N3NGdXphZDNXWmxfYzNwYXZnbUx0WjNfZlFvRTlRU3I0dnRSV2lQMU92VWh2Vk94WnVoLU80aGxiczFXMGVnOU03Z1dkNXktNGkzSjVNWk81SjYtb0pWbmp1eExFZDV5S1pzN2xRYkVsLXcycXc3TXBZOFhDUjJlUXptR2FIWDQ0MnRHbFpnYVhkbVpR?oc=5",
+     "date": "2026-11-20T20:18:06Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Sunday Guardian",
+     "title": "Starbucks Outage Today: Is Starbucks Down in the US? Users Report Mobile App, Online Ordering, Payment, Login and Starbucks Rewards Issues | Check Latest Downdetector Status",
+     "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPN240Z01oTC1wOTVyX0t5Q3JQU0dlaDJ3WVlvOUlXSXBDQ3ZTbFNvVjYwRklNUmwwZFY5VlN6VHZFS3c5LUczdkpjbEVyMm10cmlnTzNHWkNpTzNYY3lScFRnVVRnUkdyUzV2VlV3My1IOFZ0endTYW4zWl9oYmtSYWRveG03amU2VUtKX1BzdE1XVzRNUzFQWGRJMFlXV0hqOUtLbXJlM2t6SFZBZ0dVUXRoRXRZN21zRnZ5cHJCbG1EdkwzUHdlbHMycERhbTg0XzZKcm5SNTdTMWtKMnE5eDlGcldJdEJQOG5QYjNPV1JiRnVnSV9GT2g3bE1TS1k4S0M4ZGEya2RybzctU3hkX0Q5aTJkbkNTa05MdmgzVmluWGZKTXlCVWYwQ1VMYWZ5R21hYVFJVTRwd9IBvwJBVV95cUxNV3U1aTd1MTJzdmRZNmpYMmsxaWR5V3h1V3p2MDJJa2dyZFJSNHdzaDVUM3RsM1hkZHlpVTZWaTlNdVFlVGRuTTRGZE5rV1R6SHhvV2lfNHV0NDZLellwS0pUbGRSM1RESVZGSGJUNkdSWkVQTmxlTDFaYzRFNkZDYUNiSWRRWThlSVFYdlZpTkFPUXNBeHhFWGJzZ2lYdVU1YzhtQ3VVcy1YNlgzMVYzMHo5TENhU2lZSjFRckhaNnN3WVJjZVhSb1hnb1ZsVXp3aC04T29memk3QTFKdF9sdnBTOUhKalN0cngzYnpCMk0xV0JtbExyTEtXdWxMV21UZC01ZUhleE1JN19wX090aHNKRm9IVncxR216X3BYS3Itd29Zbl9WY3B3YzZDNWliNTZ6NFNFanhqN0pISGxr?oc=5",
+     "date": "2026-11-20T16:52:54Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "BBN Times",
+     "title": "Bank Outage: Why Chase, Bank of America and Wells Fargo Customers Couldn't Access Their Money",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenVnSEliR0ViMklHSEVTZkVkcUphZUlNVUh0amR1YzlNYlpOQmhIUFlLVEZlejdJYkVGMTFIYmpsNVhRVTZENVlMYndIRWZ5a1RuRHBFMm1NM2RSZG0yelZDYktYaDZNcTB4WHNIRjhlZ0JrVXo1bnRPT0RBMHVncFp1MFBPUmJkcmx4VG92UWN6ZjB2UmZCWEp4NkpnMlA5SG5qOW1uZS1pMlM1U3J2OGFaUWNvRHg5Vm50czQxNXB0MHBj?oc=5",
+     "date": "2026-11-20T09:01:28Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Politico",
+     "title": "Carnegie Endowment hit by third-party cyberattack that exposed donor info",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVR3dE9LTWNPMlBTUm1mNjRybmtJQU5HaFJodDRMSFRRMWxDMDBFMnJEOGJtdzBtM2xPYmdiVEE1RmZtMmo1cVpDSmlFSkVqZlhFUnZuVFVXYlg2NTZkWkQxSDMtOUFjTGJYOHJOOFRJQ1ZGY0dIUlMwRnZ3TEx2MlRlSy03VDA?oc=5",
+     "date": "2026-11-20T19:20:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "The Register",
+     "title": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
+     "link": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+     "date": "2026-11-19T21:12:33Z",
+     "desc": "First service outages, then data breaches\u2026what's next?!",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "ABC News - Breaking News, Latest News and Videos",
+     "title": "1.5-hour-long system outage forces United Airlines to delay departing flights - ABC News",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWjBnZno3VWVrZWRuMXk3a3JQZlNQcmw3SlV4ZlhfNEszT1lVSjZjVmxJV28xV1h3N21neXJoOHpPQ0FIajE1cDNqOGs3ak5yVHRTZnhRVS0yMU50QW9jQ1BxTl9mYzZ1UVhBMG5zSWZFakRIcWRMeVpDdXdqODRMNl9peGtUcTlUSWJxbHRJMVFZYThOYWZIeVk4ZHRNTlXSAaQBQVVfeXFMT25JRC1mOHIyVTQ1VXQ0eW5DSkVrTWZERE5wSHp0QlV4T0s3LW5zc3ZZMzJ2N1VJYjJIUDZRRUh6UFRCY0xmZXRfbVpxVXJ4ZmI0UTNLSHZRV1liUF9FU0piNjl5S0pvZXNRWS1DT2J1bHc3Mlp6TkhPaW9FT3J4U3VEdE9QcFZ1Q1RqRXphWEFnSE5IMzVZemFpLVJoVUZ3YkFpWlo?oc=5",
+     "date": "2026-11-20T17:43:53Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "TRT World",
+     "title": "United Airlines reports major system outage as US air travel faces fresh disruption",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XeTlLa3BVTnRZZ01yWnk4SGNVZnpaRXk0dV9KQWpLUGVWX0JSOTgtYXF5eDlTN1VnLVlGQnJ0UzJLSmRDa0VMbFNWb2ZtMVgyUjdSNExFZEE?oc=5",
+     "date": "2026-11-20T10:48:26Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1736,72 +1816,12 @@
    "cat": "cyber",
    "headlines": [
     {
-     "src": "WFAA",
-     "title": "Report: FBI criminal information database breached in cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMVBjM2hlNXdZaFgzcExkOEUzRTFsMUl0dWpoeHh4bE9mU1BkNjlyb29FTEtUYURlNGhycE9rN3hRU1lraEVJZ2FjenJkam94Z3pzcklyTDdrU1lMT1d0VmVjaVBJM1JCZGtwTVJ2aXJiSURKRzU0cVNuTmU5dUM5YU5CWC1YNUJNTWtFNGhYTlAweXFqVUxhWk9seC0xVWFwSVRMWC1oZUtTU1dGaFVCVVJiOGU5REZPelFCZ0R4WUZpajBCc2tySThWMGRCVnIwX3gxUk9ubm9tdm84UEpoUHRzQQ?oc=5",
-     "date": "2026-11-21T03:37:11Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "The Times of India",
-     "title": "FBI hacked again: Cyberattack targets national crime database used by US police",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcUZ0akd6XzhvaU5aNmNWSG02ZFhXNWlvM0YtS2JwZ0VLdXBvT1BOZVJSWkZQNFNlWGhGemtNcDR3R0FtUDVDblQ2c2VTaTE2aHdEaEZrNmp6aFVud1ZBaHFsT0lyeVhuaTlOazJ2MkI5WUh1TEZXOWlhUzlSbHV2SW43Z0hueU5wSGRyM1hlZF9pUDdMbFNOVHByZ0FBSmhkVzBNY1RyOUROR2luTEQybWstRFhEWkIySGRIeW0wMndhT3FjSzFvVElqUWlBMnFDbTN1eU9nTE1MNDRTZ25DeW40Y9IB6AFBVV95cUxPZ0dvWVlhb3QzQ1JRMUoyRlZLOEdpYlI5bDVVTFZNa0cycmExMkVOYkw5RW9URlhuVktCOW9uVlNlWklXc0xEUjIycjlvZ09rck0xXzZEZFBkSjFVMU1QLThYM19xSGtUd1JTTHFLS1dRMFY0QmFZX1lhaFBDQThfWk5oY1dZNEZrbXAtekpmdGtlUmpBZG90V3hyVG1pVXF3c1pLczVpdW8tTGFmUWQxU1RqYTlWaXhPYjBOWXdnT1ZfQUJDbmRpUU5PWC04OWtEaXhVdS1jM1BIRDl2VkRldmxIOFZ6T2Vo?oc=5",
-     "date": "2026-11-21T03:37:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
      "src": "The Dominion Post",
      "title": "Legislature responds to cyberattack on network",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQVJEQ1R4OF9LMjRnR3lQZXdTU3dmLURsbGlxNXVVTHhKM3l0azhXNjYybmlkd0xQZm1EUV9QSjhoY2NDZlpUZWI0SG5fSlhmZ09yb19HdzBEdEFGcXVoZW54aGt5UWFObkNyTUVqNlEwWS1xdmVFZG9qbUpkYXREVXR0X1FVWjF6a0NOTTd3Mks?oc=5",
      "date": "2026-11-21T03:00:00Z",
      "desc": "",
      "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Breitbart News",
-     "title": "Walmart Reports Jump in Sales of Soup, Water, and Food as Tech Outages Trigger Panic Buying",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOejdRS2Q1WFZWdkI2amU0NHBJaXZ3MnFWSlBPYUtfa25NaHpTMXBaTGkyeEhVbXQzQ1BoNTZ6eDNKaWEzMEJsWElqZDlzOXBNeExHRXhMdzZuR2x4Q2UwRUdRcFZMZDZBYTJVNW42RlVESzFKd19QUURIZnRpRkxLVENWUnYyTktHaXdvcjlKREZKN2c0Vm5qLXA0X2VaVm0zU01HdUZ4RjFXRUJ6MmRxQmFzWjJrb2VuTG5JSmFvZ2RqOGtlLUpncUhKdFg?oc=5",
-     "date": "2026-11-21T02:14:08Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "internet",
-   "headlines": [
-    {
-     "src": "WITN",
-     "title": "Infinity Link says cut fiber wires caused internet outage in Greene County",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeThUbV9wRkNxS2NtYXItUTBzWm9PRGk1MjRyb0ZOWGgtMTJueUVUbTRNQ2lBdjY1UW5SQW4ydlFUcWNTaDFpSUZrc0RybTRpX285LTBnaV9MTTNXU2lIa3BwSXR1NlNmNGVRYUJscm90dTQyMFlhV3JtTHpMVmFHLVhqSlhZSW5nOXpaUGotakZ6MHJuUzJqUTE1MHdVMEJHSk55QTVEONIBuwFBVV95cUxNY0swSzNwMTgxQ1RaSmVBWHM1NHZPaUg5cVhUMC03ekR4VXBvUElIQWVwQWZEQmpGN0JSVk1OVldhVUlDNlBsVlpkTmE5OFo0Rm9hblZib1JRbTl0bjdTNFRYbXBSQS1CbXdxbjQwQnBfMmtlbGJkX3NPUVlwRHo4THZiR0l2TDN0UXU5ZmdOZnA2aXJRQlBmSV9PY2s4VjFCTnNrc252QkJYQWJDcUFhR0U0a1NXYUlIRXpJ?oc=5",
-     "date": "2026-11-21T01:31:00Z",
-     "desc": "",
-     "cat": "internet",
      "outage": true
     }
    ]
