@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-22T04:45:18Z",
+ "updated": "2026-11-22T05:15:19Z",
  "counts": {
-  "internet": 10,
+  "internet": 23,
   "services": 3,
   "hazards": 0,
-  "news": 25,
-  "correlated": 2
+  "news": 26,
+  "correlated": 1
  },
  "internet": [
   {
    "loc": "country/FI",
    "name": "Finland",
-   "score": 106788.10622779376,
+   "score": 107559.51214038834,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-19T07:30:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "FI",
@@ -26,12 +26,12 @@
   {
    "loc": "country/SC",
    "name": "Seychelles",
-   "score": 25079.0573012939,
+   "score": 25128.992606284657,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "SC",
@@ -41,12 +41,12 @@
   {
    "loc": "country/GQ",
    "name": "Equatorial Guinea",
-   "score": 24724.065040650406,
+   "score": 24772.87262872629,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "GQ",
@@ -56,12 +56,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 19903.43283582089,
+   "score": 19948.23383084577,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -71,12 +71,12 @@
   {
    "loc": "country/RS",
    "name": "Serbia",
-   "score": 15490.893300248139,
+   "score": 15524.24875031467,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "RS",
@@ -86,12 +86,12 @@
   {
    "loc": "country/SY",
    "name": "Syrian Arab Republic",
-   "score": 10013.25,
+   "score": 10088.291666666666,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-19T10:00:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "SY",
@@ -101,12 +101,12 @@
   {
    "loc": "country/TJ",
    "name": "Tajikistan",
-   "score": 7221.945945945947,
+   "score": 7254.396396396397,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "TJ",
@@ -114,14 +114,194 @@
    "news": []
   },
   {
+   "loc": "country/AZ",
+   "name": "Azerbaijan",
+   "score": 6285.492424242424,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "AZ",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/AZ",
+   "news": []
+  },
+  {
+   "loc": "country/NL",
+   "name": "Netherlands",
+   "score": 6021.237487487488,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "NL",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/NL",
+   "news": []
+  },
+  {
+   "loc": "country/SE",
+   "name": "Sweden",
+   "score": 6012.210144927536,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "SE",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/SE",
+   "news": []
+  },
+  {
+   "loc": "country/RU",
+   "name": "Russian Federation",
+   "score": 5854.465811965812,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "RU",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/RU",
+   "news": []
+  },
+  {
+   "loc": "country/BY",
+   "name": "Belarus",
+   "score": 5809.247311827956,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "BY",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/BY",
+   "news": []
+  },
+  {
+   "loc": "country/SG",
+   "name": "Singapore",
+   "score": 5722.206148282097,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "SG",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/SG",
+   "news": []
+  },
+  {
+   "loc": "country/CI",
+   "name": "Cote D Ivoire",
+   "score": 5627.708333333333,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "CI",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/CI",
+   "news": []
+  },
+  {
+   "loc": "country/TR",
+   "name": "Turkey",
+   "score": 5572.47455470738,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "TR",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/TR",
+   "news": []
+  },
+  {
+   "loc": "country/IQ",
+   "name": "Iraq",
+   "score": 5512.857142857142,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "IQ",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/IQ",
+   "news": []
+  },
+  {
+   "loc": "country/AE",
+   "name": "United Arab Emirates",
+   "score": 5395.866666666667,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:14:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "AE",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/AE",
+   "news": []
+  },
+  {
+   "loc": "country/GE",
+   "name": "Georgia",
+   "score": 5240.617283950617,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:11:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "GE",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/GE",
+   "news": []
+  },
+  {
+   "loc": "country/DE",
+   "name": "Germany",
+   "score": 2011.4649681528663,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:49:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "DE",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/DE",
+   "news": []
+  },
+  {
    "loc": "country/LA",
    "name": "Lao Peoples Democratic Republic",
-   "score": 1915.6613756613756,
+   "score": 1947.4250440917106,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-20T22:35:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "LA",
@@ -131,12 +311,12 @@
   {
    "loc": "country/NG",
    "name": "Nigeria",
-   "score": 599.8041801948052,
+   "score": 642.136938582251,
    "sources": [
     "Routing (BGP)"
    ],
-   "start": "2026-11-21T00:35:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "start": "2026-11-21T05:20:00Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "NG",
@@ -144,14 +324,29 @@
    "news": []
   },
   {
+   "loc": "country/UZ",
+   "name": "Uzbekistan",
+   "score": 472.2222222222223,
+   "sources": [
+    "Network telescope"
+   ],
+   "start": "2026-11-22T04:37:00Z",
+   "end": "2026-11-22T04:43:00Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "UZ",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/UZ",
+   "news": []
+  },
+  {
    "loc": "country/LY",
    "name": "Libyan Arab Jamahiriya",
-   "score": 225.31422271223815,
+   "score": 265.0275633958104,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-22T01:55:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "country",
    "code": "LY",
@@ -253,12 +448,12 @@
   {
    "loc": "region/2108",
    "name": "Ka\u00f4h Kong",
-   "score": 489882.5,
+   "score": 490632.9166666666,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2108",
@@ -267,12 +462,12 @@
   {
    "loc": "region/2129",
    "name": "Tak\u00eav",
-   "score": 202710,
+   "score": 203020.5172413793,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2129",
@@ -281,12 +476,12 @@
   {
    "loc": "region/2951",
    "name": "Plateau",
-   "score": 185866.13636363638,
+   "score": 188390.26515151517,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-20T15:55:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2951",
@@ -295,54 +490,54 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 72406.19047619047,
+   "score": 72549.12698412698,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/1538"
   },
   {
-   "loc": "region/4442",
-   "name": "Indiana",
-   "score": 53513.15118811559,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-22T04:45:18Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "4442",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/4442"
-  },
-  {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 53455.71030640668,
+   "score": 53622.934076137426,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
    "url": "https://ioda.inetintel.cc.gatech.edu/region/2504"
   },
   {
+   "loc": "region/4442",
+   "name": "Indiana",
+   "score": 53612.5790180845,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-10T23:30:00Z",
+   "end": "2026-11-22T05:15:19Z",
+   "ongoing": true,
+   "kind": "region",
+   "code": "4442",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/4442"
+  },
+  {
    "loc": "region/2602",
    "name": "\u0160tip",
-   "score": 48519.71223021583,
+   "score": 48692.47002398082,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-16T08:15:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2602",
@@ -351,12 +546,12 @@
   {
    "loc": "region/2128",
    "name": "Svay Rieng",
-   "score": 46106.58823529412,
+   "score": 46177.21568627451,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-08T14:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2128",
@@ -365,12 +560,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 45280.294117647056,
+   "score": 45368.578431372545,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -379,12 +574,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 44968.70967741935,
+   "score": 45065.5376344086,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -393,12 +588,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 42800.53627760252,
+   "score": 42885.7570977918,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -407,12 +602,12 @@
   {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 30898.877216021014,
+   "score": 30963.916611950102,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -421,12 +616,12 @@
   {
    "loc": "region/356",
    "name": "Rajshahi",
-   "score": 30262.532751091698,
+   "score": 30314.963609898103,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "356",
@@ -435,12 +630,12 @@
   {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 25000.504201680673,
+   "score": 25050.95238095238,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -449,12 +644,12 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 24754.44444444444,
+   "score": 24802.089947089946,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
@@ -463,12 +658,12 @@
   {
    "loc": "region/2581",
    "name": "Chiapas",
-   "score": 24166.304849884527,
+   "score": 24284.153194765204,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2581",
@@ -477,12 +672,12 @@
   {
    "loc": "region/2571",
    "name": "Tabasco",
-   "score": 21333.710227272728,
+   "score": 21437.745265151516,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2571",
@@ -491,12 +686,12 @@
   {
    "loc": "region/596",
    "name": "Glarus",
-   "score": 21164.310344827583,
+   "score": 21216.063218390806,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-13T16:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "596",
@@ -505,12 +700,12 @@
   {
    "loc": "region/2576",
    "name": "Hidalgo",
-   "score": 20617.025827280067,
+   "score": 20717.565913371,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2576",
@@ -519,12 +714,12 @@
   {
    "loc": "region/714",
    "name": "Rarotonga",
-   "score": 20205,
+   "score": 20250.4797979798,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "714",
@@ -533,12 +728,12 @@
   {
    "loc": "region/3638",
    "name": "Grad Beograd",
-   "score": 18865.27027027027,
+   "score": 18905.833333333336,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:05:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "3638",
@@ -547,12 +742,12 @@
   {
    "loc": "region/1016",
    "name": "Burgos",
-   "score": 18613.579049466538,
+   "score": 18671.80730682186,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "1016",
@@ -561,12 +756,12 @@
   {
    "loc": "region/2568",
    "name": "Campeche",
-   "score": 18103.823529411762,
+   "score": 18192.10784313725,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2568",
@@ -575,12 +770,12 @@
   {
    "loc": "region/1757",
    "name": "Dadra and Nagar Haveli",
-   "score": 18034.529914529914,
+   "score": 18068.736942070278,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T05:00:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "1757",
@@ -589,12 +784,12 @@
   {
    "loc": "region/2583",
    "name": "Yucat\u00e1n",
-   "score": 15273.697270471466,
+   "score": 15348.180314309348,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T22:10:00Z",
-   "end": "2026-11-22T04:45:18Z",
+   "end": "2026-11-22T05:15:19Z",
    "ongoing": true,
    "kind": "region",
    "code": "2583",
@@ -661,8 +856,8 @@
      "impact": "minor",
      "status": "investigating",
      "start": "2026-11-22T03:50:54Z",
-     "updated": "2026-11-22T03:50:54Z",
-     "detail": "Twilio customers may be experiencing failure responses for Lookup API transactions in Canada. Our team is actively investigating the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+     "updated": "2026-11-22T04:51:30Z",
+     "detail": "Twilio customers may be experiencing failure responses for Lookup API transactions in Canada. Our team is actively investigating the issue. We will provide another update in 2 hours or as soon as more information becomes available.",
      "url": "https://stspg.io/tsp4vmj649hp"
     },
     {
@@ -717,7 +912,7 @@
     "Canberra, Australia - (CBR)",
     "Belo Horizonte, Brazil - (CNF)"
    ],
-   "n_components": 70,
+   "n_components": 68,
    "news": []
   },
   {
@@ -980,98 +1175,9 @@
    "place": "Timor Leste",
    "detail": "",
    "news": []
-  },
-  {
-   "kind": "Earthquake",
-   "title": "M5.0 earthquake, 0 km NE of Carhuamayo, Peru",
-   "when": "2026-11-21T05:12:04Z",
-   "level": "green",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uchd",
-   "place": "Peru",
-   "detail": "",
-   "news": [
-    {
-     "src": "Al Jazeera",
-     "title": "Moviegoers head for the exits as quake strikes Peru",
-     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/moviegoers-head-for-the-exits-as-quake-strikes-peru?traffic_source=rss",
-     "date": "2026-11-22T01:07:19Z",
-     "desc": "Moviegoers head for the exits as quake strikes Peru",
-     "cat": "service",
-     "outage": false
-    },
-    {
-     "src": "Latin Times",
-     "title": "Deep 6.7 earthquake in Peru felt as far as Bogot\u00e1 and Quito, with no fatalities reported",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb3RldEItMjVQNWhzUDN6eWRRUUhDYXFUT1NyaUVHTkJibE5zQ1VUOEJJYUV6bU02cjhZTmt6SWYwSG1pX3p3YXdQZXo1Vnc3eHliV2hCUm1YQ0ItLVJGcmU4VWg5SDRsQjNHbC15N19ueU8wVGJZc3h1aERPTnZDQVZBMA?oc=5",
-     "date": "2026-11-21T16:42:13Z",
-     "desc": "",
-     "cat": "service",
-     "outage": false
-    }
-   ]
   }
  ],
  "news_reported": [
-  {
-   "pubs": 6,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "AOL.com",
-     "title": "National Crime Database Reportedly Hacked, Prompting FBI Investigation Of Potential Cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQS1GdFhqOV9QX19tYkpDTnNTdnlobEhkbENXOTJGYXRwallVS0dUazJocldIMVNDdnNEVV9mdExieU1EMy14U2xVVWluX1g5cmdhWGU1WFdiTEtLeTNqUTlWdkxUUFNhOVVqSTdUSWtIOG8xbGhOcUJBdGktRW5pU29UOUV1ODhCSnJJcW1B?oc=5",
-     "date": "2026-11-21T18:46:19Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Al Jazeera",
-     "title": "FBI national crime database suffers suspected breach: Reports",
-     "link": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
-     "date": "2026-11-21T18:19:10Z",
-     "desc": "The reported hacking is the latest in \u200ba string of breaches and outages affecting the US government.",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "The Verge",
-     "title": "The FBI and USDA were reportedly hacked",
-     "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
-     "date": "2026-11-21T17:51:21Z",
-     "desc": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this\u2026",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Fox News",
-     "title": "FBI probes second cyberattack in months as hackers breach key crime database, sources say",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaVd2TVRPSXBwT200ZXA5N0lxU1kzSEdOMG5QVE1qWmtKSkpPUWZid2trV0dKM3NVdnF0SnR4dkR0SllOdDBIS096Z3lKWXo1YmtGaGZUdF8zN0s3OXN2TnVOcFBqd2o0MXR6VDlHVlVfdDZYbEF3VjB3NXFhenc2cDlEdEgzXzBmbkdWcklTUzU4OFJvZWxIU2lKUl8xVTdkRk1MeVM5Rko1bVMxci1XQ3dSWU1PUdIBuwFBVV95cUxNUnRiLU10NWFJS3hQdlBjZVZzUjdGQTVWRWdfcTE0Y1NqMElhbDJOcHZjTUlHSV8zZ25ZX2N3T3pyMENqZkNaUUdfem1GZkU1Z1Z4Nmk4SFNESHQ1WkNKVWpmTEY1dDR6b1liQzQ4OUNpTmdLYkRZYU02bjZjVUltb1lLQzZOVEM5bW1fQWp1Smh4NHpkQnVZSTRKOTNzVExJQ0ZJbS1DUHcxNVotUWZ5ZGN0V0gtZ0pHbU5n?oc=5",
-     "date": "2026-11-21T15:40:12Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "BleepingComputer",
-     "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-     "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-     "date": "2026-11-21T14:26:04Z",
-     "desc": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and\u2026",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "chinadailyhk",
-     "title": "Report: FBI investigating cyberattack on crime database",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vS2w5QlN0N2NrdFMwc09vODZwR1dSek1CSTctcDdQbFZnZHlPNXFrNTczTkQ1SkRRbWJPWVgtdTNDRzktZjlsWHFzM2NWMy1TMXZOekJhLTU?oc=5",
-     "date": "2026-11-21T07:12:45Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
   {
    "pubs": 6,
    "cat": "cyber",
@@ -1245,6 +1351,72 @@
      "date": "2026-11-21T06:31:22Z",
      "desc": "",
      "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 3,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Al Jazeera",
+     "title": "FBI national crime database suffers suspected breach: Reports",
+     "link": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+     "date": "2026-11-21T18:19:10Z",
+     "desc": "The reported hacking is the latest in \u200ba string of breaches and outages affecting the US government.",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Fox News",
+     "title": "FBI probes second cyberattack in months as hackers breach key crime database, sources say",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaVd2TVRPSXBwT200ZXA5N0lxU1kzSEdOMG5QVE1qWmtKSkpPUWZid2trV0dKM3NVdnF0SnR4dkR0SllOdDBIS096Z3lKWXo1YmtGaGZUdF8zN0s3OXN2TnVOcFBqd2o0MXR6VDlHVlVfdDZYbEF3VjB3NXFhenc2cDlEdEgzXzBmbkdWcklTUzU4OFJvZWxIU2lKUl8xVTdkRk1MeVM5Rko1bVMxci1XQ3dSWU1PUdIBuwFBVV95cUxNUnRiLU10NWFJS3hQdlBjZVZzUjdGQTVWRWdfcTE0Y1NqMElhbDJOcHZjTUlHSV8zZ25ZX2N3T3pyMENqZkNaUUdfem1GZkU1Z1Z4Nmk4SFNESHQ1WkNKVWpmTEY1dDR6b1liQzQ4OUNpTmdLYkRZYU02bjZjVUltb1lLQzZOVEM5bW1fQWp1Smh4NHpkQnVZSTRKOTNzVExJQ0ZJbS1DUHcxNVotUWZ5ZGN0V0gtZ0pHbU5n?oc=5",
+     "date": "2026-11-21T15:40:12Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "chinadailyhk",
+     "title": "Report: FBI investigating cyberattack on crime database",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vS2w5QlN0N2NrdFMwc09vODZwR1dSek1CSTctcDdQbFZnZHlPNXFrNTczTkQ1SkRRbWJPWVgtdTNDRzktZjlsWHFzM2NWMy1TMXZOekJhLTU?oc=5",
+     "date": "2026-11-21T07:12:45Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 3,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "NewsNation",
+     "title": "IDNR investigating apparent cyberattack on Algonquin Dam",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdDIyd1AtY3dpQlgxZTlJVFpDZ1dha0dUMTNBR0lwTmduWWJTRGU2WkJWV21FRkh5SWZ1UnQ3UE9mdUdUOGQ2RkpJZFV5eVhKUEoySldadlhuWU9VTlN6bHRfTTUyTXZUTThNX0hReUJvcGhnS3MtWDR2d3NVaENrbWdTaWYxaWdld0hHcUlkZ0hYUUlpemVuV1RCRVFjdUhnUW1pdlJn0gGrAUFVX3lxTFAwM1RSNWI2RG52bmlpYjdmZ1g4NXlJMks4Rk03TnVZR1VyWkphZTltaGFUXzVaT3V2cnFTaTh4WWNqdzdLMjV0aGJicTFuWThSX2RFSEFETmNhYl9PWlljZ1NJSEVzbnprODJna1RSY1Z1UjU4S2l0UVoyeE5fcEtHOXB5dFNBOEh5TXdDWndRQk5NOVN1REhEQ0gyN0ViZE1UWlJCMEFNQW5kWQ?oc=5",
+     "date": "2026-11-21T16:09:31Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Lake and McHenry County Scanner",
+     "title": "Federal, state agencies investigating apparent cyberattack attempt on Algonquin Dam on Fox River",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXBnUEdFQU5IMHFKZ2hMZGRWV1FpM2ZUbWN5Z2lJT3piZUVrZzhTWjBKa2hGVUp0V3RqSFV2WHYxVUVSdVNYY1B5Q1Rkb2ppQTVhc0l5Y1JBYzU5QXVHMlZ5d0N4Q055Ujd3bUpnSW9FSWpUeTVVYjhwOXRKTEFkc2xfbjZIMElzc01xdUJJSTVuU3ZEVE55RlExY0JqaGJ3Qkc5a2wzaXR0eWJBZnVBMXR0T050TklpXzVCX0dvakxMdjRWWlI0RkVQRy15X18yNk9SX2JxSUFRQQ?oc=5",
+     "date": "2026-11-21T15:45:13Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "MLQ.ai",
+     "title": "Illinois investigates an apparent cyberattack on the Algonquin Dam on the Fox River",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUFliMXd2aTlNRHpUN1BHc1ZmcXA2R21JSUdLU2p1R09Ld1VTb2duc0EwcjNKX01Vb3lsOW9td2xHVVdxZHA0S0hBdVFNTkJBQWt4Q2FUUGdjLUI0VjJFN0dtbXg4RTFmek9YeTV1U0pMM2F3eTZfdU01cWdIT1JVZzRNQzI2QjFTOE4ybnY5RVJFUUlvMFJ3UWJicFVLbVYtNk1YelllRQ?oc=5",
+     "date": "2026-11-21T05:39:30Z",
+     "desc": "",
+     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1446,30 +1618,6 @@
   },
   {
    "pubs": 2,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "DNE Africa",
-     "title": "Iran power cuts start Sunday: 2-hour outages amid gas crisis",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyRE1ZQUt5cGZsbjVMZ2FWTlhKaEVzVTl5WGlIWGNPbmRhZWZ3bFZKT1FPcW5EYkRvcEF4a21KWlBlb2tvbVdLbUQ0YmkxWHdqSGhtTUlmRmVKcmxOcHlR?oc=5",
-     "date": "2026-11-21T21:30:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "samaa tv",
-     "title": "Iran to impose power cuts from Sunday amid worsening energy crisis",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUXc4bzJVOGlKd2pnbDZ5S3IzVTZnUlVtZEFFdDdWRUJJTzJTR0RVdnlZV3BfT2ItSlBRWmVnaW52UERxWWd1UzZ0WmNQMHk5a1ptbE5pVWoyeWtyNEYxOWhndEFvY19nb0lCQ1lrLWhYVkk0eDZBLWZNUVBxeE1lbGhPZklrRFB3c0RYb2xsc3RTNGNSSkNmejdwUjJ0am8?oc=5",
-     "date": "2026-11-21T18:25:01Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "cyber",
    "headlines": [
     {
@@ -1551,6 +1699,54 @@
   },
   {
    "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "The Verge",
+     "title": "The FBI and USDA were reportedly hacked",
+     "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+     "date": "2026-11-21T17:51:21Z",
+     "desc": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this\u2026",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "BleepingComputer",
+     "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+     "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+     "date": "2026-11-21T14:26:04Z",
+     "desc": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and\u2026",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+     "title": "Large-scale power outages are ongoing in Odesa region due to Russian strikes on energy facilities",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWWdHVlFwMjRtQXZlekhhTGwxWkNIYnFya3llbFhIRDFkNi05NkpjWTNDVHkwbFdwQm8yLW4tLWtPTFZ0QUxpemUyM1l3TlNMYjl1V1VmbFFjVWZOem5wQklSdWFoWE1FZm8xbm9TT0lZdUJNc3hTQXpOR3MwclRWeDFSWjNtaGxtX24zb2xrR0xMMDV0cVA1Z2tLdy16QU1ZVUQ0UEhFanMwam95dXRET3dwWkd0eXdrTWxBWtIBuwFBVV95cUxQVjR3by1aNE9nbFM0cHNFRHBtazlxWFhKZGFLU2NIbUw2R3c4MURyNUgtcHVXcFBGa01rcV81ejZWcTdtbjdKaUF6MWJleFIzWF8xa2NEYVNZbG1va3ItU2ttbkczeGtSMHdXSldCdWVMOE5xRXhfXzU1V1BCRzBscVJJa0lGckJXbTZvZTl4VmRNeWViSWxUR1VGXzlVV2tJQk40cGpyeVFmRlJwb0JGaHFzY1J1X1RxWWMw?oc=5",
+     "date": "2026-11-21T17:49:55Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "\u0406\u043d\u0442\u0435\u043d\u0442",
+     "title": "Widespread power outages continue in Odesa due to constant attacks",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRFhYRUE2Qk5Bc05wdVF1OVJrTWxobVZ5RjA4N1Jtcm5kRHZFWWpsbnRTVUNsWDFET2w3cElMRHJMUHRnclBpekpTVWRVWVpYXzlMQjRWMF90QjcwSkFBRUZaWU45aUlvNVBWY08xemR3T0NwOWhMS05QMnJJajhHNmt4WXdtazQtTlBGY0lndDZJdmtGc29iRk5xTlQ0S3lST01TZlg2bTI?oc=5",
+     "date": "2026-11-21T15:31:10Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "service",
    "headlines": [
     {
@@ -1599,30 +1795,6 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "WIFR",
-     "title": "Illinois, federal agencies investigate \u2018cyberattack attempt\u2019 on Algonquin Dam",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHg5by04dXRnQ3VTdXdybzhJUzJybkRzT0hYY052QjV6bllZZllEZ1V4NWhQdzJYaFFHRHNReGlxVDc4MnVXcXBQdWFWQW9rV0lZNDh1TDJoM1Q1djc3VkF1aEM0VW5sZzVjWWRqNFN3MjRLNndPQ3M4NWRjb0YyRkx5bEZXbE81ZjZRaU56QWtEWFo0SFdZZ2JxMVV6LWowNjBsbS1nbVRNRmhHMkRXSVdNWWZVdFpt?oc=5",
-     "date": "2026-11-21T16:35:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Gizmodo",
-     "title": "Illinois Officials Investigating Cyberattack at Algonquin Dam",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc3BsamtER1ltQzdCUmYzYVVxNmFlR0kwMDJieWpTZGsyMUMzaTlOekxLU0dpYkVFQXNhTzM1U2RYa2lZUmtvOGRsN3gwczc2UDVzMG9hTlVqcERSM216cEs3S3BDTFF0a0R2SW5CdkxwMWZBMDJRVk1ORVF0NXdwZUpJa25JTXFMUTJCQ1F3VGVPcUp1RHJN?oc=5",
-     "date": "2026-11-21T05:15:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -1647,24 +1819,24 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
+   "cat": "service",
    "headlines": [
     {
-     "src": "NewsNation",
-     "title": "IDNR investigating apparent cyberattack on Algonquin Dam",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdDIyd1AtY3dpQlgxZTlJVFpDZ1dha0dUMTNBR0lwTmduWWJTRGU2WkJWV21FRkh5SWZ1UnQ3UE9mdUdUOGQ2RkpJZFV5eVhKUEoySldadlhuWU9VTlN6bHRfTTUyTXZUTThNX0hReUJvcGhnS3MtWDR2d3NVaENrbWdTaWYxaWdld0hHcUlkZ0hYUUlpemVuV1RCRVFjdUhnUW1pdlJn0gGrAUFVX3lxTFAwM1RSNWI2RG52bmlpYjdmZ1g4NXlJMks4Rk03TnVZR1VyWkphZTltaGFUXzVaT3V2cnFTaTh4WWNqdzdLMjV0aGJicTFuWThSX2RFSEFETmNhYl9PWlljZ1NJSEVzbnprODJna1RSY1Z1UjU4S2l0UVoyeE5fcEtHOXB5dFNBOEh5TXdDWndRQk5NOVN1REhEQ0gyN0ViZE1UWlJCMEFNQW5kWQ?oc=5",
-     "date": "2026-11-21T16:09:31Z",
+     "src": "WSJ",
+     "title": "How to Protect Yourself From Scammers Exploiting Outage Chaos",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMW5qRUJ1RmUxdndVLUU3T2RPTldmcllHcFhlMzRCelNBYzhFd2gzZ3hxam80d1BMZ09DU0VKU3lLZllKTHRfblFlZDZWZTFjem1abklvX0pqLXNteDYwUmw0RmFzNzJjUGZFb25uNmsyMVIzVEs2Vngxa3Vncy02UXgyWQ?oc=5",
+     "date": "2026-11-21T16:00:00Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "Lake and McHenry County Scanner",
-     "title": "Federal, state agencies investigating apparent cyberattack attempt on Algonquin Dam on Fox River",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXBnUEdFQU5IMHFKZ2hMZGRWV1FpM2ZUbWN5Z2lJT3piZUVrZzhTWjBKa2hGVUp0V3RqSFV2WHYxVUVSdVNYY1B5Q1Rkb2ppQTVhc0l5Y1JBYzU5QXVHMlZ5d0N4Q055Ujd3bUpnSW9FSWpUeTVVYjhwOXRKTEFkc2xfbjZIMElzc01xdUJJSTVuU3ZEVE55RlExY0JqaGJ3Qkc5a2wzaXR0eWJBZnVBMXR0T050TklpXzVCX0dvakxMdjRWWlI0RkVQRy15X18yNk9SX2JxSUFRQQ?oc=5",
-     "date": "2026-11-21T15:45:13Z",
+     "src": "DailyVoice.com",
+     "title": "Scammers Exploiting Wave Of Tech Outages: What To Know",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMXVSd3FqdWZqZWhBOVVNdGNyWEtXV3VxbDR5d25RNVE3SGNtVlhmLVl2ZVZ0bExnbzdWZHZLdFRuWk9rbkFHUVA5OTNSQUJ0Mm9HUFhXTkNrSkdZSXJNU3F1WEFmYXNMd00xVGJwT2E5Nlk1THkzSE52RzJaMU1QY2M0ZGlHa3E5Y2x2azdHTkJOWmJUWlE?oc=5",
+     "date": "2026-11-21T15:10:04Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -1821,21 +1993,6 @@
      "date": "2026-11-22T02:13:47Z",
      "desc": "",
      "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "Eurasia Review",
-     "title": "The Next Global Cyberattack Could Have Your Home IP Address \u2013 Analysis",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObExVTFNMNHZiVzRzTjlxQ1lDMVhPUUZVUjZvVmpXS1lubjdmY194RnFabEtmRl80cmIwWDVoVGl3TDJxa0xUaHJSUHdBNE1TaTZLd3Q0T2N5blgxdHhGSEx0VFJWa0o0bmVyVUR4MUQ5X1k4SGJTT1lVZGllUG5UZVBkTVA3U242ZklwME9rRjZRb0RFTDZXbzRNTjJYdmZoM19QdENnRTdNZEFz?oc=5",
-     "date": "2026-11-22T01:53:05Z",
-     "desc": "",
-     "cat": "cyber",
      "outage": true
     }
    ]
