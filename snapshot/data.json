@@ -1,807 +1,14 @@
 {
- "updated": "2026-11-23T23:45:20Z",
+ "updated": "2026-11-24T00:00:19Z",
  "counts": {
-  "internet": 18,
+  "internet": 0,
   "services": 3,
   "hazards": 0,
-  "news": 22,
-  "correlated": 1
+  "news": 23,
+  "correlated": 0
  },
- "internet": [
-  {
-   "loc": "country/NL",
-   "name": "Netherlands",
-   "score": 244750.27527527531,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "NL",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NL",
-   "news": []
-  },
-  {
-   "loc": "country/SE",
-   "name": "Sweden",
-   "score": 244383.33333333334,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "SE",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/SE",
-   "news": []
-  },
-  {
-   "loc": "country/RU",
-   "name": "Russian Federation",
-   "score": 237971.36752136753,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "RU",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/RU",
-   "news": []
-  },
-  {
-   "loc": "country/SG",
-   "name": "Singapore",
-   "score": 232595.2983725136,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "SG",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/SG",
-   "news": []
-  },
-  {
-   "loc": "country/FI",
-   "name": "Finland",
-   "score": 173093.0357566482,
-   "sources": [
-    "Google traffic"
-   ],
-   "start": "2026-11-19T07:30:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "FI",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/FI",
-   "news": []
-  },
-  {
-   "loc": "country/CI",
-   "name": "Cote D Ivoire",
-   "score": 120666.66666666669,
-   "sources": [
-    "Active probing",
-    "Network telescope"
-   ],
-   "start": "2026-11-22T20:12:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "CI",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/CI",
-   "news": []
-  },
-  {
-   "loc": "country/GE",
-   "name": "Georgia",
-   "score": 104819.13580246913,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-23T01:49:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "GE",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/GE",
-   "news": []
-  },
-  {
-   "loc": "country/AZ",
-   "name": "Azerbaijan",
-   "score": 75597.72727272728,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T19:14:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "AZ",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/AZ",
-   "news": []
-  },
-  {
-   "loc": "country/TR",
-   "name": "Turkey",
-   "score": 70572.51908396946,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T19:45:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "TR",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/TR",
-   "news": []
-  },
-  {
-   "loc": "country/SC",
-   "name": "Seychelles",
-   "score": 29371.164510166356,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "SC",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/SC",
-   "news": []
-  },
-  {
-   "loc": "country/CK",
-   "name": "Cook Islands",
-   "score": 23754.22885572139,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "CK",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/CK",
-   "news": []
-  },
-  {
-   "loc": "country/BY",
-   "name": "Belarus",
-   "score": 23567.74193548387,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T22:33:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "BY",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/BY",
-   "news": []
-  },
-  {
-   "loc": "country/IQ",
-   "name": "Iraq",
-   "score": 21760,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T23:41:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "IQ",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/IQ",
-   "news": []
-  },
-  {
-   "loc": "country/RS",
-   "name": "Serbia",
-   "score": 18357.906282590713,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "RS",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/RS",
-   "news": []
-  },
-  {
-   "loc": "country/SY",
-   "name": "Syrian Arab Republic",
-   "score": 16463.333333333332,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-19T10:00:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "SY",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/SY",
-   "news": []
-  },
-  {
-   "loc": "country/TJ",
-   "name": "Tajikistan",
-   "score": 10011.171171171172,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "TJ",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/TJ",
-   "news": []
-  },
-  {
-   "loc": "country/AE",
-   "name": "United Arab Emirates",
-   "score": 7397.333333333333,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T23:25:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "AE",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/AE",
-   "news": []
-  },
-  {
-   "loc": "country/LA",
-   "name": "Lao Peoples Democratic Republic",
-   "score": 4645.855379188712,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-20T22:35:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "LA",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/LA",
-   "news": []
-  },
-  {
-   "loc": "country/NF",
-   "name": "Norfolk Island",
-   "score": 26992.629027498027,
-   "sources": [
-    "Google traffic"
-   ],
-   "start": "2026-11-22T16:00:00Z",
-   "end": "2026-11-23T18:30:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "NF",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NF",
-   "news": []
-  },
-  {
-   "loc": "country/TV",
-   "name": "Tuvalu",
-   "score": 20807.11541710462,
-   "sources": [
-    "Google traffic"
-   ],
-   "start": "2026-11-23T07:30:00Z",
-   "end": "2026-11-23T18:00:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "TV",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/TV",
-   "news": []
-  },
-  {
-   "loc": "country/UZ",
-   "name": "Uzbekistan",
-   "score": 2407.6190476190477,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T23:34:00Z",
-   "end": "2026-11-23T22:46:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "UZ",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/UZ",
-   "news": []
-  },
-  {
-   "loc": "country/DE",
-   "name": "Germany",
-   "score": 1958.9798087141342,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-23T00:24:00Z",
-   "end": "2026-11-23T22:24:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "DE",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/DE",
-   "news": []
-  },
-  {
-   "loc": "country/NG",
-   "name": "Nigeria",
-   "score": 1211.140422077922,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-22T17:10:00Z",
-   "end": "2026-11-23T07:35:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "NG",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
-   "news": [
-    {
-     "src": "BBC",
-     "title": "Nigeria's president says he is also hit by water and power cuts plaguing country",
-     "link": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
-     "date": "2026-11-23T14:26:33Z",
-     "desc": "Bola Tinubu says he was shaving last week when the water cut out - an experience familiar to many Nigerians.",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "BBC",
-     "title": "Nigeria's Bola Tinubu: Aso Rock suffers water and power cuts",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IZ3RYWVpGSTFHbEFTOHJhbHgtY1BpYktnRWZwZlh4NGc1YlZ3RWZJRGQtUUthTE82MUZHUlJIbmc4M2MyV25KUDlxZDdmLXRyWXFGcnhIWnVWM1hOdHc?oc=5",
-     "date": "2026-11-23T11:15:16Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "loc": "country/TL",
-   "name": "Timor-Leste",
-   "score": 165.2173913043478,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-23T17:50:00Z",
-   "end": "2026-11-23T19:25:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "TL",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/TL",
-   "news": []
-  },
-  {
-   "loc": "country/NP",
-   "name": "Nepal",
-   "score": 118.32374691865243,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-23T11:00:00Z",
-   "end": "2026-11-23T12:30:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "NP",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/NP",
-   "news": []
-  },
-  {
-   "loc": "country/TM",
-   "name": "Turkmenistan",
-   "score": 68.32298136645962,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-23T01:05:00Z",
-   "end": "2026-11-23T02:00:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "TM",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/TM",
-   "news": []
-  },
-  {
-   "loc": "country/XK",
-   "name": "Kosovo",
-   "score": 54.54545454545455,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-23T03:15:00Z",
-   "end": "2026-11-23T03:30:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "XK",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/XK",
-   "news": []
-  },
-  {
-   "loc": "country/GR",
-   "name": "Greece",
-   "score": 45.89318272779828,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-23T12:45:00Z",
-   "end": "2026-11-23T13:25:00Z",
-   "ongoing": false,
-   "kind": "country",
-   "code": "GR",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/GR",
-   "news": []
-  }
- ],
- "regions": [
-  {
-   "loc": "region/3465",
-   "name": "Samara",
-   "score": 261433.33333333334,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3465",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3465"
-  },
-  {
-   "loc": "region/3430",
-   "name": "Nizhegorod",
-   "score": 261433.33333333334,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3430",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3430"
-  },
-  {
-   "loc": "region/3471",
-   "name": "Tyumen'",
-   "score": 261433.33333333334,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3471",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3471"
-  },
-  {
-   "loc": "region/3476",
-   "name": "Novosibirsk",
-   "score": 261433.33333333334,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3476",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3476"
-  },
-  {
-   "loc": "region/4156",
-   "name": "Ankara",
-   "score": 252718.8888888889,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "4156",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/4156"
-  },
-  {
-   "loc": "region/2984",
-   "name": "Noord-Holland",
-   "score": 248281.96138211383,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "2984",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/2984"
-  },
-  {
-   "loc": "region/3556",
-   "name": "Central Singapore",
-   "score": 235094.90049751243,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3556",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3556"
-  },
-  {
-   "loc": "region/3479",
-   "name": "Irkutsk",
-   "score": 205000,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3479",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3479"
-  },
-  {
-   "loc": "region/3875",
-   "name": "Stockholm",
-   "score": 199069.33333333334,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T04:06:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3875",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3875"
-  },
-  {
-   "loc": "region/4414",
-   "name": "Washington",
-   "score": 179031.27272727274,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T09:46:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "4414",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/4414"
-  },
-  {
-   "loc": "region/672",
-   "name": "Lagunes",
-   "score": 118472.72727272728,
-   "sources": [
-    "Active probing",
-    "Network telescope"
-   ],
-   "start": "2026-11-22T20:12:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "672",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/672"
-  },
-  {
-   "loc": "region/4115",
-   "name": "Istanbul",
-   "score": 88550,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T18:46:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "4115",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/4115"
-  },
-  {
-   "loc": "region/1538",
-   "name": "Bioko Norte",
-   "score": 84692.06349206349,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "1538",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/1538"
-  },
-  {
-   "loc": "region/2504",
-   "name": "Bender",
-   "score": 67829.15506035284,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "2504",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/2504"
-  },
-  {
-   "loc": "region/4442",
-   "name": "Indiana",
-   "score": 62059.307176369875,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "4442",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/4442"
-  },
-  {
-   "loc": "region/3622",
-   "name": "Srednje-Banatski",
-   "score": 53291.39784946236,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3622",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3622"
-  },
-  {
-   "loc": "region/3753",
-   "name": "Trzin",
-   "score": 52868.627450980384,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3753",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3753"
-  },
-  {
-   "loc": "region/3894",
-   "name": "Bel Air",
-   "score": 50125.55205047318,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3894",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3894"
-  },
-  {
-   "loc": "region/1860",
-   "name": "Baghdad",
-   "score": 39200,
-   "sources": [
-    "Network telescope"
-   ],
-   "start": "2026-11-22T22:52:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "1860",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/1860"
-  },
-  {
-   "loc": "region/2561",
-   "name": "San Luis Potos\u00ed",
-   "score": 36489.2317793828,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "2561",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/2561"
-  },
-  {
-   "loc": "region/356",
-   "name": "Rajshahi",
-   "score": 34769.14119359534,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-10T04:00:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "356",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/356"
-  },
-  {
-   "loc": "region/4041",
-   "name": "Dushanbe",
-   "score": 29336.694677871146,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "4041",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/4041"
-  },
-  {
-   "loc": "region/3116",
-   "name": "Hu\u00e1nuco",
-   "score": 28849.735449735446,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "3116",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/3116"
-  },
-  {
-   "loc": "region/596",
-   "name": "Glarus",
-   "score": 25612.64367816092,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-13T16:10:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "596",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/596"
-  },
-  {
-   "loc": "region/714",
-   "name": "Rarotonga",
-   "score": 24114.141414141413,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-23T23:45:20Z",
-   "ongoing": true,
-   "kind": "region",
-   "code": "714",
-   "url": "https://ioda.inetintel.cc.gatech.edu/region/714"
-  }
- ],
+ "internet": [],
+ "regions": [],
  "services": [
   {
    "name": "AWS",
@@ -1214,7 +421,7 @@
  ],
  "news_reported": [
   {
-   "pubs": 13,
+   "pubs": 11,
    "cat": "service",
    "headlines": [
     {
@@ -1274,13 +481,73 @@
    ]
   },
   {
+   "pubs": 6,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Mashable SEA",
+     "title": "U.S. intelligence chief says more tech outages are inevitably coming",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTWNvRHdDRi1FOFUxdjVNZF9hQ1RhR2VvUm5mLTNkTmxsdjU5azI2eTJLLVIxbzktSEpHLTdSNzRDVmNiYTduclM1N1VPUVNTQU1fYWlXcFdWS0hoR2M4aVF2OGRCNW5vN2wwNXhCYVBIU2J2Z09xM3Y1WC15NFFhSmMzS0p3M1oyOU5yLWxQQ1pOWDlvenhMcC16Zldfc3hDV2Y1Xw?oc=5",
+     "date": "2026-11-23T22:47:05Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Arizona Digital Free Press",
+     "title": "US intelligence chief predicts more tech outages as systems undergo upgrades",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONEo5cFRjbkhEekJOWm5QVllkSzluMldnUGo5N0ZHOHdlcHpWaG1ONXFDME5fakkwQkJnLThoM0VIVmh4b0JCVUdZdGRZS1NvZ2w1REZCeHhNM1d1bXpsT05Ua2pWZWVaR29yRUVvTUZTOVJfbHFLN08zbXZsU3d2VFJpVmdKSDl5cjNSVTFkUEs1VzdlUHVVRklFLS1YaFNUekdRNHFmRFg0U1U2WjVyMzNQWQ?oc=5",
+     "date": "2026-11-23T19:00:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Anadolu Ajans\u0131",
+     "title": "Trump names intelligence chief as acting national cyber director after tech outages: Report",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdmxXXzZoYS0yeTZLLXY5N2tzY1BTYThMZ2hRMGMtS3NRMS1SZXppRDVlTUFiNTFHU1FWM2JXSmxRenBIeTB4Ty1BbXI0WWZRa0l4aHpVUzVUcThhMDE0emw4SGdLdm1tOW9obkRVb1h0LVVjRW9JdUlVZmQ2NVBwNUhlWXBZMHpvS1Uwd0JxQ2U1QVYwTFRid0NSb2NqT3ktcHota1o4UUtSTGFSZFFDLWtxd1dXVFVHWGozTUJQUXFwR1Z6QjlxYmVOUGc?oc=5",
+     "date": "2026-11-23T16:44:08Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Gizmodo",
+     "title": "U.S. Intelligence Chief Warns Americans to Brace for More Tech Outages",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUEo0SE5ZYzRhTE03aUY2TXZUa3Y4OV9PbnZBaHZkSC1rcmVVUkdZR3BSNDFnTC1CNy1lTU5IZFZ6Y1ozZUpxa2lWWGFFTkJlWGRMZ1FpVUlvOVA2U3NsQ0ppaVNQb0lNd3VuZnhHcFVWdVFKZjJNMl9VZEZTa19VcFZVaXd2SloybVlCb3lHQTNHMlFLMWlCX3M3OGFDTktGS0E?oc=5",
+     "date": "2026-11-23T16:25:45Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "UNILAD Tech",
+     "title": "US Intelligence Chief issues warning to Americans to prepare for more tech outages",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ2g2Zmo3bWJmcERHdkJpUzhGdlc0bklHTzZ2N2Y0VnRxMWprLWMwZjU2emFIMjU1dUk0SUdvQkJyRUlVcmlSUkEwODRiZkt6SDBRMjBNN3BraWNtZXBLaGlnNG9WLUR0TmY5dmMzLVlCLVBSbXpCMV9BaEktUV9rSVA1ZW5sc1dBWUVIazJqWmhtcmxsa2hQVFhhQW9PRUxSX1h1SWdZNzV0ZWtld3UzdFc3d3Y4Tkk?oc=5",
+     "date": "2026-11-23T16:11:34Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Euronews.com",
+     "title": "US intelligence chief warns of more tech outages as Delta suffers fresh Atlanta failure",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRW1SYXoycWRQb2VYS2o3ZFlSOE9CUHpsaUtLSmM4SUQ0NDN0NkM1UlNUYXZZMS1waTBJdURCdHM4aU5VRzd2dHJTRnlDQmVuQVliMXdmZmpyXzk4Wm9nWUNXVl80cm1jc0VZUWVCZDJUbUpIemJQdHdGNUtSdXNYRlVMTmFLM010TzBQVWxpNXdtNDVHbXMtQTFEMDVSVTZDTmtkZXBfZWhHTDItOUxPaHMySl9ROEQtX3B6ZHVVc0U?oc=5",
+     "date": "2026-11-23T05:42:49Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
    "pubs": 4,
    "cat": "service",
    "headlines": [
     {
      "src": "Haberler.com",
      "title": "Technology alarm in the US! New outage warning from the intelligence director",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3JRSTRhaUFudU4ta1J3b3BXa1l1UTJGaUE1eG5yVVBGVTVMYUtPNWtBTVFNSkVRYy1sSHdPUHB2SWFpUGtKV1BkbTc3QTBSb0FoTHJNalhXa1pIWEQ2MHltWXBrVlk3TWF6YjlFNmM1SGdSLXhVR3hud3RvR0w0X3ItQ0JIU1JsS1pB?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOHhZSVF1aGVrUVJ3Sll0bGpPZjVrejZQSVRIemt5V1d0SXNjV1NCZUMwZmdTeTRxMTc2QXFkRHNwM2I0OURsQVFaR1Z6eU1acVp4NjhSdWR5cnNVQkl3NjgxZzRZcEhGbWFGZ1hEZ0M5NVFrYmxfT0tQb2Vjdm5WdWxVTGhOb051ZGc?oc=5",
      "date": "2026-11-23T21:21:40Z",
      "desc": "",
      "cat": "service",
@@ -1296,19 +563,19 @@
      "outage": true
     },
     {
-     "src": "Anadolu Ajans\u0131",
-     "title": "Trump names intelligence chief as acting national cyber director after tech outages: Report",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdmxXXzZoYS0yeTZLLXY5N2tzY1BTYThMZ2hRMGMtS3NRMS1SZXppRDVlTUFiNTFHU1FWM2JXSmxRenBIeTB4Ty1BbXI0WWZRa0l4aHpVUzVUcThhMDE0emw4SGdLdm1tOW9obkRVb1h0LVVjRW9JdUlVZmQ2NVBwNUhlWXBZMHpvS1Uwd0JxQ2U1QVYwTFRid0NSb2NqT3ktcHota1o4UUtSTGFSZFFDLWtxd1dXVFVHWGozTUJQUXFwR1Z6QjlxYmVOUGc?oc=5",
-     "date": "2026-11-23T16:44:08Z",
+     "src": "\u0633\u0627\u0646\u0627",
+     "title": "US intelligence chief expects further technology disruptions",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WNlMyQmhITHZsd0RqNmZYX3FtUWJiWDNHNGc5MnpFWFdSeFNGbU13NlV6dWJya1N2dVdYTlVZYmQtdjlDbno4clkwNVlsVmZfcHpR?oc=5",
+     "date": "2026-11-23T09:33:41Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "\u0633\u0627\u0646\u0627",
-     "title": "US intelligence chief expects further technology disruptions",
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WNlMyQmhITHZsd0RqNmZYX3FtUWJiWDNHNGc5MnpFWFdSeFNGbU13NlV6dWJya1N2dVdYTlVZYmQtdjlDbno4clkwNVlsVmZfcHpR?oc=5",
-     "date": "2026-11-23T09:33:41Z",
+     "src": "PYMNTS.com",
+     "title": "Intelligence Director Warns US of More Outages",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGZCNXNjc3NIcXpJWW5CNDByWHgxQXZXQjhFMklnNzA4VmZLcHdTekR2dmpqVTV0VDNMWVFLd1Nmbnoxek5tWXRNMEZROEgyTlpQekh4eUpwbDhIanNrdmc5S3pMcTZTUklKeURCbjlNbmxmbUhQUG9VWTY3aVlrV1RiXzZlYmdSdjNqQS1QU1oxNmM?oc=5",
+     "date": "2026-11-23T00:36:29Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1353,6 +620,39 @@
      "date": "2026-11-23T12:15:00Z",
      "desc": "",
      "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 3,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "WLOS",
+     "title": "Spartanburg commissioners review cause of widespread water outage",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVldwdHZsdkVWekthSHdHNGpLeWxzbEEycTRrRzQ0dlFFWU4wVXd6Q2MwN2xnTmd3amIxMURXdXp0Uktwb1hTemx2OUlBSUhrZVNGNThCMDVQcFp6V0V2MU00N056VE5ITTRlZnh1ZFdzM095OWZMYW1Cb01adHZFRXJydVRROWJsZ3gxVzEyREhYR2o2V2dOVS1VNkoyUFVoRno3bnMxLTZpdDFCZzNLUjBZWi1uaDFiRFhrTjl0MW4?oc=5",
+     "date": "2026-11-23T23:12:25Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "FOX Carolina News",
+     "title": "Public Works commissioners discuss Spartanburg Water outage during special meeting",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOGsyaW9ySklnbENuQXhSdVZudVJRSWlsdWZsRXlWYUZhaUVBbHFERDdwMmJGeEpONThtVkdWM2ZQMDdpcGJyemRxaWV3cllQb3BOeE9NZDM4bUNKTFBjVldwbkZwMVVDSGxYdUx5emtGZERYS0EtNzl1NFVKS080WXlUNHFFNnFwS2VUaWZ1eUd3REROemFwdkxjTkhxRzA2VnllNzN5a1VHV3JPUnhLdnBxUHZxb1FlSHRaRU55Nl9rODJvWmN3?oc=5",
+     "date": "2026-11-23T22:18:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "WIS News 10",
+     "title": "LIVE: Spartanburg Public Works commissioners holding special meeting on recent water outage",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGhsNUd3VFZqSVlFMFJOZllxU013TDJBRGJyUFhsNjl0NXYwd2hXSTUySDIyS3c5Z1JSZEJGeGlTbVFmdkkyNmhQcXVrSnlVSWc3bWVBdU4zUzZ2d2J1MkFyTEVhXzRZVmo1TFk3RXBvUGFSOTh2NXRnNHZyU01xZ3NRVEZlWU1UWmhHZFJ4SjdsQ1NPbFRZWUdwcTR2UjBScU5sRWFqWTJfT0RoQ1JmaEpyUXduQjJXQXpBT0x3?oc=5",
+     "date": "2026-11-23T19:59:00Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -1467,90 +767,33 @@
   },
   {
    "pubs": 3,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Gizmodo",
-     "title": "U.S. Intelligence Chief Warns Americans to Brace for More Tech Outages",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUEo0SE5ZYzRhTE03aUY2TXZUa3Y4OV9PbnZBaHZkSC1rcmVVUkdZR3BSNDFnTC1CNy1lTU5IZFZ6Y1ozZUpxa2lWWGFFTkJlWGRMZ1FpVUlvOVA2U3NsQ0ppaVNQb0lNd3VuZnhHcFVWdVFKZjJNMl9VZEZTa19VcFZVaXd2SloybVlCb3lHQTNHMlFLMWlCX3M3OGFDTktGS0E?oc=5",
-     "date": "2026-11-23T16:25:45Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "UNILAD Tech",
-     "title": "US Intelligence Chief issues warning to Americans to prepare for more tech outages",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ2g2Zmo3bWJmcERHdkJpUzhGdlc0bklHTzZ2N2Y0VnRxMWprLWMwZjU2emFIMjU1dUk0SUdvQkJyRUlVcmlSUkEwODRiZkt6SDBRMjBNN3BraWNtZXBLaGlnNG9WLUR0TmY5dmMzLVlCLVBSbXpCMV9BaEktUV9rSVA1ZW5sc1dBWUVIazJqWmhtcmxsa2hQVFhhQW9PRUxSX1h1SWdZNzV0ZWtld3UzdFc3d3Y4Tkk?oc=5",
-     "date": "2026-11-23T16:11:34Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Euronews.com",
-     "title": "US intelligence chief warns of more tech outages as Delta suffers fresh Atlanta failure",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRW1SYXoycWRQb2VYS2o3ZFlSOE9CUHpsaUtLSmM4SUQ0NDN0NkM1UlNUYXZZMS1waTBJdURCdHM4aU5VRzd2dHJTRnlDQmVuQVliMXdmZmpyXzk4Wm9nWUNXVl80cm1jc0VZUWVCZDJUbUpIemJQdHdGNUtSdXNYRlVMTmFLM010TzBQVWxpNXdtNDVHbXMtQTFEMDVSVTZDTmtkZXBfZWhHTDItOUxPaHMySl9ROEQtX3B6ZHVVc0U?oc=5",
-     "date": "2026-11-23T05:42:49Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
    "cat": "power",
    "headlines": [
     {
-     "src": "The National",
-     "title": "Iran's President works in dim office in winter jacket as power cuts hit",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT1JXOWplRFhnT0ZtclFtNkV4SXBpZy1GZkFYTjI5eXQ1QldFMUN1cWNTUHp6RURUTUhGQzFwOGh1NkltTzItYkNQRmpFWWE0Zk5CRmNPMnhjODU3QTNlVHpDOUNIVFU0dnZKcFZncV83LTBOR3NCbVV5Qk1YU2lqWlhuZ0VYMVZpTDZNdzZlOGVsLS14X3JpQlc0ZEJ1V2F0QW5vZQ?oc=5",
-     "date": "2026-11-23T10:06:28Z",
+     "src": "Hoodline",
+     "title": "Gettysburg Power Outage: Transformer Blast Cuts Power, Traffic Lights",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaVJGNVBmaUJPeDBCODBxMTJrMVhER1ptUFBrVEUtWTZUcnZ0bk1kNzNEb1d5OXpBVFZMdWtnVjFDSjVCX3FUYXo1TGxSU3JoYzZvQUZIUW1jb3RwcUNIMHJTRi1LZnFSOEZEeEYwUHVxcnRlemtDZFJpTVlHWmQxdmtTMWVfV2NVLWJVSTFUWjIwaFZHUE92aWZLc2g4dlAzU0U3b3Zwbw?oc=5",
+     "date": "2026-11-23T13:09:18Z",
      "desc": "",
      "cat": "power",
      "outage": true
     },
     {
-     "src": "UA.NEWS",
-     "title": "Iran introduces scheduled power outages \u2014 The National",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSXh4TzMyWVpXRHpWcUtPVnh0eUk0MkJJQktFb0M4MDdEXzBwLXFoc1pfdVphRDlSV0VIMWdMLXUxOXFIelRWY3hYcnQwaHRMYk5qcEpuNVNlcUNIY25rdUtVZTduQnpCZ3g5b3RFWkdVMlhFT3NhVHpyRDM2VHBVNmxXdGh2LUdNQm5DY0JLT3VUU01aVlFiZ0FaeVUybTlienc?oc=5",
-     "date": "2026-11-23T05:39:27Z",
+     "src": "WHP Harrisburg",
+     "title": "Power outages restored after transformer blows in Gettysburg",
+     "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNdFB6d3p5MVdJVTJxa0w5aS1kcGNTNHBRRjdlUnhoQ3E5WnZWdmxuLWFvZ19VUzRZQ2ozUlBSc3FueG1mNm1QT0NENUtyWU1mMG5lejFtbDhGWXNnMmtRZWozRnRHdWxrTDRlZmxYYjhCSklGa3hlMzBsVHB1LWVhd2s3ODVHdVJJVFJkcWNGbmt2Wm9CMldBd3ZISFpqaHZ4T3Z0SjZZQUpLb1FtUHJsUElrMTJVbEVGcGNRZkhDaTB3NjFUOVlqQ1pKTHBrQzhXMUFGMWNBZmRfT1JXQ2JoTmFxMG5TRzVya0dxUWNmQS1JajVaLXdwRHc1MHNGWVhPLVhEczdjSmd5VzJlc2s5QjYwbE14QWlJZG5CclFoQ2cySjRCY1JxekYyLURlQW82bmx0cXM5Tjl5NUd0M2V1WTRJTTJ4SWQ4QW1ZU3Q5cnFMcms?oc=5",
+     "date": "2026-11-23T00:57:47Z",
      "desc": "",
      "cat": "power",
      "outage": true
     },
     {
-     "src": "Israel National News",
-     "title": "Iran imposes nationwide power cuts as president urges electricity conservation",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ESjEyYXlySk91dmc4S19mRVg0b2ZrMXA2dnl4RGZpWDlBOWJtaThmcU5fVmdSYnNmeWpRNEJsOUQzbWdxNzg3VUR4TEU4WG1SUFlWZTFHdWRpQQ?oc=5",
-     "date": "2026-11-23T02:52:24Z",
+     "src": "cedarnews.net",
+     "title": "Power outages reported in Gettysburg, Pennsylvania, after transformer blew, police say",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlI1Sm4xVVUtaHVjaUd4bUFaeHFwTXUxbjFqcE1UOHNFMjBVVzF3WTZJdkhnakFTWE5xWjgxenlWSWp5alZnQUlEUnZNQXhPbjB5ck5Pb09faHdVTGxyUDR2MGJZQTlzR0RzaFJSblBnR2FXUzU3SjZXSDJNdWZ3OHp0LUtaTVQyako3dmpTQ2kwdmlxekI2bnA4M0FKRndfUjJ1Mm1iYw?oc=5",
+     "date": "2026-11-23T00:57:20Z",
      "desc": "",
      "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "WLOS",
-     "title": "Spartanburg commissioners review cause of widespread water outage",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVldwdHZsdkVWekthSHdHNGpLeWxzbEEycTRrRzQ0dlFFWU4wVXd6Q2MwN2xnTmd3amIxMURXdXp0Uktwb1hTemx2OUlBSUhrZVNGNThCMDVQcFp6V0V2MU00N056VE5ITTRlZnh1ZFdzM095OWZMYW1Cb01adHZFRXJydVRROWJsZ3gxVzEyREhYR2o2V2dOVS1VNkoyUFVoRno3bnMxLTZpdDFCZzNLUjBZWi1uaDFiRFhrTjl0MW4?oc=5",
-     "date": "2026-11-23T23:12:25Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "FOX Carolina News",
-     "title": "LIVE: Spartanburg Public Works commissioners holding special meeting on recent water outage",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQVR6cHc0QXhDSi13bktlZ0lRY2tBTVBtZF8tSXltZ2I0MnFrelZFYmJNal9oVmtiY1lyeTZtcDl1aHktcXVjZlExcFRMVHA0c0hFXy1DNklHaEdrbTRPTjgwNDUtREd5aHNxNDJUM0RUejJ2aUJDWmlhVU1QeGVUa1lGcGZPVE5tdlBaemF4Vk5JSHJTQTFENEdoM2t6cmRIS0E4eWFjR0RrZkZqdDM0VHdRMUpaamQ4eE82SFVWQzg2TWg0U1E?oc=5",
-     "date": "2026-11-23T19:59:00Z",
-     "desc": "",
-     "cat": "service",
      "outage": true
     }
    ]
@@ -1680,43 +923,19 @@
    "cat": "power",
    "headlines": [
     {
-     "src": "Barbados Today",
-     "title": "Guyana offers 50% bill cut after outage",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVFFWNkgtOS01TUVCTmxwTmdmVXBKdTRDX2M2eWo4OFJqQ1VuRVlaMGpUMWxSN2VfNklIZ20xOGpWbDJmN2Q3cDF4aGVVd0Fnd3lQTmhmWDVrejkwZTZFbWw4bkw2clhHalBDblFpZE1EVDE5N2JPQzM1dzdWaUE4Yw?oc=5",
-     "date": "2026-11-23T19:12:53Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Demerara Waves Online News- Guyana",
-     "title": "50 percent cut in some East Berbice electricity bills due to prolonged blackout - Demerara Waves Online News- Guyana",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkkyUmticDJFeFl1NnVESnpzMmdLd0tLOHhFWmRWT2llZjMxbnJRQ0JUck9tcXkzd3NBMkVMZms3azNsMWhJVklRalh0RTRpcjNmc2o2SjVDU2I1aVRhel9pemRoV181RXdrajlFWnlETHBYd1BwTEJXdEpKQnd6N1J6T21Qd1k5WkxEZ2ZpX0VwRE5BRHRKRVRka0Q4X3V6c2wwVTk4dHA1RTl6a1d5UnVpX296enFS?oc=5",
-     "date": "2026-11-23T05:22:11Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "UA.NEWS",
-     "title": "Ukrainians were warned about power outages throughout the day on Tuesday, November 24",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZmFYLThFTHotbHhrWFQtRDN5dEdHYUxDOTVSdHNnZ2JaanlNSEYtNVZ1dnR3ajgzS2JJbmZGZDRCQTV3dWZMbmNBSV9kNGJiTDRydjlHVm1jdnNJVkkzNWQzeUhkQ3VSemEtcEwzd2VoTkE0bFpyZWg2OG9xQ2JwU3RKanFkbHhibUxNUzhNbnlsQ2EwQmV4WFdobGQzTTdvM1ZqMjNOeE1XQklPYmNrSzRFbmdGS2FiZlFmd0pQTQ?oc=5",
-     "date": "2026-11-23T18:18:14Z",
+     "src": "Demokratis.co.id",
+     "title": "Tinubu Acknowledges Water and Power Cuts at Aso Rock",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Fa1BIZDhHZ1NySXVKVklOclZFdVhxYTMwWk9mYUZqTHRVeGE1QmJ6RWpiZzVWaFB3MmxxTEtUeTV2bXdCQVVKUkVORVVpQzNtX2xjZXlicENRTHlxbHhnZmRDVzRNeHdFcGww?oc=5",
+     "date": "2026-11-23T18:26:00Z",
      "desc": "",
      "cat": "power",
      "outage": true
     },
     {
-     "src": "\u041a\u0443\u0440\u0441 \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
-     "title": "Ukrainians warned of round-the-clock power outages on November 24",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDRuMGMzN2JFQVN4UmxfMzFNRWd3Vi11ZkZmMGs4SzlXRnNScjhENnZiMkhCVTFHZzBqb3NFVjM4VTdxbkVmNktVZkw4T3E1UkdQcDI0T3RIS1V1NWpmc05rbGo3bFYtN0psYi1EdGdCcndRZXJBY2gxTmFjUVp3Z19qenJNZi1WV0xOX1dZN3NTRExjNk9ZVEdxTlVRVGc5a2V0TXZLMFJuTHJkcDNJd05ab0hQaGxPM2c?oc=5",
-     "date": "2026-11-23T17:54:00Z",
+     "src": "BBC",
+     "title": "Nigeria's Bola Tinubu: Aso Rock suffers water and power cuts",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IZ3RYWVpGSTFHbEFTOHJhbHgtY1BpYktnRWZwZlh4NGc1YlZ3RWZJRGQtUUthTE82MUZHUlJIbmc4M2MyV25KUDlxZDdmLXRyWXFGcnhIWnVWM1hOdHc?oc=5",
+     "date": "2026-11-23T11:15:16Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -1743,6 +962,30 @@
      "date": "2026-11-23T15:06:48Z",
      "desc": "",
      "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
+     "title": "Power Outages up to 3.5 Queues: What the Power Outage Schedules Will Be on November 24 - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdnh0QUxXZGl6WlhuYmpsZUFTN09hbWtnNEV6SWZydFZ1T3JGc01JSjlBQ3VtSU5XRFg1OG5WaFBJajNhUkhiZDVBNVZTLUdLQ05vNFBla05XUF9mbU40T0phQ3l3NWRwYmwzdGl1aUgyalE2aTExNEN4MkJZenVpUl9zU0xxd0MyS19LdmRNOE1vSGFULUgzRml5dU9Zd1hvWmF3SlJYUE9PbW94QUtjX2k4a0JfMTAxa3RaRjBR?oc=5",
+     "date": "2026-11-23T17:19:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+     "title": "On November 24, schedules will be in effect around the clock in Ukraine \u2014 how long Ukrainians will have to sit without electricity",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNak1UeWpPMHNBZm5ETTRzRnBYaU1HaTMybzBtVENWb08ycHA1bWQxWXdxZDBOaF90RlNCWWhGZGc2OE9GNlVNZVlPMHVlM3NfaTJ2TEtGV2xTSHJVZ3lkay1kcnVpYkwxT1hBcWh4OW5Xc2JfaVVmbWk1T2FiVkNIU0NkMHJzUU4zYzNRcWxRRDJ5VlIweEltQXdGWk05Vl8xS0VyWTBiM1I1QUdiNWRjcW0wTWNwaUJuLTJ3Mkt0YldIM0puQTZSZjJtX0VsX19zT0ZicTFUMWtuLUtfZEZTak5lZWlQWm1IZU8xZtIB6wFBVV95cUxPUEhPXzZsdEw0ZWhzWl91dUtVTWVyZTZFY2tRb1EzSHZGTGFNTnBQQ2xYMzFYSXBSc2Y5Smo5RFNKbFpGOW9jYjctZ3NRbkhwR2RXemtoYXF3dVVWQ29abFlDQWhzOEx3b0FZc3RlNU50N2x5U2d3ZXMzYndiVWIyQ0lNTFpWZEJXcFJ6WFpJZzIzb1EzeW0zMlZQNzRlNlhHdzZLWVlYd1FoYWVBdTdsTFlXSkswTjByOElCQi1aaDVCdGUzMGN6a0poaG9kV1MzTGZSLWxyU0lBNk83TVdHc2xROTVrVElyVDhB?oc=5",
+     "date": "2026-11-23T17:13:22Z",
+     "desc": "",
+     "cat": "power",
      "outage": true
     }
    ]
@@ -1821,6 +1064,30 @@
   },
   {
    "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "cedarnews.net",
+     "title": "Presidential villa suffers water and power cuts, Nigerian leader says",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR3VMVlpITkNSSXdaQVdJUGtvMFVubC1fUE1XWU1WNlVHeXZIdFBvM3lQaFZ0Z05NNXU5aEV1U2h5dmNTTDF1bFB2VzZBck10c2pfX1R1OVlFZUpHZGlrX2VCUGc3SHBmZjhmZXc0Z3JCN0pONC1Ud0hEaTFuSWFMdjNoMTV3WU9UZVNQZjhxYmFhNUJ3Xy1CMA?oc=5",
+     "date": "2026-11-23T12:35:19Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "Capital FM Africa",
+     "title": "Presidential villa also hit by water and power cuts, Nigerian leader says",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelpVMHVtT0pDUmNNaTJCMTlvOFE4SkR0NHd6T1VkM1JlekpFcktvQ2pFdTA3TW94Y3ZaakFkRFprQlVGdnpweFFTTThVWXBPM21TclNkQzB5X2hfQmY4QzhNekRrRHRtUFIyT0k0T3BFaVZnT0RxT195eE5nbzYzeDE5SE9BVDNGX2hhWkpKaW92bHhkcGJIQ1V4ZHFVS2M?oc=5",
+     "date": "2026-11-23T11:37:34Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "cyber",
    "headlines": [
     {
@@ -1848,21 +1115,36 @@
    "cat": "power",
    "headlines": [
     {
-     "src": "WHP Harrisburg",
-     "title": "Power outages restored after transformer blows in Gettysburg",
-     "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNdFB6d3p5MVdJVTJxa0w5aS1kcGNTNHBRRjdlUnhoQ3E5WnZWdmxuLWFvZ19VUzRZQ2ozUlBSc3FueG1mNm1QT0NENUtyWU1mMG5lejFtbDhGWXNnMmtRZWozRnRHdWxrTDRlZmxYYjhCSklGa3hlMzBsVHB1LWVhd2s3ODVHdVJJVFJkcWNGbmt2Wm9CMldBd3ZISFpqaHZ4T3Z0SjZZQUpLb1FtUHJsUElrMTJVbEVGcGNRZkhDaTB3NjFUOVlqQ1pKTHBrQzhXMUFGMWNBZmRfT1JXQ2JoTmFxMG5TRzVya0dxUWNmQS1JajVaLXdwRHc1MHNGWVhPLVhEczdjSmd5VzJlc2s5QjYwbE14QWlJZG5CclFoQ2cySjRCY1JxekYyLURlQW82bmx0cXM5Tjl5NUd0M2V1WTRJTTJ4SWQ4QW1ZU3Q5cnFMcms?oc=5",
-     "date": "2026-11-23T00:57:47Z",
+     "src": "The National",
+     "title": "Iran's President works in dim office in winter jacket as power cuts hit",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT1JXOWplRFhnT0ZtclFtNkV4SXBpZy1GZkFYTjI5eXQ1QldFMUN1cWNTUHp6RURUTUhGQzFwOGh1NkltTzItYkNQRmpFWWE0Zk5CRmNPMnhjODU3QTNlVHpDOUNIVFU0dnZKcFZncV83LTBOR3NCbVV5Qk1YU2lqWlhuZ0VYMVZpTDZNdzZlOGVsLS14X3JpQlc0ZEJ1V2F0QW5vZQ?oc=5",
+     "date": "2026-11-23T10:06:28Z",
      "desc": "",
      "cat": "power",
      "outage": true
     },
     {
-     "src": "cedarnews.net",
-     "title": "Power outages reported in Gettysburg, Pennsylvania, after transformer blew, police say",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlI1Sm4xVVUtaHVjaUd4bUFaeHFwTXUxbjFqcE1UOHNFMjBVVzF3WTZJdkhnakFTWE5xWjgxenlWSWp5alZnQUlEUnZNQXhPbjB5ck5Pb09faHdVTGxyUDR2MGJZQTlzR0RzaFJSblBnR2FXUzU3SjZXSDJNdWZ3OHp0LUtaTVQyako3dmpTQ2kwdmlxekI2bnA4M0FKRndfUjJ1Mm1iYw?oc=5",
-     "date": "2026-11-23T00:57:20Z",
+     "src": "Israel National News",
+     "title": "Iran imposes nationwide power cuts as president urges electricity conservation",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ESjEyYXlySk91dmc4S19mRVg0b2ZrMXA2dnl4RGZpWDlBOWJtaThmcU5fVmdSYnNmeWpRNEJsOUQzbWdxNzg3VUR4TEU4WG1SUFlWZTFHdWRpQQ?oc=5",
+     "date": "2026-11-23T02:52:24Z",
      "desc": "",
      "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Cyber Daily",
+     "title": "Exclusive: Darwin-based accountancy firm listed by Hyflock ransomware",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRVpMV3RZcmk4NGVYNk90QkFPU2lLS09jdzdpOHJTUF90Zkx6VE5RMjFZNF9aNDVlcUw3T01ueXllSzZCdERiaVMxVF9IM2ZzWl80OVlCSEMtcE5CSExtR1dSeVZLVk5nUmdBSVVGMzZkYThkbjFkTktWdkQzVVFocXFtV1JXVk1xcDcxamd6cExaUmlUUTNGSlpETl9ycGZzNk8zS1Vka1hXTEJVY3c?oc=5",
+     "date": "2026-11-23T23:43:32Z",
+     "desc": "",
+     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1917,6 +1199,21 @@
    "cat": "service",
    "headlines": [
     {
+     "src": "NBC 5 Chicago",
+     "title": "Are a series of high-profile outages connected? NBC 5 Investigates",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTGZmcTFBaHFOWkJKR0tJQUhndGJTMVo1UWdvaVlCMnNnM2VtSndFUDBCbGZ3QnFydmNnYmc0c0hYQmJsRUhQN0xzQWR2RmtvT3EyMlhwTldYZHNiY3lHckdiN3NDcEhUVlJUOUhHdGlEYjY3elUwaHpBTDlNOEFwUlJ5MERPZGstWmNUQUNZRUwya1ZURlJfSjUtcUVBVFVxTTRmZnkwaWhRQjdXUHkwX2tWck5TUDTSAb8BQVVfeXFMTUx6ZFdHODVlWkpNOFdPWXVadHd3ZkFNakcwbjNkTm96TGZ2cUFlU2lMRTNPQW16RkN1M25rTEItNmNrNlpPSlJ3YWVEeGpNUjZvd0M1YUlIdkttal9QS3AzOXhLUUJSUld6bFNLcWhEeG9Oa25Sb1Rya0xKVnA2ZXRkaWNJOHhaRVllNU1EX1ZsRGRlTTFmcXZPeFlIdDJBaVVyS1pBYktFNkVhTHNOVXFVR2hPaGItZmVxWU5JLVk?oc=5",
+     "date": "2026-11-23T23:12:54Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
      "src": "KWQC",
      "title": "Scott County still having technology outage",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcWlrUUlEaWZqbU9FMHZhTDBOR3kxbWlkWnFWRjh3cGdWSTRnb2JjVFZMMDViWmxoVVlzb3RiU2lYc253cVpxSURyUERmaUxqSW9rZklENW8zSS1peV9SMW1YbTVJZ2MwSUlaa0hDMElibHRRd01Cc1c3X3FER2ZXRjdB0gGWAUFVX3lxTE1kQWZkRFAzcWNOYThITTQ4OWVENHU4ZGhxVHUzcHNQci1KTnlJc3J5VFI3Rk5UTldGQ0M1cldndlpFQmlZaWduZlFIQk5GdzAxSW1EQWRyYkM0YjJDVk4zR2tyQThmUnMyTDUwRUJoX09FV1RMWDdqZ0ZELTJhYlNBTE55RmoxdlBCbDhjS0Y0YVlvUUJYZw?oc=5",
@@ -1941,61 +1238,10 @@
      "outage": true
     }
    ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "The Cool Down",
-     "title": "Japan snowstorm strands up to 450 tourists and leaves over 9,000 households without power",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFBodEhObGJyekphc2ZFNkJsa0tCVDgwdEVLNGpIaURKY1haOUpDSFVSZ1d3dWRKRkZwQjhBd2x5bVdHNjhoSWo1SjJ4aWZoazZMWDVzb2czMDNCYTFhQUFVVkVwZC12ODUzbXRJRkJiMmc0RDJiRkhMQ3VZQ1BPMWFZcUYwUGRKNXE3SA?oc=5",
-     "date": "2026-11-23T22:23:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "FOX 13 Seattle",
-     "title": "Gusty winds could trigger power outages in Seattle on Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Pa0VuMDBuNXBTeGxONHdYY3JGTncwWmJqUGZoUFJtTVJpVWpya1hEMFZLd2FUbEJnSjN3YVdOQ2FpaVJYR2lldlpaNVRKQ2dCUHh5NmtXVURpVk9zZWkwV0lpZTVlLW9fQ0Z6dV9qMWdfamw1dFJ1Mw?oc=5",
-     "date": "2026-11-23T22:18:28Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Clarksville Online",
-     "title": "Clarksville Gas and Water reports Darlene Drive Water Outage",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdk4tYkJMT001QTNHelJxYWdzZUdvVTJGX1dJYlM3N0RYRlBsNEIwejFVNkJPZHJmak1BSWZ5bnpPZnhSTy1yTGZhT1dBVXlHQTM1MjYwZ3JKWVZMSkExZ2ItSWtHWjZ5aU9BQ3d1QlNybGN5TExjZjdSck1EeF93T1pvREN3eTdkVTFIZWJDcllzNy1IWkNDSEhYMG5lOGRDeXRwWUo5bHFoZw?oc=5",
-     "date": "2026-11-23T22:15:09Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Clarksville Online",
-     "title": "Clarksville Gas and Water plans Fort Campbell Boulevard Water Outage",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGt4em1scXFiWFJxUmU3bEZsTy16eGMwaDAzNVhPbjZHZFRXZ3RUWnpDbGpMUndEaF81cU1FRUd6TjBXNWN3d0ZyNE55enNSVFlrSDFlT0lPdEgxcWFNN1hpOXJFMlRjeXNDVmp0WkRCLXRaYkRDNVpxQTlILV82U2czVl9aUi1wT1Rrdzg3OHVoV0tMUW9vMDRsMzhFWGJzdGRBQW80dXEyUURSRmhuczFyYUxFc2M?oc=5",
-     "date": "2026-11-23T16:21:30Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
   }
  ],
- "failed_sources": []
+ "failed_sources": [
+  "ioda_country",
+  "ioda_region"
+ ]
 }
