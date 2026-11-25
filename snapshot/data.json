@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-25T18:51:06Z",
+ "updated": "2026-11-25T21:30:21Z",
  "counts": {
-  "internet": 23,
+  "internet": 22,
   "services": 5,
   "hazards": 0,
-  "news": 17,
-  "correlated": 5
+  "news": 18,
+  "correlated": 3
  },
  "internet": [
   {
    "loc": "country/NL",
    "name": "Netherlands",
-   "score": 486826.17867867876,
+   "score": 501734.9436936938,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "NL",
@@ -26,12 +26,12 @@
   {
    "loc": "country/SE",
    "name": "Sweden",
-   "score": 486096.3043478261,
+   "score": 500982.7173913044,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "SE",
@@ -41,12 +41,12 @@
   {
    "loc": "country/RU",
    "name": "Russian Federation",
-   "score": 473342.43589743593,
+   "score": 487838.26923076925,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "RU",
@@ -56,12 +56,12 @@
   {
    "loc": "country/SG",
    "name": "Singapore",
-   "score": 462649.0415913201,
+   "score": 476817.3960216998,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "SG",
@@ -71,12 +71,12 @@
   {
    "loc": "country/GE",
    "name": "Georgia",
-   "score": 310722.7777777778,
+   "score": 323403.7962962963,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T01:49:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "GE",
@@ -86,12 +86,12 @@
   {
    "loc": "country/TR",
    "name": "Turkey",
-   "score": 272927.86259541987,
+   "score": 285692.1755725191,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T10:06:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "TR",
@@ -101,12 +101,12 @@
   {
    "loc": "country/CI",
    "name": "Cote D Ivoire",
-   "score": 255759.16666666663,
+   "score": 270357.0833333333,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T20:21:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "CI",
@@ -114,29 +114,14 @@
    "news": []
   },
   {
-   "loc": "country/FI",
-   "name": "Finland",
-   "score": 239545.30766969617,
-   "sources": [
-    "Google traffic"
-   ],
-   "start": "2026-11-19T07:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "FI",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/FI",
-   "news": []
-  },
-  {
    "loc": "country/AZ",
    "name": "Azerbaijan",
-   "score": 236808.4090909091,
+   "score": 250199.88636363635,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T19:55:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "AZ",
@@ -144,14 +129,29 @@
    "news": []
   },
   {
+   "loc": "country/FI",
+   "name": "Finland",
+   "score": 243637.913719025,
+   "sources": [
+    "Google traffic"
+   ],
+   "start": "2026-11-19T07:30:00Z",
+   "end": "2026-11-25T21:30:21Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "FI",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/FI",
+   "news": []
+  },
+  {
    "loc": "country/BY",
    "name": "Belarus",
-   "score": 222853.5483870968,
+   "score": 236210,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T22:34:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "BY",
@@ -161,37 +161,27 @@
   {
    "loc": "country/IQ",
    "name": "Iraq",
-   "score": 212888,
+   "score": 225628,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T22:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "IQ",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/IQ",
-   "news": [
-    {
-     "src": "IntelliNews",
-     "title": "Chronic power cuts in Iraq halt production at Istanbul-listed tilemaker Kale",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNlN1SzdoN0dXSC1Wd3ZBOVZXTFp0MGVSb0I4bTdrTTBSTms3ZmZXRU9oWloxTnhZeENQSmtweXo5LVh1MHI5VnYyM1BGZG1ETHhtc1FzUmI3S0FEMEdGZWpQbWxiOWp1bFpNa3JjOV9OUTVCUlk1Q0ZkZkxWaEpoakRRM0F4c3ZmTlhOSFM2emRFanJ2X0ctQ1hua1NpNDVaOTVSN0dDUVA3bVZReF9WeGpR?oc=5",
-     "date": "2026-11-25T13:49:27Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
+   "news": []
   },
   {
    "loc": "country/AE",
    "name": "United Arab Emirates",
-   "score": 203915.6,
+   "score": 216018.6,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T22:08:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "AE",
@@ -199,29 +189,14 @@
    "news": []
   },
   {
-   "loc": "country/SC",
-   "name": "Seychelles",
-   "score": 33672.80961182994,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "SC",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/SC",
-   "news": []
-  },
-  {
    "loc": "country/TV",
    "name": "Tuvalu",
-   "score": 28751.140174821325,
+   "score": 34466.55532004701,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-25T05:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "TV",
@@ -229,14 +204,29 @@
    "news": []
   },
   {
+   "loc": "country/SC",
+   "name": "Seychelles",
+   "score": 33937.73567467652,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-11T17:30:00Z",
+   "end": "2026-11-25T21:30:21Z",
+   "ongoing": true,
+   "kind": "country",
+   "code": "SC",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/SC",
+   "news": []
+  },
+  {
    "loc": "country/NF",
    "name": "Norfolk Island",
-   "score": 28199.648463621772,
+   "score": 32278.110018277814,
    "sources": [
     "Google traffic"
    ],
    "start": "2026-11-25T00:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "NF",
@@ -246,12 +236,12 @@
   {
    "loc": "country/CK",
    "name": "Cook Islands",
-   "score": 27613.582089552234,
+   "score": 27851.268656716413,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T22:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "CK",
@@ -261,12 +251,12 @@
   {
    "loc": "country/SY",
    "name": "Syrian Arab Republic",
-   "score": 22927.75,
+   "score": 23325.875,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-19T10:00:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "SY",
@@ -276,12 +266,12 @@
   {
    "loc": "country/RS",
    "name": "Serbia",
-   "score": 21231.290322580644,
+   "score": 21408.253856942494,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "RS",
@@ -291,12 +281,12 @@
   {
    "loc": "country/TJ",
    "name": "Tajikistan",
-   "score": 12806.594594594595,
+   "score": 12978.756756756758,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-17T13:25:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "TJ",
@@ -306,12 +296,12 @@
   {
    "loc": "country/LA",
    "name": "Lao Peoples Democratic Republic",
-   "score": 7382.116402116402,
+   "score": 7550.6349206349205,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-20T22:35:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "LA",
@@ -321,52 +311,27 @@
   {
    "loc": "country/NG",
    "name": "Nigeria",
-   "score": 2897.717632801454,
+   "score": 3090.7089476873357,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-24T03:00:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "NG",
    "url": "https://ioda.inetintel.cc.gatech.edu/country/NG",
-   "news": [
-    {
-     "src": "Al Jazeera",
-     "title": "The cost of Nigeria\u2019s power failures for one small business",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYVNKS1EwM0tCVS1WTVcta3ptN0VtaUQwRk9MTTJzV0xZTWQteHlWOHRvclFCb0lGaXdrcjdBY3BvRk1zRTFhb3pWMUJWNHNRWnhZYmhkdXFORXliTmV5U2hKZVZzbkRSOFlOZ1hxTy1YVkdaRUhEN1dhd1pVQ0xaT0I3b0cxcUE0M184SGhwbnB5YVlLRzdfMk9GMVJka3hRWDhKa2d1NkdNWWRCTURZ0gG0AUFVX3lxTFA5bWNaaFY3MFhVcVhzaFRLUEIxRkxpemRndzIySUhtQlRKOENUbUFXV2Z6dGVCVjR3SGhlMUt1U3dZSUk0RzlycXVIaG83VzJJa1RqNndEZmhHeE9qcXNvX01CUHgwUFUxdllRNkl0UF9ZVDBSbzFWdExJVFJWeUpTNV9JYUtaQ1Y0ZUJaTXdISVhWdmxWYkRJMmtnVDBqNXA5d0pPcFZ6VHN6N1psVVZHc3l0OA?oc=5",
-     "date": "2026-11-25T11:06:23Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "loc": "country/XK",
-   "name": "Kosovo",
-   "score": 738.3636363636364,
-   "sources": [
-    "Routing (BGP)"
-   ],
-   "start": "2026-11-25T12:05:00Z",
-   "end": "2026-11-25T18:51:06Z",
-   "ongoing": true,
-   "kind": "country",
-   "code": "XK",
-   "url": "https://ioda.inetintel.cc.gatech.edu/country/XK",
    "news": []
   },
   {
    "loc": "country/GL",
    "name": "Greenland",
-   "score": 454.4632768361582,
+   "score": 814.3502824858758,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-25T11:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "country",
    "code": "GL",
@@ -404,13 +369,28 @@
    "news": []
   },
   {
+   "loc": "country/XK",
+   "name": "Kosovo",
+   "score": 945.4545454545454,
+   "sources": [
+    "Routing (BGP)"
+   ],
+   "start": "2026-11-25T12:05:00Z",
+   "end": "2026-11-25T20:45:00Z",
+   "ongoing": false,
+   "kind": "country",
+   "code": "XK",
+   "url": "https://ioda.inetintel.cc.gatech.edu/country/XK",
+   "news": []
+  },
+  {
    "loc": "country/DE",
    "name": "Germany",
    "score": 730.8093994778068,
    "sources": [
     "Network telescope"
    ],
-   "start": "2026-11-24T19:19:00Z",
+   "start": "2026-11-24T22:50:00Z",
    "end": "2026-11-25T15:47:00Z",
    "ongoing": false,
    "kind": "country",
@@ -482,33 +462,6 @@
      "title": "Russian strikes on Ukraine kill five, cause power outages in five regions",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWZKcV9EeDNvLXdMaUpYUWNGSTdYcHpyeEQwaWZoa3BLUzJ6dUpGZ0JQTFFrTkwyMllObVlaS3pNTUxVRUFLRjVwNmw3MllrU2diVVBSZXBUeTVkel95Mm0xN1BuZlVoMFNueEdlTUtTTlc4bjhCTFdzZm85ZXZyOGVEX3prcHh0NEEyQkRCMVFYUWdzSDV0MFZOV1VKOFhkaHczYWJpc9IBrAFBVV95cUxQUEJMQWpxUXh4SEFkYTlmYlNQSzk0dGZNM21hcHBFUXZ6MzhxQnVCX3V2b2NEX3pPcFNETFBWNlg1eFQtYWRNRzdMWEFXWXdXdU1INlhyQnlKaXBlRHI2OVQ5NXdYYnNfLU5nUU9kanAzQjN2WUNTQkdjZm1iNTgwcERRYmVXTDFtMEc0eVdleTBjdEd3cnNRVDhWTjZLWmdxb3Fxc05lVjhFWW5v?oc=5",
      "date": "2026-11-25T13:14:34Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-     "title": "ChatGPT has experienced a major outage \u2014 what the problem is and the situation in Ukraine",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWV9sMEZYNGdfRjhoZWY4cDRfd1pHaFRpRUM4d3phZXRtSXdHLVJTaWhlYWF1NElUdlREMVBRaW85SVd1eDl5MmxEVmpmOFEyV053R1lrWnNobl9iSzJwcEphYjhLT0FpemZnYWxqaDl1MHd5UXVUZUI2RmttM2UtOUJYWGRnQWtWZTlPVmlMLVRzZ3UwSUJfakVvZHIyR2lWTExyWkFPTEdOUdIBqAFBVV95cUxOaVpMV2pzVUhVbW51U1NSaVZNY2NfVndiR0ctVTljc3ZEcFdqb1FKb0VfaVBYbWUwQWtXUFUzd2E0c1VFNkJ4T2JyeXpHMFJiUzllc1J5LXgxVUtINEozbFgyN2lEci1aYUJUWXBORFJ2ckFTeGNTdGpGQWVKQ0lfalQ5anp0NFdnRlduS0VBX205Zm42X25pODYyVGZUTDkyOUczbExoY2o?oc=5",
-     "date": "2026-11-25T12:29:47Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Interfax-Ukraine",
-     "title": "Russia strikes energy infrastructure again, causing new outages in five regions \u2013 Energy Ministry - Interfax-Ukraine",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10RGlUTVhSQ1FCb2p1dEQ0dkViZGhvM0tnWE1nSlI2SkY3REFVTV9pclFfTnJzZU43M0lMMzlRbVFxWXlpeHRzazhZUmlDcnVfS1BoVU5aajNvWk9tekVTeDdfOURiWklQ0gFoQVVfeXFMTXREaVRNWFJDUUJvanV0RDR2RWJkaG8zS2dYTWdKUjZKRjdEQVVNX2lyUV9OcnNlTjczSUwzOVFtUXFZeWl4dHNrOFlSaUNydV9LUGhVTlpqM29aT216RVN4N185RGJaSVA?oc=5",
-     "date": "2026-11-25T09:49:11Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430",
-     "title": "Ukraine reports new power outages as occupied Zaporizhzhia nuclear plant switches to diesel generators",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GRWliRmxWQnhRM2hDeDVFWU83dXNhN09ILUlCNGtXZmZaWTVYQkxaYWFNVFZYazhOMGVXMHdMQVlyQWh2X3dvbjNodGdQSlh4d3J6eTZTbF9oOXpySGVwTy1hdXbSAXBBVV95cUxPNmdaNVpxY2o1a2xOSzVxMHhCQkktUTRBVDNtQUlBdmFLSTQ0d3YxdmM4clpPdk9EVGI3cTc2aGNpRXlmSkhMcFJjRjBhVV9oeWJxUm9qdUZyNDRMTmRLZjJ5eVRMY0RtU3FmdnhGeVFW?oc=5",
-     "date": "2026-11-25T08:42:00Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -590,12 +543,12 @@
   {
    "loc": "region/3465",
    "name": "Samara",
-   "score": 520010.00000000006,
+   "score": 535935,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3465",
@@ -604,12 +557,12 @@
   {
    "loc": "region/3430",
    "name": "Nizhegorod",
-   "score": 520010.00000000006,
+   "score": 535935,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3430",
@@ -618,12 +571,12 @@
   {
    "loc": "region/3471",
    "name": "Tyumen'",
-   "score": 520010.00000000006,
+   "score": 535935,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3471",
@@ -632,12 +585,12 @@
   {
    "loc": "region/3476",
    "name": "Novosibirsk",
-   "score": 520010.00000000006,
+   "score": 535935,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3476",
@@ -646,13 +599,13 @@
   {
    "loc": "region/4156",
    "name": "Ankara",
-   "score": 502676.3333333334,
+   "score": 518070.50000000006,
    "sources": [
     "Network telescope",
     "Routing (BGP)"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4156",
@@ -661,12 +614,12 @@
   {
    "loc": "region/2984",
    "name": "Noord-Holland",
-   "score": 493850.9603658537,
+   "score": 508974.85518292687,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2984",
@@ -675,12 +628,12 @@
   {
    "loc": "region/3556",
    "name": "Central Singapore",
-   "score": 467620.9328358209,
+   "score": 481941.5485074627,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:11:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3556",
@@ -689,12 +642,12 @@
   {
    "loc": "region/3875",
    "name": "Stockholm",
-   "score": 395587.60000000003,
+   "score": 407690.60000000003,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T04:06:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3875",
@@ -703,12 +656,12 @@
   {
    "loc": "region/4414",
    "name": "Washington",
-   "score": 382131.49090909096,
+   "score": 394639.85454545455,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-22T09:46:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4414",
@@ -717,12 +670,12 @@
   {
    "loc": "region/3479",
    "name": "Irkutsk",
-   "score": 314910,
+   "score": 330835,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T14:22:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3479",
@@ -731,12 +684,12 @@
   {
    "loc": "region/1860",
    "name": "Baghdad",
-   "score": 268592.49999999994,
+   "score": 283190.4166666666,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T18:01:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "1860",
@@ -745,12 +698,12 @@
   {
    "loc": "region/672",
    "name": "Lagunes",
-   "score": 253645.45454545453,
+   "score": 268122.72727272724,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T20:21:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "672",
@@ -759,12 +712,12 @@
   {
    "loc": "region/4115",
    "name": "Istanbul",
-   "score": 233871,
+   "score": 246838.5,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T18:59:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4115",
@@ -773,12 +726,12 @@
   {
    "loc": "region/4473",
    "name": "Tashkent",
-   "score": 208206.9082125604,
+   "score": 220746.884057971,
    "sources": [
     "Network telescope"
    ],
    "start": "2026-11-23T22:47:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4473",
@@ -787,12 +740,12 @@
   {
    "loc": "region/2956",
    "name": "Sokoto",
-   "score": 182247.15789473685,
+   "score": 193646.1052631579,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-24T00:25:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2956",
@@ -801,12 +754,12 @@
   {
    "loc": "region/2954",
    "name": "Kano",
-   "score": 108532.19858156028,
+   "score": 115760.56737588653,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-24T03:00:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2954",
@@ -815,12 +768,12 @@
   {
    "loc": "region/1538",
    "name": "Bioko Norte",
-   "score": 97005.23809523809,
+   "score": 97763.57142857142,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T15:20:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "1538",
@@ -829,12 +782,12 @@
   {
    "loc": "region/2504",
    "name": "Bender",
-   "score": 82234.54038997216,
+   "score": 83121.72701949862,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-15T12:50:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2504",
@@ -843,12 +796,12 @@
   {
    "loc": "region/4442",
    "name": "Indiana",
-   "score": 70624.45437701134,
+   "score": 71151.95738387023,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-10T23:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4442",
@@ -857,12 +810,12 @@
   {
    "loc": "region/3622",
    "name": "Srednje-Banatski",
-   "score": 61632.58064516128,
+   "score": 62146.29032258064,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T12:25:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3622",
@@ -871,12 +824,12 @@
   {
    "loc": "region/3753",
    "name": "Trzin",
-   "score": 60473.823529411755,
+   "score": 60942.20588235293,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T12:10:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3753",
@@ -885,12 +838,12 @@
   {
    "loc": "region/3894",
    "name": "Bel Air",
-   "score": 57466.845425867505,
+   "score": 57918.974763406935,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T17:30:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3894",
@@ -899,12 +852,12 @@
   {
    "loc": "region/2561",
    "name": "San Luis Potos\u00ed",
-   "score": 42092.009192383455,
+   "score": 42437.068286277085,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-12T07:05:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "2561",
@@ -913,12 +866,12 @@
   {
    "loc": "region/4041",
    "name": "Dushanbe",
-   "score": 33682.52100840336,
+   "score": 33950.16806722689,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T20:50:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "4041",
@@ -927,12 +880,12 @@
   {
    "loc": "region/3116",
    "name": "Hu\u00e1nuco",
-   "score": 32954.12698412698,
+   "score": 33206.904761904756,
    "sources": [
     "Routing (BGP)"
    ],
    "start": "2026-11-11T08:50:00Z",
-   "end": "2026-11-25T18:51:06Z",
+   "end": "2026-11-25T21:30:21Z",
    "ongoing": true,
    "kind": "region",
    "code": "3116",
@@ -976,22 +929,22 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
-     "title": "SMS Delivery Delays from Twilio to Multiple Networks in Italy",
-     "impact": "minor",
-     "status": "investigating",
-     "start": "2026-11-25T14:49:12Z",
-     "updated": "2026-11-25T17:52:45Z",
-     "detail": "Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in Italy. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes\u2026",
-     "url": "https://stspg.io/rp96f6745g5j"
-    },
-    {
      "title": "SMS Delivery Delays from Twilio to Bouygues Telecom France",
      "impact": "minor",
      "status": "monitoring",
      "start": "2026-11-25T10:13:57Z",
-     "updated": "2026-11-25T15:36:04Z",
-     "detail": "We have observed a recovery in SMS delivery from Twilio to Bouygues Telecom network subscribers in France and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.",
+     "updated": "2026-11-25T19:41:51Z",
+     "detail": "We have observed a recovery in SMS delivery from Twilio to Bouygues Telecom network subscribers in France and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.",
      "url": "https://stspg.io/6wckhw8p3c7q"
+    },
+    {
+     "title": "SMS Delivery Delays from Twilio to Multiple Networks in Italy",
+     "impact": "minor",
+     "status": "monitoring",
+     "start": "2026-11-25T14:49:12Z",
+     "updated": "2026-11-25T19:39:34Z",
+     "detail": "We have observed a recovery in SMS delivery from Twilio to network subscribers on multiple networks in Italy and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.",
+     "url": "https://stspg.io/rp96f6745g5j"
     },
     {
      "title": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
@@ -1045,9 +998,9 @@
     "Voice, Latin America",
     "Voice, APAC",
     "MMS, APAC",
-    "SMS, Europe"
+    "SMS, Middle East & Africa"
    ],
-   "n_components": 8,
+   "n_components": 7,
    "news": []
   },
   {
@@ -1057,13 +1010,13 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
-     "title": "Elevated R2 errors for buckets in APAC region",
+     "title": "Elevated R2 Latency",
      "impact": "minor",
      "status": "monitoring",
-     "start": "2026-11-25T16:50:45Z",
-     "updated": "2026-11-25T17:23:55Z",
+     "start": "2026-11-25T20:08:42Z",
+     "updated": "2026-11-25T21:00:59Z",
      "detail": "A fix has been implemented and we are monitoring the results.",
-     "url": "https://www.cloudflarestatus.com/incidents/2quqh864hxdi"
+     "url": "https://www.cloudflarestatus.com/incidents/ef6928vi0mic"
     },
     {
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events",
@@ -1079,11 +1032,11 @@
     "Ahmedabad, India - (AMD)",
     "Albuquerque, United States - (ABQ)",
     "Arica, Chile - (ARI)",
-    "Asunci\u00f3n, Paraguay - (ASU)",
     "Annaba, Algeria - (AAE)",
-    "Bangalore, India - (BLR)"
+    "Canberra, Australia - (CBR)",
+    "Belo Horizonte, Brazil - (CNF)"
    ],
-   "n_components": 74,
+   "n_components": 72,
    "news": []
   },
   {
@@ -1095,10 +1048,10 @@
     {
      "title": "Claude for Microsoft 365 add-in missing for some users",
      "impact": "major",
-     "status": "investigating",
+     "status": "identified",
      "start": "2026-11-24T00:10:40Z",
-     "updated": "2026-11-24T17:19:32Z",
-     "detail": "We are continuing to investigate an issue causing the Claude add-in to disappear from Excel, Word, and PowerPoint on Mac for users signed in to Microsoft Office with a personal Microsoft account. In the meantime, we recommend using the web versions of Excel\u2026",
+     "updated": "2026-11-25T20:21:12Z",
+     "detail": "We have identified an issue with an upstream provider that is causing the Claude add-in to disappear from Excel, Word, and PowerPoint on Mac for users signed in to Microsoft Office with a personal Microsoft account. We are in contact with them. In the\u2026",
      "url": "https://stspg.io/ffdq2qfv8frk"
     }
    ],
@@ -1132,15 +1085,6 @@
      "title": "OpenAI Outage Today: Is OpenAI Down in the UK? Users Report ChatGPT, API, Login, AI Response & Website Issues | Check Latest Downdetector Status",
      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOTFVwa29yVVRmYkhNS1JWcUVSWnVpQmh6WU4tRDZEOGE2a3JNZE1TQmx2NjdFNjltQmlXdV9zXzc5aHdzd1Z0dGw1X0p1V1A0aUNLcVRPbkl6czFyT1dVc3hRRGhrZHlNcGJ1bGE2akVpS0Nxa0FOdVkyM3pZVEt3QnN1MnJLQWY5LUZ6TGFjLUpPRzl0UGlZLUd1aUhrRVdRLWJZWDlRb0h1anRhaF9JblJ6MFRsT0FxTnJCYUhiTEEwTVM5eHBZTW5EN25fNVZXMldKekNCVFl5dDVxR0ItY0YtQlVtaE5PM2tHb2RxamlFTmxySUhCNzVnM1dPUXF2OXFWRWcxcXFLN3FVRy1lMtIBlgJBVV95cUxNT2hBVzkydWVJdmppa19fSDVLNng3WFB2alRUaW9adXZrY1lWdFhYY0tyWUJvWFVOc1U4dVNSUGY2ekZLcGU5am5TbFZQS2JrV0MyS1pHS2RHcEpOU2tPOHhseGIwcG05X3dvams5QmRMR0ItZHF4QTItdl9aX0kxMlBFcGtjODNJTjVxeVhRUWRxcjRaSlQ2bmFXRUxhcXlMbFNkb3YtajdHVUhsMTh1RlIxNHc1TDdQdnVFN21mdmN1OWdSbjZWMHFqLV9hSnNFWHE4VlhBWThoRjQ0em9yMFBmVjNtMlBId19TQXJZUGl4WjRSZGQzMjNRRndLdmpTWVBqNkk0Q0MwRTlHc0d0NlRDY25zUQ?oc=5",
      "date": "2026-11-25T13:24:06Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-     "title": "ChatGPT has experienced a major outage \u2014 what the problem is and the situation in Ukraine",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWV9sMEZYNGdfRjhoZWY4cDRfd1pHaFRpRUM4d3phZXRtSXdHLVJTaWhlYWF1NElUdlREMVBRaW85SVd1eDl5MmxEVmpmOFEyV053R1lrWnNobl9iSzJwcEphYjhLT0FpemZnYWxqaDl1MHd5UXVUZUI2RmttM2UtOUJYWGRnQWtWZTlPVmlMLVRzZ3UwSUJfakVvZHIyR2lWTExyWkFPTEdOUdIBqAFBVV95cUxOaVpMV2pzVUhVbW51U1NSaVZNY2NfVndiR0ctVTljc3ZEcFdqb1FKb0VfaVBYbWUwQWtXUFUzd2E0c1VFNkJ4T2JyeXpHMFJiUzllc1J5LXgxVUtINEozbFgyN2lEci1aYUJUWXBORFJ2ckFTeGNTdGpGQWVKQ0lfalQ5anp0NFdnRlduS0VBX205Zm42X25pODYyVGZUTDkyOUczbExoY2o?oc=5",
-     "date": "2026-11-25T12:29:47Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1388,75 +1332,65 @@
    "place": "Balleny Islands region",
    "detail": "",
    "news": []
-  },
-  {
-   "kind": "Earthquake",
-   "title": "M5.0 earthquake, 209 km SE of Kokopo, Papua New Guinea",
-   "when": "2026-11-24T21:11:41Z",
-   "level": "green",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udbn",
-   "place": "Papua New Guinea",
-   "detail": "",
-   "news": []
   }
  ],
  "news_reported": [
   {
-   "pubs": 12,
-   "cat": "cyber",
+   "pubs": 31,
+   "cat": "service",
    "headlines": [
     {
-     "src": "Mon Valley Independent",
-     "title": "An unclassified CIA system was breached in a cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTzdwMGhncEN6aG85V3ZIa2ZNWHZ0aDdpNFBKQjY2TTlNRVhSNE1nd0RwcUQwTkVUSHlNdW92Y3Y4Y1VaT1c2OUN3QzhUZXU5dS11MFFTSk9DblpuUUJrTngwRGl4S2FpT2swaExFWlUyYjJHLTZlb3dYV1NJMU1tNFRWcjJqUGs0aTZr?oc=5",
-     "date": "2026-11-25T15:05:16Z",
+     "src": "JournalArta",
+     "title": "Microsoft Issues Code Red After 24-Hour Service Outage",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xM1JGUG9XR1dXUTFER3E3MVBxT0dwMDVocDc4Y0hsS1YwTVQ0Y0lDS2pXRnVfSnBNN2tuNFdTdWRVaGl4bTI4M1JSMndWWDF4R1BsbWhpRTZlRU5ETVA3a0IyY0FpUGFiaWp1VndxT25zWk82Yk03TFU0NHk?oc=5",
+     "date": "2026-11-25T20:04:00Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "Homeland Security Today",
-     "title": "Unclassified CIA System Breached in Cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMXA5Vm9ud2htci0wTlM5cE5rb0lfY29kUjdPQ0FBcGVUdUtiaFdLNEdtd2xocEY5ZHNVbjItdXZfYl8xUUJtT1JwSVpDWXpQYlJfamxueXV6S2d1Z2tZY1FMcFpYNmhIWl9uNGpidEo5Z2szN2pzWUJ2R0VYRnAxQ0lZSW0wSDYxOWpERDZCeUFNNjFHYnRqOE56TGNQcGkzZEVLWGRUZjg2UQ?oc=5",
-     "date": "2026-11-25T14:56:21Z",
+     "src": "Thurrott.com",
+     "title": "Report: Microsoft Declared \"Code Red\" Alert After Historic Service Outage",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaS01eE1kODAtQl94M0RlY2FES3FoaDNTSV9zMTNXSVFYaWZVWUQzWEIzSTlaWU1uTW9FTHFkVl91RW1BNURUd1JpQktuNXhBUW5GM2VEcFBDck9mdUp6Ums0dmNKZzBzYlRjbGh6b0V6UHpOU1pqWTNwSVVNOEw1YjA5SE5JSWlmUUJWREVXUk9MZThaM2pTSVpWajB6M0ZRUGdUUnlMd1hUNERTLTV1emV3?oc=5",
+     "date": "2026-11-25T18:44:47Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "Yahoo",
-     "title": "Cyberattack Breaches CIA, Exposing Unclassified Data",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFZUWXhscEl2a0xSa0JFaFNtRHlUbFdtNE1lV2JKWWVHTUhza2FMYThjNEJOQ0Z5MmktV202cjc4RkhRRDRSdlZrQm9BelBDNGw3X0ptSFY1Y0JRdWhLdFAxZGxhNXBBYV9tSXRCSUpyTkU2MGg1Tkt5UXBuX2c1TFN4OGJMbWZKZXhETXgtNGJHVDRybVVqQ0hvVQ?oc=5",
-     "date": "2026-11-25T12:30:02Z",
+     "src": "AOL.com",
+     "title": "Microsoft issues \u2018Code Red\u2019 alert following outage: Report",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWEdmRDBMU2gtajE1SW54NGNFVlFrbzFsWTlPTXE0RjNNV1RseVZ2bTVNcXF2ZE42V3JEc05oMzB6MDIzcWQ5VmVZbTl6ZC1oSVhsOWZxWnJnOFRlcWRVQUxiakZGZDNaQ0pWZUttNm84aHJNZW5yLW5IU193VmVqZA?oc=5",
+     "date": "2026-11-25T17:41:33Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "kcentv.com",
-     "title": "Cyberattack against CIA, Office of National Intelligence affects unclassified information",
-     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOOUJkS2ZCMl9GN2hrd3dXVmVyUWZvRTZpRi04ckRmRC11aXV0c2FoTjM3R2VqclFDeEJkbUhxZWVYdDZlV0o5MjNkeEdPQ3AxYk1pZkZjbk9yMnpaQVRJMU5pZnRLMndxY2QtRC0zMTBBVlJrWmp4MC1ZdEM3NV9tV19PbzZhMDlhSi12S3ZjX25VaVhqVWplMlczU3c5RExyNWtrQ0V1SWxUcEgwdXVTUnNXWW8zVDNxLXZfZjg2WkZhcjJKbjhCRXJqa3BnSFFQZDdWbHZqUEhpNVY4ZEpYMjJzMEpRblE4TVhMU1ZpSlZHZkFGZE93R1pjREJWdDE4bkxkN0VUaw?oc=5",
-     "date": "2026-11-25T12:22:17Z",
+     "src": "The American Bazaar",
+     "title": "Microsoft declares \u2018Code Red\u2019 after 24-hour outage disrupts Outlook, Teams and Copilot",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZkZKQlRIZmNNOEttQ2w1OU5OQU80cVRvUEZ6b1Q4cUZyZVR0WkM3VktIdjB6WmY1X2ZiREVSODhRWWExT0FMcE1wRTFXc3FCUDhGbDMyWnVubXlBU0JPRHhNc3lYcVNseDlnUXhwYlVQbWNGVW1OWVBSb1AzdllsVUtjbGxTWi1tbjNOREMwaHJKcjFpUTZ6ZHVLZWpPMXdSRENUbU5kZWF1TF9uMGc?oc=5",
+     "date": "2026-11-25T17:14:25Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "Arise News",
-     "title": "Cyberattack Breaches CIA System Used To Gather Open-Source Intelligence",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY05DaHQ2M3dLZGlSU0swRnlrU0p1VEZyX2pSTGNFdnF3VUR3YWR3R0NOZWVqOVV0RTZfd0xnQmE3TTdxUjlSN2JPSXVYQ19GdS1jRzJXLWQwLWpJVUJEU1BVbV83T3B3czBVcWxzM1d3dXdxbDdYQlljSEpQX2hHeTU4SU8wWUNBWWlSYWtJTllpTVhscWduLQ?oc=5",
-     "date": "2026-11-25T12:15:43Z",
+     "src": "UNILAD Tech",
+     "title": "Microsoft issues 'Code Red' declaration following major Outlook outage",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVUxpOHUxeVpQXy1UR2NXZ05GeV9fS0p3dHg5RDE4Rk5UV1NEZDJJTGY5OFZXTVZxUjRrU1lNamJfZm5XdXhDU0hWNDNydEE4czNVNVN4akRrRVhlOWdvcG42blQxcGltdFB5NE96WERfYWkzZGM3dmI2eEs3LXlmRFlIS2pSMWNjY25MbEhlQ3FjM2pFWlE?oc=5",
+     "date": "2026-11-25T17:10:19Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "France 24",
-     "title": "Cyberattack exposes unclassified information from CIA system, US media reports",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNalY3dkdwSHpOS3ZjaFFNcGc1NGNpc1BwYTQ0dmczYXJYNkZpbHZ1dDYzVG4wazBvdmp2clY0eXZ3MnJxMlBZaEFJTkdEWVhmNVZtOUJKUml0YU5fVERVSGN2RzB0ano3WW9iTDRrbTFXU1EzMDNIRXAzOV9yeTRZcmR4YW5DVFVreDNCbTNobm1QYXF5ZExzSW1mNkpPTk9uS3ZVR09kQmY0amJQaGxYQXl4eEJUNVNDaC1CMzlGRXQ?oc=5",
-     "date": "2026-11-25T10:48:10Z",
+     "src": "FOX 4 News Dallas-Fort Worth",
+     "title": "Microsoft declares 'Code Red' after historic service outage - FOX 4 News Dallas-Fort Worth",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZFFrdUk0QkxBUkVUVVQ3UVpBMGZjZ0ZvLS1OOEl6UHFEN2U1RjY2OHR6MDRmb3JTNGZMQVRCQjlJdTY5eHpuQjI2S2xNOFJUTnFtOHZCdkZuUXM2OHpoOWVGUENqQVR1dVAtSFFsZkkxTEJLVmFJSzFBUktQZFRWNDd1M18yMjVWdFRSU0ZKc1E?oc=5",
+     "date": "2026-11-25T15:45:20Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -1466,46 +1400,46 @@
    "cat": "power",
    "headlines": [
     {
-     "src": "kcentv.com",
-     "title": "What we know about the Thanksgiving Eve cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcUMxQXpmRFhEc1pSdXNhMnFLUE9JNGF3TjNEamE0bzlRSGNDVHVwMnVqWTlUN0JybUNZaVd1VDJtRVlrMmpaVlYyQkg3WnRCdVQ4ZEFBb0Jjb3RhMVI5bks4S2hfMFVaVnNSemdNOWwyc0FKM1Z4RHdHVEJpYXB3SFd2LU5pSFpkVnhzOHRTUWpqMUxmaTVCeU9pT2FFaHhYWFh0ZFFITmFsbmxRZEprdDhfRkhFVWpMbC1lWExkcjREYW9uaDg0VU5rMWRlbVl5eWtJZ3Nn?oc=5",
-     "date": "2026-11-25T18:35:25Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Patch",
-     "title": "Heavy Rain, Possible Power Outages Threaten MD Thanksgiving: What To Know",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQckROa0JyeXdtdGFXWWhBcEd6eFRSVDZHRV9xbXJrVjRmNm9jQ2g5WElDUDlxMFpON2VBM1laTmhBRFh4NVVYWFFrZ2hzY2RzdUZOekUxRDBFd21hVWJUXzI3QVdWMDNGUU9SaEptU2NiZjdwNV9WOHlXYnBBTVhZMHA0N0FyWUNRb0RTWXBsUzDSAb4BQVVfeXFMTXhDYktHbDhwLXIxTmtTdnlhbERlUFVteVBQM0l1bDgwRW92WlpUX2J2N0o4U3oyZWY2Nm56WjB5Y2ZFMkpMZjlhWmdMcG9QQWhNREtpbkk5aWkzaU9qZ3NxdzI0MUJJdkE1U0E1RTY4ZjlmYnp6OHNrX2Zmei1GYXFacHpfUmV1ckNHUnNMU25ZNVVPRVNjTmQwREQ0R1habFFfeW8zY0NfMDY0UDJTcTk5LWdFRHZJQXpTMEdmZw?oc=5",
-     "date": "2026-11-25T16:28:53Z",
+     "src": "TAPinto",
+     "title": "Thanksgiving Storm Expected to Bring Flooding Risks and Power Outages to Linden",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZ1J1Vmxockg2aEpjWjY2T2pqMWh6TndPRjlLVk00eWhhZ21aREJyVVRfaWdNUDFINDNQV002S2M4cUplUGNmMWo0bXpEUm9kaFc5X01lMTR3NHR0a1dHc2xzSHlpRm00cm5SZ1JHdHhfU0xpbjVnYzRfNW1fV2FxQnVSZGlqT05wV2xjZURYeV9XN29jcV9veDBGZGJXV0Rxbm9RTTNLb1VTN21ZQTl6SzZtcTl5T3FLaVZzdEdOVUFielRJZUozQzZtQ1h5RDZXQnR5bndSVU1ocmo2dXJWdnJTTF8?oc=5",
+     "date": "2026-11-25T21:23:43Z",
      "desc": "",
      "cat": "power",
      "outage": true
     },
     {
-     "src": "Patch",
-     "title": "Heavy Rain, Possible Power Outages Threaten VA Thanksgiving: What To Know",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOODlSUDA2bE5MUTdNNUhDeWt3QTZ6MGlUUkE1d2tMU0VjZ2d6SGdXY090aktuMXNkOXhSenlJMi1UcGZFRm5TUGt5a0ZHV2hwckJLb0syMnBITDFCSXN3TjhUZVM1UXhLMmFFU0FXR0lEMXBIcDZkaFNScXdMcDB5ek9jSTdYUUN3WVh3ZnRQVjHSAb4BQVVfeXFMTlA3d3VyMFB5TFByV1Fzbms5blJGNm81RDVZM05obzdwY3NyNHdjV1hYeUNsUHRsMXVNVDI2MVFSRlJpSU9HaVhkRWNLV2dsbjlqY3pvYkJaUTZvUEdBWTVnZGVFZU1SMkkySVBSR0hCVzN6STFNdmw5V0Fwa1FrVFgyZ0RSeTlmRmRyMUNTR1FfaTRNQXJwLUxfQlRpVldIdEJ1WFFqS3VJallmS1BxcWxWUGNHeGdLTDltYlh2dw?oc=5",
-     "date": "2026-11-25T16:25:27Z",
+     "src": "Cville Right Now",
+     "title": "Strong coastal storm moving inland expected to bring Thanksgiving morning power outages",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaVRUYXNUVmV4RmhrSHJfdS0tRk9URmlzQjJOUC1GRnc0a2Q0RF93bVUxaXRaX3JFLTFsMG11dmxaZlFOUlFPR3YxNzVqMTNjV0lKeFJrempJSVBfcHd3Y044ZWZTUkptMmN2YUFManp4c1BkYVZjN0xpckZHN19HLW5RSkpNaUZpTXhYS21GMndXelh1LUJrd25xdXM5RThUWVpfM2RxZzFQaV9jVVdXaFZHTzJBNmFkSDBlNkl5MWU1UkR6SWc?oc=5",
+     "date": "2026-11-25T19:42:48Z",
      "desc": "",
      "cat": "power",
      "outage": true
     },
     {
-     "src": "FOX 29 Philadelphia",
-     "title": "Philadelphia urges residents to prepare for 60 mph gusts, power outages ahead of Thanksgiving storm",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaHZBREtIWDV0SW11SU80a0R5WHhSczMxc3hzZmNTcnMzWF9DQjk4Mnl5el9UbFRQeGJ3eXhYZGc3Y0l3eFdzRm1sQjNSWURsSWxtak90YnZTbnpFZ0lFOVRQV0hvcXJhRUUxNlVUUEw1ZjFTTnFfUEhQaDRkY19TTDlFak9jRzFHUXNBd0FpMnFBaDFuN094UVMwTUgxbmZZX3JKRDZoUW5fUlR5MGw4M3p4SG44dw?oc=5",
-     "date": "2026-11-25T17:54:03Z",
+     "src": "The Washington Post",
+     "title": "Where to expect stormy weather, travel delays and power outages on Thanksgiving",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYmx5U0thbWZJUDhmbzBYdGNBQVI1aG5kQTVNR1puTGhqQzBqR1ozbW84Y1VwTXBwT3BiRkdZUTIwT2dyS21WT1gtR2NxSDRlc1ZrZG15UFlQeHk1UGlCSTVocV95M0RmZFdISFI1RnNCV3RXZUtEYk5yUkVkaDNCR0NRMjhoMmJZYldGWE54M1ljS3hyd2lOS2pKN1BKZm1feHozYk1qVVRoeXhoN1dzX3YwMTdUdTBSYlhB?oc=5",
+     "date": "2026-11-25T21:18:09Z",
      "desc": "",
      "cat": "power",
      "outage": true
     },
     {
-     "src": "13newsnow.com",
-     "title": "When the storm crashes dinner: How to prepare for a power outage this Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNnl3ang2RzdLQVR0elhlV19lZFJBdE5JRFpURTVzRWtuZ295bmk0S3NQbm1RLTBmd3BLeWdGSDRySTFWNDZfOXVNX2pNUlJTUnY5VS1jcm9VSGJHeEl1Q3hQZC1VcDVnTXlJT2kzeGRBcjl6VnliVEJrd1YxZjZ4Ny0zYzZsenVMRzMtSkZxYk5QZXpOc1FIYktzUUpFWlpIb0lMdUp6a1hYS2lNa3JRaUd1aFF4SWlXWXdvakFLSERhNHFpRXpvRWxpTGRiT2pENEhHVkZpUER1SkdrTGJfVkY3c1M2dkJmV05HTGFxZHZEUDQ1c19QeDhpMnhaQk0?oc=5",
-     "date": "2026-11-24T23:43:00Z",
+     "src": "LI Press",
+     "title": "Thanksgiving nor\u2019easter may cause power outages on Long Island",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54SkJ5RFpOTzY4Ykx5S1JRa0JKNnBfUTFRdkVMMUxEZGJXT3ljSzlPdzRHcHJ1UDJYREJCWlFOb3lxMTZqVkQ4UEg2SThkSGQ1a1NjUlNDTmxBd2ZRRmNkNURCMGxMbkUwMFFsQmtlQzVEQ2JW?oc=5",
+     "date": "2026-11-25T21:07:07Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "WJLA",
+     "title": "Utility company braces for Thanksgiving nor'easter to cause power outages across DMV",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRVZmcV82bW9Lek5FUy1Qa2dZMUxTUVpyYjRiaHVQMjNiVGd4TUpmSVMxdGQwX3NuRVhRT01BN1pIQUI1LWpWdHp2MFRFcW5nVkpfcERjV1FDLThUZ2xHdzZfcW9lcWNwMU9zMUt3WVUwNWREdkM3TnNGU0JGM3JfVHFobzlBcmtBTFNtT0JHVldJQU1nYzAxRVFOLWJTQ2Y0MmRaX05UVWFfdExEc3pfSQ?oc=5",
+     "date": "2026-11-25T20:36:03Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -1522,94 +1456,196 @@
    ]
   },
   {
-   "pubs": 6,
-   "cat": "service",
+   "pubs": 9,
+   "cat": "cyber",
    "headlines": [
     {
-     "src": "ANI News",
-     "title": "Microsoft targets one-hour recovery from global outages after declaring 'Code Red', Reuters reports",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWmJqQTcyM2lpVk92bUNJVkRvZEJkRVUyNGJybHlkSFlYZzU4Zjg1WmtqMzRwdC1EcW96bXBxVmlaX0h5OEhUUnEtUTJCMk1NaHBIbDQ1NFFRZnE5SzUwb2VwSVRfUC1keG1Dbm9FXzVTVW91TEJMX2FDODZ2UDBUcmEyUEdyMnJ4VHh5eXBySWlsb3hicGFzZUNHbl9GYmpraXF3TVdSMzBZbEpydjZLNzJzdno0dVRzajZ3RFdHbmtSWEVVSFVBVnFRSDQtbWVRcDA3RVhtVWNJdDR2X1BkOA?oc=5",
-     "date": "2026-11-25T12:31:00Z",
+     "src": "KSHB 41 Kansas City",
+     "title": "CIA systems breached in cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CSGk2eXVKaFluY1FGSjEzTVlBTWluTmdHQU1RZEptUkt6dG1DLWpiYlhzVkJTaVBZUThCTGxXa3FWOENVUG55eUx5dGFBNjI5aXRwMmdiZU5sYTVrM1hNemR2U1NFUU5PRzBqNDBud1lNdTdwMUlHXw?oc=5",
+     "date": "2026-11-25T21:07:47Z",
      "desc": "",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     },
     {
-     "src": "Nine.com.au",
-     "title": "Microsoft issues \u2018Code Red\u2019 alert to staff after mass 24-hour outage",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORm9NUFZsRnRHRDdvOG5wZmpjSU9LZ3VYaTZLek1tTFNGaVI4eHdNSktJMHlfbVpyRlU5SWQ1a3ZWLXRsa2tGZTZkS2lVYzRRRkRGZFNmem4xWG9wNzJNWjZQZzVaRVBJdlNsbmd6VDYzN2FWX1Y2cl9sRWNqUjAtUTNnOFR4MDRXRTZlR0tzNWlmT3pkWGE5VFE3cktxWkhDYm5yTExXbw?oc=5",
-     "date": "2026-11-24T21:44:30Z",
+     "src": "FOX 11 Los Angeles",
+     "title": "CIA system breached in cyberattack: What to know",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tZXA1QzUtQTIxR055eTE5WWQyR01sY2VTSUtib2JEYWF1RWwwQWxfNkZSdmc1Zl9xdDZXaVQwbjRxNkxBZ2s1ZlJ3cDRjTjBoQVFJOTdsa1M1dGNM0gFiQVVfeXFMUEZXOG91N0FHd0RpOF9IOXhQSHZvVThuZ2JBRWVKOU9hWW8yQjM3TGgxNjRrb3VsYVlSb3FJUkZrc0R5eng0aGpic2c3bi1GZ181NlNwOHlfX0FoV3F5VUIwQkE?oc=5",
+     "date": "2026-11-25T17:49:07Z",
      "desc": "",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     },
     {
-     "src": "NewsNation",
-     "title": "Microsoft issues \u2018Code Red\u2019 alert following outage: Report",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGROZS02WFlwa2I3eXM3Q1F4cV8teW1wYnQtQjhOcEI3T2N3VC0wUHdjR1JzeHhHRXp1QThROUhQdVctR0E0SFJwd0VydXNkMzBvWFFTb1UzaEJZQkJDWm5zODV2ZmJGTW0xTXNzRWpCVHV5Ylg2YzdtNkVtdjczUXln0gGHAUFVX3lxTE9HRnNVZENGYlJpSlJnUTY0TldJdnloOGlRRlI3UU4yTnY5cFB0bzFxLXhCaWQzclJSVmV5TDVfTlFiMDdJWUFYQ25jcVJXX29Vd1J0cTd0VkxHblNiblpHdHdrSEdWNFBjRlJMNkV4eGtmeVBWSXNyOFJCVlh5eFdxUUtxanczMA?oc=5",
-     "date": "2026-11-24T20:17:17Z",
+     "src": "Mon Valley Independent",
+     "title": "An unclassified CIA system was breached in a cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTzdwMGhncEN6aG85V3ZIa2ZNWHZ0aDdpNFBKQjY2TTlNRVhSNE1nd0RwcUQwTkVUSHlNdW92Y3Y4Y1VaT1c2OUN3QzhUZXU5dS11MFFTSk9DblpuUUJrTngwRGl4S2FpT2swaExFWlUyYjJHLTZlb3dYV1NJMU1tNFRWcjJqUGs0aTZr?oc=5",
+     "date": "2026-11-25T15:05:16Z",
      "desc": "",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     },
     {
-     "src": "New York Post",
-     "title": "Microsoft initiates \u2018Code Red\u2019 after most disruptive outage in company\u2019s history: report",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMkl0RDF5OVNtWi1kM2JQWjlQaUJ1Z3FpUzdVOXRmTlhTcE1zOWIyMVEwdW5PcHIzbDVZTEFYc1FTc0pmVGI0OW9aNGZuczZMNUZNbEJjRkhDRUdrbVRyQWZtLS1GMVdPQjhQRF92TmlLZXlwQXZQNTdkR3N6bTZueHhjWlB6RGp1UnZ6V21iU0RvdHJxN0tieHdjX3gtaE1HbnhkaDYwVkd3eVN2ZHQtOEFoT2VLNnBpdlRlMDAtWjhmUQ?oc=5",
-     "date": "2026-11-24T19:32:00Z",
+     "src": "The Hill",
+     "title": "Unclassified CIA system breached in cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV3RWQmd3NFpONGlOZFpULUh4RWs0amhNZ2hyaVZaSDF2M2JhblZFejVzbkwzTE5jYXA4eDJTRnA3VG9BNGpmZGZFWHVQOHdnemVROHhMVldpVzd6U3VqODRMUjA4cmF0ME1mVm9qS2JWdWFOQTR5RDNNaWJMU1J5bWVpOGdvbTFNQWdr0gGQAUFVX3lxTE5SbWpKNmJ3aU1xUGVCcm1JanM0eHdReElrVTJickNHUHJyelVsX0dNNEZidnBkZWdYNnNORkpFbUJYZEVwNjRYcXpsU0tUWmpLbGw2WE03RjVrQWdmcUwxNHpRTGJyQW1Ndkg3M3RjUnNva3lfc0hkNzlpMUhDTF9POUtCbS1zS0VkWi00a0Nsaw?oc=5",
+     "date": "2026-11-25T14:12:00Z",
      "desc": "",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     },
     {
-     "src": "Nacionale",
-     "title": "What is Microsoft's 'Code Red'? Its top-priority push after the 24-hour Outlook and Teams outage",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVhQeURhY1JiWEtFZGU5MFY3YlpyNjJLTVF0bC1LZzltRE5mLVVoRGUyQ20xRXIyX0JBa09LMHVuWGptT1ZaNDBzQmhPQ0lwcGZXNTVtd254eVVmdFY2Y01ST2JTUjhJY1BaT3d2VklnLThwRVZXRDIzclQ2TzFjRVVMcXQ0b3ZHdFBhSnBTMGJ1dU1VVlRVYTBKUWsyRkNGbGdDemJFSTFrVXc?oc=5",
-     "date": "2026-11-24T19:26:38Z",
+     "src": "TODAY.com",
+     "title": "Cyberattack Breaches CIA, Exposing Unclassified Data",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX2JxX2RmRUxyRXlIeUNPZFpteHdtNWJaN2dia3Z6U1dsZTl5UnF3TzlscFZBcWp1MXlTcG5RV2Vqd29zRXB2bHBvWTlsaWY0X0w4RmhuTHFCRzFHZ2lhaTlBc3lYRHJ6UllZRnp6ak11TzdJSWQwOW9SVF8tTmNOTGlTeTVPMzVHZjlHdUt6dk5aTXFBWkg3Xy1VUlh2ZXVR?oc=5",
+     "date": "2026-11-25T12:41:42Z",
      "desc": "",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     },
-    {
-     "src": "Outlook India",
-     "title": "Microsoft Launches \u2018Code Red\u2019 Drive After 24-Hour Outage Disrupts Services: Report",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeW1Tc0JqMUJtTWdmeEJWQjdEdkk3SW8wQ2o4VkZvdW1iX2E1ZUJ6VGdpZXQzcTZWQzZjV2VvckNNSTJoLVQ4WXd3VTMtWnVDbGF3NWQ4c1o1bFlsaWpFN0xSdWdhdjQta2hkckt1QTVrcTlOSnJUM09jOUprRXQ3ck03UnZ2WWE4NTZVNmNkTjA5UGhQYWhsTTlPTdIBqAFBVV95cUxOdEllR2RlejY2YlB2Z1loWW1wWm9CYVBabFE0dkNDd1F6YTBSSTZGVTVLa1E4Qi0wcmRlWHE0YzRMalpXMk1OdklQdTBrTmZpcy14SlJ6ZzRvVVE4eWNNSEpZRVY3SDdpRV94OHdtdTRTWFJ0WHB2NEN2dU9uOTZwbDdram5IOUJhRkZ1TWE2a01HZTRONjB0dVRpQ3VDOVdCWHNEd0hZcWM?oc=5",
-     "date": "2026-11-24T19:19:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
-   "cat": "power",
-   "headlines": [
     {
      "src": "CBS News",
-     "title": "High wind and coastal flood warnings issued as Thanksgiving storm threatens power outages, rough travel",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmJPY0w0ZkZKQXY0R2dWSUdNRTdaOUlQdEhkOUdsd1RydkNONzJyZVhpTlNqcnU3Q1d4VnpfdTRrdGVqMU5VZE1TTEg4dEo5WU83RnB1cVJoa2FHLXZlWDZ2RTlYaHIzTGw2OGNSVTFaWVJqUDFRSGM5WllGSko2TEQ4VTZlcjNlRjlMVExSV2I1Z3l0b0FZSFBLb2l0SURmV05GNTZrTVdsVzdnZy1xa2R0ekpSZw?oc=5",
-     "date": "2026-11-25T16:15:00Z",
+     "title": "Cyberattack against CIA didn't disrupt classified systems, officials say",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWVFKWjFMaFA2dW5SLXBiaFNSeDNpSFQ5OTloVFpseWtpVWpFcDVBaHA2UjhBNHRSWk1RcHlMc2JybjVUU1ZYczVEeWdBb0VDSmZLZnBJVkZCME5GTmpyTlpyRWEwMGp0dWV6M3pGR3hJUXBONG1paHJ3eFhKZVZUMGhHLVIxRl9kTVpCRDJac0dudF9FdThKTA?oc=5",
+     "date": "2026-11-25T12:23:00Z",
      "desc": "",
-     "cat": "power",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 5,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Tampa Free Press",
+     "title": "FinCEN Takes Systems Offline And Pushes Deadlines After Cyber Intrusion",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWFFpSTQ2aktlSk1Mem9WZ3JWcENyVlM1SGp2NlQxczkyZ3RpdktHR2ZmMmVvZW1TaThPOVlaVjZLZjNrazktLXpIZm5lOU5meUVKNEV3RmVWNFA5VTR2cU9KOUVQT0RseWpZamwwd0pwajl3aXlGSVl1enlQakJoWTI5a01iWjdvNzk3TWFRdnEzbWJyUFd0Rm5GTmw?oc=5",
+     "date": "2026-11-25T18:02:33Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "The BayNet",
-     "title": "High Wind Warning Issued For St. Mary\u2019s County As 60 MPH Gusts Threaten Thanksgiving Power Outages",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM1UzQXl2SldxY3dHQS1wb0x1MDVxUDk5MHhKMTBWLW9YOEZLTW82enBrbEEwWXFPZEdOR0I1RGdLdi0wUnV6WUVHalBaQkJkNXVoVXBhN3ZNSTYyNHNoQ3dDRi11V011WDFZbENtQzNpQTQxREhkRHJkWFpnNXhMcVVCeUtNZzBna0VFcWVhbDNrLWJjQV9TTE1wMEF4X0JoSy15UHFFaGZlM213LW9Bd3d1ci05Unk1ZmF3?oc=5",
-     "date": "2026-11-25T15:23:35Z",
+     "src": "The Record from Recorded Future News",
+     "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNXBqYVIwNDBSNGdPOVcyNHZyNmV1ZW43R0hBc1MtVHhJYjVaaThXOXZwSWdXdnRocVVoS3J6cWtKVnZQV1BFbnJSNXozMXBvemkwSnRBTVRPWEhSZ2p0eUR1b3JDcHRWLW5BcVJIRGFyRXNJNHduR3o5alNST2RneVdrbk1GSHpIZkE?oc=5",
+     "date": "2026-11-25T14:31:55Z",
      "desc": "",
-     "cat": "power",
+     "cat": "service",
      "outage": true
     },
     {
-     "src": "Reading Eagle",
-     "title": "High wind warning for region on Thanksgiving: Storm to bring 60 mph gusts, power outages; travel advisory",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQU2hia2lBSUU0TUI3QlBFRlE4eG1oMGlfY1FHZjN3d01feVo0UGh4SngzNjBYbElxWm5zbVRuUVg5NHpRbFZFN0l6dVlCclhiMVhISjVHMUFuYmJGUE1JNlk4aVl3MUJCRklGOHEzbkxYTXNRaGJHM1JhNFdKdDJ4WDZUZXBTeTBycVA5ZDlFRTRuaHNLajZPR3pmbmZfVWJVNm5EcmkwaktocG9lTDBvb0VoOUlsbWJ2ak5mbF9UX3dIcTh2VUJ3VGVEeTFzeDFzblFCd1NSLWZCck0?oc=5",
-     "date": "2026-11-25T15:09:36Z",
+     "src": "The Hacker News",
+     "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZVVZSGhZemo1YmgwN0Y1MnYxWTgyYzFpcG9wVEFXYmQ3UlFlQ1p4VlpCNnFQbVBBNVA4dnRqb0VMQ0hmUTJaSURFaVlmWmZQQlRFbWIyYmFOeEhXTmdZU3ZSS05wbUVyLVJxWk9MSXc5S0ZnSTZzUUxyS3Q1SVV6R1A1bw?oc=5",
+     "date": "2026-11-25T12:30:00Z",
      "desc": "",
-     "cat": "power",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Livemint",
+     "title": "US Financial Crimes Bureau takes some systems offline after \u2018unauthorised access\u2019 as cyber attacks continue",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONjBJc25vZ1JEWHA1QUE0RGtPVXpUMWpoQWZpalhranliemlsMTc2NVFrSUZ3dUxFaTl0VTJfVlhaXzh4WUhZcWl4aDhabENod2hmbm5vRjJ4eFhCb19IMTA5R042TXljNVV4M2dZT2pQR0ZoSDZERlo3bEVBc2w1MGctVVZuMkR0dS1lOU91WWt1NENOcHV3Q3Z5Vzh0aXJFeHUxQzQ1bGZCZW5aeS04djBISEs2ek02RFRCSWFSZUxtTV9mcGFUQmNGaG5Zc2xOT3RVVFA1RkpzVDI2RDBPUnlVQ3M3SFo1VjhLZ0Q3UUJzRk4yZGfSAfsBQVVfeXFMTjA4SlROR2Z6UGJCUGg2eTB3UmdKMHVrX3ppQjJWQlFFS2NNTERZV0ZyN3lsbjZzWkhQMTRWcUZYQkU3VFlDdFRmMlhwOFVBd2NsWms0QS14Wnh0R3duTG5QUVZSYy04ZElZTTVkUE9wbVI2YzJRbm5lVWNkQmFUb0kxNXpiRUwxUThxNkNPMUZmWllrOVdpeHZBX3hFV25WT0lDNnFYaEc0dmtoa3FLNWUyMDZrMklOVnhIYzQzWjZTcVBtOW5HRjJwT1JZLUxTc19idUJlZ29OSUw1NkVHY2I4bDRsUUZSSGRGb0Rqd3dlLWpCdVlSa3Q1NU0?oc=5",
+     "date": "2026-11-25T08:23:19Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "CNBC TV18",
+     "title": "US financial crimes bureau probes cyber breach, takes some systems offline",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXZtQWIwcTBod0dNRjFoeFhXMVVsdmlJbFZnTFA1cTBKUUhIQkpsRGMzQ2FKMUVIcWJUdWR2NGFCZkp4V0ZkaWt6bHRLZGNBVk4ySFFvb0pJN1JZYnJ3V2dxbWNzMlc0bFVIUkRfbGsyWWlKX1ZRd3lGeUhDanNDa01hYUtoTXRLc0R1dkp2SnBieHVnTmFJMDRkdFhBNE5DWGc0Zk1RZjZHN2pERzB1NWkwU21BT2tM0gG-AUFVX3lxTFA2aXJLbUNLZW9CcWtmVDJuejNaMnVfRkdRUm4ycG9GUlBQSFFPVk5PUTFhUF92VWxUUUdCSUZqRG5ISjk3RjFHYkZhVlUyc0R0ZzBlMEpfX1psaUI5aW56YW80cG9FSHd2MzVYcjlMSjFJdm1tWmhHM0R0Y01WNHB0SEcyR1BFRWZMVU93ZHBGOV9ZdXNKaUFheTNVQy05THlMSEdXR0pHUUxmQjBzekd3UXNwSGtKLV9zbFhoQXc?oc=5",
+     "date": "2026-11-25T04:01:23Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 4,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "The American Bazaar",
+     "title": "Allstate outage leaves customers unable to access accounts ahead of Thanksgiving",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQklsWWt4dkJ4RTZBTUhkX00yNk10OXJkaW1xNV9ZSi1hVmVGZFYwMmZGZXM1NEk0VjZtc0t3c3pUY1dPTGhSYmxmRXNDdzl1M05qcExsdjZZNk9kSm1LNFdDQldPaFc0Wm5lOHFKVUZMYzFZSnBvOHJfbUhWSWp4UkloMzc0TnV2a3l2VFY2THU0RXZmc2NLWUh4bkNYeFlUMm1oUjBUMU1YaEpieUtWeU5FdVYxOHhHN3VVbzVubTE2cmlGbmptbzhHU20?oc=5",
+     "date": "2026-11-25T20:32:09Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Crain's Chicago Business",
+     "title": "Allstate suffers multi-day tech outage",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHN1aEtNYXJ0QzFKN1lxT3hyOEIzdHJXMGVPTDhiVkRybGV6MjVuRDJQYkxFVU9LODVESmZZZEJNcFVPV216eGVVZkZDR2dZSl90cXFxSUFGVm1RRHotbzhhTUd0WnNOclA1aTg0SFpWcnk1MjJ1bUs4YnBWLTZZclVaQU9ZZk5zUXc?oc=5",
+     "date": "2026-11-25T18:02:16Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "TechCrunch",
+     "title": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM0hlX3drcmtZQ2hIdUMzVVVNRDNaVXlfZDVQWXh4UWJranlTNTk3SUxqd3kyTW02U2NndTZ4SnpVM19oZnE5UjdlQXM4Yy13WWZDY3l6VUVNNURsOFRuQmk2N2NPRjZncmJmeUdSQ3hWUHA1SjdwODV0alVYaUJ0NUV1dTd1MGt6dlhQMVBSalFwazdCQ0FLbVUtOA?oc=5",
+     "date": "2026-11-25T15:08:37Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Cleveland.com",
+     "title": "Allstate outage: What we know, and what it affects",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWVdUc0V6TGIyZkIzSHNvbGpSMG9TYUkwZWhyV1ZRTEJCcGF6VllFOXRXdFFjMXBCOHVaeTdlMkR6U21GMnJZRW5JdnF2bVhuWFdvSGl1TGZyUEZlY1EzM2dWTGU3V0FZVDJzWWcyaDdaN0x2RWRseGtmc01KUmt6aE9DbFppZGJ3d2dfVm8xYjNObWFjTWVr0gGrAUFVX3lxTE1ZUDBwZV9BMEhRX0sxTFhZTU0tWEJscHRQZFNUNlM4TEEyUV9zR3FmUlZwVU00bDlFeWdJZGx5MWxRV2xaUldGRVNPWW1teTM5LWc2ZWhkRm9OMGpQdnJGaUIzN19hanBMOFA5djVPb0J2UDZJVXBTZGJIVktqYThQdFdkR29UR29kYVVnMHNjSE9FN2hsU0xmTk5DZlhfb2JzUDd6WmhnY014TQ?oc=5",
+     "date": "2026-11-25T16:14:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 4,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "NBC Palm Springs",
+     "title": "Cyberattack Exposes Unclassified Information at CIA and U.S. Intelligence Agencies",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaDE3cW5jb3hWMkZka2VLMWxleTdGeVVId3hQM2lobHdfRU45SkZYLS1aaEREbVVkUWNjeFpnZjZnSDBVR3ZRQmNMVGljMEhwSUp2ampjb3ZYNWIwQ2RxaTRDYkRvdUZJZjYxQlVsajJjQXBGUGd1RzRHMTlSNUpteldqV2o5cUlYWEtXQkIyMU5XdjdndFdENjVVUHRXTUl2c2RGdTFlTzBWeUV3aGlXZ3Z5UWJzcmtaSEo3N3NVVTUzcm5PNWZDWTE3Vl9IM3lqQ3d2aQ?oc=5",
+     "date": "2026-11-25T19:48:23Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "kcentv.com",
+     "title": "Cyberattack against CIA, Office of National Intelligence affects unclassified information",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOOUJkS2ZCMl9GN2hrd3dXVmVyUWZvRTZpRi04ckRmRC11aXV0c2FoTjM3R2VqclFDeEJkbUhxZWVYdDZlV0o5MjNkeEdPQ3AxYk1pZkZjbk9yMnpaQVRJMU5pZnRLMndxY2QtRC0zMTBBVlJrWmp4MC1ZdEM3NV9tV19PbzZhMDlhSi12S3ZjX25VaVhqVWplMlczU3c5RExyNWtrQ0V1SWxUcEgwdXVTUnNXWW8zVDNxLXZfZjg2WkZhcjJKbjhCRXJqa3BnSFFQZDdWbHZqUEhpNVY4ZEpYMjJzMEpRblE4TVhMU1ZpSlZHZkFGZE93R1pjREJWdDE4bkxkN0VUaw?oc=5",
+     "date": "2026-11-25T12:22:17Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Hungarian Conservative",
+     "title": "Cyberattack Exposes Information at CIA and Two Other US Intelligence Agencies",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUzNSS1pTYWtPUzhGYjhvZWFWUWdwUUZnQjkyQ1R6YW5Hd2FPQ0RUTjlKM05wUnUwYTdITmdYNnh1RDZ2dnpFMFBkbzZ5TmRrbkVab2tOY253UFkyTHVfa3lxNHZPdDJGQVFXVFZETlZRb25abjJhYjMtYzR0VVBRTGx4RFA2WG9QSlNXY0ZJMTE0RnpZd3E5MGktSERQSGZOdHhhT29xLUhSLTY4VWo2eWpNQ0Q4d1BrRXFn?oc=5",
+     "date": "2026-11-25T11:16:14Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Ynetnews",
+     "title": "China suspected in AI-powered cyberattack on CIA and US intelligence agencies",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wQnV6N3F6YjVJdGUxVFRWcld4UXJvQUR3eDNoOUZkUXFLaVZ6QjI1ZHU4R3dsbVdVcGowRVdzYXREZ0hhdmlmbjVsQ1RjY0Q1eUpQOVRB?oc=5",
+     "date": "2026-11-25T02:02:24Z",
+     "desc": "",
+     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1618,6 +1654,15 @@
    "pubs": 3,
    "cat": "service",
    "headlines": [
+    {
+     "src": "TechJuice",
+     "title": "TikTok Goes Down as Over 27,000 US Users Report App Outage",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15UXpqd3pzMDlPRWU1RG9rN0IyN0puRmVVN3R4eEJkQ00tUmh0SFEzWjdtOFA5bWprTGViYjVjS2ExMkxsRDdWWTRPMFR4cHBxY0FGUVdxcWQ0RXh4Y09JNVVqNDR5OGdib0E?oc=5",
+     "date": "2026-11-25T06:19:29Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
     {
      "src": "Beinsure",
      "title": "TikTok down: Major outage disrupts app services across the US",
@@ -1628,53 +1673,107 @@
      "outage": true
     },
     {
-     "src": "Yahoo Tech",
-     "title": "TikTok outage has resolved after thousands reported the app was down in the U.S.",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZFkyV0ZzSC0tLXdWdlNja3M0VGx5angwaFZwRFE0dG9YbFJ2RTRZaG1HN3pwVHhnb3J0V2xjSzJJaFI3ZXljRDhOenNZMlFtVkl2cS1GeG9oRE5yVWtFZzRkV0Rjcnl6cm5GLUxFMDdEekxwZV94VS1pN3JuQlVnSkpZUXphNzBQSmlpOHNzWmRIdHhJUzBlWHE4eUo5dE1saWVjczluTHU3em5wVEZHUmNLbnlCNWtVa05MVXdZQQ?oc=5",
-     "date": "2026-11-24T21:10:52Z",
+     "src": "Newswav",
+     "title": "All the recent mass outages in the US as TikTok goes down and CIA hit by cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLVNFQ01mTnZfUmVEZ1JJS0lubGVWYWhkelR5TVNMbXlodjBQaTVub2hLekwxNTZFV3RnSHpyYkUtWjJIbGg4dTJBZEZ2UmFWc1FNeWZpeGFjZlFTNnZKYURfamRIQ3dZN2tRdHN5dmtFSVNZV3REc2xyZHBSQzRmd2NDU3VEX1NVX0xLcm9mRld2andVajVONGZPbXVaSVduaXEwLUZVNGY2V2FPeHF4VEVZelluUkE?oc=5",
+     "date": "2026-11-24T21:53:57Z",
      "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Rolling Out",
-     "title": "TikTok outage tops 56,000 reports: What users are seeing",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2alBzV3FHTXJ1TFc1RWl3enBpT2FEakxrOTBvcFlFeTBWRUZpNk1mX2VyOFZ0OEtLMVhGRXVGWG4zTEVPV19DRG95TWRaWlRqemlvTE9LNWNhNUM4bkNxajI2UGlGbzJ1bzBZbk55d3JFUQ?oc=5",
-     "date": "2026-11-24T20:41:28Z",
-     "desc": "",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     }
    ]
   },
   {
-   "pubs": 3,
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "WITN",
+     "title": "Dominion Energy warns of potential power outages as coastal storm hits Eastern Carolina",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUlBZ0tBZVdGdDhGTHF0X0VtcGtfNzd1NkljZzhZMkFSd3g3MF9BYU5vYUxCYXVXYml4eGZfZ0tzUnE4dDBWUHZncTUwanlFbkpxcjJGNTM3TnkyUFQyVXpOQUxWUmRUdjVrSTlqSGN0ZURVTFBQcEplb3NFZHd3ZHUtaDVpY0x3U2JyR0w1NEdyOTJESjNYOWE3VW5RM21QNDgtWFBmS0ZSbVdjeV9sZUktdXA?oc=5",
+     "date": "2026-11-25T21:06:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "Rock Hill Herald",
+     "title": "Wilmington power outages reported as storm hits",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGhqWUJIcEk1V0wxYWpKM3RkbjNXQ0ROQTBXbVAwU2o2Q1VSb0I0QmVCazlFY1BXUXZmQmFSeE14WDlkaC1Sa2ZGN0luS3BwX0UtOUdlWVBZZWtnWEdHWWJtSFV4Z2pncE9EVVpKSS1xekZGTUtKV1d3ZjlBbnk4WUNR?oc=5",
+     "date": "2026-11-25T17:58:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "The Washington Post",
+     "title": "\u2018Terrorist attack\u2019 caused major blackout in Colombia, president says",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZjllYmc4d3BxVVllMVktbjRjZFNNM3lpMktuN21WR3pLV3dfcTRjdzF5OXJhOU9OazhweFNLRm5DWXF3TkNWdzFQT1Fyak9ScGtIWnJ1Zk9nQmN6YThEcjJyV2Nydzc2ZmlSUWp0V2FjcEpMbUZJU0hsV25qeHNhUGZ2TnNIemxPaVhLcHVjeVowVnZZdGVteUtZUGpFMUw2ZklZSE9UMjJuNjFUNGh6N0Z3R3M?oc=5",
+     "date": "2026-11-25T20:42:27Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "The New York Times",
+     "title": "Colombia\u2019s Leader Blames \u2018Terrorist Attack\u2019 for Power Outages",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2ZCdFdrT0VLWTdSQWJGZ0FYbExUNC1kbVh1RzE3U2V6ME4zU1ptaU5hOUp2YW5iY2JjRE5HcDNBWl8yS1o3NEZoZmVHQUU1WGo1TTNPYmFMN2JmS19ESFhSdWdhY09PM3Q5eXNsNUNBZ1pNUWhCNDBhWHkzVTgyN21IcHNYRVJYbTNONWdIRUo3dzQ?oc=5",
+     "date": "2026-11-25T08:05:15Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Reuters",
+     "title": "'I'm going to drive': FAA outage and high fares reshape Thanksgiving travel plans",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0JCVU41RW50NmNGSktkQ2FNUC1qRUoycmdQdTViUkFzc0w0UnhrSXZ1R1ZaS3NRYlZCR3dqTmQ5NUl2dTNYeFlxMUNyTVl6TF85RXpkX1FsanJBMmpma2pDY2xfdFJyZXhkR3Q4eEJ3cFg2WXRhbjdOSnJiUzZEcmU2MjQwcHVqWTJUY3U3dGxXUldaYjdRMFo0bEtvRkdSSno4dllLM0dteGo0Q2laWVJzeUZ5dw?oc=5",
+     "date": "2026-11-25T19:56:20Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "FOX 10 Phoenix",
+     "title": "CIA cyberattack, FAA travel outages ahead of Thanksgiving",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tNUxod1VYeGVjRl9yeUF3S3psRUdNaWRoUW9ha08wZkY0YTYzeE9YUE1Xbkh0bUJQYnJ0ck9mZFJqT2ZreTRUOXZ1YzRzWnA1dnRNLWFZemIyd2pyUkh0Q0Z0S29CZ9IBa0FVX3lxTE56d1paanA4MFJlXzRJY1hyRW8tdXdHVWluZ3oxRnF6RlVPNlVtakdlYmEzUDl4bkk0NC1SbS1ldXZSeFpOUklFNDEtaTRIeUVFYWY1enRPakR2enNBbkZiWlo2SWo3bkZqbjVr?oc=5",
+     "date": "2026-11-25T14:40:47Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "service",
    "headlines": [
     {
-     "src": "AOL.com",
-     "title": "Thousands report brief TikTok outage: Downdetector",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMUI2bkNPdTBnVUR3bV9EZTJ6dHdZQVA5bDhWZjExUVkwQ0oyMFpGa2JncElybDdBbk9LSlZFZEhvZGY4bzJVV2NOZkx6SlpSN2M2TEF2eVhGeGZRZS1uSUNRcjZNUW1PY1pWWi1rWGxLall4bkNGNl9neHB0bTY5SEFvY2ZwQXc?oc=5",
-     "date": "2026-11-24T20:42:06Z",
-     "desc": "",
+     "src": "BBC",
+     "title": "Two children among six dead after plane crash off Mississippi coast",
+     "link": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
+     "date": "2026-11-25T19:26:44Z",
+     "desc": "Divers found the bodies of three adult, one teenager aged 16, and two boys, aged 12 and 10, in the wreckage.",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Nacionale",
-     "title": "TikTok outage: app working again after a brief technical issue hit US and UK users",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWjkySlI4Z1FidmRFWHRfeGpPRnkxLU5OQW1fX1VQRWdZVy1aN1RIY1Z0OFdPb29HclowNmFJNk5aeHdlOVBXN0RQZFlrQW5ZZjA2OG1MTE1seGFiV2NmSXp0MVVwWE5YeDV5c3p6Q0s2UEVTblFnQ29MLXMzUl9CVDJoVnlLUFJIZ3Y0?oc=5",
-     "date": "2026-11-24T20:28:45Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "101 WIXX",
-     "title": "Spotify back online after brief outage, Downdetector shows",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNTk0dHk5TF9lNFA3QWY4bFp0ZEtJQTQ3M1JnOEVfQXJmUHF4VWtXUFhhODZBSFRXbGlRMllnUWZvOGVoRG5qaUNDd25xWU95WVhzbTF1U1QxYzlDbW9UeG4wSE03TWlWR3gyTWh4SXNDeHI1SmJHUF91WEpRMXV1OTVYVHhlTGFiaDE3czhB?oc=5",
-     "date": "2026-11-24T20:22:54Z",
-     "desc": "",
+     "src": "CBS News",
+     "title": "Small plane crash off Mississippi kills 6, including 2 children",
+     "link": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
+     "date": "2026-11-25T17:39:52Z",
+     "desc": "Six people, including two children, have been found dead after a plane crashed off the coast of Mississippi, according to the Coast Guard.",
      "cat": "service",
      "outage": true
     }
@@ -1730,48 +1829,24 @@
   },
   {
    "pubs": 2,
-   "cat": "power",
+   "cat": "cyber",
    "headlines": [
     {
-     "src": "Rock Hill Herald",
-     "title": "Wilmington power outages reported as storm hits",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGhqWUJIcEk1V0wxYWpKM3RkbjNXQ0ROQTBXbVAwU2o2Q1VSb0I0QmVCazlFY1BXUXZmQmFSeE14WDlkaC1Sa2ZGN0luS3BwX0UtOUdlWVBZZWtnWEdHWWJtSFV4Z2pncE9EVVpKSS1xekZGTUtKV1d3ZjlBbnk4WUNR?oc=5",
-     "date": "2026-11-25T17:58:00Z",
+     "src": "Mezha.net",
+     "title": "DOJ indicts former ransomware recovery executive over alleged scheme to charge victims for hackers\u2019 payments",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT3dLVW16RGNza2Q2aUJ3aDd5YXVVSzRfSG8wWE9fVGFCdkVRcjNBRGxFb2ZVRFRIT1BNaDlyRjh2VFJMWC1BQlBIREM0RHZkSmdGdTBqRG55bTgtYU41enluMUM4ZThHbDhSNk1RMVFjczZFZ3RUdnQ1bVNYNmNHLTVWbw?oc=5",
+     "date": "2026-11-25T17:42:52Z",
      "desc": "",
-     "cat": "power",
+     "cat": "cyber",
      "outage": true
     },
     {
-     "src": "Wilmington Star-News",
-     "title": "Wilmington power outages reported as storm hits - Wilmington Star-News",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUU9qaEVJeW9GQldMc0lyTUNvRkhWbGlGX1NQQlNpMTEzMmZnQVNSUVFrNFBLaWRaeUVGNjlEU1pPWXl4MGJncF81WlltZ1NTSzNZS08zVmd0ZEY2aXVhRkVKQ1F4dUJ4QmxJeVJNX3dVV3pLSnZheUxrX1kyS01TOGxKcUItOTBJLTFURU1abEhOcUdzMHJKWm5mYmpaemRIaU5FUVlyd1NRYmw3TEQ3ckNmWGFqZHJMRV9yR2MtUFh1Wkl0YzJrY1psUmxEQ3BfTkR2RQ?oc=5",
-     "date": "2026-11-25T17:58:00Z",
+     "src": "TechCrunch",
+     "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVGNRNkk4bm1UZUgyRTAzS09YcjJkcXZuT3BrdTRIbWFLWUZDWEY4d2xYS0dhMVgzd08wUkFnUTJnSXJKbDVCSktWbXVSUHgtYkdBMHk5U1o2RmhwNWRwZFp3UlVkWVRQM1JabVdzMHJ6UXVjOEV4VHRFUjZkbkpXUTY4VkxNZVBRcVdoZTdPZmRlZnZUWnlNdkhpT1VHMWgtY2VxS3M2ZUdVTkZ6ZTFiTGpRMnZHanVqVXZSS1M3ZklXX216YW56dw?oc=5",
+     "date": "2026-11-25T17:36:51Z",
      "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "CBS News",
-     "title": "Small plane crash off Mississippi kills 6, including 2 children",
-     "link": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/",
-     "date": "2026-11-25T17:39:52Z",
-     "desc": "Six people, including two children, have been found dead after a plane crashed off the coast of Mississippi, according to the Coast Guard.",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "BBC",
-     "title": "Two children among six dead after plane crash off Mississippi coast",
-     "link": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
-     "date": "2026-11-25T07:08:22Z",
-     "desc": "Divers found the bodies of four adults and two boys, aged 8 and 10, in the fuselage, the US Coast Guard said.",
-     "cat": "service",
+     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1829,93 +1904,21 @@
    "cat": "service",
    "headlines": [
     {
-     "src": "TechCrunch",
-     "title": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM0hlX3drcmtZQ2hIdUMzVVVNRDNaVXlfZDVQWXh4UWJranlTNTk3SUxqd3kyTW02U2NndTZ4SnpVM19oZnE5UjdlQXM4Yy13WWZDY3l6VUVNNURsOFRuQmk2N2NPRjZncmJmeUdSQ3hWUHA1SjdwODV0alVYaUJ0NUV1dTd1MGt6dlhQMVBSalFwazdCQ0FLbVUtOA?oc=5",
-     "date": "2026-11-25T15:08:37Z",
+     "src": "LEADERSHIP Newspapers",
+     "title": "7 Major System Outages In Recent Months",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05REcwampvb2J5YnVyNHBxMFhDRlJWeXNzN0hMMkFFdjZpUjcyQ1lJS0w1NFVtME94OXZsc28tX2ROX2hIUzlrMnNxUkc4UUdHeG5PcjRMcmE1ZUNVU0FnZ3JndnBUV2xxSGJYaEV6cw?oc=5",
+     "date": "2026-11-25T14:09:15Z",
      "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Beinsure",
-     "title": "Allstate outage disrupted billing, claims submissions and policy management for some customers",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaC11cDgxaEQ0SHJKakhEVUl6MG9iTGVrX0NsZEJrQ3MwYnlhaU4tcWMwZVA3SkJVbW1LdXhwSEF0cnZQX2QxT19SckVlUU1DNVpKVkdWUkZVNGNIdEZMbjVrWVNfeHZRbWtfRGFjXzdtZTJ3Zmt5WlVPZDJqRzI1T09VSQ?oc=5",
-     "date": "2026-11-24T21:23:30Z",
+     "src": "IAPP",
+     "title": "When nobody checks the work: What recent system outages mean for AI governance",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWhSS3FqeERsamphVnhIZVZvVW5RT3hnNXA0dnc5TUZBMkZESE9SMGkzTHFZWTV4amRxN1p4YUh5dnMwRVpJSENTUk9jcm5SdUJoMFRsNjFlVXpMSm5oQmYwSXNMcDUxVUE4NHdlN2l1SU5ZNFlWdG1jdDc3MHBPa3dlci0tOThrN1FNT1ZrdTlYOENjUmxpVGp2X1ZHZzZLRVhz?oc=5",
+     "date": "2026-11-25T14:03:05Z",
      "desc": "",
      "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "The Hacker News",
-     "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZVVZSGhZemo1YmgwN0Y1MnYxWTgyYzFpcG9wVEFXYmQ3UlFlQ1p4VlpCNnFQbVBBNVA4dnRqb0VMQ0hmUTJaSURFaVlmWmZQQlRFbWIyYmFOeEhXTmdZU3ZSS05wbUVyLVJxWk9MSXc5S0ZnSTZzUUxyS3Q1SVV6R1A1bw?oc=5",
-     "date": "2026-11-25T12:30:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The Record",
-     "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
-     "link": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
-     "date": "2026-11-25T10:15:00Z",
-     "desc": "The Treasury Department has taken some systems offline after a cybersecurity incident that \u201cresulted in unauthorized access to a limited subset of its systems.\u201d",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Technology Org",
-     "title": "Microsoft Declares Code Red After Its Worst Exchange Online Outage, Memos Show",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV3FaVXNjeEtuMmVORkJWWk1YaEJKTnR0VG41ZkF6cl84c0IyZUlYS29SVGdrVnR6SnZheWRKV2tOVUViVEhCSzNndlkzUHBRMWZJZ3VjWmZhM0s2OUVTaDlKT0RuSU5kbEJSYTVkT3M5cjE4M2YwQlI0eG1RejViN19CczdIRkZiRkhGRndPUEFBSE1ZOHZiMm1ZZGlVSUpvV3o2TA?oc=5",
-     "date": "2026-11-25T09:46:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "DailyVoice.com",
-     "title": "Microsoft Declares 'Code Red' After Historic Email Outage, Report Says: What To Know",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNzNNa0hCQjltYVdsWk5yUmNVeE5PRklUZ2NfZWJJR2d3c2ZXTEYtSTlhZEx5VndjSEtvcXdOcXl2Q0luNlZ4ZEprQ2pFSUNnQ2lQQldpN1dxbVkzMDhOVWJZUlpzSy1vMmV6ZVU1U1VlTzRHRzMxVGhjOUJHX0NFSE56MEdGc0VaT1JNNEZxYm5zcmNFQWFScjRKR2F2M2o3VUdRVHpKYzljNnF6cnlTYVdR?oc=5",
-     "date": "2026-11-24T20:52:01Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "The Chenab Times",
-     "title": "Colombia Blames Terrorist Attack for Widespread Power Outages in Southwest",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSE8yMGN2QUJQWnBscEVtOV9MRkhOZk5CLU0zRy1ucVZiYkxtRlRXMG9uVDV4SXQteDh2REQ1VDY2REQ0d2xUNFp5RXRlUlFLV0Z1eWJqQy1uVEJ4SlZ1MnRJdElpanF4UHVDdEhYaC1KWmFGQjlFV1dRdzNieTZRQU9wRFVnR1VWenlzam1YNmZmRzBCZDFYVUNLOXZHTWdtckNGWW1uSkt4YlNsTmNZRGtzUQ?oc=5",
-     "date": "2026-11-25T08:10:57Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "The New York Times",
-     "title": "Colombia\u2019s Leader Blames \u2018Terrorist Attack\u2019 for Power Outages",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2ZCdFdrT0VLWTdSQWJGZ0FYbExUNC1kbVh1RzE3U2V6ME4zU1ptaU5hOUp2YW5iY2JjRE5HcDNBWl8yS1o3NEZoZmVHQUU1WGo1TTNPYmFMN2JmS19ESFhSdWdhY09PM3Q5eXNsNUNBZ1pNUWhCNDBhWHkzVTgyN21IcHNYRVJYbTNONWdIRUo3dzQ?oc=5",
-     "date": "2026-11-25T08:05:15Z",
-     "desc": "",
-     "cat": "power",
      "outage": true
     }
    ]
@@ -1949,176 +1952,146 @@
    "cat": "service",
    "headlines": [
     {
-     "src": "KOMO",
-     "title": "Storm with strong winds, rain brings flood concerns, threat of outages into Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQzBHNzZuWWZFbjQtWjd0VnVoVzYzc0FGVk05eWNrdTdMUEtQMk9XczNBUFdrY0hWd3B6MktEYVZzU1Q0WmxXNS03N3hfT29ScWZSWkdRSVhBQzFnMFFBemNxbHZhOE1SZlZ6amlmSFFYNG5XbEF4Wk5Zd29WT3E1NlYtbmRURWM5dmZYbDZkbG9tSlZIZzFDQTJKcjZ4Y0daZS1JSDlhSTN4RnQ3TXhKZ1RzNklGS0RfZGc5UTVRa252MjZKYUQ1V01yeF9OQ014anBMdkdnNFNfaktzTVB1OEVRVzlQVHdHX2hqanh5T3gzbGFxWnYyNA?oc=5",
-     "date": "2026-11-25T18:28:37Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "The Sunday Guardian",
-     "title": "Microsoft Outlook Outage Today: Is Outlook Down in the US? Users Report Email Delivery, App Login, Calendar, Inbox and Microsoft 365 Access Issues | Check Latest Downdetector Status",
-     "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOTGlFbHBHZE5qZi05U1ozbGFIR2wyblZYT3FsOWpFVU1TdG84Z1JJeDdsemFTb05yaGFhQktoWkNfY0pTT19aZHMxWFVqMUZuQlNneUFjQlpKUEQ2UTlQNU9JRHlKcjFreW5IZ3FXNFdWY3FKSHNndGVFZWhIc2dKR3pSX1RHSTlJdDBxN0FKWmsyRDVraHJRVHRrOXZfblIwc1ctSDZPRm9BZHlWNFpPSTJYalA3eXpKOWNmOXB0T3hzOVRqOHZqVkxQdEVaRUFLUVp0MU8yMWVqUWJHZmtTN2F6bEU4UFNnV19wMmdOZU0xQ2pwNzFlWFV1MWF3Q19YQkpXLXRYVHJYSllkRmVfSmJUM3BsR2xud0t3dWpfbmt3UE5WV2o2S05EVWhIM3UwVlhJS2w3VG9jV2R2VHJzYXphSXTSAcoCQVVfeXFMTlZHNTZ6MWYtcDh2WDZlYVVySGxnNlpITXl2eENmeV9mQWdkQlVJUnlqRVlXaHktNWVCMkhMNWR5YUMwRDBCOEl5QmNsY3Q0UHBGSjREaklfZ1JFelpxVGc2MXRYbC1pRWctbTAwVG9sZ3lPSlhYVTRpREloTmdJNnk0MHd3SlZJOFZmWW9ZQkpDa2E3T3NUU3hSam5LdlpwaTlOS1czZFhHQ21JRU5nYkVwUkFRR0l2dkpSZ19xbVcyNl94X1RCR1REU3VWLXE2M19uTTRUYVhEcUVhOWNGeXZhQnNSeVA2b0xQc0NOcW5vb1FsYU5kRXdQdU93NTRoNG9qU0twYXZFV2NtUVZYcWlOSXJKZkROdTZST0FoS24xbmtaaHZncVAycV9QQW9CTGdreklGMFlRVDE1bUVaanlYZGRDNnlpWThn?oc=5",
-     "date": "2026-11-25T18:27:14Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "VMblog",
-     "title": "\u2018Black October\u2019 Sees a 23% Rise in Ransomware Attacks, NCC Group reports",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZG9QVEJKVnZRYXlFN1VsUkJNa0luWm1KTER5LXBxU1M2bjhTRm1kRVc5VHdkSXVvOUtrV1ltTFN2S0xOUjgyVk1MdmtuMjZXZWZpRGVnYkVVOC1RYUJ0aXE5R2VsbUtOQWhoUjlUTThRMXpRM3p6Y1VJbGJxcHM3b2Y2eS1PQ0oxS3doenAxdGVzVVlENHBfbg?oc=5",
-     "date": "2026-11-25T18:18:37Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "TAPinto",
-     "title": "Roxbury Residents Warned to Prepare for Thanksgiving Day Power Outages",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaWhKcHNPdzNxajJjWnBTb19mM2t0dmk0SDVaS3N5MkdNUFFSYkVnZEVqOUJFWUFBS0dxMDJyNExjc3FYdzdPdHd3dFVkYlFCaWFCMUVPQUNmbHdCam9ldVExQUZfbHRBbEhaTzNCM1d1Qm53TmNxSU54c0VTaC0wd0hGTDNuVzlwSGVWTFNKZEhmNU9pU2pwTU9CLVdsSklPeTZpNlJzelNJR19nUFhrMnpFUkMwcTdzdDNPclR4dzBpb3F2endIQ1hmV043clRFM1hR?oc=5",
-     "date": "2026-11-25T18:11:34Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Stock Titan",
-     "title": "Eastern Carolinas face the greatest outage risk this week. Duke Energy is preparing crews.",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV3VFbHJJbTdrZmwtay1FaWFTdXlxeDBDTlFuNzFWX0RQd21uMWc1UjJkbDI4Yk16dmpKSWV1NlNZTWRpSHQ1SHlGd1NfQ0wzZFBZVkNhWERfbWR5Vjh2Y2lpSkZBbUdLWTRqdlJkSTVkWU90SnZzd01FWEYxTUtNVW13X3hiUl81akVtTWhHU3dYQmk5S3dFcnhYWllwQUNHdmdDM01UNnl3XzVjLVdUaWJWOU9NQXBQdE53?oc=5",
-     "date": "2026-11-25T17:58:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Yahoo Finance",
-     "title": "Duke Energy gears up for Thanksgiving week storms, urges Carolinas customers to prepare for potential outages",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRHJ3ei1TMndTb0lDaWp3UVpEbFlOTDRSQlBnWEFSdDFqQldvdHF2OTlNMkxLVTdQenlCcGViY2NUeml5X3lhOVk4R2pKNUV6RHROeXIwQVEyRkc3Y201cXhabi04WFpBbHluc09HOElENG9xRVVoRmI0SFRkdjI2ZmNQa3lodmwyWTNSdEdONE40YUVCWEZZ?oc=5",
-     "date": "2026-11-25T17:58:00Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "WXII",
-     "title": "Live Map: Track power outages across North Carolina as strong wind and heavy rain moves in",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWENidkhaUk5TWDVjLS16U0JJUUhkeE1uS3pXUXNBUFVUeDdkYVAteV9LTUJPdjRyNGJyOVBGeHdYVmxJVWx0dXo3RWRSSDRZWVl1UTVPM3dmZWE4cTI0ODdqZTVWV1ZYSGlEa1RCWE1jMlZSVXVZUXRobG5DbnpCUGlB?oc=5",
-     "date": "2026-11-25T17:54:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "NewsCord",
-     "title": "Iran\u2019s Pezeshkian Urges Electricity Conservation as Rolling Power Cuts Begin: 10 outlets compared",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb2FKUVVVX016Z0lieTNmWGZuU09Oak9wMnQ1ZTlEdnU4djBTOHplUzVhMjJ6eWN4MU4wckk3ak9vcXhrMmxQd3VGMEF1eFlGRzE4VkkybjZweDN0cDNxRHZpOU9tbmMxcFJXWndkSWZ4OXBwMXp5cnBWR0JhS2FLWFhER2hJX2pCSFdqZl9GNkNGTkFWczBjRjdpNHhGR3BwMzF6ZVNfMnEzcjNhVjlpRU1sakdqZDlla3djeTJoZ1E5YVhSRURkaFFFSmk4X1JfX0dYdzc1eUpEN1hjdXEtU3ZIVQ?oc=5",
-     "date": "2026-11-25T17:46:17Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "TechCrunch",
-     "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVGNRNkk4bm1UZUgyRTAzS09YcjJkcXZuT3BrdTRIbWFLWUZDWEY4d2xYS0dhMVgzd08wUkFnUTJnSXJKbDVCSktWbXVSUHgtYkdBMHk5U1o2RmhwNWRwZFp3UlVkWVRQM1JabVdzMHJ6UXVjOEV4VHRFUjZkbkpXUTY4VkxNZVBRcVdoZTdPZmRlZnZUWnlNdkhpT1VHMWgtY2VxS3M2ZUdVTkZ6ZTFiTGpRMnZHanVqVXZSS1M3ZklXX216YW56dw?oc=5",
-     "date": "2026-11-25T17:36:51Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "The Record from Recorded Future News",
-     "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9scTIwb05vaGp4c3Uwd3hhYUk3TFVlcG03N0tNeVItWDVwcWRwSlpjYkhCTUJDOXBlcndpak43eWxCWnk4Z0ZyaGtBbjFGRzNjd09mdHFUQUFINTVJRG85NlhYa0o5TTFsRXc?oc=5",
-     "date": "2026-11-25T17:33:32Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "The Vanderbilt Hustler",
-     "title": "Vanderbilt students struggle with disruptions and confusion after cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOFptNUZXNFYzOEZVQ3gwd3hkbWYxT1JIMWZPbUc5OTBhbU1vTTFmbG43enh6NTVjVVlUZ0locFRsZFJtZ3Y3LXFnZDM0allIU3hfLTQxUHVzS2hLZ0k3ZjRjaGM1UHZkV3M2TmMzNi1EWnNBZEczaUZON2RQdkZKWVRzRW94ajhRXzRRVHZXZzlFbXJnYjFEZHJTYmFDV2FpelRmRWFRZmxzWWNKZlFIQVFXUXFfMXpLYWFj?oc=5",
-     "date": "2026-11-25T17:30:50Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
      "src": "BBC",
-     "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
-     "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
-     "date": "2026-11-25T17:30:16Z",
-     "desc": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
+     "title": "At least 30 killed in massive fire as fuel truck crashes on Cairo highway",
+     "link": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+     "date": "2026-11-25T21:25:14Z",
+     "desc": "Another 19 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Gizmodo",
+     "title": "Allstate Outage Enters Third Day, Leaving Customers Locked Out",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcWNGYjhMTE9YZk9xSU9pT0pIZWpuaHRZZG9UN0dpbndsVUR1ZkJQQ1AtbXEtaEpHUzF0cENYTkxyamJZRlk5WG9TbEZLRjludnBjSXQ2RzBBcHEyYUJ5Y0ZuZlY0RzZWaUFmUkhlSE9WV1ZtWEp6LXlKMlBnUmZzaWNSTzBjSDFUTjUyTlpENlRSX0xwREItWXlpTUtwUHN6WmVfUkd1Tm96YUE?oc=5",
+     "date": "2026-11-25T21:10:12Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "KOCO",
+     "title": "Piedmont announces cybersecurity upgrades following cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdXl1Zkx0UUFrcG42d0Y4bFZxZVpfSjN2MnMxOWdCbk94SU9xX282VjZQWEs5MTB1TFJkTnZqbDhTd1dsVHZrcnBfUkZhWVA3QWkxbzV3aGU0Rm5Salk1Tkd6RzRKZ3FONjE2MVBFWjI2S2Z5YXdwc0trTXNocFhMM0N4U1Z0X0RFX3NYb2MyUW4?oc=5",
+     "date": "2026-11-25T21:03:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Wahpeton Daily News",
+     "title": "Before we knew what a cyber outage was",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONTZHUk1pRHE2WVdRM0xCTEY1NnJ1dDhveGt2MWU2dC1IN1p3WG5IOE5sRXFvNm90MUdQMFllQ3Z1QTkyYUo3Z1E2Z1NCd3NmVXVkUzk3RlQtYTFzb2swQVpVd2xpNXUyajhLaHFYeUx5d3E0WmRWLWhhSDdLMGxERFhIRW1ycnBJVGhkdE1mMGdMZw?oc=5",
+     "date": "2026-11-25T21:01:59Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "internet",
+   "headlines": [
+    {
+     "src": "TheWrap",
+     "title": "How Twitch Is Keeping Its Streamers and Users Safe Amid Other Internet Outages",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnlLX1ZfZExPMGEyWFZVN1JmUmJCSXJIZXJwdldFUkM3TGoyZnoxMUJmYXlnRTRvNVZKd21FbXZtUGZlZF9FdjVia2JYYzdfQ3cycjA0bXh5dDFqVHRPUGVuZUFzRzFSSERDV3hnTGxPQVFkQklSQUNQOXdDVkNDa0FzN1loeUxGbFE1dXR6cmFPanpHLUJ0SUd2NlR0anhKLXF5c1NPOWtTY28?oc=5",
+     "date": "2026-11-25T21:00:00Z",
+     "desc": "",
+     "cat": "internet",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "KOB 4",
+     "title": "Bernalillo gives update on \u2018substantial progress\u2019 after cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUEF0cG4wczhCbWFESXl4MmowZlc0TFF0blJsNkRTc0ktcjI0bWh3aUtwMDRjLVc0cEtFUU1TMmNULU5uemgwakl4X0ZpQmdtN19fc1R2WERyNHJKbXV0SzZ3QTJpdFVRUmNIUC1DdzBWWU1ZaXVfWV9tay1xSmpmaEc3emVsaUhnb0JnWlhDMW1UNXVvWUQwY1ZtLVhHRnJFUmc?oc=5",
+     "date": "2026-11-25T20:51:13Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Reuters",
+     "title": "Retailers face rising AI cyberattack threat ahead of Black Friday, many uninsured",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQXpGTVZodUxhM09Jb0ZEQ1JXcmt0VkoxUndncmc3cXhoSWNmWlduNlJmRlA3VzhuRktZT2F6ZjJoTGZ5eVZEa01xZ3A2OHBaVjA4dDJkUTR4TkNNUnc5ay1XazlBcHAzSkVuQVpEVGtsMGlPVlNzLVM0X3F3WnJMZklqMTJnMWszSkxBMEZRLWx5cXgyRE9aSEJtSDlELWRCVjByTGhqT0hPQ200Ui03TUJfaGd1NXRjLUVVM21ObUlSSWd0bEktdmtua0VMWlpoRHFadg?oc=5",
+     "date": "2026-11-25T20:42:25Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Yahoo",
+     "title": "Sacramento court portal partially back online after \u2018AI-driven cyberattack\u2019",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTJUb25SZ0RfR2hrcWVTNkhUY21uR3hvSVpPdzk3T09YRXk5M0l3ZTgxdDRuNmduZTVrQlBlYjV1RkhiNXZLSktNZThIcklrNnpESmY3RWNyQzdNcUVfeHdXR1gzTS1ISURKcTRqeXo5cjVFSmJTY01xYXJhM0pMZmRiVnJ0aS15a0ZDTWpyTmxMMTczU2ZB?oc=5",
+     "date": "2026-11-25T20:35:27Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "WFYI",
+     "title": "Indiana will hold public hearings on the NIPSCO power outage. Here's what to know",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcVpHcXRmcjl4M21pNVhoQnVCeGpEZVNZeURnNUJ6Y0I3Mkp6NEczRTU1dmxfZkM0YWI3czBESlZ5eDVrM2xfWFdZeDI2MVlzcnptOGdMVnFtTXFNWGFJRzVKNXlZZkVnTURkZUxENVptUE5ZUnBoak43Tk9JR19oc1pqbU5YT2Z2QXNaWmtEMEc3NVpiVmkxNHVmZmgyd2U1S1Z6cUgtR09FUVZCeEdxQkVRcEVYal8yeC1WdlNn?oc=5",
+     "date": "2026-11-25T20:25:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "MS NOW",
+     "title": "Bad weather and recent tech outages test FAA with record holiday travel expected",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdEhsZkIwV0RHSENqUXk5NHNndTJkV3phOWxSZlV3NEQ3SEJjQXM3eHlTaExOVE5ZSFNfVmRmbXoybkg1NTJuMUpkVFdaNDNHZVZLVF9XWndrZXNhakZIN0FoU2NXQ0FhYzE3RnBIa3VlRkhyYjFxMUliSlNWejlaenFwNTVRWTY3Y0lTRGloeWs0UQ?oc=5",
+     "date": "2026-11-25T20:24:11Z",
+     "desc": "",
      "cat": "service",
      "outage": true
     }
@@ -2129,19 +2102,31 @@
    "cat": "power",
    "headlines": [
     {
-     "src": "Men's Journal",
-     "title": "'Powerful' Thanksgiving Storm Could Cause 'Widespread Power Outages' and up to 1 Foot of Snow in Midwest",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdFFHcmNRa1UxaE1VcG9Rd1pwZ1dfY2xiVWFLTEtmcVg2MkI2T1hsVDJZbUwxUHFYSGFOOXYwMVJkM2RRUllQLVhYaGJldDloTFhReEdEVnJQUDYxUG5kOFlxS2x0UHluNmViZGNhVVhzSXpGdExyWXo1aXZmM2lQdkptemEwV1kwX2hURml2c2pDXzhtWU0wc0piR0hkcDI5RHRmNVhZREpOR3d2MkhmR0VNOTJFNHBJSG1yUm1xYmZod0RSaFptSE9Cd2NCZw?oc=5",
-     "date": "2026-11-25T17:18:03Z",
+     "src": "Newsweek",
+     "title": "Map Shows States at Risk of Thanksgiving Power Outages",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTTZXSmUta2NGTGIybEltZU1lckc0Smo2QnFXUkxRUFBNYlhOU1VDNFhuQ0JWT1Qtb0tKSUZib3FOaFY2akVQMU42T1ZDUGMzRFphTjR5alBYR3IzMW1hTElqWThMWTZqZE1wMVFzT2JINVg4V0FPMlgxeXp0VUhsbk9idDJKeGlyMDMwaDAwdF9MUQ?oc=5",
+     "date": "2026-11-25T20:16:00Z",
      "desc": "",
      "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Newsweek",
+     "title": "Major Insurer Allstate Hit by 3-Day Outage Amid Spate of US Service Issues",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHdLcS01OEgzV05LVGs2RWlUMFhwTmMzanpSOVBURHFwVE84Ql8xdl9vY0lvUmFvOTk1VWZLVUxrSXFaTlFZUTRNbDlsTC0tQmlOaTF6WGVVWFVRUlVjMVdvVkRralI5QWp1MTQySG4tUjlDNm5XYkRTTmV6dUdrS05fanl5cVl0NHRHZUhqanJrYnVENUJEcml3Y2xHbUxKV2R3bHEyc0dfaFVX?oc=5",
+     "date": "2026-11-25T20:10:00Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     }
    ]
   }
  ],
- "failed_sources": [
-  "gnews:0",
-  "gnews:5"
- ]
+ "failed_sources": []
 }
