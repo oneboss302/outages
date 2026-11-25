@@ -3,6 +3,7 @@ net country/AZ
 net country/BY
 net country/CI
 net country/CK
+net country/DE
 net country/FI
 net country/GE
 net country/GL
@@ -17,7 +18,6 @@ net country/SC
 net country/SE
 net country/SG
 net country/SY
-net country/TD
 net country/TJ
 net country/TR
 net country/TV
@@ -26,5 +26,7 @@ svc AWS major 2
 svc Akamai (Linode) minor 2
 svc Anthropic minor 1
 svc Cloudflare minor 1
+svc GitHub major 1
+svc Netlify minor 0
 svc OpenAI minor 1
 svc Twilio minor 7
