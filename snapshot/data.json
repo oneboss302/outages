@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T19:45:19Z",
+ "updated": "2026-11-26T20:00:16Z",
  "counts": {
   "internet": 0,
   "services": 4,
-  "hazards": 1,
-  "news": 17,
+  "hazards": 2,
+  "news": 21,
   "correlated": 0
  },
  "internet": [],
@@ -50,8 +50,8 @@
      "impact": "minor",
      "status": "monitoring",
      "start": "2026-11-26T07:58:11Z",
-     "updated": "2026-11-26T17:41:25Z",
-     "detail": "We have observed a recovery in SMS delivery from Twilio to Bouygues Telecom network subscribers in France and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.",
+     "updated": "2026-11-26T19:47:12Z",
+     "detail": "We have observed a recovery in SMS delivery from Twilio to Bouygues Telecom network subscribers in France and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.",
      "url": "https://stspg.io/rwdp0wm7mlfx"
     },
     {
@@ -106,9 +106,9 @@
     "Voice, Latin America",
     "Voice, APAC",
     "MMS, APAC",
-    "SMS, Europe"
+    "Lookup Line Type Intelligence [Legacy API]"
    ],
-   "n_components": 7,
+   "n_components": 6,
    "news": []
   },
   {
@@ -157,7 +157,7 @@
     "Canberra, Australia - (CBR)",
     "Belo Horizonte, Brazil - (CNF)"
    ],
-   "n_components": 66,
+   "n_components": 65,
    "news": []
   },
   {
@@ -374,12 +374,32 @@
  "hazards": [
   {
    "kind": "Tornado Warning",
-   "title": "Tornado Warning: Somerset, MD; Wicomico, MD; Worcester, MD",
-   "when": "2026-11-26T19:41:00Z",
+   "title": "Tornado Warning: King, WA",
+   "when": "2026-11-26T19:58:00Z",
    "level": "red",
    "url": "https://alerts.weather.gov/",
    "place": "United States",
-   "detail": "Tornado Warning issued November 26 at 2:41PM EST until November 26 at 3:15PM EST by NWS Wakefield VA",
+   "detail": "Tornado Warning issued November 26 at 11:58AM PST until November 26 at 12:15PM PST by NWS Seattle WA",
+   "news": []
+  },
+  {
+   "kind": "Tornado Warning",
+   "title": "Tornado Warning: Somerset, MD; Wicomico, MD; Worcester, MD",
+   "when": "2026-11-26T19:54:00Z",
+   "level": "red",
+   "url": "https://alerts.weather.gov/",
+   "place": "United States",
+   "detail": "Tornado Warning issued November 26 at 2:54PM EST until November 26 at 3:15PM EST by NWS Wakefield VA",
+   "news": []
+  },
+  {
+   "kind": "Earthquake",
+   "title": "M5.1 earthquake, Bonin Islands, Japan region",
+   "when": "2026-11-26T19:33:08Z",
+   "level": "green",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udry",
+   "place": "Japan region",
+   "detail": "",
    "news": []
   },
   {
@@ -687,6 +707,63 @@
    ]
   },
   {
+   "pubs": 3,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "ET BrandEquity",
+     "title": "Microsoft targets one-hour recovery from global outages after declaring 'Code Red'",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVF9zVDNsLUFicG1oU0FzVDVDR3FvTjBVUjM0V1g1OU96V1NqemRmb1lVaG9xMG5WUGNaOG9PYmx0ZTFfMi1GWm14QkU2MEdVckJXeEk2NmZBaThiQnotZVZRTldNMW1BWHFQWW91cDdLRUNweDRiRjF4eTA0eHB6XzRFUTN1Si02bHBPWnFOSUkzZ0EwdHlpUHpsdnR3akExWEFBX3NTbmtCYWgzTktsUkZYTzkzRkY1cEhTRjdkQ0o2eWVGQVdUQ212eEJodGZXUU9GUEVoV1BfbHY1MXY4djhyOEs0aGFZSXQ3eNIB7AFBVV95cUxNVF9zVDNsLUFicG1oU0FzVDVDR3FvTjBVUjM0V1g1OU96V1NqemRmb1lVaG9xMG5WUGNaOG9PYmx0ZTFfMi1GWm14QkU2MEdVckJXeEk2NmZBaThiQnotZVZRTldNMW1BWHFQWW91cDdLRUNweDRiRjF4eTA0eHB6XzRFUTN1Si02bHBPWnFOSUkzZ0EwdHlpUHpsdnR3akExWEFBX3NTbmtCYWgzTktsUkZYTzkzRkY1cEhTRjdkQ0o2eWVGQVdUQ212eEJodGZXUU9GUEVoV1BfbHY1MXY4djhyOEs0aGFZSXQ3eA?oc=5",
+     "date": "2026-11-26T07:51:09Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Aktualita.co",
+     "title": "Microsoft Declares Code Red Status After Global Outage, Targets One-Hour Service Recovery",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYkJsVm1BRHctRHllWjJkTktKVlBsVGV2am9aa1h0b1VQdVpLT1BKYnJBVl9XblplY0FPLWtXSnBiT3RIbWVBaU83NGh3Y05YbzJOdlpkOFdTMm5jM3hJSWFUSjlBeGE3N2ZTRUNraGt1XzBpZ1RUZm9lT3c4WnJ1NjFn?oc=5",
+     "date": "2026-11-26T03:45:29Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "JournalArta",
+     "title": "Microsoft Issues Code Red After 24-Hour Service Outage",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xM1JGUG9XR1dXUTFER3E3MVBxT0dwMDVocDc4Y0hsS1YwTVQ0Y0lDS2pXRnVfSnBNN2tuNFdTdWRVaGl4bTI4M1JSMndWWDF4R1BsbWhpRTZlRU5ETVA3a0IyY0FpUGFiaWp1VndxT25zWk82Yk03TFU0NHk?oc=5",
+     "date": "2026-11-25T20:04:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "WSB-TV",
+     "title": "Large metro Atlanta county announces planned site outage - WSB-TV",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPazdkd1NRSHliZXB6Z0F1Q0F3RkJqOXBuMHlyY0V3UkdvRDFBYW5rZW9PdWprd1o1NTg4UnBtSlJUcmNPODhNbF9zODY0OXFCNTRuMzgyaEd5WTkwTHc3cnBpNTVPRkRkR2xfenJOcmpJN2xpVVFaVVlIM2Y1Xzd2emo2MHRvdFN1RFV2ejVZaENYTlI5TDhlWjdpc09zQ24wOEpocDJUNGxlTElZQ3FjTDdKbU1hV3YzazYtcTI5ZE1Yakd5UGpMaXZlTUcxUdIB4gFBVV95cUxOMXFtOWsyd1VSRHpFS3ZPTGRCTzhNelZ2OVBWTlE1R2JpTVAxWW1UUUItbmdpQm9hckVjYUM5WkVmcHUtbm93bWJuYkJnTERuQjhTMG1OSGRHLXo2SXhzWmZ4UWs3ZExqOEdVQnFFTHd3ampkUnFKRkNYdlBjcTVFZm80ZnZyZzhmZEZrckVoNWExdi1Ya3BBd2lScEdxNTZlSFlvVTNzSU9ObFkwVVdxZzFFNHBoSzRfZ3EzNV9WQW5VUk8wZUpMQmowWk82M0F2US16OHNycl8tZ3lJZnZvWUpR?oc=5",
+     "date": "2026-11-26T19:07:31Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "https://www.thetraveler.org/",
+     "title": "Delta tech outage snarls Atlanta flights as Thanksgiving rush begins",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcm1tVHB4TnlLUGVELVpBV0JBUWNqamU0dGJ4WlZxdTdFWlNjTm9Jb0RsUFdsSGg4Qm5sdm1fVzE3c0FTbF9SSm9jZm9NRzRCdHAtOWpDODhMNEJMRF8zVzFfV0loZ1E1M3YxaUszeTB4eDJ5RjVmMF9KUHRTX2VWM0d5Sk81VV9SeW9mVWNEVnJEemg2UE5yZG9USWtiZw?oc=5",
+     "date": "2026-11-26T17:11:18Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
    "pubs": 2,
    "cat": "power",
    "headlines": [
@@ -715,30 +792,6 @@
    "cat": "power",
    "headlines": [
     {
-     "src": "WBOC TV",
-     "title": "UDATE: Power outages steadily increasing across Delmarva as of Thanksgiving afternoon",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTkVEdG5Rd2NDd0ZSb3lKV1k2ZExYdmhSUURoVUFTZnhrNjlHNnlBUjRHUVZMenBuSGlMTk1KWEgzTy1hazlCaGdlNW8xeXd3Z3YzQUtwd19KNkFEOFdoUWN6dXY2bDBVUzV6NG8ySjltdUZLbUN5VGMwOE5zZEJ4TzhaU3dnTHhzcHcxSzlBRzN0SDlTa3FWV3RiMzJ4cFNsaHBOZ0VCOEpWb2wxU2hYcTdzM0R0TWgwSGQzNHY3WjhXQ28?oc=5",
-     "date": "2026-11-26T18:56:15Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "WDEL",
-     "title": "Power outages steadily increasing due to storm",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONWNNN0szM25aUmRqNlJVTDBvUEFfaXRMVm9pZEJfak5KU004bmxuTndvQUxheV9oV3JVcVRiZ0NZZjd0Yzk5ZENnZDRSOEZJeDZTYzUxa0RzMTRlYWp6ZG54ZnRuODBJNElneG1ETWRTXzl5X3p1eEFYS2x4bTFSMzh6VGJ4ZW42N0c5bGtObmlzZU5QbDhFbWxpUnMza1czblNCRnoybk9KR3hzd1VsVWxjQjZyWUdIZy10anpPTQ?oc=5",
-     "date": "2026-11-26T12:50:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
-   "cat": "power",
-   "headlines": [
-    {
      "src": "WBFF",
      "title": "BGE outage map shows scattered power outages as storm moves through Maryland",
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QYzFWdVZYaFpXM3c0bTBDbGlwSEJnU3RWRXpRaFJMclk5Sy1Rc2FSZmZDekhZQ1lkZUZ3MldqbERBT0F2QUlaM3FwVlg3clJLTGJwYXc3SkJqUkZQbGxlMGs4dEdHQTFnbVpuYU9CYW03Nk1fV0ROVmh5Zw?oc=5",
@@ -752,6 +805,30 @@
      "title": "BGE map shows significant power outages in Maryland",
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPVTZrdEZObzluQXVNQUxsNG40c0NRNU9fMm96d1ZiWmtvUzdfOVhJN0U0Q0sxSDZKRjBydUpiVVEyRVg1ZGpaei1sVWJmVE94QWUtNEgwVzdVOFRVbS1wMHBDMGNzVVRqUnpoODhWQVJOdm1XUVdYbnVyTQ?oc=5",
      "date": "2026-11-26T16:13:10Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "CoastTV",
+     "title": "Outages grow due to storm",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR3dmU1loQ0xMOWxQcWIwZzAwZkxfc3ZtaVgzd1BMSVA1bjQxeG0yNkJEVjFzYXpYeXBKYWxaUnhIdzFlMGFVSGh0OU1kaXhjTWZ0MlFZcUo0MER2ODRhLU1YRUJrUGdoRVFpd3l4bXJZQnpXUHNlNXc2RU1mN01qajZLN0RDUDAxTnJpSDZrSXhnMkZaal94TGJWWWlrRnJsb1JKN0hmS2FrUE1nZkg0ZkxjaTE0YjdjLTZkWmlOOVU?oc=5",
+     "date": "2026-11-26T18:13:48Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "WDEL",
+     "title": "Power outages steadily increasing due to storm",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONWNNN0szM25aUmRqNlJVTDBvUEFfaXRMVm9pZEJfak5KU004bmxuTndvQUxheV9oV3JVcVRiZ0NZZjd0Yzk5ZENnZDRSOEZJeDZTYzUxa0RzMTRlYWp6ZG54ZnRuODBJNElneG1ETWRTXzl5X3p1eEFYS2x4bTFSMzh6VGJ4ZW42N0c5bGtObmlzZU5QbDhFbWxpUnMza1czblNCRnoybk9KR3hzd1VsVWxjQjZyWUdIZy10anpPTQ?oc=5",
+     "date": "2026-11-26T12:50:00Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -802,6 +879,30 @@
      "date": "2026-11-26T17:47:13Z",
      "desc": "",
      "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "The Register",
+     "title": "Tech's outage problem needs maintenance, not conspiracy theories",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLWJ6dTBYRUwxN3A3TEJ6eHV5OXB6YmRYN1FXY2IwcjB6T2paQmNuemVuYWJJekhaTGFEOWE5MWxtRnVBaWJjaWZWQWg1NHYxUGlVMmx3VFZfRWxic3JrYTdUNWt4TklsNW10LTc0dExBazEyOVdKTHB5MVBLcGJlZTRzRVJUQlNKMVUyNnVxNk5OSGw0QUVHQzZpWlBVejZ5MXhzUU5aOHd6Q1RrM2RQMm1WLTFwYTRzTHc?oc=5",
+     "date": "2026-11-26T17:09:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "https://www.thetraveler.org/",
+     "title": "Tech outages and hoax threats expose gaps in travel insurance",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLUo4TUd2U1lSSXY3WmtWcWd3djMyU09RREdzM3ZsR05LQkVsSXVYbTVJZkNmX0tRSHNYU0poTmFsTmhJOE1OOUdFRjNITHljMHBRN0pwRlVJNFJXVnlMbWdja0hDd0tiTlpTb05kQ0t5bFl1ZmcyRTdVNndWclNtTVNsVkc5ZXN5cTY5LXNocUN5UjNP?oc=5",
+     "date": "2026-11-26T04:15:57Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -931,20 +1032,44 @@
    "cat": "service",
    "headlines": [
     {
-     "src": "CBS News",
-     "title": "Fuel tanker explosion kills 31 on Egyptian highway",
-     "link": "https://www.cbsnews.com/news/egypt-fuel-tanker-explosion-deaths-giza-cairo/",
-     "date": "2026-11-26T11:27:25Z",
-     "desc": "A massive fire killed 31 people in Egypt after a speeding driver allegedly crashed into a fuel tanker truck.",
+     "src": "Computerworld",
+     "title": "Microsoft sets one-hour recovery goal after worst-ever M365 outage",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVlQtdXhxMHVCRHN4eU1aNnQ1d2YwWERaZjlLWVlfVkhYMFZ4ejcxZ2dsY2NLM3ZERlBLeXlMOUJfNW5jbjA5TWpTb21TeUh2aUlDVUpUSXBiRUZYQV9WRUdtUENCVWxnNjVjcDM1MjZhUWJXSlFDVjJKcE1oRWNqUnczdG9VVlRSeG1TUUhrQXljeGYweHNMS1NJXzVkMkt2cTRzdWc5WERTX3NqcW1aX2RRVk1UMzVI?oc=5",
+     "date": "2026-11-26T10:21:57Z",
+     "desc": "",
      "cat": "service",
      "outage": true
     },
     {
-     "src": "Guardian",
-     "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-     "link": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
-     "date": "2026-11-26T00:39:10Z",
-     "desc": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing\u2026",
+     "src": "CIO Dive",
+     "title": "Microsoft outage puts observability in focus",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazBGY19oLXM1XzdVTUh1cV92MFQ3ZnJZOU1BaFNYZ1gyN0xHTy10d1RfckE2VEd4QThTanpFSVRNZWp1Z3JEdmdVNHFMNzlzX0pQNE8xYVVmZ2xuY2llb05KakNMb2JYeV8weVhFSkZFcFJHRUxVUkkzZGwxUXJRak1FX3hSVE5R?oc=5",
+     "date": "2026-11-26T02:00:48Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Anadolu Ajans\u0131",
+     "title": "Hong Kong mobile carrier restores services after widespread network outage",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUdDV0g5NmxCZ3BxNkl5MUdWQllWYklWRlZjR0NvQ1J5LW5FS2tZSmpjSjJkTm1aazI0YmpvckNlOHBYUHQ0MUcyX2ZFQ1Q1aGhzekV4dzUta3Z6bkNKOElrRkhtMkpEdWxwZGd4Zk1lM0gxa1JVVWM2OGFRVjdIakVLbVVQMmlJU3c5QWpjc0xwRGdkRVZwRWxLZVdUeXI2OV9HUnhEMHBnRy1XVGFqZFF6U0pBVEM0Y1pYMg?oc=5",
+     "date": "2026-11-26T09:39:49Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "South China Morning Post",
+     "title": "SmarTone network outage leaves Hong Kong users offline and angry",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZlhaVS1aSHpPRXU2RGsza1dBZGxHb2ptV3hMay1pcEUyOW9PY2dIOVZnRlpRUjZZajFnOUVMWDV5UzJYdG9hZFZ1NnIzTTVpUnowVEQ5aHg4enVIUHBPc0VuRG00TTRQUlpEMU5lc3B3SUtuaXl1cndvaHVWR25UTGdoemFRMjNsY1Njbi12WGNWajUwTlVPMzB2QlBaUWRRRlZKaGotQ2FtUGczWVdYZDg5Mi11cmxWX0VxWmlYVmTSAcABQVVfeXFMTVB5VXlFTHRpMnFKcXU3R1N6Q21iNlE4QTltWGtGYm5HSTYteFc1S0xSdks3MTZyQ0pqeTZHdElaay1zcnVtbVhNZjhvdjY0a3ZaU3BQcVhjVWpOYkktcW5ibWtuNEl0RVhOdlVaSWpLQU5EWWh0RmQteW52d1JIUTF0S3otWm9YZTBHb0xxS2tyNVNOT1dhUGYtX1hBQi03bWxBQUhYeXJGTFhBWUlVelJZOGZScVljdU9mNDNDYnFD?oc=5",
+     "date": "2026-11-26T08:39:49Z",
+     "desc": "",
      "cat": "service",
      "outage": true
     }
@@ -954,6 +1079,15 @@
    "pubs": 1,
    "cat": "service",
    "headlines": [
+    {
+     "src": "The Sunday Guardian",
+     "title": "YouTube TV Outage Today: Is YouTube TV Down in the US? Users Report Streaming, App Login, Live TV, Buffering and Playback Issues | Check Latest Downdetector Status",
+     "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQQjhXRzNFTnpFY0R4Tm84aXRYY0NWYnVGRWhVSEZPdm9McV81SU8xdVM0OFZSZEp3WkZpZEpTdEdXamNIY1FjWmlReDg3dEhCN0lsc0FuaXdPX2tmVW1lMkE1a01pN0FLU1lubzNxVWN6RzY4Wm9zVkJOTmZjZXBRaVc5T0daNzBrUVpKdXAwSElnR2ZCRmJWZlNCaGc1aFlOZ2R6STBjTks1MDhGOG1zNjdoNU51bG9FT1M3SmlWZFZtRnJWN2haZkJfM3UxN19IWUppVy1fNE0yQjRTZFNULThHa0pHN2d2NlZSd0ZlNjlneVdVd1VUWFJ3cjFuLW9qVmhfQVJzcWxwV1pBLWJZY1Frc0RHeE9vQ0V0WVRINnhKZURacHRFbkRZejbSAbICQVVfeXFMT1luLXNUS2hDQ2dKUWdrSnB3TnJWcUhVeWZzOFlielRaQnB1cVJFcVN3cndKWlNTeGRkclcyUktuNWxndFJfVzJWQUhFMTBqWnRKdDNOcTl6TkhRbVV1bjlhOVVMOVBhOXlGRFBmX2MxeU4wbnU1NVdoMGhaQUprblRWQ1dLblcyaHJLMUtsbUFoNG9uY1gwOWlBdFNleHRSR0lobGE3aFZIRGZVQlRPMGg1UTFGQ3FKU0ZjbFBIWFEwNGU5X21IVkZxVW5leTg1c0xCUUR0RGVLWDNqbkZFT0NpMmxkZGgtRDY4TjBZR3ZucjRvb3BueEpXU09nOEhlLWZBbTE4OXc0UjBRMnBQQjU0T0d5VFJZazJkay10dFFpN2xnbFoxeThfM215QzZhV2l3?oc=5",
+     "date": "2026-11-26T19:48:06Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
     {
      "src": "The Sunday Guardian",
      "title": "Talkie AI Outage Today: Is Talkie Down in the US? Users Report App Crashes, Login, Chat, AI Character and Messaging Issues | Check Latest Downdetector Status",
@@ -1024,21 +1158,6 @@
   },
   {
    "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "WSB-TV",
-     "title": "Large metro Atlanta county announces planned site outage - WSB-TV",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPazdkd1NRSHliZXB6Z0F1Q0F3RkJqOXBuMHlyY0V3UkdvRDFBYW5rZW9PdWprd1o1NTg4UnBtSlJUcmNPODhNbF9zODY0OXFCNTRuMzgyaEd5WTkwTHc3cnBpNTVPRkRkR2xfenJOcmpJN2xpVVFaVVlIM2Y1Xzd2emo2MHRvdFN1RFV2ejVZaENYTlI5TDhlWjdpc09zQ24wOEpocDJUNGxlTElZQ3FjTDdKbU1hV3YzazYtcTI5ZE1Yakd5UGpMaXZlTUcxUdIB4gFBVV95cUxOMXFtOWsyd1VSRHpFS3ZPTGRCTzhNelZ2OVBWTlE1R2JpTVAxWW1UUUItbmdpQm9hckVjYUM5WkVmcHUtbm93bWJuYkJnTERuQjhTMG1OSGRHLXo2SXhzWmZ4UWs3ZExqOEdVQnFFTHd3ampkUnFKRkNYdlBjcTVFZm80ZnZyZzhmZEZrckVoNWExdi1Ya3BBd2lScEdxNTZlSFlvVTNzSU9ObFkwVVdxZzFFNHBoSzRfZ3EzNV9WQW5VUk8wZUpMQmowWk82M0F2US16OHNycl8tZ3lJZnZvWUpR?oc=5",
-     "date": "2026-11-26T19:07:31Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
    "cat": "cyber",
    "headlines": [
     {
@@ -1099,6 +1218,21 @@
   },
   {
    "pubs": 1,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "WBOC TV",
+     "title": "UDATE: Power outages steadily increasing across Delmarva as of Thanksgiving afternoon",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTkVEdG5Rd2NDd0ZSb3lKV1k2ZExYdmhSUURoVUFTZnhrNjlHNnlBUjRHUVZMenBuSGlMTk1KWEgzTy1hazlCaGdlNW8xeXd3Z3YzQUtwd19KNkFEOFdoUWN6dXY2bDBVUzV6NG8ySjltdUZLbUN5VGMwOE5zZEJ4TzhaU3dnTHhzcHcxSzlBRzN0SDlTa3FWV3RiMzJ4cFNsaHBOZ0VCOEpWb2wxU2hYcTdzM0R0TWgwSGQzNHY3WjhXQ28?oc=5",
+     "date": "2026-11-26T18:56:15Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
    "cat": "cyber",
    "headlines": [
     {
@@ -1111,79 +1245,10 @@
      "outage": true
     }
    ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "PIX11",
-     "title": "Power outages hit NY, NJ as thousands remain without electricity",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVJIUEtIRkpUNml0YjZ6WkQ4bmJfSkxTUTRUZDVvcWp6aXNoZElvS3J6Q2oyYlV0bmR6TVhrLVQ5bEI4dXFBcy1ZX05PUEhVekFtR0NFd3N1VzUwM0lDLW9wOXk1SmFmSDNGQ3ZYRnQ4TzJuUVlrT2Njekh3aE1ZNmNkN19Sa3FfSU9HRk9fTFfSAZYBQVVfeXFMTjZNQWRQb0Y0S0Y3U1JNZFBQYlY5aFFGdUkyRk8wQVQ4RVRqekQ1M2l4c2N2NGtuXzdsNUdNdlRXOGlJbjRUSWZvSHM3SHVEUHQyYmtSbzBKLUJmZzc4WXJuV0Y1cWg1SlUyX0VLY08tTEpybDB5T2tCSHhraGV6QWVCNU9aUU1EaC1jZ2xXbEJmUWROcTJ3?oc=5",
-     "date": "2026-11-26T18:36:25Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "CBS News",
-     "title": "FedEx cargo plane runs off MIA runway, causing brief ground stop",
-     "link": "https://www.cbsnews.com/news/miami-international-airport-ground-stop-fedex-md-11-runway-excursion-faa/",
-     "date": "2026-11-26T18:33:18Z",
-     "desc": "The National Transportation Safety Board said it was investigating the incident.",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "CBS News",
-     "title": "FedEx plane slides off Miami runway while landing during stormy weather, causes ground stop",
-     "link": "https://www.cbsnews.com/video/fedex-plane-slides-off-miami-runway-while-landing-during-stormy-weather-causes-ground-stop/",
-     "date": "2026-11-26T14:00:21Z",
-     "desc": "A FedEx cargo plane slid off the runway at Miami International Airport on Wednesday. Kris Van Cleave reports.",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "News4JAX",
-     "title": "JEA customers in San Marco report water outage on Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVlFSkV4WTZzMFVrZWx1a2xUQlhGQWJDV0ZncUd6U3poeUJ5TnNObjhGT0ZzcWlvY1F0Ql9FZ1lweTlpRGRjSUVkZm0zTFNmenV3Q2RGWThBSVRYajVXakE2SDFvTjdjTlNIYTZ6eGc3Zm1XeTNoek9HZ2pLMm4yM2o3dUVQUjVLWmxHd19TQ3NQSmlfaFcxSzdzVkhodEQ5bm55bjdTek1nUlM3QkxN?oc=5",
-     "date": "2026-11-26T18:30:11Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "Nacionale",
-     "title": "Will BGE pay for food spoiled in the Thanksgiving power outage? Usually not, but insurance or SNAP may",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWFBGRkZ5eFpZMHNZZi1mVjRvek9qdVNxQ0lEYnJhd09CVjRYUWxNN3k1bXl1c3d6ZjlMbGwtQzA0R0E1ZDg1clk4Wm13R1FfaXZzOWM3QVgzRDZvTXJlcXUyWFBBRWxrdnN5SlgzOURacWdIR3dvMzZlNWNZSUFJUDdnUVVUSVdVUEZWSUJwc0w5U0VDQ1pTR1I2X25mYzlzWHVKeVY1eVRRemdNYW9oekZRZ2pOTk8tNGVZSl9JWko?oc=5",
-     "date": "2026-11-26T18:14:35Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
   }
  ],
  "failed_sources": [
-  "ioda_country",
-  "ioda_region"
+  "ioda_region",
+  "ioda_country"
  ]
 }
