@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T18:15:19Z",
+ "updated": "2026-11-27T18:30:19Z",
  "counts": {
   "internet": 0,
   "services": 4,
   "hazards": 0,
-  "news": 22,
+  "news": 21,
   "correlated": 0
  },
  "internet": [],
@@ -46,12 +46,21 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
+     "title": "Issue Affecting Bulk Messaging and Twilio Email",
+     "impact": "none",
+     "status": "investigating",
+     "start": "2026-11-27T18:23:24Z",
+     "updated": "2026-11-27T18:23:24Z",
+     "detail": "We are experiencing an issue with a subset of endpoints impacting Bulk Messaging and Twilio Email functions. Our engineers are investigating and we will provide another update as soon as possible.",
+     "url": "https://stspg.io/q3vwm7gqy658"
+    },
+    {
      "title": "SMS Delivery Status From Twilio Short-Code to US/CA Carriers",
      "impact": "minor",
      "status": "investigating",
      "start": "2026-11-27T18:05:28Z",
-     "updated": "2026-11-27T18:05:28Z",
-     "detail": "Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery issues from Twilio Short-Codes. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers. Please find\u2026",
+     "updated": "2026-11-27T18:18:57Z",
+     "detail": "Please find the current SMS delivery status from Twilio Short-Codes for the major carriers below: United States: AT&T (status - DLR Delayed) T-Mobile (status - Operational) Verizon (status - Operational) Altice (status - DLR Delayed) Appalachian status - DLR\u2026",
      "url": "https://stspg.io/vmh0kp4xg1kq"
     },
     {
@@ -181,10 +190,10 @@
     "Albuquerque, United States - (ABQ)",
     "Arica, Chile - (ARI)",
     "Almaty, Kazakhstan - (ALA)",
-    "Baghdad, Iraq - (BGW)",
-    "Annaba, Algeria - (AAE)"
+    "Annaba, Algeria - (AAE)",
+    "Canberra, Australia - (CBR)"
    ],
-   "n_components": 66,
+   "n_components": 65,
    "news": []
   },
   {
@@ -442,7 +451,7 @@
  ],
  "news_reported": [
   {
-   "pubs": 23,
+   "pubs": 27,
    "cat": "power",
    "headlines": [
     {
@@ -563,6 +572,66 @@
   },
   {
    "pubs": 6,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "The Information",
+     "title": "Hackers Breach U.S. Air Force Cloud in Latest High-Profile Cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcDlodF91NjY3U0JHZ1F3U2FBZFUzTlpxR0FUSERwRWpaZFVicU9tZ3Y4cnQwamN0SmJUelRFTzNtM2lOSEg1N2hUdW5nR1NLRGdBRHliZTd3cXZ3RHNtelBLbEJrNW5fRC1kWGs2cFE3bUk3aExLT2g2R05oVnRwN0VwQ3pQa0dtcFdKY1FVMjNnWkNoME14UHROVlVhNEdVaGFpdEFVNUtTdk0?oc=5",
+     "date": "2026-11-27T18:06:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Forbes Middle East",
+     "title": "Air Force\u2019s Cloud One Platform Hacked, Report Says",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTnUtRFk3OERyR0N1aHNRVzlqcGRlbzZ0WXZ6cHhRcmxVRFpRVUNfVmFkTVp4bzEzbEhBOWxQTWV0Q2ZfQnZnd2NlUWR0U0VFZlprWW1EX19sM21aVHo2NXhacmtqWVFPSERYbHZjbmdrNVJaZjFlcVkyejZHZ0ZzbzFtandJTVBOOGJ2RmxJZUVDa21iYWN1ZFYxcWExVkJ6NDFYd1NQUVhaZw?oc=5",
+     "date": "2026-11-27T17:30:30Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Coinpedia",
+     "title": "US Air Force Hacked as Cyberattack Breaches Cloud One Platform",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeDVncEJmQmZVZzJQUmk2em05Q0VOSVBhcXdDejhZbzU3TElYdGcwQktaZFo2OWhINzBCMF9zVFlodlBNX1V1SWRsamlsa05xVlhmcFdycGJxR0p1cEtOTGVlZXhCdk5uSVFxZ3dMbTZyU2RCblppWXpSc3Jld3RwVjNIVENWUVA0WTc5VWdfVndWZEJUc3oyZTdCZEVvWG5TOERlcNIBqgFBVV95cUxOVWctSGY1X0hDZXFjOGJsNTNTNnBlV1NwUkh0UXpNZFVzenNQcFVKbkJ3X1FaRURBc3dua3ByN3BtVnB5UkhEWW9lTVRPMS1jaW05WmtDWGZZWUtxVzlQY1VnQ3ZzLXlVQUlhNWNFb1NoT0YwcGtvTGRqbHRFOWcwRlB2UmJRcWJFNjAxUU55Smp5dG5MZU1OQklmdXI3eV9XajZqOXdqNWo1Zw?oc=5",
+     "date": "2026-11-27T16:03:18Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "BleepingComputer",
+     "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+     "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+     "date": "2026-11-27T15:09:40Z",
+     "desc": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Beinsure",
+     "title": "US Air Force Cloud One cyberattack disrupts military cloud operations",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWhidkNBX3U4QmVMbW93VWtTOXBhdEpoSkd0Q2lXbFVmRHFubzdrNkg4bXhJUlFDUWt3SS1rd0FSR2xJZ0NjTjU2WTZmNTR5WUExN0FRUnJmb0F3NWhpQkxyaVZwSGIwUUl2RXlCOGdsUmRDNXc2ajVmM2Z5cmtkUmJpS0JiZGs?oc=5",
+     "date": "2026-11-27T14:49:17Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Floridian Press",
+     "title": "U.S. Air Force's Cloud One Computing Platform Faces Cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTzQzN3ZUMVJPQzhHN1ktVjFIVjk2dzljcGZhdWFKclBJTTFkcW52d2ZUdDJ3Z3I3OUhhbG03SEhVTV83WVdzQ3BwRGJHMGZpdUxuN1FraDdnbHJQeEhnZ3hwdkxtQjN3RXd3OGJzSHJGZWRoMUlvbkRHNEhTaGFETng3bXJ5UzNyVVN5cS1ISXVES19Rejk0TnN3TEZCZw?oc=5",
+     "date": "2026-11-27T13:43:43Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 6,
    "cat": "service",
    "headlines": [
     {
@@ -622,9 +691,18 @@
    ]
   },
   {
-   "pubs": 6,
+   "pubs": 5,
    "cat": "power",
    "headlines": [
+    {
+     "src": "CBS News",
+     "title": "Storm cleanup begins across N.Y., N.J. after downed trees, flooding, outages",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTGJaOGtPc0RYTWpIWkdZOURlbkxTeG9rT3NKbjlHcVRVcFNjeVdaQlNweWUxRzVRX0w0dS15blNla1RuZkhIRTc4Z1BReW00ZVJqWldBSVlUZ0VrZWZmaENhUVg4aVlvVV9YWWdjZ1Z1Vm9mSS14T0dTV0JXMmJRWFhNeUFXOGk4TTQtYURZOA?oc=5",
+     "date": "2026-11-27T17:07:27Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
     {
      "src": "FOX 5 New York",
      "title": "Crews clean up downed trees, flooding and power outages across NYC, Long Island and NJ after storm",
@@ -644,28 +722,10 @@
      "outage": true
     },
     {
-     "src": "News12 | Bronx",
-     "title": "Thousands Still Without Power On Long Island After Thanksgiving Storm",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbzZoWkFXcnhIbW8wYTZZQTB3ZW1leVBsemZfT3g0cHNNS3lpZkg1MnJJTTF4b05nTjByeE16eVJVMzl2eFdRR2lfdVdiQzl5QllDcVZ4YzRIWmV4Z2lhcDJHbi1NUFo2M0doenl1bWJXUWV6dHJLWkMxeXRNcFZXa0tVbG1JUmdNM0NjMUdGMklwaVFVaTJaOGpn?oc=5",
-     "date": "2026-11-27T11:03:19Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
      "src": "WTOP News",
      "title": "Downed trees, power outages as Thanksgiving storm hits DC region",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORWRvY09LS0lsSVZnVnNYTFNiek9rODVtZUVfTldiTUpad1BVWEREZWJyLXl2TllOUFBXNnBDMHkyZWNJenJRd2lsUTk1czdfNGFlMEtVN01VX2Z5VTZrMzVxWE1qTHJsMmZBLTZGcW8yLUVqUGxNVVF5YnNZNEZnNWt0ay0xWDltWURCUXN3U2pocjNxQkd0d29RWUxkazU0T3BFQlAzWDNsanhoc0dhdTA4SDN4SVVTY2c?oc=5",
      "date": "2026-11-27T03:28:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "Newsday",
-     "title": "Latest updates: Thanksgiving Day storm with heavy rain, gusty winds causing power outages on Long Island",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdi1sVEVvckZxSFlzei12ekRfeGYydkVUdFN2TGoxUEg4aWNzMmxyZGxIN0RtNFZqMERHSmJzNm0xWTZ3LVY4dk9tNDVnTjZVZHVoNXRBVmpoVGFwY1dtTTJ1OHp5U1RXQmJtT3RUbXllcHVtS0UxcGRteGZOckJVZ3BSUjhTeWJ2UFJYeUFnTzAxSTRfMndjdXIxZ2pyTDFKeWZ3dWNGbkI?oc=5",
-     "date": "2026-11-27T03:17:13Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -728,48 +788,6 @@
      "date": "2026-11-27T11:18:14Z",
      "desc": "",
      "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 4,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "Coinpedia",
-     "title": "US Air Force Hacked as Cyberattack Breaches Cloud One Platform",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeDVncEJmQmZVZzJQUmk2em05Q0VOSVBhcXdDejhZbzU3TElYdGcwQktaZFo2OWhINzBCMF9zVFlodlBNX1V1SWRsamlsa05xVlhmcFdycGJxR0p1cEtOTGVlZXhCdk5uSVFxZ3dMbTZyU2RCblppWXpSc3Jld3RwVjNIVENWUVA0WTc5VWdfVndWZEJUc3oyZTdCZEVvWG5TOERlcNIBqgFBVV95cUxOVWctSGY1X0hDZXFjOGJsNTNTNnBlV1NwUkh0UXpNZFVzenNQcFVKbkJ3X1FaRURBc3dua3ByN3BtVnB5UkhEWW9lTVRPMS1jaW05WmtDWGZZWUtxVzlQY1VnQ3ZzLXlVQUlhNWNFb1NoT0YwcGtvTGRqbHRFOWcwRlB2UmJRcWJFNjAxUU55Smp5dG5MZU1OQklmdXI3eV9XajZqOXdqNWo1Zw?oc=5",
-     "date": "2026-11-27T16:03:18Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "BleepingComputer",
-     "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
-     "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
-     "date": "2026-11-27T15:09:40Z",
-     "desc": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Beinsure",
-     "title": "US Air Force Cloud One cyberattack disrupts military cloud operations",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWhidkNBX3U4QmVMbW93VWtTOXBhdEpoSkd0Q2lXbFVmRHFubzdrNkg4bXhJUlFDUWt3SS1rd0FSR2xJZ0NjTjU2WTZmNTR5WUExN0FRUnJmb0F3NWhpQkxyaVZwSGIwUUl2RXlCOGdsUmRDNXc2ajVmM2Z5cmtkUmJpS0JiZGs?oc=5",
-     "date": "2026-11-27T14:49:17Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Floridian Press",
-     "title": "U.S. Air Force's Cloud One Computing Platform Faces Cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTzQzN3ZUMVJPQzhHN1ktVjFIVjk2dzljcGZhdWFKclBJTTFkcW52d2ZUdDJ3Z3I3OUhhbG03SEhVTV83WVdzQ3BwRGJHMGZpdUxuN1FraDdnbHJQeEhnZ3hwdkxtQjN3RXd3OGJzSHJGZWRoMUlvbkRHNEhTaGFETng3bXJ5UzNyVVN5cS1ISXVES19Rejk0TnN3TEZCZw?oc=5",
-     "date": "2026-11-27T13:43:43Z",
-     "desc": "",
-     "cat": "cyber",
      "outage": true
     }
    ]
@@ -911,39 +929,6 @@
      "date": "2026-11-27T04:26:32Z",
      "desc": "",
      "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "FOX 2",
-     "title": "Thousands still without power after winter storm in St. Louis",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMTE4NHA1bUcydkxoR096TVA2QmZscnNkc0FZRVh3dnVPWFRNUlRsU0VJM0hNcnJmUHU3QXZuaHNETWZNV1dac25tdXB2Y3NnZUNRYjZOaklsZXJaem84eHl4bWw1UndQbWxYazl1MHdMa2YwNUZNVlNRX2E1eDYtakJTSjBJU2ZpR3ZtNU1YNHdoOThPc2NTOEsxUdIBoAFBVV95cUxOQ2ZhOVhBWk1WaGl0Q2lqNENwckpDQlVkWU16WVk1WGZ5Z1pIbEFXRld0TEo1MUc4aHJrMFp4M0hFV29jdm9zMnRoVjhETi1XdzROWG5qT2VKZlZuQUNMU2VKeHZmVkFVMndBWFVzQ0x2WGswaDV0TjdSOW1XaFZ5Yk5KSGR4b2JfQ1loOE5nQmZ5eEg5REp1emVzS2RuNkFM?oc=5",
-     "date": "2026-11-27T12:50:27Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "NJ.com",
-     "title": "More than 128K still without power following fierce Thanksgiving storm in N.J.",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeWkwNG5RTlZEQ2JFNVpiTDVzQl9UNkpfaTNCcEVmUnQ1djNoNnRQYU5FSFg5Y044SjBGNFRlT0hOVjlwMlFHTkNsaXY3TUF0V0tTemJaZkpCaC1kUlh2eWk5ODgwaV9tUUxYX3RzNTBiQVdCWFlOWEJsV1V4NVhTd2h2cmpFeVZKWHJLWDBoZGtobjRuaEt4V3JsRlJPODZRREt1ZDFkOWJFLVQzQWt3?oc=5",
-     "date": "2026-11-27T12:37:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "WAVY.com",
-     "title": "Thousands of Hampton Roads residents still without power following coastal storm",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbTBXQmVYYXdiU2JqRUljWHhIelF1czVqREhtYXZEdEgyYldaczhIRjNzN2dHcnVDdUphQlVsMkdJNF9CbzBXaUg0VnZTQXBMTloyQkxfandEejlrVjdxdzlCTFdVbXBWZEdoamZJZ0pxU0RsVEVlRHVFVE9kT2dEWW53aUlKSXd4UnNaZDlFakctcW9uQVZPeEJkTm83eThjUmROSzdFR2VCR2ZHQTlZanhpRnVyekxNb3p1N09rVFJzTVnSAcgBQVVfeXFMT19iZG82Q1BPS2EwcG90ODNIWXlXalhlXy1HcEVTLU0xbEVrSDFGWkdhQTZMSWs5RDVQOTZ6bFFFV0swdVVlX2hwZWRjWlNUZGpodEo2Yl8zbDNKVUY1SjlPVjRKd2g3MGVUMnBsSkFSc2RqWUY2WDlVbFlpcjdwOTgxMHg0UTk5QkpuYTBPLWdfNFFWbVQ1ZmZWMmhqOWxRcmhwc3BwVU90bXJpLWVfZGdTdnl6ZHg3eDk2NHB5TE5URUZGUmRmRFQ?oc=5",
-     "date": "2026-11-27T10:06:23Z",
-     "desc": "",
-     "cat": "power",
      "outage": true
     }
    ]
@@ -1250,15 +1235,45 @@
   },
   {
    "pubs": 1,
-   "cat": "cyber",
+   "cat": "power",
    "headlines": [
     {
-     "src": "The Information",
-     "title": "Hackers Breach U.S. Air Force Cloud in Latest High-Profile Cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcDlodF91NjY3U0JHZ1F3U2FBZFUzTlpxR0FUSERwRWpaZFVicU9tZ3Y4cnQwamN0SmJUelRFTzNtM2lOSEg1N2hUdW5nR1NLRGdBRHliZTd3cXZ3RHNtelBLbEJrNW5fRC1kWGs2cFE3bUk3aExLT2g2R05oVnRwN0VwQ3pQa0dtcFdKY1FVMjNnWkNoME14UHROVlVhNEdVaGFpdEFVNUtTdk0?oc=5",
-     "date": "2026-11-27T18:06:00Z",
+     "src": "Patch",
+     "title": "Marblehead Crews Work To Restore Power After 'Widespread' Black Friday Outage",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXAtbzlLSm1MRWJXcjRRUVFKZkpLN2FhX2RmMkdZblg2OEUyZE5BYW9paXVtMHBjODFaT0FHUU9ncE4wU0xmenAtRkRNYkZvdlJmUWlZVzI3dTdmbVZ3WlYtcXNqR2RYa0c2REZDRXdNNnVrM1VDVHhjeWs1S21PY1o0TnlKYzFzbEQzQXRJSUhxTE1YSmg2TnQwd2hWbW9TVk5sNkt6RHllcjFkakttYVNoOHNGUdIBywFBVV95cUxNOFQ1eU15LVNkTU9PUjZXX3lwZV9Kc2M0VWlpMEZ0R3loWFpoVFJsb25lZFpXYzlmWVU2bThTNDByLXpUMklaenRXZWRqMWhoTEFyanRRYTNFVmxINFVrYzdoM1pLcW02N2YwZFZNVHhJeTVOM2YyU1J4ZXhSVFF0UFBUMkJNZHdOM3FwUm0zZXNvZDBkWWp2X3RiVU5TYzdQQ1NXcHJvcjVJWHhGTmlabUl4cHRNazhMVjdNcC1pQnJRWmxiblRPUVVMMA?oc=5",
+     "date": "2026-11-27T18:15:18Z",
      "desc": "",
-     "cat": "cyber",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "SQ Magazine",
+     "title": "Allstate Outage Hits Day Five With No Cause or Fix",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxZ3lvNkcxdGVvakRwa1BRTXZ5Qkd3VlN0TEU5dW9YSkU4djVvdFNIc3M0Qy1kT2c1dmRsSV9RZUpEN1FxVGQ0aEtjNG5GbDFaREh2azNnQlczTVJhWXJEY0pPTFRjaVpyMzRlWklLOGlxQQ?oc=5",
+     "date": "2026-11-27T18:13:49Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Guardian",
+     "title": "Police believe criminals carried out robberies during Manchester gig disrupted by \u2018unknown substance\u2019",
+     "link": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+     "date": "2026-11-27T18:10:21Z",
+     "desc": "Greater Manchester police say they\u2019re working with other agencies across Europe after similar incidents at two other Don Toliver concerts A group of organised criminals are believed to have carried out robberies during\u2026",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -1272,6 +1287,21 @@
      "title": "Tech Outage Boots Top U.S. Company Offline for Four Days",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0tTZzZROHFGV0hpZ0twdHZSYjR1c3RpcXU5U09jSF9FdHh5dVZLSElKT3Y5N0I0akEtQjJNYTQtQnN4ZFNERVBIN1pWeU5KS0dWd01McWhOVXc4WlZvejFVTHJFWmxSZXcxN3ZrSXA0clI3WURHNG9IbGt6S0laX0pVcEFybWliVUh2R3Byb19seEEz?oc=5",
      "date": "2026-11-27T18:04:10Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "KTUL",
+     "title": "Tulsa crews repair multiple water main breaks; outages expected 8 to 10 hours",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdkdoRXR1anJ5Q2hLT180OTdubnlOeUZjN2xXRV9GSzZoZG92Z0Y3V05VR2NBTHpFY1B5UVlrMDBCT0hrd3lmdWx4aUtDSTBCRVpYMDExeEZrYnR2QlVvc3ZlN3BIUWdJeGo5MHQ1OTZkZEVxSUtpU1Nza01LT2JqS0dYQlNyeG8wbmNaWXNqb3BEcGVoMXczSnJYeFBGNlEzY1ZGM09iOThkMFo4bUhCclRfc2xoQQ?oc=5",
+     "date": "2026-11-27T18:02:26Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -1310,6 +1340,21 @@
   },
   {
    "pubs": 1,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "Herald.Wales",
+     "title": "Inside the \u2018Black Sky\u2019 plans for a nationwide blackout",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+     "date": "2026-11-27T17:35:20Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
    "cat": "cyber",
    "headlines": [
     {
@@ -1319,51 +1364,6 @@
      "date": "2026-11-27T17:20:02Z",
      "desc": "",
      "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Delco Times",
-     "title": "PECO outage number in Delaware County shrinking",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNzZValV6MWN5c2lXbndqM3c0RzJLd3ZJMjlLNDRibDFoZVdBU3V1ZjZEY3lsRG1xXzU5SXRCdVVwdWZ2ZUJzQUFDRXFCWlc3bUhwa3ZjY0FTdXdFRWEwQTJoRnZvN0FscXlTdmpXZ1dyVXh4d3FXc3QxRXh2R0Y5Q21KYk9tMkZ3dTRtT3JXXzY?oc=5",
-     "date": "2026-11-27T17:17:03Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "WUSA9",
-     "title": "Pepco says 90% of power outages will be restored by Saturday night",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZG55LWFwTlRjUmRQUkFNdGpJWlVMZUhJZ3VYRUktTUpmRGxHRkhUcFg4Zy1GS25GU1JBdUx6cXU5OUxwSXBwTFktanlWWDZIU2V1NVJFWV9jSElaVl8tYWJVdXhNWVk2Znc1eEdyYmVjOFQ3ay16R3g3QVIzVWhEWDY5ZWRjbTJvQjcyT1JMRGtEb0xuZ3ZGSnlobzlhWmVpZVFYNjNQQlpWSm93TWlRaHhFSmVOc21wV24yLXJ2dzd3UmxlYzNkMVBNS29HbUVkWEVWandpdEZhRDJWNUtkMEJMem03Y3lpZlJv?oc=5",
-     "date": "2026-11-27T17:13:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Foreign Policy Journal",
-     "title": "Lloyds Banking Group (LON: LLOY) Outage Locks Millions Of Customers Out Of Accounts Across The UK",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNkFHd2MwUXVGWWhJZ3JGVS1LS3F6N3lreEJlQmtnODJFSlFvRnJzZmRIdDR0WlRqRGdFTl9jSElaQ1Y2TkxaWUgtYXNSVVp1eU1pQWhDcWZhWjlOT0dTSzN6Xy1XWlMtVGRjazQ5VGNYSnN3MF90Y2FaOFY5RWlJSE9fSXA0T2w1cEdRLUVaT0RLREtoaGFFR045dFUxdVpsMmVONzhvVFdUSXlBQ3JMTG5zcWFzYWRYWlZyNkdHb1RCcjF4VnlGdEFUNE5TT01sMHVNV0ZIb3M4Zk0?oc=5",
-     "date": "2026-11-27T17:09:00Z",
-     "desc": "",
-     "cat": "service",
      "outage": true
     }
    ]
