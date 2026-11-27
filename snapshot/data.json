@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T03:30:19Z",
+ "updated": "2026-11-27T03:45:18Z",
  "counts": {
   "internet": 0,
   "services": 4,
   "hazards": 0,
-  "news": 22,
+  "news": 23,
   "correlated": 1
  },
  "internet": [],
@@ -46,6 +46,15 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
+     "title": "Voice Call Silent and One-Way Audio between Twilio Phone Numbers and Multiple Networks in Colombia",
+     "impact": "minor",
+     "status": "monitoring",
+     "start": "2026-11-18T15:56:21Z",
+     "updated": "2026-11-27T03:36:30Z",
+     "detail": "We have observed a recovery in voice calls between Twilio Phone Numbers and network subscribers on multiple networks in Colombia and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.",
+     "url": "https://stspg.io/kckjlns5dw48"
+    },
+    {
      "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States",
      "impact": "minor",
      "status": "identified",
@@ -64,15 +73,6 @@
      "url": "https://stspg.io/bk5cbp5q1s8j"
     },
     {
-     "title": "Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada",
-     "impact": "minor",
-     "status": "monitoring",
-     "start": "2026-11-22T03:50:54Z",
-     "updated": "2026-11-27T01:46:12Z",
-     "detail": "We have observed the recovery for Lookup API transactions involving Bell Mobility in Canada and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.",
-     "url": "https://stspg.io/tsp4vmj649hp"
-    },
-    {
      "title": "SMS Delivery Delays from Twilio to Bouygues Telecom France",
      "impact": "minor",
      "status": "monitoring",
@@ -80,15 +80,6 @@
      "updated": "2026-11-26T23:47:59Z",
      "detail": "We have observed a recovery in SMS delivery from Twilio to Bouygues Telecom network subscribers in France and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.",
      "url": "https://stspg.io/rwdp0wm7mlfx"
-    },
-    {
-     "title": "Voice Call Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in Colombia",
-     "impact": "minor",
-     "status": "monitoring",
-     "start": "2026-11-18T15:56:21Z",
-     "updated": "2026-11-26T23:36:04Z",
-     "detail": "We have observed a recovery in voice calls between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Colombia and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes\u2026",
-     "url": "https://stspg.io/kckjlns5dw48"
     },
     {
      "title": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
@@ -176,7 +167,7 @@
     "Annaba, Algeria - (AAE)",
     "Canberra, Australia - (CBR)"
    ],
-   "n_components": 67,
+   "n_components": 68,
    "news": []
   },
   {
@@ -458,6 +449,24 @@
    "cat": "power",
    "headlines": [
     {
+     "src": "The Morning Call",
+     "title": "Thanksgiving storm downs numerous trees around Lehigh Valley; power outages rise to 12,000",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbHlVVG1ONGJkQ3ZnZFdsSzU5LUhhNGVDbTM3cERJMWF6QXZvVnhmV3M0bTZiSWwwRnB4YUZjZnNDN0R5X0JLZDhORGNWalI2WGp0aFVldlc3dUdlTG8zTXVPRTF5eTZ0Mm5PbDZubTYxZG1OcnB1dFljUTQ3bWJkSUVLRnhULUNLT1JmeXlOMjlSSDRTeEN1WGp4Mks?oc=5",
+     "date": "2026-11-27T03:20:15Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "WNEP",
+     "title": "Power outages continue to rise on Thanksgiving Day",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOazQ1VGpNd1hLeGNkQjJqWllZM0FfRkJVX19tbHV5bkk5N1U4TkJKaEMyQjRJSTdoVDUxbDZUNktGR09DdHpEclFBa1h6VHFLMFpJM3FXNXBRQ2RWMXVBSUxNcU0tb2N5Z1ZIcTRkYUxXWkpqb3hael9yQ0MyNm55Z3ZrcklUV3pvNXI2dU5pVUtlUVFVcjhVd2FhQk9DRWc5aE54OTlRMGd5MTN4Q1dPX2JLYlpSaWFjVFkzYzR4WkdyNExBWXVWbHpKNHI5X1RJSlZObW5sMFpwSU0?oc=5",
+     "date": "2026-11-26T22:15:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
      "src": "CT Insider",
      "title": "Connecticut power outages top 15K as Thanksgiving nor\u2019easter hits",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZE1GTDc3WHZYM2N3SkFmZzZPRXF4WUM1UlB0aVRaRXpJajJVOUZkdk1ZNFh5SVplcmxUVmxJYkcwb2gwOWxTR29IbEw2c0RQanVvazFUbkh4bUdabW4zbEZ2SWpkZ0lPbkQtaGxLQ1pYSjN2ZWdiRXJRdFUxUGpyaW1wM3hyZE5YbHRzZFRCR1Z3SGxBWUtZRDlyZFgtVnpnLVFLY05MTFhMeFg4?oc=5",
@@ -492,31 +501,40 @@
      "desc": "",
      "cat": "power",
      "outage": true
-    },
-    {
-     "src": "Yahoo",
-     "title": "Hundreds of Connecticut power outages reported as Thanksgiving nor'easter hits",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS0dON0dFOHUzT0JHSWhWcDRpVTJPUThvVmxSVUIydTZiT1RXZlhFUlgyREU5ZzlsYVgtajZnTGEyLVF6ZFdNOWRIUDhkbWtabkY0eElFbS1LalRjSktQT0RYZjVySlNkRlZJd21qTXBmY3M3dDB3dDFtSXhWN2NzSS1kUDFVMVBtSFhWYXFSd1lpR2hlUmdXRnNUR3dnU3Ey?oc=5",
-     "date": "2026-11-26T17:19:28Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "SILive.com",
-     "title": "Power outages: More than 600 Staten Islanders in the dark Thanksgiving night",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYUNUa3d2TVJzMHFjVE1vbFBXenZCWk0xRkRrY3hGeVp6eGpvQjczc040ZXlfeF9iaXktVUdBd0RTd0hYUlBKcnZuNUlrR1VJc1FYQmVSVmJZSloyS21wcE5sdjRZbDNIZkJnYXA2bWhYRTE1Q0VoTHhONDRKblN2d0NKV2RUcWhQYzVSYm9xamdTbHFQeEZpRnNOcGhtdklMaEdtRWFkMmFaZnlHNmVOamV4N2ZockE?oc=5",
-     "date": "2026-11-27T02:36:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
     }
    ]
   },
   {
-   "pubs": 13,
+   "pubs": 10,
    "cat": "cyber",
    "headlines": [
+    {
+     "src": "Tempo.co English",
+     "title": "FIFA's Data Stolen in Cyberattack, Here's What We Know So Far",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWnR4a2R6NjByU0pOVFZ0dFRkMzhwU2lNM0REbkc3b2F6LWMxS3pPTHc4YnJMWWRHMzBhWDRPNF9PM2cxaE1ZeXpvV3VoUWVUdnhxSFdrVnI5ZGQ3R1VoNHF3eU81NUhMSncyMXRlNEVTLWRUY3ltN1R4a0J0X0dCanl0TkNqT2hXODRhZDFZWDNPb1ZYV1E?oc=5",
+     "date": "2026-11-27T02:10:58Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "The Straits Times",
+     "title": "FIFA confirms personal, business data stolen in cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGNKc0Y3NHRITVhlWVB1VmR6c0t1dVd2aVMtdEF1TzE1V2NGZUE5MEg4a3ZsbGFTcG9heWYwX0pBVHFaRmVGQWxvN21Vb1VTeGNlLU44TFRaV1lTS3lucTFYdmY4UDR5X3hlNHNSQkVPWXNKOFhfVzZ1cDFTV1J2eGZULXVyMlIySDBYV2FnalUzUGtRQkV1Yw?oc=5",
+     "date": "2026-11-26T23:20:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Chosunbiz",
+     "title": "FIFA confirms cyberattack and cooperates with authorities after data breach",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wNV9qejF3bWdVdHNRQ1I2Q3E5MEpwNFVlT3lPNGFOZjR1M3pRX3pDNV9aMXJzbERLVHQ1TVdMQXJWTzJTdVRDaF9LZW5NcjM0bDdKTlJodTRyUERpU1VBeFpLbUJtY3oyZEtqUFRldFlWenp2cnRCNDBOck4xbXPSAZMBQVVfeXFMT1cxV1lRVFZBUXh0VmJKT2pYZ244MGlTU2JscDNBbnh6b2dldHV3OTFKWW0yQ1d5YjZhc3hRVklfMWdzUlNLdjg2NWJYLWI2VWJoc01kUUl2VVE4VGxBMUdnTm1EaHN1ZVVoRzRhUGZJUTNxSGFRWEJHbTgtbDRla1J5a1M2MjlJNFFpRl9ORnZIZi1N?oc=5",
+     "date": "2026-11-26T23:10:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
     {
      "src": "\uc870\uc120\uc77c\ubcf4",
      "title": "FIFA Confirms Cyberattack, 12GB of Confidential Data Stolen",
@@ -527,14 +545,29 @@
      "outage": true
     },
     {
-     "src": "Field Level Media",
-     "title": "FIFA confirms personal, business data stolen in cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV2RzUVIzZnRLM0RxcjdmSmxBMmkzX09lYXFDQWZWUEZuYUdZYjlDNTdFZFFzVGlnd04tZEI4ZDRHMnZ3OFlZTnVDX3VTc3YwbWk2ajVKWDFQVnVKWV9rdFd0UXpkSUxUczkzdGsyMHktR0YtS1MtY0NRT2hzUmJLOG5QR0FpSTZWa19YT0ptVzJicHZOV3E0?oc=5",
-     "date": "2026-11-26T22:58:13Z",
+     "src": "Merced Sun-Star",
+     "title": "FIFA confirms personal, business data stolen in cyberattack - Merced Sun-Star",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhZ1RzdzlORlR2VkY1T2pzWHpzVGVZci1DUHdubTYwQ0FZNzhOcUdnNE1BZmN6YjJmYzMzRkI3NkRDSmdwRVBaTVNNMXlYOVl5OXZmbm9mRVEyb0N4cXZfdjRraklXZTBtUUduSk5OOTNiM2M?oc=5",
+     "date": "2026-11-26T22:41:00Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
     },
+    {
+     "src": "Beinsure",
+     "title": "FIFA cyberattack exposes personal and business data as hackers claim 12GB theft",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LcUoxdTBad0NPLVlRMVhQcnpwdk5nYWVaeVZBY2hCdWNpdWp3U3YtRldNNndJM2lURmZQNnl6cHNtYWpfMGVrU0NCZDhPV2J3WGhrcUFJQlZFX3JhRnhDUEFkUHVadDExV3pqUWlGZTVYZE9CQ1IyeUdqa1JRelk?oc=5",
+     "date": "2026-11-26T15:44:05Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 10,
+   "cat": "cyber",
+   "headlines": [
     {
      "src": "Mashable",
      "title": "FIFA confirms cyberattack that accessed personal and \u200bbusiness information",
@@ -563,10 +596,28 @@
      "outage": true
     },
     {
-     "src": "Beinsure",
-     "title": "FIFA cyberattack exposes personal and business data as hackers claim 12GB theft",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LcUoxdTBad0NPLVlRMVhQcnpwdk5nYWVaeVZBY2hCdWNpdWp3U3YtRldNNndJM2lURmZQNnl6cHNtYWpfMGVrU0NCZDhPV2J3WGhrcUFJQlZFX3JhRnhDUEFkUHVadDExV3pqUWlGZTVYZE9CQ1IyeUdqa1JRelk?oc=5",
-     "date": "2026-11-26T15:44:05Z",
+     "src": "ABC7 New York",
+     "title": "FIFA says it has been victim of a cyberattack accessing 'personal and business information'",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUTV5VS03eHdPS1FIR2ZxTk0xQkhEcGdPbWZUNjYyNHB1ZTY0N0V4NTlKQ3p0QlZkZEQydzdPQ2d4ZF9XNVdxenpkbTdHdkVzemxJTVp5Sjk4UDJ0UDNPb18xWkJrQWczeE5wYS02SGMyUEllMHdLdXNEZk1ndW9iSXpjN2tpdWdiR05rSjJoR1dVSHdndUFzOUI0TWtGcHF2aFByQ011NVZscXNoZG54Wng1ZEhXZ9IBtgFBVV95cUxPUTV5VS03eHdPS1FIR2ZxTk0xQkhEcGdPbWZUNjYyNHB1ZTY0N0V4NTlKQ3p0QlZkZEQydzdPQ2d4ZF9XNVdxenpkbTdHdkVzemxJTVp5Sjk4UDJ0UDNPb18xWkJrQWczeE5wYS02SGMyUEllMHdLdXNEZk1ndW9iSXpjN2tpdWdiR05rSjJoR1dVSHdndUFzOUI0TWtGcHF2aFByQ011NVZscXNoZG54Wng1ZEhXZw?oc=5",
+     "date": "2026-11-26T17:07:08Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "DW.com",
+     "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2JOSndzZmZGVEhjRmU5U2lUcWxDaXZacVVqWmp6WW90c0JHSUp0UUs5X09vSWpBZGVaQkhxU3kyRXVyZkZiNjN0dDFNUUlfemloTDdCbGNJY1htemFkWjFOREtDQWFQbkdBODZPMm4wNXZsakRaMDFZd0RPRmh0bUFrdzNIdzJ4WXZpTElLN3B5RmJfVFYyTFJta0g1WHZZY0NLNnh2NkJUMlc4b2tLZ2J2ZXZrUDYwMUxuRFFOanNTcTlaV3fSAcYBQVVfeXFMTXhqVDRVWHY1VWxfR1FZeFBrMGp1ZFhQTUVCcmVtVHdWcEh0LXE1U0x3cGlPdTBCRXROOTZhNWNFY2QtTFVJN1U2eWQtR05wZHJFVTFuSFRLN3JQOGczUUY4ekZ2aWk3UTNkejBlTXlQZnBJcUUxcGc3YXpQQVFxRWJHQVRSdUZEa3NsbzBZSmlteGg2UkVZejFsQWFSdVQyNGZBZVQ3cjRqdUJkMGtRd2ZrU3lXQUg5Wk5vZTY2eEI3WFhjaE1B?oc=5",
+     "date": "2026-11-26T15:56:26Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "USA Today",
+     "title": "FIFA confirms cyberattack that stole 'personal and business information'",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSzMtZkNlUk9RTHRUYzQ4a2N4Vk5fYXViRkthTE1HTUYtMW9BV0xIUU9jMFJsMEo0RG82X3FTdVVYQm5SWkVVclE4djJOYWZ2OHJZZElSQ0FJdUd6UjUwVVBodTBZNF9kU2pDTkRld2VQZS14eXRNS0NWWHRRVGNLd1V5bHd5dm91NWZuYWwtelFfc0JCMElpeGZTRHloQnByN0xVVkxETFRWcnZC?oc=5",
+     "date": "2026-11-26T14:33:00Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -618,48 +669,6 @@
      "title": "AFP hit by cyberattack",
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tWHE0RkF2ckkyUk5RVXR3a0oxQU1LNXZsSmt3WVdOZU9yQV9rNnZvWDh0Q3VfTEVmWS1mTGJxa09hT1VGSGZ5aUt0anBmVGlrYWJIVnFyVDNWTWtjb2ZXQXhEMHR2Q2lKNXpvWG5B?oc=5",
      "date": "2026-11-26T20:30:04Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 4,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "ABC7 New York",
-     "title": "FIFA says it has been victim of a cyberattack accessing 'personal and business information'",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUTV5VS03eHdPS1FIR2ZxTk0xQkhEcGdPbWZUNjYyNHB1ZTY0N0V4NTlKQ3p0QlZkZEQydzdPQ2d4ZF9XNVdxenpkbTdHdkVzemxJTVp5Sjk4UDJ0UDNPb18xWkJrQWczeE5wYS02SGMyUEllMHdLdXNEZk1ndW9iSXpjN2tpdWdiR05rSjJoR1dVSHdndUFzOUI0TWtGcHF2aFByQ011NVZscXNoZG54Wng1ZEhXZ9IBtgFBVV95cUxPUTV5VS03eHdPS1FIR2ZxTk0xQkhEcGdPbWZUNjYyNHB1ZTY0N0V4NTlKQ3p0QlZkZEQydzdPQ2d4ZF9XNVdxenpkbTdHdkVzemxJTVp5Sjk4UDJ0UDNPb18xWkJrQWczeE5wYS02SGMyUEllMHdLdXNEZk1ndW9iSXpjN2tpdWdiR05rSjJoR1dVSHdndUFzOUI0TWtGcHF2aFByQ011NVZscXNoZG54Wng1ZEhXZw?oc=5",
-     "date": "2026-11-26T17:07:08Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "DW.com",
-     "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2JOSndzZmZGVEhjRmU5U2lUcWxDaXZacVVqWmp6WW90c0JHSUp0UUs5X09vSWpBZGVaQkhxU3kyRXVyZkZiNjN0dDFNUUlfemloTDdCbGNJY1htemFkWjFOREtDQWFQbkdBODZPMm4wNXZsakRaMDFZd0RPRmh0bUFrdzNIdzJ4WXZpTElLN3B5RmJfVFYyTFJta0g1WHZZY0NLNnh2NkJUMlc4b2tLZ2J2ZXZrUDYwMUxuRFFOanNTcTlaV3fSAcYBQVVfeXFMTXhqVDRVWHY1VWxfR1FZeFBrMGp1ZFhQTUVCcmVtVHdWcEh0LXE1U0x3cGlPdTBCRXROOTZhNWNFY2QtTFVJN1U2eWQtR05wZHJFVTFuSFRLN3JQOGczUUY4ekZ2aWk3UTNkejBlTXlQZnBJcUUxcGc3YXpQQVFxRWJHQVRSdUZEa3NsbzBZSmlteGg2UkVZejFsQWFSdVQyNGZBZVQ3cjRqdUJkMGtRd2ZrU3lXQUg5Wk5vZTY2eEI3WFhjaE1B?oc=5",
-     "date": "2026-11-26T15:56:26Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "NBC News",
-     "title": "FIFA hit by cyberattack as hackers access \u2018personal and business information\u2019",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdUdlLTRkOHpFNTg1OUViLVV4X21iZHJPVEluNEc2Ty01M3FOM3QzUndoR0VTQXJnQzdEdWRGZHJuRW5IdkRseW5HZlYxQUpqQ2I5UXY3NVc1Um5raEp3UkdlYXdFM0FOQ0o1MnRJa1RjcGNLc0hTQWJIR2phb01ZUVJOcGJ0Um50V1FiVjhlbFgxQm05Ykg2YUFzU2ZrdnRzNVBDdHRGdGc1V1UzdXA3VlVVMEQ?oc=5",
-     "date": "2026-11-26T12:34:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "ESPN",
-     "title": "FIFA hit by cyberattack as hackers gain access to personal and business data",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xaEhFSlhHN09LYXdIQ2FLLU4yYjhvbFV2U3N2Mk8yMl8wOVU2ejFjb2c4WTJzU0Y2NjlQdlBfUEFfWlNqbU5VN1dlbmxjYUFQaGhZVFBjUURpOGhJbjZJYW1maVo1UWMtRXh3YUZwdTlTbmc?oc=5",
-     "date": "2026-11-26T12:07:00Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -746,6 +755,39 @@
    "cat": "cyber",
    "headlines": [
     {
+     "src": "ColombiaOne.com",
+     "title": "Colombian Accused in the United States of Scamming Victims of Ransomware Attacks",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY2pxMXNtaFdiLTA0OHNSREthRG5pWWVNbnA3cWxDclNiMXFSNVpEUWNubERTVnNOU3I5VGY3YTlpdnZUeE5Sa0gzVk5DMjZkYkdtRzJhdzM0WDQ0dWxUWnVWQ0wwbkhad3I3VV93SnJzYkdfelh5cXdGUUd2OWJiYWMtT2lHc0JNWEttYlNDX0puSDVwcHRNbE1HS2lfZ1BEZ2M2NHNMc2xLUC1ZXzQxMThINlRMbTA?oc=5",
+     "date": "2026-11-26T23:30:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "El Cronista",
+     "title": "FBI sting exposes shocking ransomware scam: Colombian businessman faces up to 20 years in prison for scamming cyberattack victims",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOWpSdWZ4ZHBwVktmb254RU56UlhZTzYxTDFtRXR0akxzRzBMNVBKZnU1bktBRjRuLUloaFR6Q3Z6cnlvTXlOR2JyYS1iVHl6Y09nTmtyQXpqdGpaeUswLWgzcTc5TFlrVEVXbDFpOE82bDB5Y3J3dXBGY3lLTWNNMHpsY2JsbGZnVlB2ajRTNTFVMGhBUVRhWUItcGkzWWlXM1VVWjNiS09sN1VtTndfSVBTMy1wUFRqVUNWV3NhUGlPX0k3ZEpobjVmSk1DTmNpSUgxdDFNZjZ5alNEZGtJVElkd2VGSHc5QVBZblZQbG1WdlctcHc?oc=5",
+     "date": "2026-11-26T17:58:52Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "IT Pro",
+     "title": "Ransomware recovery exec accused of defrauding victims",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbWFuYjhoa0pKWVdIOWZiZmU4amJIUE1nMVpyY2hobUNoZHppT1dWNWNsamNXVkhkQ1V3V1d1NG5xMnZYNVhxZHRRY0ZVbjhxNlZJSzFwNjB0UlpVelBlNVNWSWNTZ2YzdnlOeEx3V2lkakw0eHI3VmdLOElGaFoxRkJ1U2h4ekY0OXcxejRHOUZnNXJnam1NSkxuN2NjbF9CSkR5Tktiaw?oc=5",
+     "date": "2026-11-26T11:59:58Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 3,
+   "cat": "cyber",
+   "headlines": [
+    {
      "src": "BigGo Finance",
      "title": "FIFA Confirms Criminal Cyberattack; World Cup Stake Sale Files Said Untouched",
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kU0VEeWVQemowaG1xUjJMSGNFdmpvS3hGQnUza2U0SFNEd2FPSXFiY1BSakRoTV9PLXZKaGlzNUJoeWtPcEpzSnpZMWFSLW1keEtyOHE5Y292UDRRa3ZWVml6T3VCN1ExZTVrZkU0ZWozcUpXdWc?oc=5",
@@ -768,39 +810,6 @@
      "title": "FIFA confirms criminal cyberattack, says $4.2B World Cup stake sale files were untouched",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUG5SNEQ2UjVDZkJqZVBDcnNyYU1lV1Y0QXUtU1Q0VUgwSWVfTUR4NzlwZjBoOVUzUWFhbnJVdjJhYUVyQTFKSGRUUDlIbzgzUXJsVUw3SWEtblROZTM1SFQ4bGRWUm9RQWR1ZzJCNzNCbXJLVkdHR3ZNb3lPdTUyd19CbkF5VDdESWVjU2Q4QWXSAZYBQVVfeXFMTjRWV3BPSlBWcS1jX2hqSXppZTZjNnZjZUpPZlFMbnoyUjlwVHlrVnZUOHkwR0NhUjNEc1BUWmtubkF6aVp3dS1ONGp6aFdYbnRFd01sTXM4MU5Dbzk1MlVBQkFRSXFXR0J3WVVYYy1GNkJfLTNUeEVVbXpjRWlVMEJXU1FUbURRckI0ZUVWck9nYV9WLTh3?oc=5",
      "date": "2026-11-26T15:10:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "DNE Africa",
-     "title": "Africa ransomware cost averages $368,000 per company, Kaspersky says",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXWjdkOW9SbXNsUkhTVHNlVnpnNldSM29pMkVpX0lIYkFUejhYNjBrODgxQmIyS0NaNG9lbTBPSnRjUV9TX1U5Rml0aENnalh3bTBjM0F1d0cwNktfNlYzalE1aW1aQ2Q3?oc=5",
-     "date": "2026-11-26T22:16:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "FF News",
-     "title": "Ransomware Attacks in Africa Could Cost Businesses Over $368,000 Per Incident",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZDY2eS1IdVNaVFI4OFNXZFZnR2xnOXBSQWtacFpoMzVreUpWNzUwWVdEbTl3VzY0NVBXQWZKcjQxMWNSQWdHaGptdTBKc1d4RnpuZTR2ZFZ2clU5ZmppRDktUjVJVWViaG03RndGbDRibDBNbHRCaGVSemVxQjBIZDdlRG9fZmNJT1E?oc=5",
-     "date": "2026-11-26T13:28:06Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Kaspersky",
-     "title": "Kaspersky and VDC Strategy: ransomware incidents could cost each affected company over $470,000",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQ1lrS2xnMW1DM1diYm1HQlZ0X1oxRlBSN0MwZGtMVFNnU0Y2TkxFWVVhRURKR0N5bjFPT1haQVhDOEJReGNtVlZ3ekoyYVVmaWxuT1ZOa21Zdl95bFRSTGxNSTlLS3AyWWg5MVdhMVF0czNkbW5vSWlRRUZ0MS1RdkdtTGs1dDlVQlU4NmhZZTd3cFFoUnNtcHE0eFpFeUR4bG1LcjZGbUxxZkdqQlIwMS1fTXppTEdscFduZ1hKbTU1MjQ4YUVTQ2E1WmRpRTNkc2pZOTlB?oc=5",
-     "date": "2026-11-26T08:01:20Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -923,30 +932,6 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "ColombiaOne.com",
-     "title": "Colombian Accused in the United States of Scamming Victims of Ransomware Attacks",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY2pxMXNtaFdiLTA0OHNSREthRG5pWWVNbnA3cWxDclNiMXFSNVpEUWNubERTVnNOU3I5VGY3YTlpdnZUeE5Sa0gzVk5DMjZkYkdtRzJhdzM0WDQ0dWxUWnVWQ0wwbkhad3I3VV93SnJzYkdfelh5cXdGUUd2OWJiYWMtT2lHc0JNWEttYlNDX0puSDVwcHRNbE1HS2lfZ1BEZ2M2NHNMc2xLUC1ZXzQxMThINlRMbTA?oc=5",
-     "date": "2026-11-26T23:30:00Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "El Cronista",
-     "title": "FBI sting exposes shocking ransomware scam: Colombian businessman faces up to 20 years in prison for scamming cyberattack victims",
-     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOWpSdWZ4ZHBwVktmb254RU56UlhZTzYxTDFtRXR0akxzRzBMNVBKZnU1bktBRjRuLUloaFR6Q3Z6cnlvTXlOR2JyYS1iVHl6Y09nTmtyQXpqdGpaeUswLWgzcTc5TFlrVEVXbDFpOE82bDB5Y3J3dXBGY3lLTWNNMHpsY2JsbGZnVlB2ajRTNTFVMGhBUVRhWUItcGkzWWlXM1VVWjNiS09sN1VtTndfSVBTMy1wUFRqVUNWV3NhUGlPX0k3ZEpobjVmSk1DTmNpSUgxdDFNZjZ5alNEZGtJVElkd2VGSHc5QVBZblZQbG1WdlctcHc?oc=5",
-     "date": "2026-11-26T17:58:52Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -998,19 +983,19 @@
    "cat": "cyber",
    "headlines": [
     {
-     "src": "NewsNation",
-     "title": "FIFA targeted in cyberattack by \u2018Handsome Boy Hacking Club\u2019",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZGYycnhWUXdaNElGeDlpamtpOFlrYW5PaVotcEo5TEI0NWFKckU2bUZlM0ZXd2phRnpCazlrclhOX01KeElXYjBpbTU5QndpaFRaUGpYMHh3MDBobG9kSTdfN09WRDh5Sm5EWXBLNmtsMUtOaHBHVXZfczQ0em4wUUxnbmZ6R3hKOC1xdUFZckdhQlJCN21UOExkSUzSAaIBQVVfeXFMTjAxU0JsRmQwSGFtampnQm5WV3owUmJpbDF3YWFIOFdOZE9KTWk3dDVKa1pLWHFYcURJSWVqazJCbkhXakxzZU1GM1B0NjlqaTlON0RiUUVQcnFVRGpPemRBOEQwMXN5TEFfVElUR0I4SW1jUmJDcGFoRFozUDFwWEU0U2dsb1plb2Z0QnFydFZnVFNjb19wSFdPUGxEZEEtQTN3?oc=5",
-     "date": "2026-11-26T23:03:30Z",
+     "src": "DNE Africa",
+     "title": "Africa ransomware cost averages $368,000 per company, Kaspersky says",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXWjdkOW9SbXNsUkhTVHNlVnpnNldSM29pMkVpX0lIYkFUejhYNjBrODgxQmIyS0NaNG9lbTBPSnRjUV9TX1U5Rml0aENnalh3bTBjM0F1d0cwNktfNlYzalE1aW1aQ2Q3?oc=5",
+     "date": "2026-11-26T22:16:00Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
     },
     {
-     "src": "The Telegraph",
-     "title": "Fifa files stolen in \u2018Handsome Boy Hacking Club\u2019 cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOVRnZjJCRUVYNklYdmdudlFsRU9MV1NPQ19TdDFyc29UOTc1al9FSlFvTkg1eTJFczNIVU1MQ0tUS2ZnTXpDdXVreklhV0tqV3lIbjBKeU1odnhhUE4xeUllT2I4bmN1UVRiSDJ5R09lVnlIaVBOV2Y1TjR4RldyS09kTkxhVERYTGN4U0wwbmQwQ1UtRi15X180R1ZwT2RWUjJRZWxqdlQtT2Qy?oc=5",
-     "date": "2026-11-26T12:36:00Z",
+     "src": "FF News",
+     "title": "Ransomware Attacks in Africa Could Cost Businesses Over $368,000 Per Incident",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZDY2eS1IdVNaVFI4OFNXZFZnR2xnOXBSQWtacFpoMzVreUpWNzUwWVdEbTl3VzY0NVBXQWZKcjQxMWNSQWdHaGptdTBKc1d4RnpuZTR2ZFZ2clU5ZmppRDktUjVJVWViaG03RndGbDRibDBNbHRCaGVSemVxQjBIZDdlRG9fZmNJT1E?oc=5",
+     "date": "2026-11-26T13:28:06Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -1067,6 +1052,30 @@
   },
   {
    "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "The Register",
+     "title": "Tech's outage problem needs maintenance, not conspiracy theories",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLWJ6dTBYRUwxN3A3TEJ6eHV5OXB6YmRYN1FXY2IwcjB6T2paQmNuemVuYWJJekhaTGFEOWE5MWxtRnVBaWJjaWZWQWg1NHYxUGlVMmx3VFZfRWxic3JrYTdUNWt4TklsNW10LTc0dExBazEyOVdKTHB5MVBLcGJlZTRzRVJUQlNKMVUyNnVxNk5OSGw0QUVHQzZpWlBVejZ5MXhzUU5aOHd6Q1RrM2RQMm1WLTFwYTRzTHc?oc=5",
+     "date": "2026-11-26T17:09:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "https://www.thetraveler.org/",
+     "title": "Tech outages and hoax threats expose gaps in travel insurance",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLUo4TUd2U1lSSXY3WmtWcWd3djMyU09RREdzM3ZsR05LQkVsSXVYbTVJZkNmX0tRSHNYU0poTmFsTmhJOE1OOUdFRjNITHljMHBRN0pwRlVJNFJXVnlMbWdja0hDd0tiTlpTb05kQ0t5bFl1ZmcyRTdVNndWclNtTVNsVkc5ZXN5cTY5LXNocUN5UjNP?oc=5",
+     "date": "2026-11-26T04:15:57Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -1115,39 +1124,15 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "IT Pro",
-     "title": "Ransomware recovery exec accused of defrauding victims",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbWFuYjhoa0pKWVdIOWZiZmU4amJIUE1nMVpyY2hobUNoZHppT1dWNWNsamNXVkhkQ1V3V1d1NG5xMnZYNVhxZHRRY0ZVbjhxNlZJSzFwNjB0UlpVelBlNVNWSWNTZ2YzdnlOeEx3V2lkakw0eHI3VmdLOElGaFoxRkJ1U2h4ekY0OXcxejRHOUZnNXJnam1NSkxuN2NjbF9CSkR5Tktiaw?oc=5",
-     "date": "2026-11-26T11:59:58Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Help Net Security",
-     "title": "Data recovery firm co-founder accused of cashing in on ransomware victims",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ0hybHhoNnFIT0lpOVpZWlIyZWt3UVotclh3d2JnaDV0dGZZWVJnbDZsU183NGpNSWh3Vm5hWVA4WWI0ZldmMlpTX2dxTHpkNjFxdDZlTXAxVjBycDN3QkJuQS02UDVqVzRCMXl1TV9kOFJ2eWhmVlhGTG0taWNvVHFIajlsU3c2NGUtLUNEeUtLU09MQmg1ODUzcG4xa1cxUFRn?oc=5",
-     "date": "2026-11-26T09:59:07Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
-     "src": "FOX 2",
-     "title": "Power outages: 100K in St. Louis region on Thanksgiving; Could last multiple days, Ameren says",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORDV2ZVpKV3BRM1UxOVFWX0N4S2k0dGExVTZINjhweVJsZms5N3BURXlMd2l4RGE0VE1ycmdfOVVQRTF3Q2hZYmlHckZOQm9Bc3lkMFFid0ZPek10Wms2d2VqNDk2SjV4ZWpUbjlpS1pTSzFqdW54emNIeW9MQ0FpVEtwVnM1ZHZQWW80UXRibEpNWnJqUFJhRGxWQXBoaFHSAaQBQVVfeXFMUHBlMDRaTGRiVS05Y3FUbk1weFJTT2R5bEtWcUZHdWViTFVnVTZseVNTbVJXLVFITk5oaFF1dmpCdGd0blFQQzI0ell0ZjVkUFZkSFl3MTdnbGl4TEE0WDBxMFdJWWRUelRfU3hGVjBEQXFoTlBXLUlhVWIxRVhqLWtZMTJtMUE1ek1RNEx4S0MzLTBEblN0aG1SOHV2VEdUNVczcEU?oc=5",
-     "date": "2026-11-26T11:52:32Z",
+     "src": "KMOV",
+     "title": "MoDOT warns of slick roads, traffic signal outages across St. Louis area on Thanksgiving morning",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSHlGalQwV09ndHFtTDRTN1FqUExqSEJWV0NaZkxoNG5PTjFFamdfZFVFbDh2M2hiUUVmTl9pLVhaZFc4T1ByUXhtY0VjdDlIUndLcWFTNkxlSDUxTmlRcXNwZDdnUU5uSnoyczk2Z0otRko4T25EbmpwOUJmdGtBbWhtZXZyWF96R2lFdmVQXzVSMTlYSzIzV2RHYkItbjJSb3hTVUFlSnExdmI2bmJmMHdJeFctNU9RamNzRDg1X3FYcFRDYVRZ?oc=5",
+     "date": "2026-11-26T12:47:00Z",
      "desc": "",
-     "cat": "power",
+     "cat": "service",
      "outage": true
     },
     {
@@ -1157,6 +1142,69 @@
      "date": "2026-11-26T11:52:32Z",
      "desc": "",
      "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Anadolu Ajans\u0131",
+     "title": "Hong Kong mobile carrier restores services after widespread network outage",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUdDV0g5NmxCZ3BxNkl5MUdWQllWYklWRlZjR0NvQ1J5LW5FS2tZSmpjSjJkTm1aazI0YmpvckNlOHBYUHQ0MUcyX2ZFQ1Q1aGhzekV4dzUta3Z6bkNKOElrRkhtMkpEdWxwZGd4Zk1lM0gxa1JVVWM2OGFRVjdIakVLbVVQMmlJU3c5QWpjc0xwRGdkRVZwRWxLZVdUeXI2OV9HUnhEMHBnRy1XVGFqZFF6U0pBVEM0Y1pYMg?oc=5",
+     "date": "2026-11-26T09:39:49Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "South China Morning Post",
+     "title": "SmarTone network outage leaves Hong Kong users offline and angry",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZlhaVS1aSHpPRXU2RGsza1dBZGxHb2ptV3hMay1pcEUyOW9PY2dIOVZnRlpRUjZZajFnOUVMWDV5UzJYdG9hZFZ1NnIzTTVpUnowVEQ5aHg4enVIUHBPc0VuRG00TTRQUlpEMU5lc3B3SUtuaXl1cndvaHVWR25UTGdoemFRMjNsY1Njbi12WGNWajUwTlVPMzB2QlBaUWRRRlZKaGotQ2FtUGczWVdYZDg5Mi11cmxWX0VxWmlYVmTSAcABQVVfeXFMTVB5VXlFTHRpMnFKcXU3R1N6Q21iNlE4QTltWGtGYm5HSTYteFc1S0xSdks3MTZyQ0pqeTZHdElaay1zcnVtbVhNZjhvdjY0a3ZaU3BQcVhjVWpOYkktcW5ibWtuNEl0RVhOdlVaSWpLQU5EWWh0RmQteW52d1JIUTF0S3otWm9YZTBHb0xxS2tyNVNOT1dhUGYtX1hBQi03bWxBQUhYeXJGTFhBWUlVelJZOGZScVljdU9mNDNDYnFD?oc=5",
+     "date": "2026-11-26T08:39:49Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "ET BrandEquity",
+     "title": "Microsoft targets one-hour recovery from global outages after declaring 'Code Red'",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVF9zVDNsLUFicG1oU0FzVDVDR3FvTjBVUjM0V1g1OU96V1NqemRmb1lVaG9xMG5WUGNaOG9PYmx0ZTFfMi1GWm14QkU2MEdVckJXeEk2NmZBaThiQnotZVZRTldNMW1BWHFQWW91cDdLRUNweDRiRjF4eTA0eHB6XzRFUTN1Si02bHBPWnFOSUkzZ0EwdHlpUHpsdnR3akExWEFBX3NTbmtCYWgzTktsUkZYTzkzRkY1cEhTRjdkQ0o2eWVGQVdUQ212eEJodGZXUU9GUEVoV1BfbHY1MXY4djhyOEs0aGFZSXQ3eNIB7AFBVV95cUxNVF9zVDNsLUFicG1oU0FzVDVDR3FvTjBVUjM0V1g1OU96V1NqemRmb1lVaG9xMG5WUGNaOG9PYmx0ZTFfMi1GWm14QkU2MEdVckJXeEk2NmZBaThiQnotZVZRTldNMW1BWHFQWW91cDdLRUNweDRiRjF4eTA0eHB6XzRFUTN1Si02bHBPWnFOSUkzZ0EwdHlpUHpsdnR3akExWEFBX3NTbmtCYWgzTktsUkZYTzkzRkY1cEhTRjdkQ0o2eWVGQVdUQ212eEJodGZXUU9GUEVoV1BfbHY1MXY4djhyOEs0aGFZSXQ3eA?oc=5",
+     "date": "2026-11-26T07:51:09Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Aktualita.co",
+     "title": "Microsoft Declares Code Red Status After Global Outage, Targets One-Hour Service Recovery",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYkJsVm1BRHctRHllWjJkTktKVlBsVGV2am9aa1h0b1VQdVpLT1BKYnJBVl9XblplY0FPLWtXSnBiT3RIbWVBaU83NGh3Y05YbzJOdlpkOFdTMm5jM3hJSWFUSjlBeGE3N2ZTRUNraGt1XzBpZ1RUZm9lT3c4WnJ1NjFn?oc=5",
+     "date": "2026-11-26T03:45:29Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Dimsum Daily",
+     "title": "SmarTone offers 10GB free local data to monthly subscribers after network outage\ufffc",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOazVVY3diY3V1bDg1UWdka2dBU1h0VmpnLU0wTlNfSWdHMVFtWGhpaUJfeFVrbUtYYWw5NXBlTWV3WTJrUkhxdVlpM1RjWWl4UzZhZDNRZGtQZm55LVBxM1dHTTJ1WlRRazVfQi16TVVMRjlhNkhhUHlNTXlOaWhZenozN2ppV2VlRWxhRFY5ZTVRdkF4bG9ycHJxdG14cU5mOXUtMG9oT0lTZU9KOXZvLWEtZVF0SzNV?oc=5",
+     "date": "2026-11-27T03:23:11Z",
+     "desc": "",
+     "cat": "service",
      "outage": true
     }
    ]
@@ -1227,9 +1275,9 @@
    "headlines": [
     {
      "src": "WHP Harrisburg",
-     "title": "Lancaster County power outages send families to resturants for Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbUFsWHZ3RE5CcHBuSDhHWktnRzJsaE9JcEVaUTl3MVI4VV8wRDBMX1VzbHZJSlFsTFV3VXVzTkJHVjAtVUg5OWE3aUdCTXFjcnlvMDZOM0ZMQTFzUllTSzJ6MFF0aTFmOV9WMDU5WWw1QllNeGlNaWNmeHNtOWZzM0trR0ZFNTR6elN4UTJMd2VXTzlxbE5uQnlTemJOQmVjLW5oM1hnRjFVenBONlo0?oc=5",
-     "date": "2026-11-27T02:47:23Z",
+     "title": "Tens of thousands without power in Lancaster County: PPL",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNVdLWkJjX2NaZ2VGMmpGZjlrdUx0QjQtQU9vanVQeTdLckEtblQzZVkxM2x4UFdzLUpidXhObDNRSXBIb2d6T3hfSWVWX05pVDc0NVNXQ0NCa0pDMkJtY0VJV3paMG44UWxsR1lCbC1qLVpNcUFNR2szaTFwRHp4OUhvT01rU3FlS0J2TXB3SEFHV1FM?oc=5",
+     "date": "2026-11-27T02:47:28Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -1241,49 +1289,19 @@
    "cat": "power",
    "headlines": [
     {
-     "src": "Delco Times",
-     "title": "Delco power outages topped 21,000; PECO says crews deployed; Commodore Barry closed",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ1kzbDd5dm5yVFJEZUxDcmxrRWx0MUZSNkZVNUkyYWxsRDVvbzFTRkhIYUxrOTM1bkVTVXVSQ2VVQ2s0TEZUTUw4eHVhN01TQkRycllLelN4SVV6NXo4Wk90UTRwZzc0RkU3QXpDS29vTVY1Nk1ScngxblVhVERUMkVySVpCUQ?oc=5",
-     "date": "2026-11-27T02:39:10Z",
+     "src": "WHP Harrisburg",
+     "title": "Lancaster County power outages send families to resturants for Thanksgiving",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbUFsWHZ3RE5CcHBuSDhHWktnRzJsaE9JcEVaUTl3MVI4VV8wRDBMX1VzbHZJSlFsTFV3VXVzTkJHVjAtVUg5OWE3aUdCTXFjcnlvMDZOM0ZMQTFzUllTSzJ6MFF0aTFmOV9WMDU5WWw1QllNeGlNaWNmeHNtOWZzM0trR0ZFNTR6elN4UTJMd2VXTzlxbE5uQnlTemJOQmVjLW5oM1hnRjFVenBONlo0?oc=5",
+     "date": "2026-11-27T02:47:23Z",
      "desc": "",
      "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "IOL",
-     "title": "Microsoft meltdown: Outlook, Teams and Copilot hit by global outage",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcUdkZE1oOFJNQ3g5REZ2V1gzMXJmZnZla004ci1oelpldnFDYm1FaHREVXNSanRDRUgwTEI0U3NBU0FaNS1sOU1iQUNDZ0JVOW9qRy15UVdNeUQ2LXlLNDlENmJ0bVJjeXVST1l5dFZDUGZhaVRTM3FocU1ZMk1MTGJGQ1VYd3VpSmpQZTFpLUU0dmpIa1NmRE9mZlR0eTVLMlBCRzc0Z3FYaTlhZEoxc3RR?oc=5",
-     "date": "2026-11-27T02:38:30Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "Tempo.co English",
-     "title": "FIFA's Data Stolen in Cyberattack, Here's What We Know So Far",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWnR4a2R6NjByU0pOVFZ0dFRkMzhwU2lNM0REbkc3b2F6LWMxS3pPTHc4YnJMWWRHMzBhWDRPNF9PM2cxaE1ZeXpvV3VoUWVUdnhxSFdrVnI5ZGQ3R1VoNHF3eU81NUhMSncyMXRlNEVTLWRUY3ltN1R4a0J0X0dCanl0TkNqT2hXODRhZDFZWDNPb1ZYV1E?oc=5",
-     "date": "2026-11-27T02:10:58Z",
-     "desc": "",
-     "cat": "cyber",
      "outage": true
     }
    ]
   }
  ],
  "failed_sources": [
-  "ioda_region",
-  "ioda_country"
+  "ioda_country",
+  "ioda_region"
  ]
 }
