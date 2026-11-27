@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:15:21Z",
+ "updated": "2026-11-27T17:30:20Z",
  "counts": {
   "internet": 0,
   "services": 4,
@@ -46,13 +46,31 @@
    "desc": "Partially Degraded Service",
    "incidents": [
     {
-     "title": "SMS Delivery Status From Twilio Toll-Free to US",
+     "title": "SMS Delivery Delays from Twilio to Izzi Mexico",
+     "impact": "minor",
+     "status": "monitoring",
+     "start": "2026-11-27T12:10:31Z",
+     "updated": "2026-11-27T17:27:49Z",
+     "detail": "We have observed a recovery in SMS delivery from Twilio to Izzi network subscribers in Mexico and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.",
+     "url": "https://stspg.io/xkkw0lh2ttmb"
+    },
+    {
+     "title": "SMS Delivery Status From Twilio Toll-Free to US/CA",
      "impact": "minor",
      "status": "investigating",
      "start": "2026-11-27T17:07:46Z",
-     "updated": "2026-11-27T17:07:46Z",
-     "detail": "Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery issues from Twilio Toll-Free. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers. Please find the\u2026",
+     "updated": "2026-11-27T17:22:49Z",
+     "detail": "Please find the current SMS delivery status from Twilio Toll-Free for the major carriers below: United States: AT&T (status - Operational) T-Mobile (status - Operational) Verizon (status - Operational) Appalachian (status - Delays) Canada: Videotron in Canada\u2026",
      "url": "https://stspg.io/gyrgw2z3kzpz"
+    },
+    {
+     "title": "RCS Message Delivery Failures",
+     "impact": "minor",
+     "status": "investigating",
+     "start": "2026-11-27T17:18:34Z",
+     "updated": "2026-11-27T17:18:34Z",
+     "detail": "We are investigating an issue with RCS Messaging. Users may experience messages not being timely delivered and/or marked delivered on AT&T network. We will provide another update in 1 hour or as soon as more information becomes available.",
+     "url": "https://stspg.io/fqzbq2wdh05w"
     },
     {
      "title": "MMS Delivery Status From Twilio Toll-Free to US",
@@ -80,15 +98,6 @@
      "updated": "2026-11-27T16:43:58Z",
      "detail": "We have observed a recovery in SMS delivery from Twilio to Vodafone and Tismi network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.",
      "url": "https://stspg.io/9q03b85kpbc1"
-    },
-    {
-     "title": "SMS Delivery Delays from Twilio to Izzi Mexico",
-     "impact": "minor",
-     "status": "identified",
-     "start": "2026-11-27T12:10:31Z",
-     "updated": "2026-11-27T15:48:40Z",
-     "detail": "Twilio customers may be experiencing SMS delivery delays from Twilio to Izzi network subscribers in Mexico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information\u2026",
-     "url": "https://stspg.io/xkkw0lh2ttmb"
     },
     {
      "title": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
@@ -123,8 +132,8 @@
     "MMS Short Code, North America",
     "SMS Toll-Free, North America",
     "MMS Toll-Free, North America",
-    "SMS, Latin America",
-    "Voice, APAC"
+    "Voice, APAC",
+    "MMS, APAC"
    ],
    "n_components": 7,
    "news": []
@@ -527,7 +536,7 @@
      "src": "Security Affairs",
      "title": "FIFA Confirms a Cyberattack, Hackers Claim 12 GB of Internal Files",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMzV2azZiT0hXSnpTb25uWFVOc0pmeDRrS0VjZWhrMlBsS0FSRHMzZW5KUnl3Z213bGVYN2JjWU5SbGNZdGJDMDQ0U0p6M0dzUllUaVdFdUcya0lkU25Cd3RoendMaFNSVG5NQUcwY0FuX2Q5V2NVa0UwVmdOaXhsUjl1b1BRSUg1X0lWdmhFMGtCejhxb3VfV292dW43VlNiR1NidUZtaHpnWEpEdHU3cGtOdXhTTmY00gG-AUFVX3lxTE5peEUtbVJuLXVldlIxcjFHMThhR1JoVmZCSUMwZWRTWXBWX2VmT0VxMXpkSlhrUEdMWFRLRnp5NUdhVVBVMlU5Mko0REpfdDRmN1BBR1NSUWNGRTY4RzVQb0hrRzB4ZVFjNUZVNkVfYzhHZjZfbG03cVZUaEV4clJOc1RvaEhjejlITzZza0ttS0NDOXItdlNwQ0liM1hSbjNNZkFOYVlvUFVPVUEyV0RySUJ3NE1ORUZTZHdmZXc?oc=5",
-     "date": "2026-11-27T09:31:36Z",
+     "date": "2026-11-27T09:38:23Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -1193,6 +1202,51 @@
   },
   {
    "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Delco Times",
+     "title": "PECO outage number in Delaware County shrinking",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNzZValV6MWN5c2lXbndqM3c0RzJLd3ZJMjlLNDRibDFoZVdBU3V1ZjZEY3lsRG1xXzU5SXRCdVVwdWZ2ZUJzQUFDRXFCWlc3bUhwa3ZjY0FTdXdFRWEwQTJoRnZvN0FscXlTdmpXZ1dyVXh4d3FXc3QxRXh2R0Y5Q21KYk9tMkZ3dTRtT3JXXzY?oc=5",
+     "date": "2026-11-27T17:15:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "WUSA9",
+     "title": "Pepco says 90% of power outages will be restored by Saturday night",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZG55LWFwTlRjUmRQUkFNdGpJWlVMZUhJZ3VYRUktTUpmRGxHRkhUcFg4Zy1GS25GU1JBdUx6cXU5OUxwSXBwTFktanlWWDZIU2V1NVJFWV9jSElaVl8tYWJVdXhNWVk2Znc1eEdyYmVjOFQ3ay16R3g3QVIzVWhEWDY5ZWRjbTJvQjcyT1JMRGtEb0xuZ3ZGSnlobzlhWmVpZVFYNjNQQlpWSm93TWlRaHhFSmVOc21wV24yLXJ2dzd3UmxlYzNkMVBNS29HbUVkWEVWandpdEZhRDJWNUtkMEJMem03Y3lpZlJv?oc=5",
+     "date": "2026-11-27T17:13:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "Palo Alto Online",
+     "title": "Blog: The promise of using your EV to ride out a power outage",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOFk1b0RWd1FiaUp6cGtXS0JrOTR6dFZ1TFZIOU40aF9IOXVldF9MUGhiLXlqMVU1bEJuMElvR0RWNGRVYWF4RWk3cERzZ19fQkpnbUJiajIybS1WWmZEWndGVU5sXzI2TTU5MlNIQnBraWNRUG9NQk1QWE1sT1pnSkpLQXctWkdrZUpVclM3ZlViT3EzSXQ4S2FmVDZaMmhVSGhXNmZHSjlUR0tBSHVwd0ZodE94YWw2aUNJSzhpdWJQRWE5VkFzM2t3?oc=5",
+     "date": "2026-11-27T17:07:10Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
    "cat": "cyber",
    "headlines": [
     {
@@ -1247,51 +1301,6 @@
      "date": "2026-11-27T16:33:28Z",
      "desc": "This blog is now closed, you can read more on this story here According to Downdetector , which tracks online service outages, reports of problems with the government website appeared to begin last night and peaked at\u2026",
      "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "cbs19.tv",
-     "title": "Thousands of customers affected by power outage in South Tyler",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaUsyS1hreGxNaU1iWmFmNEl4R1Ixc2kwbDFJZWZGOHpEbk1sWmY5NWNkRlA2T0hqRkg5bFNLeDBDLUI1ZS1NTmoyamxBVkJ0TkZqMll5Y2tZSjRZeHdtUktEZUZjaW4zLUZFWklZM1dwbzczZ1pkd1ladC1Ia0ljcVZTeXRMZzZ5UlpySFMtMUlsRWFOU29FXzM0cU15NFNQeVBUbEtVOWgtdXNlaDJmbi1ZdnRlZw?oc=5",
-     "date": "2026-11-27T16:21:26Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "Nacionale",
-     "title": "Will there be power cuts in the UK? Neso says no, despite a record fourth grid warning in a row",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVW9IaS1nNmxxRlBoX25VOE1ZTmtSNG13LXNUN0JVWUs1alJhZ1RXY25TZlpzRjItZnZCdUp5T0JmYXVEdGUxNmFWUHl4VGJGQjZNSU9WcFJxY2JoUlBOWkdNSVhoTHZNc1JteWFaZXlObFFyVmkzN285bE1xZFVSMTVBbm5CcXhsS0U4b2FpYmlKaUhGamN3Q1Y1ME5HU0lFcHY1dU81MUlTckRtMGc2OTFMSHh4TlJkZVhkZXZB?oc=5",
-     "date": "2026-11-27T16:21:26Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "OODA Loop",
-     "title": "AI Compresses Cyberattack Windows From Days to Hours, Exposing Legacy Systems",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLUFiM2M1a0dvNG1TcUZRdHNtbVpMZER6VFBDUFVMbklPY3ZvNG1wVXdsUWxWdUdCRjNmTm91TVBSaUpVVW1jd2owNUdHUXppWGtFU1Q1OXhnTmFjcjY0QmlRaVZJQm5HWlhPak1FX2dWRmRKY3g0cm9uNm1sQlZDNUtnUm91NUw4UjVyd1ZCMXpWd0lrMV9kNFdkbHRjU09RSGxuT2hUalNWMXZxODYwVUFxUzlTdW8?oc=5",
-     "date": "2026-11-27T16:14:08Z",
-     "desc": "",
-     "cat": "cyber",
      "outage": true
     }
    ]
