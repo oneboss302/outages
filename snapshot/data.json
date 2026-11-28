@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T04:45:18Z",
+ "updated": "2026-11-28T05:00:18Z",
  "counts": {
   "internet": 0,
   "services": 4,
@@ -73,15 +73,6 @@
      "url": "https://stspg.io/kckjlns5dw48"
     },
     {
-     "title": "SMS Delivery Status From Twilio Short-Code to US/CA Carriers",
-     "impact": "minor",
-     "status": "monitoring",
-     "start": "2026-11-27T19:11:34Z",
-     "updated": "2026-11-28T02:08:47Z",
-     "detail": "Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio Sort-Code to US/CA Carriers at this time. We will continue monitoring the overall carrier networks to ensure a full recovery. We\u2026",
-     "url": "https://stspg.io/vmh0kp4xg1kq"
-    },
-    {
      "title": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
      "impact": "minor",
      "status": "identified",
@@ -112,6 +103,42 @@
    "news": []
   },
   {
+   "name": "Cloudflare",
+   "url": "https://www.cloudflarestatus.com",
+   "indicator": "minor",
+   "desc": "Partially Degraded Service",
+   "incidents": [
+    {
+     "title": "Elevated Errors for Cloudflare Workers Subrequests",
+     "impact": "minor",
+     "status": "investigating",
+     "start": "2026-11-28T04:45:43Z",
+     "updated": "2026-11-28T04:46:11Z",
+     "detail": "Cloudflare has identified an issue that causes intermittent DNS errors for a small subset of Cloudflare Workers subrequests to origins. Affected subrequests return HTTP 403 with Cloudflare error 1000. Impact is concentrated in Columbus, Dallas, S\u00e3o Paulo and\u2026",
+     "url": "https://www.cloudflarestatus.com/incidents/j7ihgms4mvhb"
+    },
+    {
+     "title": "Changes to Cloudflare Workers are not producing Event Subscription events",
+     "impact": "minor",
+     "status": "identified",
+     "start": "2026-11-10T01:53:58Z",
+     "updated": "2026-11-11T05:05:06Z",
+     "detail": "The issue has been identified and a fix is being implemented.",
+     "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    }
+   ],
+   "components": [
+    "Ahmedabad, India - (AMD)",
+    "Albuquerque, United States - (ABQ)",
+    "Arica, Chile - (ARI)",
+    "Annaba, Algeria - (AAE)",
+    "Atlanta, United States - (ATL)",
+    "Canberra, Australia - (CBR)"
+   ],
+   "n_components": 68,
+   "news": []
+  },
+  {
    "name": "Anthropic",
    "url": "https://status.anthropic.com",
    "indicator": "minor",
@@ -131,33 +158,6 @@
     "claude.ai"
    ],
    "n_components": 1,
-   "news": []
-  },
-  {
-   "name": "Cloudflare",
-   "url": "https://www.cloudflarestatus.com",
-   "indicator": "minor",
-   "desc": "Partially Degraded Service",
-   "incidents": [
-    {
-     "title": "Changes to Cloudflare Workers are not producing Event Subscription events",
-     "impact": "minor",
-     "status": "identified",
-     "start": "2026-11-10T01:53:58Z",
-     "updated": "2026-11-11T05:05:06Z",
-     "detail": "The issue has been identified and a fix is being implemented.",
-     "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
-    }
-   ],
-   "components": [
-    "Ahmedabad, India - (AMD)",
-    "Albuquerque, United States - (ABQ)",
-    "Arica, Chile - (ARI)",
-    "Annaba, Algeria - (AAE)",
-    "Canberra, Australia - (CBR)",
-    "Belo Horizonte, Brazil - (CNF)"
-   ],
-   "n_components": 64,
    "news": []
   },
   {
@@ -395,7 +395,7 @@
  ],
  "news_reported": [
   {
-   "pubs": 38,
+   "pubs": 40,
    "cat": "power",
    "headlines": [
     {
@@ -435,6 +435,15 @@
      "outage": true
     },
     {
+     "src": "Howl.Link",
+     "title": "Thanksgiving storm leaves hundreds of thousands without power across the eastern US",
+     "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zR3YtcWtQVW1MZm95NjQtRUVDeHN4aFFRYm5WR01STVF5WWRWdUV5U3c0ZU4xYzRtNHBr?oc=5",
+     "date": "2026-11-27T22:31:22Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
      "src": "WGAL",
      "title": "More than 34,000 across the Susquehanna Valley start Black Friday without power",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51N0NsQjBWbHRKSFlhRTRQVmwxVFZfRVhFbFgwWW1JTV92a0x1aXBKamFocEZFTXF4UWp5cUc0QjNLLTd2aEtIdEJReklub2NlZjhhVmVlQ0JzVVlCVk9ITjV6d19EblVRR2pGVG0yVWg5REZtaDZn?oc=5",
@@ -442,20 +451,11 @@
      "desc": "",
      "cat": "power",
      "outage": true
-    },
-    {
-     "src": "PennLive.com",
-     "title": "Power outages persist after Thanksgiving storm hits Pennsylvania",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb1poUnVMYU9PM0thaWNQbzZiOTV0TFZQbDYzd3JYSm5wV1g5Z1VTd1dWWUhyS3JxdHhwdU9jQXlPMldhb01JODRrR0IzaXVkNFR1WWNKN2x1akFMTHhhRFVSVlQtT2c2NmVSN085cjMyNWZRVm9zWmoxTm5ia1NrQTJ0Z3FoWG5KSXYxWmhrVlk5bTgwMTJUakZTZWlvQWpuM1JnRE5ZbXFHUVFhLUhZ?oc=5",
-     "date": "2026-11-27T13:04:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
     }
    ]
   },
   {
-   "pubs": 11,
+   "pubs": 10,
    "cat": "cyber",
    "headlines": [
     {
@@ -468,9 +468,18 @@
      "outage": true
     },
     {
-     "src": "Yahoo News Canada",
+     "src": "FOX One",
+     "title": "Watch US Air Force 'Cloud One' platform reportedly breached in cyberattack - FNC",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTHVEQW82S3hDdzRBMjZIYXlxV0w4ZkgxcE1SalFNUnJSbERHVWxMVGFid0txLU9BTk56SUdBRXU4Vk5BanJYSzVScE1uRWxPenlUbnJ0X0s5ck1tQUpTenljdFhONzI4ZHY3UFRKTS1WQlFPb2syeDN6dWFwczVsSzNKTDNxR3d0MmJRaHhxc095ODAwX3ZDazdhTVVMVUFCb3o1b09TZGhIYW5QM3ZqQg?oc=5",
+     "date": "2026-11-27T23:35:59Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "Yahoo",
      "title": "US Air Force 'Cloud One' platform reportedly breached in cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wbnBlRTBoa0ctMk5rd0dFYmhodkhQaEFFbzQ1WHo4N192QWFDQnV0U25uMjNlMlc4X0tYYVlObGxuamcyZWJyNWdSRmx4NFVSWW5KcEtKWWV1ZXRoYnJKa2phai1tRVNsM1ZLTkRpel8?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE45N0s0S0RZMHplZWVzcTVVOWItemRpWVNyMVlKTEtGLUNIbm1Wc3VyaU9QVlQtdS1ZZDM3STF1dE1SbjlYYnBTZmp5RHp2SGtTMVlJSmptbUpRWUJuaGpwLUs2Sjd3cXlkNW5Bamx0Y1Azc0pPVEdGeUNKWQ?oc=5",
      "date": "2026-11-27T21:56:38Z",
      "desc": "",
      "cat": "cyber",
@@ -481,15 +490,6 @@
      "title": "Hackers Hit US Air Force and FIFA While Lloyds and UK Agency Report Outages",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMExyZ0hSRXd4YVotUFJTbU5nckNwV21SbXpWaG5sMTNWLXBNdXhmYlZSU0c3aDhrdzZOeElFdVZ1ckxhMVlxN3BHOTBETnBVc2dsMUhFUGlMVnpkOEdrSnBmRUdzNXd3dW5ubUFoSmNrbUJMaVNrUlMwRUg1d0Z2UXdzbXMtcUc0S2xobGRkUWZaVk41NzEwTl9qaE9SMGlIUWtqcTdlWWljRDNNQUJwVTRfOFoyVFVOS3c?oc=5",
      "date": "2026-11-27T21:17:11Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "Greater Belize Media",
-     "title": "US Air Force Cloud System Hit by Cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa0pNMG1CUHIzb2dMXzJSNlcxMml0UTE1TFdZUWxpNVhmQ1YxNERrNnNfX1lBZktabzlfMVhmNWtGQzdBeUF0VU1YVlpjby1kT1Y5UEFTRlV0cHVseUVyN1FqcDJGVklxU2FjSW8yNDlBUHRNUDZuaTNHZG9vUEhBLQ?oc=5",
-     "date": "2026-11-27T20:36:11Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -575,7 +575,7 @@
    ]
   },
   {
-   "pubs": 7,
+   "pubs": 6,
    "cat": "cyber",
    "headlines": [
     {
@@ -624,114 +624,12 @@
      "outage": true
     },
     {
-     "src": "Sportcal",
-     "title": "FIFA suffers cyberattack, personal and business-related data stolen",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWE9seERiRDZPTUpSTXh4cEpRazJCRUNwdnoxU0NJZWk3TDNGQ243djc4M0kyb2hYSUFXakQzVVhzdkpoem85N01RMlZTdGtkT2lscmdZTU9lQXhFSFZ2UnhHVjRROE9xUVEtUmVDUVlzQ0xhRFY3SlpMTzVIRW9wT2k5SHNGSS1ySjdxeFkyWk5ZYzF4THZUcFFZcnc5dw?oc=5",
-     "date": "2026-11-27T11:14:08Z",
+     "src": "Security Affairs",
+     "title": "FIFA Confirms a Cyberattack, Hackers Claim 12 GB of Internal Files",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMzV2azZiT0hXSnpTb25uWFVOc0pmeDRrS0VjZWhrMlBsS0FSRHMzZW5KUnl3Z213bGVYN2JjWU5SbGNZdGJDMDQ0U0p6M0dzUllUaVdFdUcya0lkU25Cd3RoendMaFNSVG5NQUcwY0FuX2Q5V2NVa0UwVmdOaXhsUjl1b1BRSUg1X0lWdmhFMGtCejhxb3VfV292dW43VlNiR1NidUZtaHpnWEpEdHU3cGtOdXhTTmY00gG-AUFVX3lxTE5peEUtbVJuLXVldlIxcjFHMThhR1JoVmZCSUMwZWRTWXBWX2VmT0VxMXpkSlhrUEdMWFRLRnp5NUdhVVBVMlU5Mko0REpfdDRmN1BBR1NSUWNGRTY4RzVQb0hrRzB4ZVFjNUZVNkVfYzhHZjZfbG03cVZUaEV4clJOc1RvaEhjejlITzZza0ttS0NDOXItdlNwQ0liM1hSbjNNZkFOYVlvUFVPVUEyV0RySUJ3NE1ORUZTZHdmZXc?oc=5",
+     "date": "2026-11-27T09:38:23Z",
      "desc": "",
      "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 5,
-   "cat": "power",
-   "headlines": [
-    {
-     "src": "Daily Local",
-     "title": "Downed trees, power outages hit Chester County on Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeEptWnV5RnVwS3Rjb1JRUE05d3o0RnNRMGU0OGtwM0lid2thajU2YkZkR0VMZW1pcFpjZTR4NmkxRXkwUnlXUm1IQk9pd01MUXFiMV92U0pSMFpSdzd1NUlDUEUxcHV0Z1FkRVFia2U2M1ZMTEpFZ2pWVzNOY0FTMURyU280Zkx4ei1jV2xlRXZjeXdaajh1YnpqTUhYVnhoTnc?oc=5",
-     "date": "2026-11-28T00:14:50Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "WTOP News",
-     "title": "Power outages, flooding, downed trees: DC area cleans up from Thanksgiving storm",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVTN5TlhWNXNsc2c4eTBueGdhdEFJQ2lJRC1HV0JHTGtyZW81RDdaNkZlWm5IbnkxenVtVTEzcXpPbzVZcURsRmtzMGlDVmJqUVlWVlFCQ0xKSEpNSzNib3dLWERYQVJmR2lrTnlzcHVKVHAxc0F1OFpvb1dtUk4wZHFTdUdaTHJXakNHTUs1cE4xODc2U1hOd1JwVzV6Zk01VzJuQmR0cnd3dFpUM0E?oc=5",
-     "date": "2026-11-27T23:20:49Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "The Baltimore Banner",
-     "title": "Storm-battered Maryland faces flooding, downed trees and widespread power outages",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdVlNQm1wZjBmRWpTZnhJRGdlZE1UU0ZnMGpiSlRjNUhnZFFhd2lLZzZEdmVUZUJxU0dPRGllUFVYaW1ZckdkbFBVNHJRRFc4ZVhoRmFuMTJPNkVpYTRXT0J0amhrem1SWnFGaUZsMGM4S1ZZMzBFTzZDVEVOVnNNQ2kwcjlfSk5ZUHBVQWNTUkJpeFp6ZVVrUnppZm9EV2hYRW11SGJLQmlKUG10N0N6cnlMVS1BWnRQQ3RjSEZtUHN0VEFOalhoQU1MQmZMZw?oc=5",
-     "date": "2026-11-27T14:00:00Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "FOX 5 New York",
-     "title": "Crews clean up downed trees, flooding and power outages across NYC, Long Island and NJ after storm",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSmtnZ0Q1N0tsSjY2ZkotZ1VmQ2JweTlyM01uOExjQjlZeC1uRnBYekJtUUJVc0RMRFN3TnFnS05td0dfa0xVWE9DbjQ4eHIteGNIaDk2cE9wT0lIRjV5MENKMkUyYy1hbXV1UWU1T0JGZTRFTnVRYVl1aUl6ZkluYnZYMGJTTnl1Y2hGZFBjZTNsTTdjU0lBaDUtSjZyZ3RKRmNuX0xGc09XWVhVVk5TaXdOTk5IV2M?oc=5",
-     "date": "2026-11-27T13:52:16Z",
-     "desc": "",
-     "cat": "power",
-     "outage": true
-    },
-    {
-     "src": "PIX11",
-     "title": "Downed trees, outages remain after storm hits NYC",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX2ZJZEtsX2pyMUxpNXprel9NY3ItaFhKZG43T1V6aE50dkhJZWtQbU9ldTY2dlZqdERYMFdIQTE5SFNXeG0ySGNRdndzNWZVNmk3MUFaQzhvM3hvVmV0bU14WS1oWDNuZ3g3QmVhcFFMVldGSGVKT0VheExVaUxkemRJaVJnWlFrYVlZ0gGQAUFVX3lxTE1WbzdOX1lZQ3dwcVhWWjlnQWhIbkJkYTBlMU8xQTdQdGNLcTVJWFZ0aEtKTzB0VHFGQ0JtTG8wVnZGbE9nNjBueUJyRFJlOWFCNEpQUHc5bzNhMmcycXlpbzZnSms5UXhLMVdwdFVyeUUyUzhGVzRhSGhQTGR0OWotTzBPckFucHNaVWNBeFVBcw?oc=5",
-     "date": "2026-11-27T11:31:08Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 5,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "Beinsure",
-     "title": "Lloyds Bank and Bank of Scotland app and online banking down in major UK outage",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeldhTmVYNFduZGpYQjRNdjZQSWlfTFRfUlZ4Y2NISVA1RVZicjM5U1M0b21HalJqTmFUOFNqNzZ3SnB0bXhzaG1xSjlyWmd6ZF9lb05weF9zNEpUUkszTWxUTmJUNGl2NjF6eTE4ZzhaaGVQSTgtbE9XbWxmZmpGblhySTdWNEV0?oc=5",
-     "date": "2026-11-27T12:04:11Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Yahoo Finance UK",
-     "title": "Lloyds down: Online banking app not working in latest major outage",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbDdRNFhwbmNoT1c4bUpKOW9hU3JjdzVDX1Q2eUhTMlZYazVubXFsR3hYN2lfcEVIY3AwU3JxNFVMTm1fRFVsWlhZQkpQZGszMlhYTXpMdkVhdDc5OGZSMk12Y1d3bnB4bXFxY1FiX1EyRW41OXlkSi1kd2tad2VraVFBaC04UQ?oc=5",
-     "date": "2026-11-27T11:25:54Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The Sunday Guardian",
-     "title": "Sparda-Bank Outage: Is Sparda Down Today? Customers Report Online Banking and App Issues Across Regional Banking Services",
-     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZjF0ZHh6dXNkdzBOWGgwYmItTDZ5dGlyLUpPeDdYTjFWaUVlekVMT2E1UXNpX1VDMlpPVTRGQS11VHJjYURObDFQRF9razNSTHlUenNzZUNBQ0FxUWdib3dfbTlGb1JLRDRSNVliQjBLbHNjemxTMU9qWklJaS04eUwwX3UzNGtPcFFwVEYtRnEtamREdTZOWDhaWGtMM0E2UlJkLUptNmhLVjBoOWo2ZXBrV0Q4Q0JrOGJ4eHhWWGdfY190WG9fUXZEeXNjUTlpOFVOWWgyN2ZnM1pxTkpUVE5SM2x5WF9GLTJkYmpzV2dzVkNDX3E2MVZDZTbSAfwBQVVfeXFMUGYxdGR4enVzZHcwTlhoMGJiLUw2eXRpci1KT3g3WE4xVmlFZXpFTE9hNVFzaV9VQzJaT1U0RkEtdVRyY2FETmwxUERfa2szUkx5VHpzc2VDQUNBcVFnYm93X205Rm9SS0Q0UjVZYkIwS2xzY3psUzFPalpJSWktOHlMMF91MzRrT3BRcFRGLUZxLWpkRHU2Tlg4WlhrTDNBNlJSZC1KbTZoS1YwaDlqNmVwa1dEOENCazhieHh4VlhnX2NfdFhvX1F2RHlzY1E5aThVTlloMjdmZzNacU5KVFROUjNseVhfRi0yZGJqc1dnc1ZDQ19xNjFWQ2U2?oc=5",
-     "date": "2026-11-27T11:20:17Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "Nacionale",
-     "title": "Is the Lloyds app not working? Yes, many Lloyds and Bank of Scotland customers can't log in or move money",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUWFhTmEwdVBqeWswMnhBNHIydm12Y0FQcGU4dnpJQkkwTTNDYXduWTZYbmdFTjdPQ0h3T0JmeEJ0NG9BMTN3Q3o1aWNyZ1gwQkF6MjlGTUFKSUttSXZ2Q2R0bmJZbXhlN19NamdNcllZSzRHMDZRU3R2YWFnVW9CaWZ4NThBUFBob1JxUXFnVGhVTXJkQWluR2IyaEdOcXRDTllRMC1hTFpFMDA0NldZX1ZUQnlkLVJZbnc?oc=5",
-     "date": "2026-11-27T11:18:14Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "The Economic Times",
-     "title": "After US, UK banks facing outage: Thousands of customers of Lloyds Bank and Bank of Scotland affected on B",
-     "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNZ2cwanZPR2oxVWdzQU81a0xualllbFo5YVlxTklCRVJmNFVTWHJOaDNwYmVid3VPdmhNbWhqUzhnX3p0ZHkzQ21CQWRyR2ZTT0Z2ck9CLUM5MTVNX1dDcEc2VUpJUFVOLUhJYzlpbDNkUzJKWjNRRlI1WEljakg3WHZPbklBdnd3ckFjX01iTXhwcWR3U2JyUEpHRzJJUlVSbDk1azBwMnhEMjJoN3hKZ19WZ0EwXzZVTnQ3aUxCOENTNnZxV0xySjJITjR6ajdKSkxacUp6MURDSmI2VFA1WjNWb0hIREFlR0tVV1VHUHpLRHBudXJRMnY0eE5jNGo1MXhqYy1qX294S1RXT29HUmlLSTFLZzZqY1h0aWhqWU4xYUV6NDJxVUtERTNPZERTOXpmNm8xYlnSAb4CQVVfeXFMUFJwQ0IzY3RvejNraDJzSkJHTmw5bTUyTG9DSjZvM1JxYmxoamFJZDNPUVp5c0cwOS1FbjNoZWF2bXdBX1RuY1Q5RV9hNHdmMk8xZk13MkM0TEdIcG9hai1TZzRXblljVTA1blBsR2Zpa3dzZ2JWMzZsSWxGWWxGdGJGdHVxaFhtTllfOXEzRUMwbHdjUlhSS0NUVkpnaUlxR05JcElkMVJkMXJtSEcteUhVTVdfMUMtWmYwTzB2TGwxd2RMbG1zNzhnZVpDVmJqQlFEeW9Zc2Y5MEFSS2h6aWZZdk5nT2swQXJrNVZycHo2VEF4akpmcVp6WWxGSmRVcXhwcEJsTURJS3c1N0RzWERrdG1YakF6LUd0RUZjYkdTUTNYVGlscVhLNEx2WW1FUEVDY3ROMnBnUjhydDlB?oc=5",
-     "date": "2026-11-27T11:11:32Z",
-     "desc": "",
-     "cat": "service",
      "outage": true
     }
    ]
@@ -741,19 +639,10 @@
    "cat": "cyber",
    "headlines": [
     {
-     "src": "Nacionale",
-     "title": "What cyberattack is happening today? FIFA, AFP, LaLiga hit, Air Force reportedly; DWP cyber incident",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWXk5eHZEa0hWRC1ZblgwbGJQMnpBd2NNWXlVRzMzM19faGpDWGN3dGdSczNxdEg0ekl5UW5fb3I3N1EtbC1zVHNOUWZGNXRkN09RRDR3cTdLWWgyWmtCWkJzXzFzNlhVazFhUlVrN21hY2dtQXFOMUlqMDQ2c1RYeG5meWhRZUpGRzloSWZtekI5UVdVOHR2LU41VVVpRVdka3ZvS3hR?oc=5",
-     "date": "2026-11-28T03:21:54Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "KING5.com",
-     "title": "FIFA hit by cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLVVfT3ZaRDdmRThveXp5bGxFSDNtSXpMeUw1dG1HbjVlWkxKclJTaXlaOThSQUF1N0FlYVV4TEJENHFRZVowU3kySy1YekE3VjVCTHJLX05pcHFpWlkwQlUtRDJIelBEcE9NbGRDQXJreDhvLUo3MkI0bnBxdEE4R3VzYVZLOWk3RXZzSXZGSkptbG14ODFIZUQtX2pRaWhLRERpdXRVdFNvemxlcFA0?oc=5",
-     "date": "2026-11-27T13:13:00Z",
+     "src": "shattered.io",
+     "title": "FIFA Cyberattack: 0 Counts, 0 Dates, 12 GB Claimed",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjQ3WEV0VGN4em8yWHY1OFRDcE85VjlESVYwaVhDOFJsbVVRcGliSF8yRzM2Tko3Wk9wMmJuQUh1Y2dHNDBTYUZrT0Z5UEFNMEd4QjhtemkzVkl3YWZpcGgzU1U3Q0YybElydjJ6RG9NRXdHZUdPQUdDWlZEZFRVU1JtajltR1hzQ1pSbER1OXJmTWVIYlh3c2R4NTdUU0hf?oc=5",
+     "date": "2026-11-28T04:00:07Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -772,6 +661,15 @@
      "title": "DWP takes services offline as FIFA confirms cyberattack and data theft",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaFBZVGFqRU4yWlhDdXhFeTREVXVtSFdHNl9Zc0hfaHpFY1ZNUGZzc1JxMk90Rkl3eEpfajJqMzNqeFdGR2RhdndRSmlyYW5JMGJYY1RBTEI5V29fMTlwM1lNYS1RdDNoMk05WmhXQlZSWl8wTjlCSXlnWmxoYXROQ1h3cFhiUTBCYWctWDdjcExIbWdxYmIwZ0JNZzNYd0NX?oc=5",
      "date": "2026-11-27T09:58:34Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "DW.com",
+     "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2JOSndzZmZGVEhjRmU5U2lUcWxDaXZacVVqWmp6WW90c0JHSUp0UUs5X09vSWpBZGVaQkhxU3kyRXVyZkZiNjN0dDFNUUlfemloTDdCbGNJY1htemFkWjFOREtDQWFQbkdBODZPMm4wNXZsakRaMDFZd0RPRmh0bUFrdzNIdzJ4WXZpTElLN3B5RmJfVFYyTFJta0g1WHZZY0NLNnh2NkJUMlc4b2tLZ2J2ZXZrUDYwMUxuRFFOanNTcTlaV3fSAcYBQVVfeXFMTXhqVDRVWHY1VWxfR1FZeFBrMGp1ZFhQTUVCcmVtVHdWcEh0LXE1U0x3cGlPdTBCRXROOTZhNWNFY2QtTFVJN1U2eWQtR05wZHJFVTFuSFRLN3JQOGczUUY4ekZ2aWk3UTNkejBlTXlQZnBJcUUxcGc3YXpQQVFxRWJHQVRSdUZEa3NsbzBZSmlteGg2UkVZejFsQWFSdVQyNGZBZVQ3cjRqdUJkMGtRd2ZrU3lXQUg5Wk5vZTY2eEI3WFhjaE1B?oc=5",
+     "date": "2026-11-27T06:28:44Z",
      "desc": "",
      "cat": "cyber",
      "outage": true
@@ -863,6 +761,48 @@
    ]
   },
   {
+   "pubs": 4,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "Beinsure",
+     "title": "Lloyds Bank and Bank of Scotland app and online banking down in major UK outage",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeldhTmVYNFduZGpYQjRNdjZQSWlfTFRfUlZ4Y2NISVA1RVZicjM5U1M0b21HalJqTmFUOFNqNzZ3SnB0bXhzaG1xSjlyWmd6ZF9lb05weF9zNEpUUkszTWxUTmJUNGl2NjF6eTE4ZzhaaGVQSTgtbE9XbWxmZmpGblhySTdWNEV0?oc=5",
+     "date": "2026-11-27T12:04:11Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Yahoo Finance UK",
+     "title": "Lloyds down: Online banking app not working in latest major outage",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbDdRNFhwbmNoT1c4bUpKOW9hU3JjdzVDX1Q2eUhTMlZYazVubXFsR3hYN2lfcEVIY3AwU3JxNFVMTm1fRFVsWlhZQkpQZGszMlhYTXpMdkVhdDc5OGZSMk12Y1d3bnB4bXFxY1FiX1EyRW41OXlkSi1kd2tad2VraVFBaC04UQ?oc=5",
+     "date": "2026-11-27T11:25:54Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "The Sunday Guardian",
+     "title": "Sparda-Bank Outage: Is Sparda Down Today? Customers Report Online Banking and App Issues Across Regional Banking Services",
+     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZjF0ZHh6dXNkdzBOWGgwYmItTDZ5dGlyLUpPeDdYTjFWaUVlekVMT2E1UXNpX1VDMlpPVTRGQS11VHJjYURObDFQRF9razNSTHlUenNzZUNBQ0FxUWdib3dfbTlGb1JLRDRSNVliQjBLbHNjemxTMU9qWklJaS04eUwwX3UzNGtPcFFwVEYtRnEtamREdTZOWDhaWGtMM0E2UlJkLUptNmhLVjBoOWo2ZXBrV0Q4Q0JrOGJ4eHhWWGdfY190WG9fUXZEeXNjUTlpOFVOWWgyN2ZnM1pxTkpUVE5SM2x5WF9GLTJkYmpzV2dzVkNDX3E2MVZDZTbSAfwBQVVfeXFMUGYxdGR4enVzZHcwTlhoMGJiLUw2eXRpci1KT3g3WE4xVmlFZXpFTE9hNVFzaV9VQzJaT1U0RkEtdVRyY2FETmwxUERfa2szUkx5VHpzc2VDQUNBcVFnYm93X205Rm9SS0Q0UjVZYkIwS2xzY3psUzFPalpJSWktOHlMMF91MzRrT3BRcFRGLUZxLWpkRHU2Tlg4WlhrTDNBNlJSZC1KbTZoS1YwaDlqNmVwa1dEOENCazhieHh4VlhnX2NfdFhvX1F2RHlzY1E5aThVTlloMjdmZzNacU5KVFROUjNseVhfRi0yZGJqc1dnc1ZDQ19xNjFWQ2U2?oc=5",
+     "date": "2026-11-27T11:20:17Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "Nacionale",
+     "title": "Is the Lloyds app not working? Yes, many Lloyds and Bank of Scotland customers can't log in or move money",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUWFhTmEwdVBqeWswMnhBNHIydm12Y0FQcGU4dnpJQkkwTTNDYXduWTZYbmdFTjdPQ0h3T0JmeEJ0NG9BMTN3Q3o1aWNyZ1gwQkF6MjlGTUFKSUttSXZ2Q2R0bmJZbXhlN19NamdNcllZSzRHMDZRU3R2YWFnVW9CaWZ4NThBUFBob1JxUXFnVGhVTXJkQWluR2IyaEdOcXRDTllRMC1hTFpFMDA0NldZX1ZUQnlkLVJZbnc?oc=5",
+     "date": "2026-11-27T11:18:14Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
    "pubs": 3,
    "cat": "power",
    "headlines": [
@@ -891,39 +831,6 @@
      "date": "2026-11-27T13:05:58Z",
      "desc": "",
      "cat": "power",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 3,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "KOB 4",
-     "title": "FIFA says it has been victim of a cyberattack accessing \u2018personal and business information\u2019",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ0g0d09Eb1JGZzdLYzFySjFRTGVXam9yVGtqbDR5WlZqMFF2MUZsMkkyNEd3QnNvRHpJaS1IRkFGbEJoNk1VUGtRWVE1bEJZd1U0dHA2dVlNdzd0eXVaMWZSRzdsTXUtSHpCWFFCWlhacFFldGZiLWVPeDRSRjRFSGJpX2JublhTb0MtSURvSC1iYXdJWmliUkoyb2hiLTM4MjBBM2pGa29hR3dkUHNtMEF3RF85dzZET2F2akFMZw?oc=5",
-     "date": "2026-11-27T20:25:35Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "ABC7 Chicago",
-     "title": "FIFA says it has been victim of a cyberattack",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPbzBnUEctNHNwWlMtWWl6eDBZczlKdGhkS3FDZ25KRV91d2ZZb3U3RFl5NVExdzZCN1NVWkZQTzJxSkZtbFJqcVZTTmRzNXhoMzU2OGJB?oc=5",
-     "date": "2026-11-27T11:45:24Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "DW.com",
-     "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2JOSndzZmZGVEhjRmU5U2lUcWxDaXZacVVqWmp6WW90c0JHSUp0UUs5X09vSWpBZGVaQkhxU3kyRXVyZkZiNjN0dDFNUUlfemloTDdCbGNJY1htemFkWjFOREtDQWFQbkdBODZPMm4wNXZsakRaMDFZd0RPRmh0bUFrdzNIdzJ4WXZpTElLN3B5RmJfVFYyTFJta0g1WHZZY0NLNnh2NkJUMlc4b2tLZ2J2ZXZrUDYwMUxuRFFOanNTcTlaV3fSAcYBQVVfeXFMTXhqVDRVWHY1VWxfR1FZeFBrMGp1ZFhQTUVCcmVtVHdWcEh0LXE1U0x3cGlPdTBCRXROOTZhNWNFY2QtTFVJN1U2eWQtR05wZHJFVTFuSFRLN3JQOGczUUY4ekZ2aWk3UTNkejBlTXlQZnBJcUUxcGc3YXpQQVFxRWJHQVRSdUZEa3NsbzBZSmlteGg2UkVZejFsQWFSdVQyNGZBZVQ3cjRqdUJkMGtRd2ZrU3lXQUg5Wk5vZTY2eEI3WFhjaE1B?oc=5",
-     "date": "2026-11-27T06:28:44Z",
-     "desc": "",
-     "cat": "cyber",
      "outage": true
     }
    ]
@@ -963,6 +870,30 @@
   },
   {
    "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Nacionale",
+     "title": "What cyberattack is happening today? FIFA, AFP, LaLiga hit, Air Force reportedly; DWP cyber incident",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWXk5eHZEa0hWRC1ZblgwbGJQMnpBd2NNWXlVRzMzM19faGpDWGN3dGdSczNxdEg0ekl5UW5fb3I3N1EtbC1zVHNOUWZGNXRkN09RRDR3cTdLWWgyWmtCWkJzXzFzNlhVazFhUlVrN21hY2dtQXFOMUlqMDQ2c1RYeG5meWhRZUpGRzloSWZtekI5UVdVOHR2LU41VVVpRVdka3ZvS3hR?oc=5",
+     "date": "2026-11-28T03:21:54Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "The Times",
+     "title": "US air force\u2019s computer system hit by cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVdMekZuUnh4SnJLYk5DUEg0SWVsckZxQVNreEJwWmJRMmpETUdCeHZXaXpfRS1rcWF4RE1WaDFpazExcC1hR3VFMUotOFlIR1BQSTB3dWV0UU9teWVkOURRNW8tUEdOVWhaazB2SlVjdk9vMFlXWER0NDBrVHUxRlRNaDVCYklSWEh1dXRJTjd4VFdVaEdwdkE1TnphZnpCRnc?oc=5",
+     "date": "2026-11-27T15:24:00Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -979,6 +910,30 @@
      "title": "APCo crews continue restoring power to customers affected by Thanksgiving outage",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWEptdzZ5aGxFeXNsX1JOdDdCWjhpNHhSaVRNaDlVVC1XakRpU2dIYWxQbGNudkZaVEE1Q0RUSHFDT3ZIWU1nNU56QzRoNUgzMGlFUjlmbkI0RVNVNWFxZFo1aW1JYWxnTlRtTThab1F1cXhlRG10R1ktenBUM3ZseXlTMXhfWDdyVkhrSXcwakVLT0x6YzE1XzJCbVpoRVViTHl3dmt6MTNXVGFCaDZoRtIBxAFBVV95cUxPWHhvay1qNzJVR0Q3dU16WHlrR0NTem0wX3RweURFckZNZEdteWtoYjNzbk1qN0JCRmV3NjFsM1JkTl91Q0J5eGlxeGdxdl9raTJNQjhib2VBNG45LVBHaGl6UTVaZXA1ZGlSUHNfT2VidkRQdDktU1VVdTVJbW5nNk1NaEE1NlpyS01zb3lFeEpQaEZvajZoSzVPc0RxT1pubU1LZ1h2QXlzVEp4SG9FTl9IQ0trS1ZFR1Exb0FqNzRQVmVu?oc=5",
      "date": "2026-11-27T16:37:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "power",
+   "headlines": [
+    {
+     "src": "Raleigh News & Observer",
+     "title": "Why did Triangle power outages return on Black Friday? Duke Energy explains",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ETnZWZUtocDNlRUJ3MFNFb1ptZ1RDeGkxUTdNSk8tNlRGb1RpZUtNZzhYUEVrQmNoWExqaUYxNlh2LUtsQzZlUXVWcTFfR252Ykk2SFlKZU1qRmtGV2lESjRhalZteEdQUFY5MTFB0gFuQVVfeXFMT29yVGtYRUJNRDNNcGlmNjFlVGVOalFyQWtSdTMyWWpsOTJIOUU1MHA0aFJQOVJsdGVpREZFLTg4eEdTUW4yNVdzd2NzNjFKUTlQdVlMbGdTNTM2U1J5R044Q3hmeGl2ZzNYRkxSZVE?oc=5",
+     "date": "2026-11-27T22:45:00Z",
+     "desc": "",
+     "cat": "power",
+     "outage": true
+    },
+    {
+     "src": "CBS17.com",
+     "title": "Black Friday power outage leaves over 1,700 Duke Energy customers in the dark",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbW1UaDk5c1pBMlNJUWhCeW41QzJmM3EyX1FFV2hUU3NwOVpRa2U2LWlObUhvTXVscVoxLUdmSW9mN0w3Q2hidmFGY1RvVkZKT0Vjbm92OXpVNkwwTm1kREkxWnNDTm9vVm9aemZEV0lvUU1WSVRpSkhYblI3UlhHOUVxd043amo5ZkFhUFpwcFpON3RpQ2NNNXgwY2RIZy1ETm1wRDluNUVzTEtMcFdjQTJYdDhKUHp0b2d3VGV6OXVXZ2F2QmxIOWladEnSAdIBQVVfeXFMTXJ0QXkza2pkeXlDSmRJRzNNUHZGTExUQUk4MmFaT2pZNFFXbm1tTXJuSjF1cWE4Ty03REFyWDR0VFd3UjRBWmNObXQwREEtS1lVODJfU2ZHSTRTbzBZWEFwaFh2ZmxmcldIYW5oNVB6UGNJdU5kU3pUNTc2eHBUXzRxTkNEdWJLRjVWU2JybzlDVHBubnlKUnUzenhnazc0MWw5Q0Uwdlg2ZGliMFpDNUdFVDJqbS0tbkNGUFl4WFQ0RTZUT1VVcndrWHpNejFidXB3?oc=5",
+     "date": "2026-11-27T13:38:46Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -1035,30 +990,6 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "Post Bulletin",
-     "title": "Outage affects more than 2,000 in east Rochester",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWnFDTlJlODZtMWxEUkpRT2lfaks4N25BSDlxRUtXWEpTQzhlYkZ3VlNSazNjWWkyU29zZHBrN21DX3VrdldUYWMteFBFOG1pNmZOWjRDbjFKVnNXQVAxbzBFakJ2TV9YTUR5V0FSb1FSVWxEbUpPeFVhUmlZRTZTWWFpSENCWnJFQ081cTdseHQ2dw?oc=5",
-     "date": "2026-11-27T21:33:22Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    },
-    {
-     "src": "KGNU",
-     "title": "myColorado app cyberattack affects 100,000 users; Hundreds without power on Thanksgiving",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTmgzMjRYRTJEdFI3bGVual8zWjE1S0sxQWR6TlVhOTUxNTM4N1h3OHNSc3VDTHRVMHpVb25iXzNGMklqRThLRElHSnJnTjUyZEZtejY3cFV4blZiT1d2dWhtWXFxS3VyWU1vWndTQUk4TTRDWmtnX0Q0aFpadkJEMExEb1N5TlZwNURwUGxzWEhrOHIzSTM1OTQyc1N5aDluVmNvWTYtZw?oc=5",
-     "date": "2026-11-27T16:53:19Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -1077,6 +1008,30 @@
      "date": "2026-11-27T12:50:27Z",
      "desc": "",
      "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "KOB 4",
+     "title": "FIFA says it has been victim of a cyberattack accessing \u2018personal and business information\u2019",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ0g0d09Eb1JGZzdLYzFySjFRTGVXam9yVGtqbDR5WlZqMFF2MUZsMkkyNEd3QnNvRHpJaS1IRkFGbEJoNk1VUGtRWVE1bEJZd1U0dHA2dVlNdzd0eXVaMWZSRzdsTXUtSHpCWFFCWlhacFFldGZiLWVPeDRSRjRFSGJpX2JublhTb0MtSURvSC1iYXdJWmliUkoyb2hiLTM4MjBBM2pGa29hR3dkUHNtMEF3RF85dzZET2F2akFMZw?oc=5",
+     "date": "2026-11-27T20:25:35Z",
+     "desc": "",
+     "cat": "cyber",
+     "outage": true
+    },
+    {
+     "src": "ABC7 Chicago",
+     "title": "FIFA says it has been victim of a cyberattack",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPbzBnUEctNHNwWlMtWWl6eDBZczlKdGhkS3FDZ25KRV91d2ZZb3U3RFl5NVExdzZCN1NVWkZQTzJxSkZtbFJqcVZTTmRzNXhoMzU2OGJB?oc=5",
+     "date": "2026-11-27T11:45:24Z",
+     "desc": "",
+     "cat": "cyber",
      "outage": true
     }
    ]
@@ -1230,6 +1185,21 @@
   },
   {
    "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "WSAZ",
+     "title": "Milton residents report water outages, low pressure and brown water after main break",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeGFNQm9WSGY1R21rdlh1anZsWHBOYmc3TE12NndEZmM2QjVLeTdvRGZiM3pPT0tyQlpGcFlVZWZvdFhzaTZqbWZXam45R1VIWm9OeUtwRlhzV19lb09jSFNYREVXdDBaN3dfOHVrdkR3eFFnRUE0eWI2QlFSVGdwRW5aSnlhbktXUzRwVVpGOHpYbjJkcGtVdFVwMzBVVHN2Rk5LNWRpUTk1elNKRGdOdUZR0gHGAUFVX3lxTFBpenJ0SmIzRXFsWkVYenJ0WXItSDhUZGtkS3ZxVk1ZeF9IRHAzRnhhREJtem5wSzJua2l5TFp4VEl5ckljQ1ZSTmhORXd4VjhxWWR5VnVXZVp4aFM3TXhoNnpaUTk4MzdiWmVLbENZUEFZVXU5ZmRDcWtJYmVxTlRMYjBXQk5LaEJHUzRId3NZd24xbkJZTlBoRU5EUldLbUVRSE1WUVhmeEFSRkZOa0hScU05T1dyRTBac0NNWVR6LTlJRTl6Zw?oc=5",
+     "date": "2026-11-28T04:36:00Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
    "cat": "power",
    "headlines": [
     {
@@ -1253,21 +1223,6 @@
      "link": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
      "date": "2026-11-28T04:19:16Z",
      "desc": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "WSAZ",
-     "title": "Milton residents report water outages, low pressure and brown water after main break",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVXRuM212X240UW5tcmhXMS11a005b0Q0azFoN2VKdTB1cHJOWV9vbWJTM21qY1BiLVFBenZXYmZBMU1YYXpZVlVEaGxYTjFPckV3aFVIdmRQeG1vV2dsUHhSMFVucTY3dlNwd1B1cGxtOXRwT3FscVNvOTNVcVVqUE93SC0xYVl5dF9yalRZNl9wRi01UlZkVUZkb25rVXdSbl9CazB6Qm00T2IydjY2OTlvNDhyRGp1SFE?oc=5",
-     "date": "2026-11-28T04:15:00Z",
-     "desc": "",
      "cat": "service",
      "outage": true
     }
@@ -1305,36 +1260,6 @@
   },
   {
    "pubs": 1,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "shattered.io",
-     "title": "FIFA Cyberattack: 0 Counts, 0 Dates, 12 GB Claimed",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjQ3WEV0VGN4em8yWHY1OFRDcE85VjlESVYwaVhDOFJsbVVRcGliSF8yRzM2Tko3Wk9wMmJuQUh1Y2dHNDBTYUZrT0Z5UEFNMEd4QjhtemkzVkl3YWZpcGgzU1U3Q0YybElydjJ6RG9NRXdHZUdPQUdDWlZEZFRVU1JtajltR1hzQ1pSbER1OXJmTWVIYlh3c2R4NTdUU0hf?oc=5",
-     "date": "2026-11-28T04:00:07Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
-   "cat": "service",
-   "headlines": [
-    {
-     "src": "IOL",
-     "title": "What went wrong with Microsoft? Local expert explains global outage hitting SA",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVlIVWRQR3RwbDN3YlBLbnM5djI2eld2bjZMV0tNQlVsMWVqaVRvQ3RBOG04UnhrM0FpU25pak51V3prcHVjS21zN1hzdTRXVzB1VWJ4eHFnZS1nVE1zWEtXdi1JVnhkOW4xcmVINEZ1MXFMUkJaNjZmbEdjenhST0RxNW5JS2liNkNTcmRpdVJ3SzNTalo0bExZMkE2bEVUWF9uVTd2Z1h1d1pZS1dvaWY5ZXEtdkU?oc=5",
-     "date": "2026-11-28T03:51:31Z",
-     "desc": "",
-     "cat": "service",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 1,
    "cat": "power",
    "headlines": [
     {
@@ -1347,10 +1272,40 @@
      "outage": true
     }
    ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "WSJ",
+     "title": "What to Do Now to Prepare for the Next Bank Outage",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BV3JpZ0Y3QnVhNjgxLVNLcldqX0diZVYtN0hQNy1GQjVJOXFnUFFCbWhqRWxvaDh3VkwzTGJBVGc5dS11MmJ4MmlHR3gtQUh1Z2lkVGFVYmJ4Qzk2MmVjbWN4WFJscERPbmE1OUo0Zw?oc=5",
+     "date": "2026-11-28T03:41:35Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 1,
+   "cat": "service",
+   "headlines": [
+    {
+     "src": "IOL",
+     "title": "Microsoft meltdown: Outlook, Teams and Copilot hit by global outage",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcUdkZE1oOFJNQ3g5REZ2V1gzMXJmZnZla004ci1oelpldnFDYm1FaHREVXNSanRDRUgwTEI0U3NBU0FaNS1sOU1iQUNDZ0JVOW9qRy15UVdNeUQ2LXlLNDlENmJ0bVJjeXVST1l5dFZDUGZhaVRTM3FocU1ZMk1MTGJGQ1VYd3VpSmpQZTFpLUU0dmpIa1NmRE9mZlR0eTVLMlBCRzc0Z3FYaTlhZEoxc3RR?oc=5",
+     "date": "2026-11-28T03:07:21Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    }
+   ]
   }
  ],
  "failed_sources": [
-  "ioda_country",
-  "ioda_region"
+  "ioda_region",
+  "ioda_country"
  ]
 }
