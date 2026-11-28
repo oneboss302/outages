@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:15:21Z",
+ "updated": "2026-11-28T02:30:18Z",
  "counts": {
   "internet": 0,
   "services": 4,
@@ -45,6 +45,15 @@
    "indicator": "minor",
    "desc": "Partially Degraded Service",
    "incidents": [
+    {
+     "title": "Zipwhip Wholesale SMS Delivery Failures in Canada",
+     "impact": "minor",
+     "status": "investigating",
+     "start": "2026-11-28T02:29:57Z",
+     "updated": "2026-11-28T02:29:57Z",
+     "detail": "We are investigating an issue with Zipwhip Wholesale. Users may experience messages not being delivered to recipients in Canada when sending SMS through the Zipwhip Toll-Free SMPP API. We will provide another update in 1 hour or as soon as more information\u2026",
+     "url": "https://stspg.io/13zldnp4xc89"
+    },
     {
      "title": "SMS Delivery Status From Twilio Short-Code to US/CA Carriers",
      "impact": "minor",
@@ -94,9 +103,10 @@
    "components": [
     "PSTN US1",
     "Voice, APAC",
-    "MMS, APAC"
+    "MMS, APAC",
+    "SMPP"
    ],
-   "n_components": 3,
+   "n_components": 4,
    "news": []
   },
   {
@@ -145,7 +155,7 @@
     "Canberra, Australia - (CBR)",
     "Belo Horizonte, Brazil - (CNF)"
    ],
-   "n_components": 65,
+   "n_components": 66,
    "news": []
   },
   {
@@ -383,7 +393,7 @@
  ],
  "news_reported": [
   {
-   "pubs": 45,
+   "pubs": 44,
    "cat": "power",
    "headlines": [
     {
@@ -423,10 +433,10 @@
      "outage": true
     },
     {
-     "src": "Kentucky Today",
+     "src": "Herald Bulletin",
      "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
-     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPc0U1eVZ2QUJaeGo4dVJtcXRtT1BvTWJrNTV3aF9zYjFtc2lhWDZaUXhlOTM2TFcyZ2M0R1pSUW0tU1ZPSmFLNVJRUFR4Y2tFcTB6X2tmdnlNb0VqUXFpQ0J4ZTRNTkNnRlBPa1pmNi1QLS0tMURuRWg2U1dKbmFZWmZDNTZDbWJaOG16bU9vMUhFRGNJaXdvODNNRG9mMjZSTk1wVWRTamhDRkhMN3Fsd082bHFVV3lSVnVrdU5zd3F6cFhhNzFuTDRVdENyQU11QWJmZjNzQnhnRU8tcTFXdXZFUEFrXzd6QzJwSklSTmxfb2g1OVNwZ0RNdTZIUFp1N3pYaw?oc=5",
-     "date": "2026-11-27T20:34:12Z",
+     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPaDdFOU1lSVNvcENkalRPRlBnYjlaNllYd2FpbE42Y2hXMEk0cGJyVTVjSW1TXzIzSWJJSUlEMGNRbVNjd291TjcyeHZDNWNTYVloNXp0NUtSc1VYUXY1bFVCQ3JNZElaSU1NM2JQMTZlcEtqSkhBeWc1Sm5WRDVWYWVNUTM4enZvMnpERXhDS0dTOERTVjJDUTZUNG9Dbk82T1JqN21yZXdLc0JPVVFBSTFaa21aTHdocUZ1Q3FBMkFZSzVseGtGRUlPRHdEdHBhVkNOQ2F6OU1OMlRYblRzLWJNX0xYVVBjY3BIZWNNWWtVcGoySk1KVzl0ZFE2ZHpubXh4cmMzdlhDZFFzYzVWT3E0TmtVWWc?oc=5",
+     "date": "2026-11-27T21:08:13Z",
      "desc": "",
      "cat": "power",
      "outage": true
@@ -563,7 +573,7 @@
    ]
   },
   {
-   "pubs": 9,
+   "pubs": 10,
    "cat": "service",
    "headlines": [
     {
@@ -615,7 +625,7 @@
      "src": "WSJ",
      "title": "Allstate Joins Growing List of Companies Hit by Tech Outages",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYlBHa3I5N09lYlBzWVhCdEVzemJ0STJmcnIzYkpiOWVFVExmTEhVcXBPYUxnQjhabm9rSzhlcERiZ3l2QWt6RkpYM3lac1RySlBVUmMyRHpEdlpYa2h0eUNFLTNEWXl0aDMzU2VodUh4VFZKUUNYS1dvT1ZIUmwtTFlUeG1GMXRmX19jZ0hJVFp3akgzQk9yYjNoOEd4QQ?oc=5",
-     "date": "2026-11-27T12:48:00Z",
+     "date": "2026-11-27T12:49:49Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -816,7 +826,7 @@
      "src": "London Evening Standard",
      "title": "DWP \u2018cyber incident\u2019: \u2018Serious\u2019 Department of Work and Pensions outage sparks benefits access fears",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWTlsaXZwRlpxelRkckx1LVBEaDY1aVpMZV9xazdQQmw4SlVmQXdNekJfVnhwT3lEd2RPWENnRG9zUzFaLTlhTmVob1lwbVdMalQ2Q2l5Z2E0Z21Nbk9nclp1ODJqNTRQLTdmRXFHaWpDQjViYjBUSHV0RXpsemdobmtHVkxPLVZYMlBSWDBBa1B4dUZBMlVwQlhWTk5DNHlzM1lScGEyMGNPV0xkWHhOV0Fn?oc=5",
-     "date": "2026-11-27T15:45:00Z",
+     "date": "2026-11-27T18:09:09Z",
      "desc": "",
      "cat": "service",
      "outage": true
@@ -909,30 +919,6 @@
   },
   {
    "pubs": 2,
-   "cat": "cyber",
-   "headlines": [
-    {
-     "src": "MLQ.ai",
-     "title": "pCloud confirms a cyberattack on its pCloud Pass password manager",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUdub202TlY1RVRXcEJCZFBOSzBSdTNpLWVVTXQyS3JOT1Q3NnFrUWVvZjktSmV1dUN4TjFrT0RDZVItaGxIdEpkWXFxUDBRSjRHWkhCd2ZZTGFKY0RCZmRoUk9EYUFWdkJhaTNOaXpsbmtiWFk4X21tejZ0ZC1odVdHVFE1QkphQXlDOTROcw?oc=5",
-     "date": "2026-11-28T01:00:36Z",
-     "desc": "",
-     "cat": "cyber",
-     "outage": true
-    },
-    {
-     "src": "BleepingComputer",
-     "title": "pCloud confirms password manager hack after suspicious login alerts",
-     "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
-     "date": "2026-11-27T19:26:04Z",
-     "desc": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
-     "cat": "cyber",
-     "outage": true
-    }
-   ]
-  },
-  {
-   "pubs": 2,
    "cat": "power",
    "headlines": [
     {
@@ -999,6 +985,30 @@
      "date": "2026-11-27T13:21:00Z",
      "desc": "",
      "cat": "power",
+     "outage": true
+    }
+   ]
+  },
+  {
+   "pubs": 2,
+   "cat": "cyber",
+   "headlines": [
+    {
+     "src": "Post Bulletin",
+     "title": "Outage affects more than 2,000 in east Rochester",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWnFDTlJlODZtMWxEUkpRT2lfaks4N25BSDlxRUtXWEpTQzhlYkZ3VlNSazNjWWkyU29zZHBrN21DX3VrdldUYWMteFBFOG1pNmZOWjRDbjFKVnNXQVAxbzBFakJ2TV9YTUR5V0FSb1FSVWxEbUpPeFVhUmlZRTZTWWFpSENCWnJFQ081cTdseHQ2dw?oc=5",
+     "date": "2026-11-27T21:33:22Z",
+     "desc": "",
+     "cat": "service",
+     "outage": true
+    },
+    {
+     "src": "KGNU",
+     "title": "myColorado app cyberattack affects 100,000 users; Hundreds without power on Thanksgiving",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTmgzMjRYRTJEdFI3bGVual8zWjE1S0sxQWR6TlVhOTUxNTM4N1h3OHNSc3VDTHRVMHpVb25iXzNGMklqRThLRElHSnJnTjUyZEZtejY3cFV4blZiT1d2dWhtWXFxS3VyWU1vWndTQUk4TTRDWmtnX0Q0aFpadkJEMExEb1N5TlZwNURwUGxzWEhrOHIzSTM1OTQyc1N5aDluVmNvWTYtZw?oc=5",
+     "date": "2026-11-27T16:53:19Z",
+     "desc": "",
+     "cat": "cyber",
      "outage": true
     }
    ]
